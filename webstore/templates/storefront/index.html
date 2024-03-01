@@ -8,11 +8,12 @@
 
 {{request.user.username}}
 
-<a href="{% url 'logout' %}"> Logout </a>
+<a href="{% url 'account_logout' %}"> Logout </a>
 
 {% else %}
 
-pls login
+<a href="{% url 'account_login' %}"> Login </a>
+
 
 {% endif %}
 
