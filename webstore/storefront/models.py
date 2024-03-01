@@ -16,4 +16,27 @@ class User(AbstractUser):
 
     def  __str__(self):
         return f"{self.first_name} {self.last_name}"
+    
+class Seller(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE, primary_key=True)
+    store_name = models.CharField(max_length=256)
+    desc = models.TextField(blank=True)
+    trust_score =  models.FloatField(default=50.0)
+
+    def __str__(self):
+        return f"{self.email} {self.store_name}"
+    
+
+class Product(models.Model):
+    product_name =  models.CharField(max_length=256, required=True)
+    desc = models.TextField(required=True)
+
+    
+class Listing(models.Model):
+    inventory = models.IntegerField(default=0)
+    min_price = models.DecimalField(max_digits=7, decimal_places=2, required=True)
+    max_price = models.DecimalField(max_digits=7, decimal_places=2, required=True)
+    strategy = models.FloatField(default=0.0)
+
+    seller = models.ForeignKey(Seller, on_delete=models.CASCADE)
 # Create your models here.
