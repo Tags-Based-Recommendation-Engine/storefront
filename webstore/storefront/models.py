@@ -39,7 +39,7 @@ class Product(models.Model):
     def __str__(self):
         return f"{self.listing.seller.store_name} {self.product_name}"
 
-class Image(models.Model):
+class Product_Images(models.Model):
     img = models.ImageField(upload_to='products/', default='no-default')
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
 
