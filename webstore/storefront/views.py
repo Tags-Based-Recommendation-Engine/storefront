@@ -28,11 +28,31 @@ def registerUSeller(request):
 
         )
         messages.success(request, 'Registered Successfully')
-        return redirect(registerUSeller)
+        return redirect(registerSeller)
 
 
 
     return render(request, 'storefront/register-u-seller.html', context)
+
+@login_required
+def registerSeller(request):
+    context = {}
+
+    if request.method == 'POST':
+        Seller.objects.create(
+            user = request.user,
+            store_name = request.POST.get('sname'),
+            desc = request.POST.get('desc'),
+
+        )
+        messages.success(request, 'Registered Successfully')
+        return redirect(registerSeller)
+    
+    return render(request, 'storefront/register-seller.html',context)
+
+
+
+
 
 
 
