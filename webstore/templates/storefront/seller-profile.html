@@ -28,13 +28,60 @@
 <!-- User Edit Modal -->
 <div id="userEditModal" class="modal" style="display: none;">
     <!-- User Edit Form Goes Here -->
-    User
+<h2> Edit Profile </h2>
+
+    <form method="POST">
+        {% csrf_token %}
+
+        <input type="hidden" name="form_id" value="user">
+
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name" required><br>
+
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone"><br>
+
+        <label for="pfp">Profile Picture:</label>
+        <input type="file" id="pfp" name="pfp"><br>
+
+        <input type="submit" value="Update Profile">
+    </form>
+
+
+
+
+
 </div>
 
 <!-- Seller Edit Modal -->
 <div id="sellerEditModal" class="modal" style="display: none;">
     <!-- Seller Edit Form Goes Here -->
-    Seller
+<h2> Edit Seller Details </h2>
+
+<form method="POST">
+{% csrf_token %}
+        <input type="hidden" name="form_id" value="seller">
+
+    <label for="store_name">Store Name:</label>
+    <input type="text" id="store_name" name="store_name" maxlength="256" required>
+    <br>
+
+    <label for="desc">Description:</label>
+    <textarea id="desc" name="desc"></textarea>
+    <br>
+
+    
+
+    <input type="submit" value="Submit">
+</form>
+
+
 </div>
 
 
