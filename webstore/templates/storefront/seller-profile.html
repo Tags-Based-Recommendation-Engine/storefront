@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% load static%}
+
+{% block content%}
+
+<h2> Profile  </h2>
+
+<img src="{{request.user.pfp.url}}">
+
+{{request.user.first_name}} {{request.user.last_name}} <br>
+
+{{request.user.email}} {{request.user.phone}} <br>
+
+
+<h2> Seller Details </h2>
+
+{{seller.store_name}} <br>
+{{seller.desc|safe}} <br>
+{{seller.trust_score}}
+
+
+
+
+{% endblock %}

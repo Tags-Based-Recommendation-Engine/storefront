@@ -61,6 +61,19 @@ def registerSeller(request):
     return render(request, 'storefront/register-seller.html',context)
 
 
+@login_required
+def sellerProfile(request):
+    context = {}
+    try:
+        seller = Seller.objects.get(user=request.user)
+        context['seller'] = seller
+    except:
+        return redirect('index')
+    
+    return render(request, 'storefront/seller-profile.html', context)
+    
+
+
 
 
 
