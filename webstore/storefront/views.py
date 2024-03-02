@@ -7,6 +7,14 @@ def index(request):
     return render(request, 'storefront/index.html')
 
 
+def registerSeller(request):
+    context = {}
+
+    if request.user.is_authenticated:
+        return redirect('index')
+    return render(request, 'storefront/register-seller.html', context)
+
+
 
 
 # Create your views here.
