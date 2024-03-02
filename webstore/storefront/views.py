@@ -1,9 +1,7 @@
 from django.shortcuts import render, redirect
 from django.contrib import messages
-
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.hashers import make_password
-
 from .models import User, Seller
 
 
@@ -22,7 +20,7 @@ def registerUSeller(request):
     if request.method == 'POST':
         User.objects.create(
             username=request.POST.get('username'),
-            password=make_password(request.POST.get('password')),
+            password=make_password(request.POST.get('pwd')),
             email=request.POST.get('email'),
             phone =  request.POST.get('phone'),
             first_name = request.POST.get('fname'),
