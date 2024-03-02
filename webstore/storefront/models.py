@@ -27,7 +27,7 @@ class Seller(models.Model):
     slug = models.SlugField(default="", null=False)
 
     def __str__(self):
-        return f"{self.email} {self.store_name}"
+        return f"{self.user.email} {self.store_name}"
     
 
 class Payment_Method(models.Model):
