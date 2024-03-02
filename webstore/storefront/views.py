@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect
 from django.contrib import messages
+from django.contrib.auth import login, authenticate
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.hashers import make_password
 from .models import User, Seller
@@ -18,16 +19,24 @@ def registerUSeller(request):
         return redirect('index')
     
     if request.method == 'POST':
+        uname = request.POST.get('username')
+        pwd = request.POST.get('pwd')
+        email = request.POST.get('email')
         User.objects.create(
-            username=request.POST.get('username'),
-            password=make_password(request.POST.get('pwd')),
-            email=request.POST.get('email'),
+            username= uname,
+            password=make_password(pwd),
+            email=email,
             phone =  request.POST.get('phone'),
             first_name = request.POST.get('fname'),
             last_name = request.POST.get('lname'),
 
         )
+
+        user = authenticate(email=email, password=pwd)
+        if user:
+            login(request, user)
         messages.success(request, 'Registered Successfully')
+
         return redirect(registerSeller)
 
 
@@ -46,7 +55,7 @@ def registerSeller(request):
 
         )
         messages.success(request, 'Registered Successfully')
-        return redirect(registerSeller)
+        return redirect(index)
     
     return render(request, 'storefront/register-seller.html',context)
 
