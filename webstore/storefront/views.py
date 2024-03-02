@@ -9,7 +9,8 @@ from .models import User, Seller
 
 
 def index(request):
-    return render(request, 'storefront/index.html')
+    context = {}
+    return render(request, 'storefront/index.html', context)
 
 
 def registerUSeller(request):
