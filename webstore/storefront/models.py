@@ -66,7 +66,7 @@ class Product(models.Model):
     category = models.ManyToManyField(Category)
     
     def __str__(self):
-        return f"{self.listing.seller.store_name} {self.product_name}"
+        return self.product_name
 
 class Product_Images(models.Model):
     img = models.ImageField(upload_to='products/', default='no-default')
@@ -77,6 +77,8 @@ class Listing(models.Model):
     inventory = models.IntegerField(default=0)
     min_price = models.DecimalField(max_digits=7, decimal_places=2)
     max_price = models.DecimalField(max_digits=7, decimal_places=2)
+    rating = models.PositiveIntegerField(null=False, blank=False, default=2.5)
+
     strategy = models.FloatField(default=0.0)
     slug = models.SlugField(default="", null=False)
 

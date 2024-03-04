@@ -10,7 +10,7 @@ class CartItem(models.Model):
 class Review(models.Model):
     reviewer = models.ForeignKey(User, on_delete=models.CASCADE)
     listing = models.ForeignKey(Listing, related_name='reviews', on_delete=models.CASCADE)
-    rating = models.PositiveIntegerField(null=False, blank=False)
+    rating = models.PositiveIntegerField(null=False, blank=False, default=2.5)
     title = models.CharField(max_length=100)
     text = models.TextField()
 
