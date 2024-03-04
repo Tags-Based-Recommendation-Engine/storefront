@@ -58,7 +58,6 @@ class Category(models.Model):
     
 
 class Product(models.Model):
-
     product_name =  models.CharField(max_length=256)
     brand_name = models.CharField(max_length=256)
     specs = models.TextField(help_text="Product specifications")
