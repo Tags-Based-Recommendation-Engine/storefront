@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     #our apps
-    'storefront.apps.StoreFrontConfig',
+    'storefront.apps.StorefrontConfig',
     'market.apps.MarketConfig',
 
     #external dependencies
