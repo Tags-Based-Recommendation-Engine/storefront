@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     #our apps
-    'storefront',
+    'storefront.apps.StoreFrontConfig',
+    'market.apps.MarketConfig',
 
     #external dependencies
     'allauth',
