@@ -4,12 +4,12 @@ from django.contrib.auth import login, authenticate
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.hashers import make_password
 from .models import User, Seller
+from market.views import index
 
 
 
 
-def index(request):
-    return render(request, 'storefront/index.html')
+
 
 
 def registerUSeller(request):
@@ -58,6 +58,19 @@ def registerSeller(request):
         return redirect(index)
     
     return render(request, 'storefront/register-seller.html',context)
+
+
+@login_required
+def sellerProfile(request):
+    context = {}
+    try:
+        seller = Seller.objects.get(user=request.user)
+        context['seller'] = seller
+    except:
+        return redirect('index')
+    
+    return render(request, 'storefront/seller-profile.html', context)
+    
 
 
 

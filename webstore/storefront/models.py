@@ -27,14 +27,43 @@ class Seller(models.Model):
     slug = models.SlugField(default="", null=False)
 
     def __str__(self):
-        return f"{self.email} {self.store_name}"
+        return f"{self.user.email} {self.store_name}"
+    
+
+class Payment_Method(models.Model):
+    SELLER_CHOICES = [
+        ('UPI', 'UPI'),
+        ('Card', 'Debit/Credit Card'),
+    ]
+
+    seller = models.ForeignKey(Seller, on_delete=models.CASCADE)
+    method = models.CharField(max_length=10, choices=SELLER_CHOICES)
+    acc_holder_name = models.CharField(max_length=100, blank=True, null=True)
+    upi_id = models.CharField(max_length=50, blank=True, null=True)
+    phone_number = models.CharField(max_length=15, blank=True, null=True)
+    card_number = models.CharField(max_length=20, blank=True, null=True)
+    expiry_date = models.DateField(blank=True, null=True)
+    cvv = models.CharField(max_length=4, blank=True, null=True)
+    bank_name = models.CharField(max_length=100, blank=True, null=True)
+
+    def __str__(self):
+        return f"{self.seller} - {self.method}"
+    
+
+class Category(models.Model):
+        name = models.CharField(max_length=30)
+        
+        def __str__(self):
+            return self.name
     
 
 class Product(models.Model):
+
     product_name =  models.CharField(max_length=256)
     brand_name = models.CharField(max_length=256)
     specs = models.TextField(help_text="Product specifications")
     desc = models.TextField()
+    category = models.ManyToManyField(Category)
     
     def __str__(self):
         return f"{self.listing.seller.store_name} {self.product_name}"
