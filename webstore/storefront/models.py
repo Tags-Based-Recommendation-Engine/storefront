@@ -73,6 +73,7 @@ class Product_Images(models.Model):
 
     
 class Listing(models.Model):
+    name  = models.CharField(max_length=80)
     inventory = models.IntegerField(default=0)
     min_price = models.DecimalField(max_digits=7, decimal_places=2)
     max_price = models.DecimalField(max_digits=7, decimal_places=2)
