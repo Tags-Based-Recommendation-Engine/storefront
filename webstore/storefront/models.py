@@ -50,11 +50,20 @@ class Payment_Method(models.Model):
         return f"{self.seller} - {self.method}"
     
 
+class Category(models.Model):
+        name = models.CharField(max_length=30)
+        
+        def __str__(self):
+            return self.name
+    
+
 class Product(models.Model):
+
     product_name =  models.CharField(max_length=256)
     brand_name = models.CharField(max_length=256)
     specs = models.TextField(help_text="Product specifications")
     desc = models.TextField()
+    category = models.ManyToManyField(Category)
     
     def __str__(self):
         return f"{self.listing.seller.store_name} {self.product_name}"
