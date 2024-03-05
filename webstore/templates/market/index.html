@@ -53,126 +53,35 @@
           <div class="wrapper flex flex-nowrap overflow-x-auto space-x-4 items-center" style="width: 70rem;">
 
             <!-- Card 1 -->
-            <div class="flex-shrink-0 w-64 rounded-lg shadow-xl border border-gray-400">
-              <div class="p-4 shadow-xl transition duration-300 ease-in-out transform hover:shadow-2xl hover:border border-gray-900">
-                    <div class="w-54 h-56 mb-2 rounded-lg overflow-hidden">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Sample_abc.jpg" alt="Product Image" class="w-full h-full object-cover">
-                    </div>              
-                    <h2 class="text-lg font-semibold">BALLONS</h2>
-                    <!-- Rating -->
-                    <div class="flex items-center mt-2">
-                        <span class="text-sm text-gray-700">Rating:</span>
-                        <div class="ml-1">
-                            ★★★★★
-                        </div>
-                    </div>
-                    <p class="text-sm text-gray-700 mt-1">Brand Name</p>
-                    <p class="text-lg font-semibold mt-1">$1000.22</p>
-                    <p class="mt-2 text-sm font-normal">Lol why do u want a balloon when u can buy a helicopter.</p>
-                </div>
-            </div>
+    {% for l in listing%}
+          <!-- Card 1 -->
+          <div class="flex-shrink-0 w-64 rounded-lg shadow-xl border border-gray-400">
+            <div class="p-4 shadow-xl transition duration-300 ease-in-out transform hover:shadow-2xl hover:border border-gray-900">
+                  <div class="w-54 h-56 mb-2 rounded-lg overflow-hidden">
+                      <img src="{{ l.product.img.url }}" alt="{{ l.product.product_name }}" class="w-full h-full object-cover">
+                  </div>              
+                  <h2 class="text-lg font-semibold">{{l.product.product_name}}</h2>
+                  <!-- Rating -->
+                  <div class="flex items-center mt-2">
+                      <span class="text-sm text-gray-700">Rating:</span>
+                      <div class="ml-1">
+                          ★★★★★
+                      </div>
+                  </div>
+                  <p class="text-sm text-gray-700 mt-1">{{l.product.brand_name}}</p>
+                  <p class="text-lg font-semibold mt-1">${{l.min_price}}</p>
+                  <p class="mt-2 text-sm font-normal">{{l.product.desc}}</p>
+              </div>
+          </div>
 
-            
-            <!-- Card 1 -->
-            <div class="flex-shrink-0 w-64 rounded-lg shadow-xl border border-gray-400">
-              <div class="p-4 shadow-xl transition duration-300 ease-in-out transform hover:shadow-2xl hover:border border-gray-900">
-                    <div class="w-54 h-56 mb-2 rounded-lg overflow-hidden">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Sample_abc.jpg" alt="Product Image" class="w-full h-full object-cover">
-                    </div>              
-                    <h2 class="text-lg font-semibold">BALLONS</h2>
-                    <!-- Rating -->
-                    <div class="flex items-center mt-2">
-                        <span class="text-sm text-gray-700">Rating:</span>
-                        <div class="ml-1">
-                            ★★★★★
-                        </div>
-                    </div>
-                    <p class="text-sm text-gray-700 mt-1">Brand Name</p>
-                    <p class="text-lg font-semibold mt-1">$1000.22</p>
-                    <p class="mt-2 text-sm font-normal">Lol why do u want a balloon when u can buy a helicopter.</p>
-                </div>
-            </div>
+          {% endfor %}
 
-            
-            <!-- Card 1 -->
-            <div class="flex-shrink-0 w-64 rounded-lg shadow-xl border border-gray-400">
-              <div class="p-4 shadow-xl transition duration-300 ease-in-out transform hover:shadow-2xl hover:border border-gray-900">
-                    <div class="w-54 h-56 mb-2 rounded-lg overflow-hidden">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Sample_abc.jpg" alt="Product Image" class="w-full h-full object-cover">
-                    </div>              
-                    <h2 class="text-lg font-semibold">BALLONS</h2>
-                    <!-- Rating -->
-                    <div class="flex items-center mt-2">
-                        <span class="text-sm text-gray-700">Rating:</span>
-                        <div class="ml-1">
-                            ★★★★★
-                        </div>
-                    </div>
-                    <p class="text-sm text-gray-700 mt-1">Brand Name</p>
-                    <p class="text-lg font-semibold mt-1">$1000.22</p>
-                    <p class="mt-2 text-sm font-normal">Lol why do u want a balloon when u can buy a helicopter.</p>
-                </div>
-            </div>
-            
-            <!-- Card 1 -->
-            <div class="flex-shrink-0 w-64 rounded-lg shadow-xl border border-gray-400">
-              <div class="p-4 shadow-xl transition duration-300 ease-in-out transform hover:shadow-2xl hover:border border-gray-900">
-                    <div class="w-54 h-56 mb-2 rounded-lg overflow-hidden">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Sample_abc.jpg" alt="Product Image" class="w-full h-full object-cover">
-                    </div>              
-                    <h2 class="text-lg font-semibold">BALLONS</h2>
-                    <!-- Rating -->
-                    <div class="flex items-center mt-2">
-                        <span class="text-sm text-gray-700">Rating:</span>
-                        <div class="ml-1">
-                            ★★★★★
-                        </div>
-                    </div>
-                    <p class="text-sm text-gray-700 mt-1">Brand Name</p>
-                    <p class="text-lg font-semibold mt-1">$1000.22</p>
-                    <p class="mt-2 text-sm font-normal">Lol why do u want a balloon when u can buy a helicopter.</p>
-                </div>
-            </div>
-            
-            <!-- Card 1 -->
-            <div class="flex-shrink-0 w-64 rounded-lg shadow-xl border border-gray-400">
-              <div class="p-4 shadow-xl transition duration-300 ease-in-out transform hover:shadow-2xl hover:border border-gray-900">
-                    <div class="w-54 h-56 mb-2 rounded-lg overflow-hidden">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Sample_abc.jpg" alt="Product Image" class="w-full h-full object-cover">
-                    </div>              
-                    <h2 class="text-lg font-semibold">BALLONS</h2>
-                    <!-- Rating -->
-                    <div class="flex items-center mt-2">
-                        <span class="text-sm text-gray-700">Rating:</span>
-                        <div class="ml-1">
-                            ★★★★★
-                        </div>
-                    </div>
-                    <p class="text-sm text-gray-700 mt-1">Brand Name</p>
-                    <p class="text-lg font-semibold mt-1">$1000.22</p>
-                    <p class="mt-2 text-sm font-normal">Lol why do u want a balloon when u can buy a helicopter.</p>
-                </div>
-            </div>
+          <!-- Card 1 -->
 
-            <!-- Card 1 -->
-            <div class="flex-shrink-0 w-64 rounded-lg shadow-xl border border-gray-400">
-              <div class="p-4 shadow-xl transition duration-300 ease-in-out transform hover:shadow-2xl hover:border border-gray-900">
-                    <div class="w-54 h-56 mb-2 rounded-lg overflow-hidden">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Sample_abc.jpg" alt="Product Image" class="w-full h-full object-cover">
-                    </div>              
-                    <h2 class="text-lg font-semibold">BALLONS</h2>
-                    <!-- Rating -->
-                    <div class="flex items-center mt-2">
-                        <span class="text-sm text-gray-700">Rating:</span>
-                        <div class="ml-1">
-                            ★★★★★
-                        </div>
-                    </div>
-                    <p class="text-sm text-gray-700 mt-1">Brand Name</p>
-                    <p class="text-lg font-semibold mt-1">$1000.22</p>
-                    <p class="mt-2 text-sm font-normal">Lol why do u want a balloon when u can buy a helicopter.</p>
-                </div>
-            </div>
+
+    
+    
+  </div>
 
           </div>
       </div>
@@ -190,31 +99,22 @@
 
   <div class="flex w-full h-full pt-4 px-20 mb-16 items-center">
 
+
+{% for l in listing %}
       <div class="w-1/2 h-96 bg-gray-200 border border-gray-400 rounded-xl p-4 mx-6 flex flex-col justify-center items-center shadow-xl transition duration-300 ease-in-out hover:shadow-2xl">
-        <p class="text-xs">SOME CREAM FOR YOUR</p>
-        <h6 class="text-lg font-semibold">JUST STARTING AT $480</h6>
+        <p class="text-xs">{{l.product.product_name}}</p>
+        <h6 class="text-lg font-semibold">JUST STARTING AT ${{l.max_price}}</h6>
         <div>
-          <img src="https://png.pngtree.com/png-clipart/20221013/ourmid/pngtree-simulation-cosmetics-product-sample-skin-care-essential-oil-png-image_6158599.png" alt="Product Image" class="w-full max-h-48 object-contain mb-4">
+          <img src="{{l.product.img.url}}" alt="Product Image" class="w-full max-h-48 object-contain mb-4">
         </div>
-        <button type="button" class="px-8 py-3 border border-gray-200 text-gray-100 bg-red-700 rounded-full hover:bg-red-800 font-semibold text-sm">
+        <button type="button"  class="px-8 py-3 border border-gray-200 text-gray-100 bg-red-700 rounded-full hover:bg-red-800 font-semibold text-sm">
           SHOP NOW
       </button>
           <div>
           </div>
       </div>
 
-      <div class="w-1/2 h-96 bg-gray-200 border border-gray-400 rounded-xl p-4 mx-6 flex flex-col justify-center items-center shadow-xl transition duration-300 ease-in-out hover:shadow-2xl">
-        <p class="text-xs">THE SAUCE WILL BRING YOUR</p>
-        <h6 class="text-lg font-semibold">JUST STARTING AT $4800</h6>
-        <div>
-          <img src="https://img.freepik.com/free-psd/fresh-beef-burger-isolated-transparent-background_191095-9018.jpg?size=338&ext=jpg&ga=GA1.1.1700460183.1709251200&semt=ais" alt="Product Image" class="w-full max-h-48 object-contain mb-4">
-        </div>
-        <button type="button" class="px-8 py-3 border border-gray-200 text-gray-100 bg-red-700 rounded-full hover:bg-red-800 font-semibold text-sm">
-          SHOP NOW
-      </button>
-          <div>
-          </div>
-      </div>
+      {% endfor %}
 
   </div>
   {% endblock %}
@@ -243,14 +143,14 @@
       </div>
 
         <div class="wrapper flex flex-nowrap overflow-x-auto space-x-4 items-center" style="width: 70rem;">
-
+    {% for l in listing%}
           <!-- Card 1 -->
           <div class="flex-shrink-0 w-64 rounded-lg shadow-xl border border-gray-400">
             <div class="p-4 shadow-xl transition duration-300 ease-in-out transform hover:shadow-2xl hover:border border-gray-900">
                   <div class="w-54 h-56 mb-2 rounded-lg overflow-hidden">
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Sample_abc.jpg" alt="Product Image" class="w-full h-full object-cover">
+                      <img src="{{ l.product.img.url }}" alt="{{ l.product.product_name }}" class="w-full h-full object-cover">
                   </div>              
-                  <h2 class="text-lg font-semibold">BALLONS</h2>
+                  <h2 class="text-lg font-semibold">{{l.product.product_name}}</h2>
                   <!-- Rating -->
                   <div class="flex items-center mt-2">
                       <span class="text-sm text-gray-700">Rating:</span>
@@ -258,91 +158,18 @@
                           ★★★★★
                       </div>
                   </div>
-                  <p class="text-sm text-gray-700 mt-1">Brand Name</p>
-                  <p class="text-lg font-semibold mt-1">$1000.22</p>
-                  <p class="mt-2 text-sm font-normal">Lol why do u want a balloon when u can buy a helicopter.</p>
+                  <p class="text-sm text-gray-700 mt-1">{{l.product.brand_name}}</p>
+                  <p class="text-lg font-semibold mt-1">${{l.min_price}}</p>
+                  <p class="mt-2 text-sm font-normal">{{l.product.desc}}</p>
               </div>
           </div>
 
-          <!-- Card 1 -->
-          <div class="flex-shrink-0 w-64 rounded-lg shadow-xl border border-gray-400">
-            <div class="p-4 shadow-xl transition duration-300 ease-in-out transform hover:shadow-2xl hover:border border-gray-900">
-                  <div class="w-54 h-56 mb-2 rounded-lg overflow-hidden">
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Sample_abc.jpg" alt="Product Image" class="w-full h-full object-cover">
-                  </div>              
-                  <h2 class="text-lg font-semibold">BALLONS</h2>
-                  <!-- Rating -->
-                  <div class="flex items-center mt-2">
-                      <span class="text-sm text-gray-700">Rating:</span>
-                      <div class="ml-1">
-                          ★★★★★
-                      </div>
-                  </div>
-                  <p class="text-sm text-gray-700 mt-1">Brand Name</p>
-                  <p class="text-lg font-semibold mt-1">$1000.22</p>
-                  <p class="mt-2 text-sm font-normal">Lol why do u want a balloon when u can buy a helicopter.</p>
-              </div>
-          </div>
+          {% endfor %}
 
           <!-- Card 1 -->
-          <div class="flex-shrink-0 w-64 rounded-lg shadow-xl border border-gray-400">
-            <div class="p-4 shadow-xl transition duration-300 ease-in-out transform hover:shadow-2xl hover:border border-gray-900">
-                  <div class="w-54 h-56 mb-2 rounded-lg overflow-hidden">
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Sample_abc.jpg" alt="Product Image" class="w-full h-full object-cover">
-                  </div>              
-                  <h2 class="text-lg font-semibold">BALLONS</h2>
-                  <!-- Rating -->
-                  <div class="flex items-center mt-2">
-                      <span class="text-sm text-gray-700">Rating:</span>
-                      <div class="ml-1">
-                          ★★★★★
-                      </div>
-                  </div>
-                  <p class="text-sm text-gray-700 mt-1">Brand Name</p>
-                  <p class="text-lg font-semibold mt-1">$1000.22</p>
-                  <p class="mt-2 text-sm font-normal">Lol why do u want a balloon when u can buy a helicopter.</p>
-              </div>
-          </div>
 
-          <!-- Card 1 -->
-          <div class="flex-shrink-0 w-64 rounded-lg shadow-xl border border-gray-400">
-            <div class="p-4 shadow-xl transition duration-300 ease-in-out transform hover:shadow-2xl hover:border border-gray-900">
-                  <div class="w-54 h-56 mb-2 rounded-lg overflow-hidden">
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Sample_abc.jpg" alt="Product Image" class="w-full h-full object-cover">
-                  </div>              
-                  <h2 class="text-lg font-semibold">BALLONS</h2>
-                  <!-- Rating -->
-                  <div class="flex items-center mt-2">
-                      <span class="text-sm text-gray-700">Rating:</span>
-                      <div class="ml-1">
-                          ★★★★★
-                      </div>
-                  </div>
-                  <p class="text-sm text-gray-700 mt-1">Brand Name</p>
-                  <p class="text-lg font-semibold mt-1">$1000.22</p>
-                  <p class="mt-2 text-sm font-normal">Lol why do u want a balloon when u can buy a helicopter.</p>
-              </div>
-          </div>
 
-          <!-- Card 1 -->
-          <div class="flex-shrink-0 w-64 rounded-lg shadow-xl border border-gray-400">
-            <div class="p-4 shadow-xl transition duration-300 ease-in-out transform hover:shadow-2xl hover:border border-gray-900">
-                  <div class="w-54 h-56 mb-2 rounded-lg overflow-hidden">
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Sample_abc.jpg" alt="Product Image" class="w-full h-full object-cover">
-                  </div>              
-                  <h2 class="text-lg font-semibold">BALLONS</h2>
-                  <!-- Rating -->
-                  <div class="flex items-center mt-2">
-                      <span class="text-sm text-gray-700">Rating:</span>
-                      <div class="ml-1">
-                          ★★★★★
-                      </div>
-                  </div>
-                  <p class="text-sm text-gray-700 mt-1">Brand Name</p>
-                  <p class="text-lg font-semibold mt-1">$1000.22</p>
-                  <p class="mt-2 text-sm font-normal">Lol why do u want a balloon when u can buy a helicopter.</p>
-              </div>
-          </div>
+    
     
         </div>
   </div>

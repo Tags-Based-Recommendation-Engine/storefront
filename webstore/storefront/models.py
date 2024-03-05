@@ -58,15 +58,15 @@ class Category(models.Model):
     
 
 class Product(models.Model):
-
     product_name =  models.CharField(max_length=256)
     brand_name = models.CharField(max_length=256)
     specs = models.TextField(help_text="Product specifications")
     desc = models.TextField()
     category = models.ManyToManyField(Category)
+    img = models.ImageField(upload_to='products/', default='abc.png')
     
     def __str__(self):
-        return f"{self.listing.seller.store_name} {self.product_name}"
+        return self.product_name
 
 class Product_Images(models.Model):
     img = models.ImageField(upload_to='products/', default='no-default')
@@ -74,9 +74,12 @@ class Product_Images(models.Model):
 
     
 class Listing(models.Model):
+    name  = models.CharField(max_length=80)
     inventory = models.IntegerField(default=0)
     min_price = models.DecimalField(max_digits=7, decimal_places=2)
     max_price = models.DecimalField(max_digits=7, decimal_places=2)
+    rating = models.PositiveIntegerField(null=False, blank=False, default=2.5)
+
     strategy = models.FloatField(default=0.0)
     slug = models.SlugField(default="", null=False)
 

@@ -6,7 +6,7 @@ class sellerAdmin(admin.ModelAdmin):
     prepopulated_fields = {"slug": ("store_name",)}
 
 class listingAdmin(admin.ModelAdmin):
-    prepopulated_fields = {"slug": ("id",)}
+    prepopulated_fields = {"slug": ("name",)}
 
 admin.site.register(models.User)
 admin.site.register(models.Seller, sellerAdmin)
