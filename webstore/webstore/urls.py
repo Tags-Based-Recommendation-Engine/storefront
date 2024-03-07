@@ -26,7 +26,6 @@ urlpatterns = [
     path('seller', include('storefront.urls')),
     path('', include('market.urls')),
 
-
 ]
 
 if settings.DEBUG:
