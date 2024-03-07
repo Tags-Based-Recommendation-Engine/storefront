@@ -48,7 +48,7 @@
         </a>        
         </div>
         <div class="relative">
-          <button class="notification flex items-center pl-2 pr-2 pt-1 text-gray-950">
+          <button id="show_notification_panel" class="notification flex items-center pl-2 pr-2 pt-1 text-gray-950">
             <span class="material-symbols-outlined text-4xl">
                 notifications
             </span>
@@ -63,6 +63,25 @@
     </div>
   </header>
   {% endblock %}    
+  
+  <div id="notification_panel" class="panel hidden fixed top-20 h-auto w-1/4 right-12 bg-gray-100 border-2 border-black rounded-xl shadow-2xl z-50 flex flex-col items-center justify-center p-2 pb-6" style="background: rgba(190, 190, 190, 0.7); ; backdrop-filter: blur(10px);">
+    <div class="flex flex-row items-center justify-between w-5/6 border-b-2 border-black">
+      <h2 class="text-lg font-semibold">ALERTS</h2>
+      <button id="close_notification_panel" class="rounded-full bg-red-800 text-white w-4 h-4 text-xs border border-black flex items-center justify-center">
+        <i class="fas fa-times"></i>
+      </button>    
+    </div>
+    <div class="flex flex-col items-start justify-start h-96 w-5/6 py-4 overflow-auto px-2">
+      <!-- copy this div to add more alerts -->
+      <div class="bg-gray-200 flex flex-row border text-sm text-gray-800 border-black rounded-md p-4 my-2 w-full">
+        <p>This is a floating div. You can add any alert you want here.</p>
+      </div>
+      <div class="bg-gray-200 flex flex-row border text-sm text-gray-800 border-black rounded-md p-4 my-2 w-full">
+        <p>This is a floating div. You can add any alert you want here.</p>
+      </div>
+    </div>
+  </div>
+
 
   {% block content %}
   {% endblock %}
@@ -115,30 +134,65 @@
   {% endblock %}
 
   <script>
-    let lastScrollTop = 0;
-    const header = document.querySelector('.base-header');
-    const headerHeight = header.offsetHeight;
-    const scrollThreshold = 500; 
+    // Get the notification button and notification panel
+    const notificationButton = document.getElementById('show_notification_panel');
+    const notificationPanel = document.getElementById('notification_panel');
 
-    window.addEventListener("scroll", function () {
-      let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
-      if (currentScroll > lastScrollTop && currentScroll > scrollThreshold) {
-        header.style.transform = `translateY(-${headerHeight}px)`;
-        header.style.transition = "transform 0.3s ease"; 
-      } else if (currentScroll < lastScrollTop && currentScroll < scrollThreshold - headerHeight) {
-        header.style.transform = "translateY(0)";
-        header.style.transition = "transform 0.3s ease"; 
-      }
-
-      lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
-    }, false);
-
-    document.getElementById("searchButton").addEventListener("click", function() {
-        // Redirect to the custom URL
-        window.location.href = "{% url 'search' %}";
+    // Add click event listener to the notification button
+    notificationButton.addEventListener('click', function() {
+      // Toggle the hidden class to show/hide the notification panel
+      notificationPanel.classList.toggle('hidden');
     });
 
+    // Get the close button for the notification panel
+    const closeButton = document.getElementById('close_notification_panel');
+
+    // Add click event listener to the close button
+    closeButton.addEventListener('click', function() {
+      // Hide the notification panel
+      notificationPanel.classList.add('hidden');
+    });
   </script>
+
+<script>
+  let lastScrollTop = 0;
+  const header = document.querySelector('.base-header');
+  const headerHeight = header.offsetHeight;
+  const scrollThreshold = 500; 
+
+  window.addEventListener("scroll", function () {
+    let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+    if (currentScroll > lastScrollTop && currentScroll > scrollThreshold) {
+      header.style.transform = `translateY(-${headerHeight}px)`;
+      header.style.transition = "transform 0.3s ease"; 
+      // Hide notification panel when header is hidden
+      notificationPanel.classList.add('hidden');
+    } else if (currentScroll < lastScrollTop && currentScroll < scrollThreshold - headerHeight) {
+      header.style.transform = "translateY(0)";
+      header.style.transition = "transform 0.3s ease"; 
+    }
+
+    lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+  }, false);
+
+  document.getElementById("searchButton").addEventListener("click", function() {
+    // Redirect to the custom URL
+    window.location.href = "{% url 'search' %}";
+  });
+
+  // Add an event listener for the transitionend event on the header
+  header.addEventListener('transitionend', function(event) {
+    // Check if the transition property is 'transform'
+    if (event.propertyName === 'transform') {
+      // Check if the header is currently hidden
+      if (header.style.transform === `translateY(-${headerHeight}px)`) {
+        // Hide notification panel when header is hidden
+        notificationPanel.classList.add('hidden');
+      }
+    }
+  });
+</script>
+
 </body>
 </html>
 
