@@ -2,181 +2,221 @@
 
 {% block content %}
 
+{% if request.user.is_authenticated %}
+{{request.user.username}}
+<a href="{% url 'logout' %}"> Logout </a>
 
+{% else %}
 
-<div class="h-5/6 w-full flex flex-row border-b-2 border-black mt-24">
-    {% block banner %}
+<div class="swiper-container overflow-x-hidden">
+<div class="swiper-wrapper">
+
+<div class="swiper-slide">
+<div class="h-auto sm:h-5/6 w-full flex flex-row border-b-2 border-black mt-24">
     <div class="flex-1 flex justify-center items-center py-10">
-        <div class="w-full h-full flex flex-row items-start justify-between mx-auto px-28 pt-4">
-            <div class="w-1/2 flex flex-col items-start py-18">
+        <div class="w-full h-full flex flex-col sm:flex-row items-start justify-between mx-auto px-4 sm:px-28 pt-4">
+            <div class="w-full sm:w-1/2 flex flex-col items-start py-18">
                 <h6 class="text-lg mb-2 text-red-600"> SAVE UPTO 90%</h6>
-                <h1 class="font-bold text-6xl mb-4 text-gray-900">SOME PRODUCT NAME</h1>
+                <h1 class="font-bold text-3xl sm:text-6xl mb-4 text-gray-900">SOME PRODUCT NAME</h1>
                 <p class="mb-2 text-gray-900">
                     Description Description Description Description<br>
                     Description Description Description Description<br>
                     Description Description Description
                 </p>
                 <p class="font-semibold my-3 text-gray-900">$xxxx/-</p>
-                <button type="button" class="px-10 py-3 border border-gray-900 text-gray-100 bg-red-700 rounded-full hover:bg-red-800 -ml-1">BUY</button>
+                <button type="button" class="px-6 sm:px-10 py-3 border border-gray-900 text-gray-100 bg-red-700 rounded-full hover:bg-red-800 -ml-1">BUY</button>
             </div>            
-            <div class="h-full w-1/2 flex flex-col items-end justify-center">
-                <div class="rounded-lg shadow-lg w-full h-5/6 overflow-hidden">
-                    <img src="https://cdn.pixabay.com/photo/2022/01/28/18/32/leaves-6975462_1280.png" alt="Description of the image" class="mx-auto h-full rounded-lg">
+            <div class="h-full w-full sm:w-1/2 flex flex-col items-center sm:items-end justify-center">
+                <div class="rounded-lg shadow-lg w-full h-64 sm:h-5/6 overflow-hidden">
+                    <img src="https://cdn.pixabay.com/photo/2022/01/28/18/32/leaves-6975462_1280.png" alt="Description of the image" class="mx-auto h-full w-full rounded-lg object-cover">
                 </div>
             </div>            
         </div>
     </div>    
-    {% endblock %}
+</div>
 </div>
 
-<div class="h-5/6 w-full flex flex-row border-b-2 border-black pb-16 pt-7">
-    {% block categories %}
-    <div class="flex flex-col items-center">
-        <div class="categories-header flex justify-center items-center px-32 py-3 w-full pb-10">
-            <div>
-                <h6 class="mr-4">CATEGORIES</h6>
-            </div>
-            <div class="flex justify-center flex-wrap">
-                <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-900 mx-1">CAT 2</button>
-                <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-800 mx-1">CAT 3</button>
-                <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-700 mx-1">CAT 1</button>
-                <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-1000 mx-1">CAT 4</button>
-                <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-900 mx-1">CAT 2</button>
-                <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-800 mx-1">CAT 3</button>
-                <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-700 mx-1">CAT 4</button>                             
-            </div>
-            <div class="flex-1">
-                <h6 class="pl-4 py-3">FOR YOU</h6>
+<div class="swiper-slide">
+<div class="h-auto sm:h-5/6 w-full flex flex-row border-b-2 border-black mt-24">
+    <div class="flex-1 flex justify-center items-center py-10">
+        <div class="w-full h-full flex flex-col sm:flex-row items-start justify-between mx-auto px-4 sm:px-28 pt-4">
+            <div class="w-full sm:w-1/2 flex flex-col items-start py-18">
+                <h6 class="text-lg mb-2 text-red-600"> SAVE UPTO 90%</h6>
+                <h1 class="font-bold text-3xl sm:text-6xl mb-4 text-gray-900">SOME PRODUCT NAME</h1>
+                <p class="mb-2 text-gray-900">
+                    Description Description Description Description<br>
+                    Description Description Description Description<br>
+                    Description Description Description
+                </p>
+                <p class="font-semibold my-3 text-gray-900">$xxxx/-</p>
+                <button type="button" class="px-6 sm:px-10 py-3 border border-gray-900 text-gray-100 bg-red-700 rounded-full hover:bg-red-800 -ml-1">BUY</button>
+            </div>            
+            <div class="h-full w-full sm:w-1/2 flex flex-col items-center sm:items-end justify-center">
+                <div class="rounded-lg shadow-lg w-full h-64 sm:h-5/6 overflow-hidden">
+                    <img src="https://cdn.pixabay.com/photo/2015/10/29/14/38/web-1012467_640.jpg" alt="Description of the image" class="mx-auto h-full w-full rounded-lg object-cover">
+                </div>
+            </div>            
+        </div>
+    </div>    
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="flex flex-col items-center justify-center">
+    <div class="h-5/6 w-4/5 flex flex-col border-b-2 border-black pb-16 pt-7">
+        {% block categories %}
+        <div class="flex flex-col items-center justify-center">
+            <div class="categories-header flex flex-row justify-between items-center w-full pb-10">
+                <div>
+                    <h6>CATEGORIES</h6>
+                </div>
+                <div class="flex justify-center items-center flex-wrap">
+                    <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-900 mx-1">CAT 2</button>
+                    <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-800 mx-1">CAT 3</button>
+                    <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-700 mx-1">CAT 1</button>
+                    <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-900 mx-1">CAT 2</button>
+                    <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-800 mx-1">CAT 3</button>
+                    <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-700 mx-1">CAT 4</button>                             
+                </div>
+                <div>
+                    <h6>FOR YOU</h6>
+                </div>
             </div>
         </div>
-        <div>
-          <div class="wrapper flex flex-nowrap overflow-x-auto space-x-4 items-center" style="width: 70rem;">
+        {% endblock %}
 
+        <div class="wrapper overflow-x-auto items-center w-full flex flex-row flex-shrink-0">
             <!-- Card 1 -->
-    {% for l in listing%}
-          <!-- Card 1 -->
-          <div class="flex-shrink-0 w-64 rounded-lg shadow-xl border border-gray-400">
-            <div class="p-4 shadow-xl transition duration-300 ease-in-out transform hover:shadow-2xl hover:border border-gray-900">
-                  <div class="w-54 h-56 mb-2 rounded-lg overflow-hidden">
-                      <img src="{{ l.product.img.url }}" alt="{{ l.product.product_name }}" class="w-full h-full object-cover">
-                  </div>              
-                  <h2 class="text-lg font-semibold">{{l.product.product_name}}</h2>
-                  <!-- Rating -->
-                  <div class="flex items-center mt-2">
-                      <span class="text-sm text-gray-700">Rating:</span>
-                      <div class="ml-1">
-                          ★★★★★
-                      </div>
-                  </div>
-                  <p class="text-sm text-gray-700 mt-1">{{l.product.brand_name}}</p>
-                  <p class="text-lg font-semibold mt-1">${{l.min_price}}</p>
-                  <p class="mt-2 text-sm font-normal">{{l.product.desc}}</p>
-              </div>
-          </div>
-
-          {% endfor %}
-
-          <!-- Card 1 -->
-
-
-    
-    
-  </div>
-
-          </div>
-      </div>
-      
+            <div class="w-64 rounded-lg shadow-xl border border-gray-400 mr-4 flex-shrink-0">
+                <div class="p-4 shadow-xl transition duration-300 ease-in-out transform hover:shadow-2xl hover:border border-gray-900">
+                    <div class="w-54 h-56 rounded-lg overflow-hidden">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Sample_abc.jpg" alt="Product Image" class="w-full h-full object-cover">
+                    </div>              
+                    <h2 class="text-lg font-semibold pt-2">BALLONS</h2>
+                    <!-- Rating -->
+                    <div class="flex items-center pt-2">
+                        <span class="text-sm text-gray-700">Rating:</span>
+                        <div class="pl-1">
+                            ★★★★★
+                        </div>
+                    </div>
+                    <p class="text-sm text-gray-700 pt-1">Brand Name</p>
+                    <p class="text-lg font-semibold pt-1">$1000.22</p>
+                    <p class="pt-2 text-sm font-normal">Lol why do u want a balloon when u can buy a helicopter.</p>
+                </div>
+            </div>
+        </div>
     </div>
-    {% endblock %}
-    
 </div>
 
-<div class="h-5/6 w-full flex flex-col border-b-2 border-black overflow-hidden">
-  {% block seller %}
-  <div>
-    <h6 class="mr-4 pt-6 px-24">BEST SELLING</h6>
-  </div>
 
-  <div class="flex w-full h-full pt-4 px-20 mb-16 items-center">
-
-
-{% for l in listing %}
-      <div class="w-1/2 h-96 bg-gray-200 border border-gray-400 rounded-xl p-4 mx-6 flex flex-col justify-center items-center shadow-xl transition duration-300 ease-in-out hover:shadow-2xl">
-        <p class="text-xs">{{l.product.product_name}}</p>
-        <h6 class="text-lg font-semibold">JUST STARTING AT ${{l.max_price}}</h6>
-        <div>
-          <img src="{{l.product.img.url}}" alt="Product Image" class="w-full max-h-48 object-contain mb-4">
+<div class="w-full flex flex-col items-center justify-center">
+    <div class="h-5/6 w-4/5 flex flex-col border-b-2 border-black overflow-hidden">
+        {% block seller %}
+        <div class="flex flex-row items-center justify-start py-4">
+            <h6 class="">BEST SELLING</h6>
         </div>
-        <button type="button"  class="px-8 py-3 border border-gray-200 text-gray-100 bg-red-700 rounded-full hover:bg-red-800 font-semibold text-sm">
-          SHOP NOW
-      </button>
-          <div>
-          </div>
-      </div>
 
-      {% endfor %}
+        <div class="flex w-full h-full items-center justify-between">
 
-  </div>
-  {% endblock %}
-</div>
+            <div class="w-1/2 m-2 h-96 bg-gray-200 border border-gray-400 rounded-xl flex flex-col justify-center items-center shadow-xl transition duration-300 ease-in-out hover:shadow-2xl">
+                <p class="text-xs">SOME CREAM FOR YOUR</p>
+                <h6 class="text-lg font-semibold">JUST STARTING AT $480</h6>
+                <div>
+                    <img src="https://png.pngtree.com/png-clipart/20221013/ourmid/pngtree-simulation-cosmetics-product-sample-skin-care-essential-oil-png-image_6158599.png" alt="Product Image" class="w-full max-h-48 object-contain mb-4">
+                </div>
+                <button type="button" class="px-8 py-3 border border-gray-200 text-gray-100 bg-red-700 rounded-full hover:bg-red-800 font-semibold text-sm">
+                    SHOP NOW
+                </button>
+            </div>
 
-<div class="h-5/6 w-full flex flex-row justify-center items-center border-black pb-16 pt-7">
-  {% block explore %}
-  <div class="flex flex-col items-center">
-      <div class="categories-header flex justify-center items-center px-28 py-3 w-full pb-10">
-          <div>
-              <h6 class="mr-4">EXPLORE</h6>
-          </div>
-          <div class="flex justify-center flex-wrap">
-              <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-900 mx-1">CAT 2</button>
-              <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-900 mx-1">CAT 2</button>
-              <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-900 mx-1">CAT 2</button>
-              <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-900 mx-1">CAT 2</button>
-              <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-900 mx-1">CAT 2</button>
-              <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-900 mx-1">CAT 2</button>
-              <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-900 mx-1">CAT 2</button>
-              <!-- Add more buttons as needed -->
-          </div>
-          <div class="flex-1">
-              <button class="pl-4 py-3 hover:text-red-900" >MORE</button>
-          </div>
-      </div>
+            <div class="w-1/2 m-2 h-96 bg-gray-200 border border-gray-400 rounded-xl flex flex-col justify-center items-center shadow-xl transition duration-300 ease-in-out hover:shadow-2xl">
+                <p class="text-xs">SOME CREAM FOR YOUR</p>
+                <h6 class="text-lg font-semibold">JUST STARTING AT $480</h6>
+                <div>
+                    <img src="https://png.pngtree.com/png-clipart/20221013/ourmid/pngtree-simulation-cosmetics-product-sample-skin-care-essential-oil-png-image_6158599.png" alt="Product Image" class="w-full max-h-48 object-contain mb-4">
+                </div>
+                <button type="button" class="px-8 py-3 border border-gray-200 text-gray-100 bg-red-700 rounded-full hover:bg-red-800 font-semibold text-sm">
+                    SHOP NOW
+                </button>
+            </div>
 
-        <div class="wrapper flex flex-nowrap overflow-x-auto space-x-4 items-center" style="width: 70rem;">
-    {% for l in listing%}
-          <!-- Card 1 -->
-          <div class="flex-shrink-0 w-64 rounded-lg shadow-xl border border-gray-400">
-            <div class="p-4 shadow-xl transition duration-300 ease-in-out transform hover:shadow-2xl hover:border border-gray-900">
-                  <div class="w-54 h-56 mb-2 rounded-lg overflow-hidden">
-                      <img src="{{ l.product.img.url }}" alt="{{ l.product.product_name }}" class="w-full h-full object-cover">
-                  </div>              
-                  <h2 class="text-lg font-semibold">{{l.product.product_name}}</h2>
-                  <!-- Rating -->
-                  <div class="flex items-center mt-2">
-                      <span class="text-sm text-gray-700">Rating:</span>
-                      <div class="ml-1">
-                          ★★★★★
-                      </div>
-                  </div>
-                  <p class="text-sm text-gray-700 mt-1">{{l.product.brand_name}}</p>
-                  <p class="text-lg font-semibold mt-1">${{l.min_price}}</p>
-                  <p class="mt-2 text-sm font-normal">{{l.product.desc}}</p>
-              </div>
-          </div>
-
-          {% endfor %}
-
-          <!-- Card 1 -->
-
-
-    
-    
         </div>
-  </div>
-  {% endblock %}
+        {% endblock %}
+    </div>
 </div>
 
+<div class="flex flex-col items-center justify-center">
+    <div class="h-5/6 w-4/5 flex flex-col border-b-2 border-black pb-16 pt-7">
+        {% block explore %}
+        <div class="flex flex-col items-center justify-center">
+            <div class="categories-header flex flex-row justify-between items-center w-full pb-10">
+                <div>
+                    <h6>EXPLORE</h6>
+                </div>
+                <div class="flex justify-center items-center flex-wrap">
+                    <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-900 mx-1">CAT 2</button>
+                    <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-800 mx-1">CAT 3</button>
+                    <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-700 mx-1">CAT 1</button>
+                    <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-900 mx-1">CAT 2</button>
+                    <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-800 mx-1">CAT 3</button>
+                    <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-700 mx-1">CAT 4</button>                             
+                </div>
+                <div>
+                    <button class="hover:text-red-900">MORE</button>
+                </div>
+            </div>
+        </div>
+        {% endblock %}
 
+        <div class="wrapper overflow-x-auto items-center w-full flex flex-row flex-shrink-0">
+            <!-- Card 1 -->
+            <div class="w-64 rounded-lg shadow-xl border border-gray-400 mr-4 flex-shrink-0">
+                <div class="p-4 shadow-xl transition duration-300 ease-in-out transform hover:shadow-2xl hover:border border-gray-900">
+                    <div class="w-54 h-56 rounded-lg overflow-hidden">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Sample_abc.jpg" alt="Product Image" class="w-full h-full object-cover">
+                    </div>              
+                    <h2 class="text-lg font-semibold pt-2">BALLONS</h2>
+                    <!-- Rating -->
+                    <div class="flex items-center pt-2">
+                        <span class="text-sm text-gray-700">Rating:</span>
+                        <div class="pl-1">
+                            ★★★★★
+                        </div>
+                    </div>
+                    <p class="text-sm text-gray-700 pt-1">Brand Name</p>
+                    <p class="text-lg font-semibold pt-1">$1000.22</p>
+                    <p class="pt-2 text-sm font-normal">Lol why do u want a balloon when u can buy a helicopter.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endif %}
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true, // Enable loop
+        autoplay: {
+            delay: 5000, // Autoplay delay in milliseconds
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+
+    // Add custom styles to make Swiper buttons black
+    document.querySelector('.swiper-button-next').style.color = 'black';
+    document.querySelector('.swiper-button-prev').style.color = 'black';
+</script>
 
 
 {% endblock %}
