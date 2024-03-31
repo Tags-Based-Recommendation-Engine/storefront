@@ -6,13 +6,15 @@
     <div class=" w-4/5 h-screen flex flex-row justify-between items-center  border-b-2 border-black">
             <div class="h-full flex flex-col items-center p-16 justify-center  w-1/2">
                 <div id="mainImage" class="bg-gray-900 h-96 w-full border-2 border-black rounded-md">
-                    <img src="{{product.product.img.url}}">
+                    <img class="object-cover h-full w-full " src="{{product.product.img.url}}">
                 </div>
                 <div class="h-1/5 w-full flex flex-row justify-between items-center py-2">
-                
+                {% for i in imgs %}
                     <div class="h-full w-1/3 border-2 border-black rounded-md mr-2" onclick="changeImage('https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL3BmLXMxMDgtcG0tNDExMy1tb2NrdXAuanBn.jpg')" style="cursor: pointer;">
-                        <img src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL3BmLXMxMDgtcG0tNDExMy1tb2NrdXAuanBn.jpg" alt="Image 1" class="w-full h-full object-cover rounded-md">
+                        <img class="object-cover h-full w-full " src="{{i.img.url}}" alt="Image 1" class="w-full h-full object-cover rounded-md">
                     </div>
+
+                    {% endfor %}
                                 
                 </div>            
             </div>

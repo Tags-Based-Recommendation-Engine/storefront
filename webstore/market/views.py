@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
 from django.contrib.auth import login, logout , authenticate
 from django.contrib.auth.decorators import login_required
-from storefront.models import Product, Category, Listing
+from storefront.models import Product, Category, Listing, Product_Images
 from .models import Review
 from django.db.models import Q
 
@@ -53,13 +53,16 @@ def cart(request):
 
 def product(request, slug):
     product = Listing.objects.get(slug=slug)
-    
+    prod = product.product
+    imgs = Product_Images.objects.filter(product=prod)
+
     reviews = Review.objects.filter(listing=product)
     listings =  Listing.objects.exclude(id=product.id).order_by('?')[:4]   # Get 4 random related
     context = {
         'product':product,
         'reviews':reviews,
-        'listings':listings
+        'listings':listings,
+        'imgs': imgs
     }
     return render(request, 'market/product.html', context)
 
