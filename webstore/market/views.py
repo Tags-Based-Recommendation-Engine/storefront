@@ -19,6 +19,9 @@ def product(request):
 def sellerRegister(request):
     return render(request, 'registeration/seller.html')
 
+def userRegister(request):
+    return render(request, 'registeration/user.html')
+
 @login_required(login_url='login')
 def logoutUser(request):
     logout(request)

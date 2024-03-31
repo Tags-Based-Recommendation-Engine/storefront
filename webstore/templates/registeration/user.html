@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="h-full flex flex-col justify-center items-center my-32">
+    <div class="w-4/5 h-full flex flex-col justify-center items-start"> <!-- Modified this line -->
+        <div class="border-b-2 w-full border-gray-800 mb-4 pb-2">
+            <h1 class="text-9xl font-extrabold text-gray-800">User</h1>
+        </div>
+        <div class="flex flex-col items-start justify-start w-full h-full ">
+            <form class="flex justify-start items-start w-full h-full">
+                <div class="flex flex-col w-1/2 items-start justify-start">
+                    <input class="flex-1 p-2 outline-none w-full text-gray-950 bg-transparent border border-gray-900 rounded-full placeholder-gray-900 hover:bg-gray-300 pl-8 py-4 mb-4" type="text" placeholder="First Name">
+                    <input class="flex-1 p-2 outline-none w-full text-gray-950 bg-transparent border border-gray-900 rounded-full placeholder-gray-900 hover:bg-gray-300 pl-8 py-4 mb-4" type="text" placeholder="Last Name">
+                    <input class="flex-1 p-2 outline-none w-full text-gray-950 bg-transparent border border-gray-900 rounded-full placeholder-gray-900 hover:bg-gray-300 pl-8 py-4 mb-4" type="email" placeholder="Email">
+                    <button class="bg-red-800 hover:bg-red-900 text-white mt-4 font-bold py-4 px-8 rounded-full border-2 border-gray-800 focus:outline-none focus:shadow-outline" type="submit">
+                        Register
+                    </button>                             
+                </div>
+                <div class="flex w-1/2 flex-col items-start justify-start px-10 h-52">
+                    <!-- Div for Image -->
+                    <div class="items-center justify-center border border-gray-900 w-full h-full mb-2 rounded-3xl p-4 flex overflow-hidden">
+                        <div class="border border-gray-900 w-2/3 mr-2 h-full p-2 rounded-md overflow-hidden">
+                            <label>Select Profile Picture</label>
+                            <input id="imageInput" type="file" accept="image/*">
+                        </div>
+                        <img id="previewImage" src="image-placeholder.jpg" alt="Image Preview" class=" border border-gray-900 h-full rounded-md overflow-hidden object-cover" width="100"> 
+                    </div>
+                    <!-- Div for Textarea -->
+                    <div class="w-full h-1/3">
+                        <textarea class="outline-none w-full h-full text-gray-950 bg-transparent border border-gray-900 rounded-3xl placeholder-gray-900 hover:bg-gray-300 pl-8 py-3" placeholder="Description"></textarea>
+                    </div>
+                </div>
+                             
+            </form>            
+        </div>
+    </div>    
+</div>
+
+<script>
+        const imageInput = document.getElementById('imageInput');
+        const previewImage = document.getElementById('previewImage');
+
+        imageInput.addEventListener('change', function(event) {
+            const file = event.target.files[0];
+            const reader = new FileReader();
+
+            reader.onload = function(e) {
+                previewImage.src = e.target.result;
+            };
+
+            reader.readAsDataURL(file);
+        });
+</script>
+
+{% endblock %}
