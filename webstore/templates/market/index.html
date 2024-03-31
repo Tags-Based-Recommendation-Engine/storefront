@@ -42,8 +42,7 @@
 
 <div class="flex flex-col items-center justify-center">
     <div class="h-5/6 w-4/5 flex flex-col border-b-2 border-black pb-16 pt-7">
-        {% block categories %}
-        <div class="flex flex-col items-center justify-center">
+     <div class="flex flex-col items-center justify-center">
             <div class="categories-header flex flex-row justify-between items-center w-full pb-10">
                 <div>
                     <h6>CATEGORIES</h6>
@@ -58,16 +57,16 @@
                 </div>
             </div>
         </div>
-        {% endblock %}
 
         <div class="wrapper overflow-x-auto items-center w-full flex flex-row flex-shrink-0">
-            <!-- Card 1 -->
+        
+            <!-- Card 1 -->{% for list in listings %}
             <div class="w-64 rounded-lg shadow-xl border border-gray-400 mr-4 flex-shrink-0">
                 <div class="p-4 shadow-xl transition duration-300 ease-in-out transform hover:shadow-2xl hover:border border-gray-900">
                     <div class="w-54 h-56 rounded-lg overflow-hidden">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Sample_abc.jpg" alt="Product Image" class="w-full h-full object-cover">
+                        <img src="{{list.product.img.url}}" alt="Product Image" class="w-full h-full object-cover">
                     </div>              
-                    <h2 class="text-lg font-semibold pt-2">BALLONS</h2>
+                    <h2 class="text-lg font-semibold pt-2">{{list.product.product_name}}</h2>
                     <!-- Rating -->
                     <div class="flex items-center pt-2">
                         <span class="text-sm text-gray-700">Rating:</span>
@@ -75,11 +74,12 @@
                             ★★★★★
                         </div>
                     </div>
-                    <p class="text-sm text-gray-700 pt-1">Brand Name</p>
-                    <p class="text-lg font-semibold pt-1">$1000.22</p>
-                    <p class="pt-2 text-sm font-normal">Lol why do u want a balloon when u can buy a helicopter.</p>
+                    <p class="text-sm text-gray-700 pt-1">{{list.product.brand_name}}</p>
+                    <p class="text-lg font-semibold pt-1">${{list.current_price}}</p>
+                    <p class="pt-2 text-sm font-normal">{{list.product.desc|slice:80}}</p>
                 </div>
             </div>
+            {% endfor %}
         </div>
     </div>
 </div>
@@ -129,13 +129,10 @@
                 <div>
                     <h6>EXPLORE</h6>
                 </div>
-                <div class="flex justify-center items-center flex-wrap">
-                    <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-900 mx-1">CAT 2</button>
-                    <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-800 mx-1">CAT 3</button>
-                    <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-700 mx-1">CAT 1</button>
-                    <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-900 mx-1">CAT 2</button>
-                    <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-800 mx-1">CAT 3</button>
-                    <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-700 mx-1">CAT 4</button>                             
+<div class="flex justify-center items-center flex-wrap">
+                {% for cat in catagory %}
+                    <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-900 mx-1">{{cat.name}}</button>
+                    {% endfor %}
                 </div>
                 <div>
                     <button class="hover:text-red-900">MORE</button>
@@ -145,13 +142,13 @@
         {% endblock %}
 
         <div class="wrapper overflow-x-auto items-center w-full flex flex-row flex-shrink-0">
-            <!-- Card 1 -->
+            <!-- Card 1 -->{% for list in listings %}
             <div class="w-64 rounded-lg shadow-xl border border-gray-400 mr-4 flex-shrink-0">
                 <div class="p-4 shadow-xl transition duration-300 ease-in-out transform hover:shadow-2xl hover:border border-gray-900">
                     <div class="w-54 h-56 rounded-lg overflow-hidden">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Sample_abc.jpg" alt="Product Image" class="w-full h-full object-cover">
+                        <img src="{{list.product.img.url}}" alt="Product Image" class="w-full h-full object-cover">
                     </div>              
-                    <h2 class="text-lg font-semibold pt-2">BALLONS</h2>
+                    <h2 class="text-lg font-semibold pt-2">{{list.product.product_name}}</h2>
                     <!-- Rating -->
                     <div class="flex items-center pt-2">
                         <span class="text-sm text-gray-700">Rating:</span>
@@ -159,11 +156,12 @@
                             ★★★★★
                         </div>
                     </div>
-                    <p class="text-sm text-gray-700 pt-1">Brand Name</p>
-                    <p class="text-lg font-semibold pt-1">$1000.22</p>
-                    <p class="pt-2 text-sm font-normal">Lol why do u want a balloon when u can buy a helicopter.</p>
+                    <p class="text-sm text-gray-700 pt-1">{{list.product.brand_name}}</p>
+                    <p class="text-lg font-semibold pt-1">${{list.current_price}}</p>
+                    <p class="pt-2 text-sm font-normal">{{list.product.desc|slice:80}}</p>
                 </div>
             </div>
+            {% endfor %}
         </div>
     </div>
 </div>

@@ -32,6 +32,7 @@ def search(request, query):
 
 def index(request):
     products = Product.objects.all()
+    listing = Listing.objects.all()
     categories = Category.objects.all()
 
     if request.method == 'POST':
@@ -39,8 +40,9 @@ def index(request):
         return redirect('search', query=search_text)  # Redirect to the search view with the search query
 
     context = {
-        'products': products,
-        'categories': categories
+        'product': products,
+        'catagory': categories,
+        'listings': listing
     }
     return render(request, 'market/index.html', context)
 
