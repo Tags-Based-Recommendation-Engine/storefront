@@ -6,35 +6,26 @@
     <div class=" w-4/5 h-screen flex flex-row justify-between items-center  border-b-2 border-black">
             <div class="h-full flex flex-col items-center p-16 justify-center  w-1/2">
                 <div id="mainImage" class="bg-gray-900 h-96 w-full border-2 border-black rounded-md">
-                    <img src="https://spectrum-brand.com/cdn/shop/products/geometric-foam-styling-props-for-photography-large-circle-18cm-powder-blue-lifestyle-bts-2_a1d3f29b-21c9-471d-9e03-f041b94fdcb5.jpg?v=1701779127" alt="Image 1" class="w-full h-full object-cover rounded-md">
+                    <img src="{{product.product.img.url}}">
                 </div>
                 <div class="h-1/5 w-full flex flex-row justify-between items-center py-2">
+                
                     <div class="h-full w-1/3 border-2 border-black rounded-md mr-2" onclick="changeImage('https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL3BmLXMxMDgtcG0tNDExMy1tb2NrdXAuanBn.jpg')" style="cursor: pointer;">
                         <img src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL3BmLXMxMDgtcG0tNDExMy1tb2NrdXAuanBn.jpg" alt="Image 1" class="w-full h-full object-cover rounded-md">
                     </div>
                                 
-                    <div class="h-full w-1/3 border-2 border-black rounded-md mr-2" onclick="changeImage('https://cdn.shopify.com/s/files/1/2303/2711/files/2_e822dae0-14df-4cb8-b145-ea4dc0966b34.jpg?v=1617059123')" style="cursor: pointer;">
-                        <img src="https://cdn.shopify.com/s/files/1/2303/2711/files/2_e822dae0-14df-4cb8-b145-ea4dc0966b34.jpg?v=1617059123" alt="Image 2" class="w-full h-full object-cover rounded-md">
-                    </div>
-                                
-                    <div class="h-full w-1/3 border-2 border-black rounded-md" onclick="changeImage('https://spectrum-brand.com/cdn/shop/products/geometric-foam-styling-props-for-photography-large-circle-18cm-powder-blue-lifestyle-bts-2_a1d3f29b-21c9-471d-9e03-f041b94fdcb5.jpg?v=1701779127')" style="cursor: pointer;">
-                        <img src="https://spectrum-brand.com/cdn/shop/products/geometric-foam-styling-props-for-photography-large-circle-18cm-powder-blue-lifestyle-bts-2_a1d3f29b-21c9-471d-9e03-f041b94fdcb5.jpg?v=1701779127" alt="Image 3" class="w-full h-full object-cover rounded-md">
-                    </div>
                 </div>            
             </div>
          
         <div class="h-full w-1/2 flex flex-col justify-center items-start">
-            <p class="font-normal font-medium text-xs py-2">@ BRAND NAME</p>
-            <a href = "{% url 'product' %}" class="text-gray-950 font-bold text-6xl">PRODUCT NAME</a>
+            <p class="font-normal font-medium text-xs py-2">@ {{product.product.brand_name}}</p>
+            <a href = "#" class="text-gray-950 font-bold text-6xl">{{product.product.product_name|upper}}</a>
             <div class="py-3 text-4xl text-yellow-700">
                 ★★★★★
             </div>
-            <p class="font-light text-xs pt-8">The description is aligned using br tag <br>
-                Please dont complain DESCRIPTION DESCRIPTION <br>
-                DESCRIPTION DESCRIPTION DESCRIPTION DESCRIPTION<br>
-                DESCRIPTION DESCRIPTION DESCRIPTION DESCRIPTION<br>
-                DESCcsjnsacj csjancsk csjancksj csajnc</p>
-                <p class="text-lg font-normal mt-4"> <span class="font-semibold">PRICE</span> : 200000 Rs</p>
+            <p class="font-light text-xs pt-8">{{product.product.desc}}
+                </p>
+                <p class="text-lg font-normal mt-4"> <span class="font-semibold">PRICE</span> : {{product.current_price}} Rs</p>
                 <h2 class="font-semibold text-xl mb-2">Features</h2>
                 <ul class=" font-light text-md list-disc mt-2 pl-4">
                     <li>Long - some feature desc here</li>
@@ -122,25 +113,26 @@
         <div class="h-5/6 w-4/5 flex flex-col border-b-2 border-black pb-8">
             <h4 class="text-base font-light py-4">SIMILAR</h4>
             <div class="wrapper overflow-x-auto items-center w-full flex flex-row flex-shrink-0">
-                <!-- Card 1 -->
-                <div class="w-64 rounded-lg shadow-xl border border-gray-400 mr-4 flex-shrink-0">
-                    <div class="p-4 shadow-xl transition duration-300 ease-in-out transform hover:shadow-2xl hover:border border-gray-900">
-                        <div class="w-54 h-56 rounded-lg overflow-hidden">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Sample_abc.jpg" alt="Product Image" class="w-full h-full object-cover">
-                        </div>              
-                        <h2 class="text-lg font-semibold pt-2">BALLONS</h2>
-                        <!-- Rating -->
-                        <div class="flex items-center pt-2">
-                            <span class="text-sm text-gray-700">Rating:</span>
-                            <div class="pl-1">
-                                ★★★★★
-                            </div>
-                        </div>
-                        <p class="text-sm text-gray-700 pt-1">Brand Name</p>
-                        <p class="text-lg font-semibold pt-1">$1000.22</p>
-                        <p class="pt-2 text-sm font-normal">Lol why do u want a balloon when u can buy a helicopter.</p>
-                    </div>
-                </div>
+                 <!-- Card 1 -->{% for list in listings %}
+            <a href="{% url 'product' list.slug %}" class="w-64 rounded-lg shadow-xl border border-gray-400 mr-4 flex-shrink-0 block">
+    <div class="p-4 shadow-xl transition duration-300 ease-in-out transform hover:shadow-2xl hover:border border-gray-900">
+        <div class="w-54 h-56 rounded-lg overflow-hidden">
+            <img src="{{ list.product.img.url }}" alt="Product Image" class="w-full h-full object-cover">
+        </div>              
+        <h2 class="text-lg font-semibold pt-2">{{ list.product.product_name }}</h2>
+        <!-- Rating -->
+        <div class="flex items-center pt-2">
+            <span class="text-sm text-gray-700">Rating:</span>
+            <div class="pl-1">
+                ★★★★★
+            </div>
+        </div>
+        <p class="text-sm text-gray-700 pt-1">{{ list.product.brand_name }}</p>
+        <p class="text-lg font-semibold pt-1">${{ list.current_price }}</p>
+        <p class="pt-2 text-sm font-normal">{{ list.product.desc|slice:80 }}</p>
+    </div>
+</a>
+            {% endfor %}
                 <!-- Card 2 -->
                 <div class="flex justify-center items-center flex-shrink-0 w-64 rounded-lg">
                     <div class="p-4 h-full flex">

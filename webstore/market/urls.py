@@ -5,6 +5,6 @@ urlpatterns = [
     path('', views.index, name='index'),
     path('search/<str:query>', views.search, name='search'),
     path('cart/', views.cart, name='cart'),
-    path('product/', views.product, name='product'),
+    path('<str:slug>', views.product, name='product'),
     path('logout', views.logoutUser, name='logout'),
 ]

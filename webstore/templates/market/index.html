@@ -61,24 +61,24 @@
         <div class="wrapper overflow-x-auto items-center w-full flex flex-row flex-shrink-0">
         
             <!-- Card 1 -->{% for list in listings %}
-            <div class="w-64 rounded-lg shadow-xl border border-gray-400 mr-4 flex-shrink-0">
-                <div class="p-4 shadow-xl transition duration-300 ease-in-out transform hover:shadow-2xl hover:border border-gray-900">
-                    <div class="w-54 h-56 rounded-lg overflow-hidden">
-                        <img src="{{list.product.img.url}}" alt="Product Image" class="w-full h-full object-cover">
-                    </div>              
-                    <h2 class="text-lg font-semibold pt-2">{{list.product.product_name}}</h2>
-                    <!-- Rating -->
-                    <div class="flex items-center pt-2">
-                        <span class="text-sm text-gray-700">Rating:</span>
-                        <div class="pl-1">
-                            ★★★★★
-                        </div>
-                    </div>
-                    <p class="text-sm text-gray-700 pt-1">{{list.product.brand_name}}</p>
-                    <p class="text-lg font-semibold pt-1">${{list.current_price}}</p>
-                    <p class="pt-2 text-sm font-normal">{{list.product.desc|slice:80}}</p>
-                </div>
+            <a href="{% url 'product' list.slug %}" class="w-64 rounded-lg shadow-xl border border-gray-400 mr-4 flex-shrink-0 block">
+    <div class="p-4 shadow-xl transition duration-300 ease-in-out transform hover:shadow-2xl hover:border border-gray-900">
+        <div class="w-54 h-56 rounded-lg overflow-hidden">
+            <img src="{{ list.product.img.url }}" alt="Product Image" class="w-full h-full object-cover">
+        </div>              
+        <h2 class="text-lg font-semibold pt-2">{{ list.product.product_name }}</h2>
+        <!-- Rating -->
+        <div class="flex items-center pt-2">
+            <span class="text-sm text-gray-700">Rating:</span>
+            <div class="pl-1">
+                ★★★★★
             </div>
+        </div>
+        <p class="text-sm text-gray-700 pt-1">{{ list.product.brand_name }}</p>
+        <p class="text-lg font-semibold pt-1">${{ list.current_price }}</p>
+        <p class="pt-2 text-sm font-normal">{{ list.product.desc|slice:80 }}</p>
+    </div>
+</a>
             {% endfor %}
         </div>
     </div>
@@ -142,25 +142,25 @@
         {% endblock %}
 
         <div class="wrapper overflow-x-auto items-center w-full flex flex-row flex-shrink-0">
-            <!-- Card 1 -->{% for list in listings %}
-            <div class="w-64 rounded-lg shadow-xl border border-gray-400 mr-4 flex-shrink-0">
-                <div class="p-4 shadow-xl transition duration-300 ease-in-out transform hover:shadow-2xl hover:border border-gray-900">
-                    <div class="w-54 h-56 rounded-lg overflow-hidden">
-                        <img src="{{list.product.img.url}}" alt="Product Image" class="w-full h-full object-cover">
-                    </div>              
-                    <h2 class="text-lg font-semibold pt-2">{{list.product.product_name}}</h2>
-                    <!-- Rating -->
-                    <div class="flex items-center pt-2">
-                        <span class="text-sm text-gray-700">Rating:</span>
-                        <div class="pl-1">
-                            ★★★★★
-                        </div>
-                    </div>
-                    <p class="text-sm text-gray-700 pt-1">{{list.product.brand_name}}</p>
-                    <p class="text-lg font-semibold pt-1">${{list.current_price}}</p>
-                    <p class="pt-2 text-sm font-normal">{{list.product.desc|slice:80}}</p>
-                </div>
+             <!-- Card 1 -->{% for list in listings %}
+            <a href="{% url 'product' list.slug %}" class="w-64 rounded-lg shadow-xl border border-gray-400 mr-4 flex-shrink-0 block">
+    <div class="p-4 shadow-xl transition duration-300 ease-in-out transform hover:shadow-2xl hover:border border-gray-900">
+        <div class="w-54 h-56 rounded-lg overflow-hidden">
+            <img src="{{ list.product.img.url }}" alt="Product Image" class="w-full h-full object-cover">
+        </div>              
+        <h2 class="text-lg font-semibold pt-2">{{ list.product.product_name }}</h2>
+        <!-- Rating -->
+        <div class="flex items-center pt-2">
+            <span class="text-sm text-gray-700">Rating:</span>
+            <div class="pl-1">
+                ★★★★★
             </div>
+        </div>
+        <p class="text-sm text-gray-700 pt-1">{{ list.product.brand_name }}</p>
+        <p class="text-lg font-semibold pt-1">${{ list.current_price }}</p>
+        <p class="pt-2 text-sm font-normal">{{ list.product.desc|slice:80 }}</p>
+    </div>
+</a>
             {% endfor %}
         </div>
     </div>
