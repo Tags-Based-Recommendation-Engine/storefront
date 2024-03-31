@@ -10,20 +10,17 @@
 
 <div class="swiper-container overflow-x-hidden">
 <div class="swiper-wrapper">
-
+{% for p in product|slice:":3" %}
 <div class="swiper-slide">
 <div class="h-auto sm:h-5/6 w-full flex flex-row border-b-2 border-black mt-24">
     <div class="flex-1 flex justify-center items-center py-10">
         <div class="w-full h-full flex flex-col sm:flex-row items-start justify-between mx-auto px-4 sm:px-28 pt-4">
             <div class="w-full sm:w-1/2 flex flex-col items-start py-18">
                 <h6 class="text-lg mb-2 text-red-600"> SAVE UPTO 90%</h6>
-                <h1 class="font-bold text-3xl sm:text-6xl mb-4 text-gray-900">SOME PRODUCT NAME</h1>
+                <h1 class="font-bold text-3xl sm:text-6xl mb-4 text-gray-900">{{p.product_name}}</h1>
                 <p class="mb-2 text-gray-900">
-                    Description Description Description Description<br>
-                    Description Description Description Description<br>
-                    Description Description Description
+                    {{p.desc}}
                 </p>
-                <p class="font-semibold my-3 text-gray-900">$xxxx/-</p>
                 <button type="button" class="px-6 sm:px-10 py-3 border border-gray-900 text-gray-100 bg-red-700 rounded-full hover:bg-red-800 -ml-1">BUY</button>
             </div>            
             <div class="h-full w-full sm:w-1/2 flex flex-col items-center sm:items-end justify-center">
@@ -36,30 +33,9 @@
 </div>
 </div>
 
-<div class="swiper-slide">
-<div class="h-auto sm:h-5/6 w-full flex flex-row border-b-2 border-black mt-24">
-    <div class="flex-1 flex justify-center items-center py-10">
-        <div class="w-full h-full flex flex-col sm:flex-row items-start justify-between mx-auto px-4 sm:px-28 pt-4">
-            <div class="w-full sm:w-1/2 flex flex-col items-start py-18">
-                <h6 class="text-lg mb-2 text-red-600"> SAVE UPTO 90%</h6>
-                <h1 class="font-bold text-3xl sm:text-6xl mb-4 text-gray-900">SOME PRODUCT NAME</h1>
-                <p class="mb-2 text-gray-900">
-                    Description Description Description Description<br>
-                    Description Description Description Description<br>
-                    Description Description Description
-                </p>
-                <p class="font-semibold my-3 text-gray-900">$xxxx/-</p>
-                <button type="button" class="px-6 sm:px-10 py-3 border border-gray-900 text-gray-100 bg-red-700 rounded-full hover:bg-red-800 -ml-1">BUY</button>
-            </div>            
-            <div class="h-full w-full sm:w-1/2 flex flex-col items-center sm:items-end justify-center">
-                <div class="rounded-lg shadow-lg w-full h-64 sm:h-5/6 overflow-hidden">
-                    <img src="https://cdn.pixabay.com/photo/2015/10/29/14/38/web-1012467_640.jpg" alt="Description of the image" class="mx-auto h-full w-full rounded-lg object-cover">
-                </div>
-            </div>            
-        </div>
-    </div>    
-</div>
-</div>
+{% endfor %}
+
+
 
 </div>
 </div>
@@ -73,12 +49,9 @@
                     <h6>CATEGORIES</h6>
                 </div>
                 <div class="flex justify-center items-center flex-wrap">
-                    <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-900 mx-1">CAT 2</button>
-                    <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-800 mx-1">CAT 3</button>
-                    <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-700 mx-1">CAT 1</button>
-                    <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-900 mx-1">CAT 2</button>
-                    <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-800 mx-1">CAT 3</button>
-                    <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-700 mx-1">CAT 4</button>                             
+                {% for cat in catagory %}
+                    <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-900 mx-1">{{cat.name}}</button>
+                    {% endfor %}
                 </div>
                 <div>
                     <h6>FOR YOU</h6>

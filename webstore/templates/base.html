@@ -26,7 +26,9 @@
       <div class="flex-1 flex flex-row h-full justify-center items-center">
         <select id="selectOption" class="flex-2 rounded-tl-full rounded-bl-full rounded-md rounded-r-md p-2 outline-none w-36 text-gray-950 bg-transparent border border-gray-900 placeholder-gray-900 hover:bg-gray-300 ml-8 mr-1 pl-6" style="height: 2.5rem;">
             <option value="0">---</option>
-            <option value="1">OPTION</option>
+            {% for cat in catagory %}
+            <option value="1">{{cat.name}}</option>
+            {% endfor%}
         </select>
 
         <input type="text" placeholder="Search..." class="flex-1 p-2 outline-none w-36 text-gray-950 bg-transparent border border-gray-900 border-r-0 rounded-none rounded-r-md placeholder-gray-900 hover:bg-gray-300 rounded-tr-none rounded-br-none pl-2" style="height: 2.5rem;">
