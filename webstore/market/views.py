@@ -49,7 +49,19 @@ def index(request):
 
 
 def cart(request):
-    return render(request, 'market/cart.html')
+    cartitems = CartItem.objects.filter(customer=request.user)
+    
+    # Calculate the total price of all items in the cart
+    subtotal = sum(item.product.current_price for item in cartitems)
+    total = sum(item.product.current_price for item in cartitems)+1000
+    
+    context = {
+        'cartitems': cartitems,
+        'total': total,
+        'subtotal': subtotal
+    }
+
+    return render(request, 'market/cart.html', context)
 
 @login_required
 def product(request, slug):
@@ -75,6 +87,12 @@ def product(request, slug):
         'imgs': imgs
     }
     return render(request, 'market/product.html', context)
+
+
+@login_required
+def empty_cart(request):
+    CartItem.objects.filter(customer=request.user).delete()
+    return redirect('cart')
 
 @login_required(login_url='login')
 def logoutUser(request):

@@ -6,7 +6,7 @@
         <div class="w-full h-48 pt-10 border-b-2 border-gray-800">
             <div class="flex flex-row justify-between items-center">
                 <h1 class="text-gray-800 text-9xl font-extrabold">CART</h1>
-                <button class="bg-red-800 text-white px-6 py-4 rounded-full border-2 border-gray-800 font-bold hover:bg-red-900 transition-colors duration-300 ease-in-out">
+                <button onclick="window.location.href = '{% url 'empty-cart' %}'" class="bg-red-800 text-white px-6 py-4 rounded-full border-2 border-gray-800 font-bold hover:bg-red-900 transition-colors duration-300 ease-in-out">
                     CLEAR CART
                 </button>                             
             </div>
@@ -22,26 +22,26 @@
                         <th class="pb-2 border-b border-gray-400" colspan="1">Total</th>
                     </tr>
                 </thead>
-                
                 <tbody>
+                                {% for item in cartitems %}
+
                     <tr class="border-b border-gray-400">
                         <td class="flex justify-center items-center border-r border-gray-400">
                             <div class="bg-gray-900 w-20 h-20 rounded-md flex justify-center items-center my-2">
-                                <img src="https://m.media-amazon.com/images/I/51tq5ofNCqL._AC_UF1000,1000_QL80_.jpg" alt="Sample Image" class="w-full h-full object-cover rounded-md">
+                                <img src="{{item.product.product.img.url}}" alt="Sample Image" class="w-full h-full object-cover rounded-md">
                             </div>
                         </td>
                                                                                                         
                         <td colspan="3" class="border-r border-gray-400">
                             <div class="pl-2">
-                                <p class="font-normal font-medium text-xs mt-2">BRAND NAME</p>
-                                <a href = "#" class="font-bold text-2xl ">NAME</a>
-                                <p class="font-light text-xs mb-2">DESCRIPTION DESCRIPTION DESCRIPTION DESCRIPTION<br>
-                                DESCcsjnsacj csjancsk csjancksj csajnc</p>
+                                <p class="font-normal font-medium text-xs mt-2">{{item.product.product.brand_name|upper}}</p>
+                                <a href = "{% url "product" item.product.slug %}" class="font-bold text-2xl ">{{item.product.product.product_name|upper}}</a>
+                                <p class="font-light text-xs mb-2">{{item.product.product.desc|slice:10}}</p>
                             </div>
                         </td>
                         <td class="border-r border-gray-400">
                             <div class="flex items-center justify-center">
-                                $10.00
+                                ${{item.product.current_price}}
                             </div>
                         </td>
                         <td class="border-r border-gray-400">
@@ -59,10 +59,11 @@
                         </td>
                         <td>
                             <div class="flex items-center justify-center">
-                                $20.00
+                                ${{item.product.current_price}}
                             </div>
                         </td>
                     </tr>
+                    {% endfor %}
                 </tbody>
                 <!--COPY ME TO ADD MORE CARTS -->
                 
@@ -80,7 +81,7 @@
             <div class="h-full w-1/2 flex flex-col justify-center items-start p-6">
                 <div class="w-full text-gray-900 border-b-2 border-black flex flex-row items-start py-2">
                     <h1 class="font-bold text-2xl mr-4">Sub Total : </h1>
-                    <p class="font-light text-2xl">1000$</p>
+                    <p class="font-light text-2xl">{{subtotal}}</p>
                 </div>
                 <div class="w-4/5 border-b-2 text-gray-900 border-black flex flex-row items-start py-2">
                     <h1 class="font-bold text-2xl mr-4">Shipping : </h1>
@@ -88,7 +89,7 @@
                 </div>
                 <div class="w-3/5 border-b-2 text-gray-900 border-black flex flex-row items-start py-2">
                     <h1 class="font-bold text-2xl mr-4">Overall Total : </h1>
-                    <p class="font-light text-2xl">2000$</p>
+                    <p class="font-light text-2xl">{{total}}</p>
                 </div>
             </div>
         </div>
