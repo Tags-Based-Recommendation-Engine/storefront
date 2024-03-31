@@ -25,6 +25,9 @@ def userRegister(request):
 def Login(request):
     return render(request, 'registeration/login.html')
 
+def ProductPage(request):
+    return render(request, 'market/product_form.html')
+
 @login_required(login_url='login')
 def logoutUser(request):
     logout(request)

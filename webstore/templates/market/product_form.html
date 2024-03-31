@@ -1,0 +1,97 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="w-full flex flex-col items-center justify-center mt-16">
+
+    <div class=" w-4/5 h-screen flex flex-row justify-between items-center  border-b-2 border-black">
+
+        <div class="h-full flex flex-col items-center p-16 justify-center w-1/2">
+            <div id="mainImage" class="bg-gray-900 h-96 w-full border-2 border-black rounded-md relative">
+                <!-- Label for the input field -->
+                <label for="imageUpload" class="absolute inset-0 flex justify-center items-center cursor-pointer">
+                    <span class="text-white text-lg font-semibold">Choose Image</span>
+                    <!-- Input field for choosing the image -->
+                    <input id="imageUpload" type="file" class="absolute inset-0 opacity-0 cursor-pointer" onchange="displayImage(this)">
+                </label>
+            </div>
+            <div class="h-1/5 w-full flex flex-row justify-between items-center py-2">
+                <!-- Image placeholders -->
+                <div class="h-full w-1/3 border-2 border-black rounded-md mr-2">
+                    <div class="w-full h-full bg-gray-300 flex justify-center items-center">
+                        <span class="text-gray-600 text-lg font-semibold">Choose Image</span>
+                    </div>
+                </div>
+        
+                <div class="h-full w-1/3 border-2 border-black rounded-md mr-2">
+                    <div class="w-full h-full bg-gray-300 flex justify-center items-center">
+                        <span class="text-gray-600 text-lg font-semibold">Choose Image</span>
+                    </div>
+                </div>
+        
+                <div class="h-full w-1/3 border-2 border-black rounded-md">
+                    <div class="w-full h-full bg-gray-300 flex justify-center items-center">
+                        <span class="text-gray-600 text-lg font-semibold">Choose Image</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+         
+        <div class="h-full w-1/2 flex flex-col justify-center items-start">
+            <p class="font-normal font-medium text-xs py-2">@ BRAND NAME</p>
+            <input type="text" class="text-gray-950 font-bold text-6xl my-3 border-b-2 bg-transparent border border-gray-900 rounded-md placeholder-gray-900 border-gray-400 w-5/6 px-2" placeholder="PRODUCT NAME">
+            <textarea class="p-3 w-4/5 text-gray-950 bg-transparent border border-gray-900 rounded-md placeholder-gray-900 hover:bg-gray-300" rows="4" placeholder="Type Some Cool Description of your Product Here ."></textarea>         
+            <div class="text-lg font-normal mt-4 ">
+                <label for="price" class="font-semibold">PRICE:</label>
+                <input id="price" name="price" type="number" min="0" step="1" class=" bg-transparent border border-gray-900 rounded-md px-3 py-2">
+                <span class="ml-1">Rs</span>
+            </div>            
+            <h2 class="font-semibold text-xl mt-3">Features</h2>
+            <div class="feature overflow-auto max-h-20 w-3/4">
+                <div>
+                    <ul id="features-list" class="font-light text-md list-disc pl-6 py-2 overflow-hidden">
+                        <!-- Features will be dynamically added here -->
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <input type="text" id="new-feature" class="text-gray-950 bg-transparent border border-gray-900 rounded-md placeholder-gray-900 hover:bg-gray-300 px-3 py-2 mt-2" placeholder="Add a new feature">
+                <button onclick="addFeature()" class="bg-red-800 border border-gray-900 hover:bg-red-700 text-white font-semibold px-4 py-2 rounded-md ml-2">+</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function displayImage(input) {
+        const mainImage = document.getElementById('mainImage');
+        const file = input.files[0];
+        const reader = new FileReader();
+
+        reader.onload = function(e) {
+            const img = document.createElement('img');
+            img.src = e.target.result;
+            img.classList.add('w-full', 'h-full', 'object-cover', 'rounded-md');
+            mainImage.innerHTML = '';
+            mainImage.appendChild(img);
+        };
+
+        reader.readAsDataURL(file);
+    }
+</script>
+
+<script>
+    function addFeature() {
+        var featureInput = document.getElementById('new-feature');
+        var featureText = featureInput.value.trim();
+        if (featureText !== '') {
+            var featuresList = document.getElementById('features-list');
+            var listItem = document.createElement('li');
+            listItem.textContent = featureText;
+            featuresList.appendChild(listItem);
+            featureInput.value = ''; // Clear the input field after adding the feature
+        }
+    }
+</script>
+
+
+{% endblock %}

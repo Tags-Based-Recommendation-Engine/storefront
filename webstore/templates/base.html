@@ -83,20 +83,23 @@
     </div>
   </div>
 
-  <div id="profile_panel" class="panel hidden fixed top-20 h-52 w-1/4 right-12 bg-gray-100 border-2 border-black rounded-xl shadow-2xl z-50 flex flex-col items-center justify-center p-2" style="background: rgba(190, 190, 190, 0.7); ; backdrop-filter: blur(10px);">
+  <div id="profile_panel" class="panel hidden fixed top-20 w-1/4 right-12 bg-gray-100 border-2 border-black rounded-xl shadow-2xl z-50 flex flex-col items-center justify-center p-2" style="background: rgba(190, 190, 190, 0.7); ; backdrop-filter: blur(10px);">
     <div class="flex flex-row items-center justify-between w-5/6 border-b-2 border-black">
       <h2 class="text-lg font-semibold">E-Commerce</h2>
       <button id="close_profile_panel" class="rounded-full bg-red-800 text-white w-4 h-4 text-xs border border-black flex items-center justify-center">
         <i class="fas fa-times"></i>
       </button>    
     </div>
-    <div id="profile_inner_panel" class="flex flex-col items-start justify-start h-32 w-5/6 overflow-auto px-2">
+    <div id="profile_inner_panel" class="flex flex-col items-start justify-start w-5/6 overflow-auto px-2">
       <!-- copy this div to add more alerts -->
       <div class="flex flex-col text-sm h-full text-gray-800 p-4 my-2 w-full justify-start">
-        <button id="registerButton" type="button" class="sm:px-10 w-full h-full border border-gray-900 text-gray-100 bg-red-700 rounded-md hover:bg-red-800 -ml-1">
+        <button id="registerButton" type="button" class="sm:px-10 w-full h-14 border border-gray-900 text-gray-100 bg-red-700 rounded-md hover:bg-red-800 -ml-1 my-2">
           Register
         </button>      
-        <button id="log_me_in" type="button" class="text-gray-900 hover:text-gray-800 mt-4 text-left text-sm font-medium">
+        <button id="addProduct" type="button" class="sm:px-10 w-full h-14 border border-gray-900 text-gray-100 bg-red-700 rounded-md hover:bg-red-800 -ml-1 my-2">
+          Add Product
+        </button>      
+        <button id="log_me_in" type="button" class="text-gray-900 hover:text-gray-800 mt-2 text-left text-sm font-medium">
           Login
         </button>
 
@@ -174,6 +177,7 @@
   const registerSeller = document.getElementById('register_seller');
   const registerUser = document.getElementById('register_user');
   const LoginButton = document.getElementById('log_me_in');
+  const addProductButton = document.getElementById('addProduct');
 
   registerButton.addEventListener('click', function() {
     registerModal.classList.remove('hidden');
@@ -181,21 +185,27 @@
 
   function openSellerPage() {
     var url = "{% url 'sellerRegister' %}";
-    window.open(url, '_blank');
+    window.location.href = url;
   }
   
   function openUserPage() {
     var url = "{% url 'userRegister' %}";
-    window.open(url, '_blank');
+    window.location.href = url;
   }
 
   function Login() {
     var url = "{% url 'Login' %}";
-    window.open(url, '_blank');
+    window.location.href = url;
   }
   
+  function addProduct() {
+    var url = "{% url 'ProductPage' %}";
+    window.location.href = url;
+  }
+
   registerSeller.addEventListener("click", openSellerPage);
   registerUser.addEventListener("click", openUserPage);
+  addProductButton.addEventListener("click", addProduct);
   LoginButton.addEventListener("click", Login);
 
 </script>
