@@ -44,18 +44,18 @@
         <h1 class="pb-2">REVIEWS</h1>
         <div class="swiper-container">
             <div class="swiper-wrapper flex items-center justify-start ">
-                <!-- Add more swiper-slide elements for additional cards -->
+                <!-- Add more swiper-slide elements for additional cards --> {% for review in reviews %}
                 <div class="swiper-slide">
                     <div class="w-full flex items-center justify-center">
                         <div class="card bg-gray-300 w-4/5 h-auto rounded-3xl flex flex-col justify-center items-start shadow-xl border border-black pb-4 hover:shadow-2xl transition duration-300 ease-in-out">
                             <div class="w-full h-1/4 p-6 pb-0 flex flex-row items-center justify-between">
-                                <h1 class="text-gray-800 font-bold text-4xl">Good</h1>
+                                <h1 class="text-gray-800 font-bold text-4xl">{{review.title}}</h1>
                                 <div class="w-full flex flex-row items-center justify-end">
                                     <h1 class="text-gray-800 font-bold text-md mr-2">
-                                        <span class="font-normal"> JOHN DOE </span>
+                                        <span class="font-normal"> {{review.reviewer.first_name|upper}} {{review.reviewer.last_name|upper}} </span>
                                     </h1>
                                     <div class="w-6 h-6 border border-gray-600 rounded-full overflow-hidden">
-                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ_6tGFl66sY3Sju9jFJbzc6gLVePONOTwwviPzuMFIA&s" alt="Image 3" class="w-full h-full object-cover rounded-md">
+                                        <img src="{{review.reviewer.pfp.url}}" alt="Image 3" class="w-full h-full object-cover rounded-md">
                                     </div>  
                                 </div>
                             </div>                            
@@ -70,37 +70,15 @@
                                     <div class="text-4xl text-yellow-800">
                                         ★★★
                                     </div>
-                                    <p class="font-light text-md mt-4 pr-4">I LIKED THE DSADSAD I LIKED THE DSADSADI LIKEDI LIKED THE DSADSAD I LIKED THE DSADSADI LIKEDI LIKED THE DSADSAD I LIKED THE DSADSADI LIKEDI LIKED THE DSADSAD I LIKED THE DSADSADI LIKEDI LIKED THE DSADSAD I LIKED THE DSADSADI LIKEDI LIKED THE DSADSAD I LIKED THE DSADSADI LIKED THE DSADSADI LIKED THE DSADSADI LIKED THE DSADSAD</p>
+                                    <p class="font-light text-md mt-4 pr-4">{{review.text}}</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                {% endfor %}
                 <!-- Add more swiper-slide elements for additional cards -->
-                <div class="swiper-slide">
-                    <div class="w-full flex items-center justify-center">
-                        <div class="card bg-gray-300 w-4/5 h-auto rounded-3xl flex flex-col justify-center items-start shadow-xl border border-black pb-4 hover:shadow-2xl transition duration-300 ease-in-out">
-                            <div class="w-full p-6 pb-0 flex flex-col items-left justify-between">
-                                <h1 class="text-gray-800 font-bold text-4xl">Good</h1>
-                                <div class="text-4xl text-yellow-800 mt-4">
-                                    ★★★★
-                                </div>
-                            </div>
-                            <div class="p-6 text-justify">
-                                <!--HONARARY JOHN DOE'S DIV-->
-                                <div class="w-full flex flex-row items-center">
-                                    <div class="w-6 h-6 border border-gray-600 rounded-full overflow-hidden">
-                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ_6tGFl66sY3Sju9jFJbzc6gLVePONOTwwviPzuMFIA&s" alt="Image 3" class="w-full h-full object-cover rounded-md">
-                                    </div>     
-                                    <h1 class="text-gray-800 font-bold text-md ml-2 ">
-                                        <span class="font-normal"> JOHN DOE </span>
-                                    </h1>
-                                </div>
-                                <p class="font-light text-md mt-4 pr-4">I LIKED THE DSADSAD I LIKED THE DSADSADI LIKEDI LIKED THE DSADSAD I LIKED THE DSADSADI LIKEDI LIKED THE DSADSAD I LIKED THE DSADSADI LIKEDI LIKED THE DSADSAD I LIKED THE DSADSADI LIKEDI LIKED THE DSADSAD I LIKED THE DSADSADI LIKEDI LIKED THE DSADSAD I LIKED THE DSADSADI LIKED THE DSADSADI LIKED THE DSADSADI LIKED THE DSADSAD </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
                 
                 <!-- Add more swiper-slide elements for additional cards -->
             </div>
