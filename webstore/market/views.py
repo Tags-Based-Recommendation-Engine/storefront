@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect
 from django.contrib.auth import login, logout , authenticate
 from django.contrib.auth.decorators import login_required
 from storefront.models import Product, Category, Listing, Product_Images
-from .models import Review
+from .models import Review, CartItem
 from django.db.models import Q
 
 
@@ -51,13 +51,23 @@ def index(request):
 def cart(request):
     return render(request, 'market/cart.html')
 
+@login_required
 def product(request, slug):
     product = Listing.objects.get(slug=slug)
     prod = product.product
     imgs = Product_Images.objects.filter(product=prod)
 
     reviews = Review.objects.filter(listing=product)
-    listings =  Listing.objects.exclude(id=product.id).order_by('?')[:4]   # Get 4 random related
+    listings =  Listing.objects.exclude(id=product.id).order_by('?')[:4]
+    
+    if request.method == 'POST':
+        CartItem.objects.create(
+            customer = request.user,
+            product = product
+
+        )
+        return redirect('cart')
+           # Get 4 random related
     context = {
         'product':product,
         'reviews':reviews,
