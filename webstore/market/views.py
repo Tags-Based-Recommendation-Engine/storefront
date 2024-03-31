@@ -22,6 +22,9 @@ def sellerRegister(request):
 def userRegister(request):
     return render(request, 'registeration/user.html')
 
+def Login(request):
+    return render(request, 'registeration/login.html')
+
 @login_required(login_url='login')
 def logoutUser(request):
     logout(request)
