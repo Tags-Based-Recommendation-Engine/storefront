@@ -6,7 +6,7 @@
     <div class="w-4/5 flex flex-col justify-center items-center">
         <div class="search-result mt-32 flex flex-col w-full">
             <div class="result-title border-b">
-                <h4 class="text-base font-light">RESULT FOR PAINKILLER</h4>
+                <h4 class="text-base font-light">RESULT FOR {{query}}</h4>
             </div>
             
             <div class="category-one flex flex-col items-start justify-center py-4">
@@ -14,10 +14,11 @@
                     <div>
                         <div class="wrapper overflow-x-auto items-center w-full items-start flex flex-row py-4 flex-shrink-0">
                         <!-- Card 1 -->
+                        {% for l in product %}
                          <div class="w-64 rounded-lg shadow-xl border border-gray-400 mr-4 flex-shrink-0">
                             <div class="p-4 shadow-xl transition duration-300 ease-in-out transform hover:shadow-2xl hover:border border-gray-900">
                                 <div class="w-54 h-56 rounded-lg overflow-hidden">
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Sample_abc.jpg" alt="Product Image" class="w-full h-full object-cover">
+                                    <img src="{{l.product.img.url}}">
                                 </div>              
                                 <h2 class="text-lg font-semibold pt-2">BALLONS</h2>
                                 <div class="flex items-center pt-2">
@@ -26,11 +27,12 @@
                                         ★★★★★
                                     </div>
                                 </div>
-                                <p class="text-sm text-gray-700 pt-1">Brand Name</p>
-                                <p class="text-lg font-semibold pt-1">$1000.22</p>
+                                <p class="text-sm text-gray-700 pt-1">{{l.product.brand_name}}</p>
+                                <p class="text-lg font-semibold pt-1">${{l.current_price}}</p>
                                 <p class="pt-2 text-sm font-normal">Lol why do u want a balloon when u can buy a helicopter.</p>
                             </div>
                         </div> 
+                        {% endfor %}
                         <!-- Card 2 -->
                         <div class="flex justify-center items-center flex-shrink-0 w-64 rounded-lg">
                             <div class="p-4 h-full flex">

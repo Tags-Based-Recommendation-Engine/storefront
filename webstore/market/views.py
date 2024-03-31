@@ -1,20 +1,49 @@
 from django.shortcuts import render, redirect
 from django.contrib.auth import login, logout , authenticate
 from django.contrib.auth.decorators import login_required
-from storefront.models import Product, Category
+from storefront.models import Product, Category, Listing
+from django.db.models import Q
 
+
+def search(request, query):
+    # Split the query into individual words
+    search_terms = query.split()
+
+    # Initialize an empty queryset to store the results
+    results = Listing.objects.none()
+
+    # Iterate over each word in the search query and filter the Listing queryset
+    for term in search_terms:
+        # Filter listings by matching name field
+        listing_matches = Listing.objects.filter(
+            Q(name__icontains=term)
+        )
+        # Add the matching listings to the results queryset
+        results |= listing_matches
+
+    # Return the final queryset containing all matching listings
+    context = {
+        'product': results.distinct(),
+        'query'  : query,
+    }
+
+    # Return the final queryset containing all matching products
+    return render(request, 'market/search.html', context)
 
 def index(request):
-    product = Product.objects.all()
-    Catagory = Category.objects.all()
+    products = Product.objects.all()
+    categories = Category.objects.all()
+
+    if request.method == 'POST':
+        search_text = request.POST.get('searchtext')
+        return redirect('search', query=search_text)  # Redirect to the search view with the search query
+
     context = {
-        'product':product,
-        'catagory' : Catagory
+        'products': products,
+        'categories': categories
     }
     return render(request, 'market/index.html', context)
 
-def search(request):
-    return render(request, 'market/search.html')
 
 def cart(request):
     return render(request, 'market/cart.html')
