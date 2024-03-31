@@ -23,19 +23,20 @@
         <a href="{% url 'index' %}"><h1 class="logo text-6xl pb-2 text-gray-950">Logo</h1></a>
       </div>
 
-      <div class="flex-1 flex flex-row h-full justify-center items-center">
+      <div class="flex flex-row h-full justify-center items-center">
         <select id="selectOption" class="flex-2 rounded-tl-full rounded-bl-full rounded-md rounded-r-md p-2 outline-none w-36 text-gray-950 bg-transparent border border-gray-900 placeholder-gray-900 hover:bg-gray-300 ml-8 mr-1 pl-6" style="height: 2.5rem;">
             <option value="0">---</option>
-            <option value="1">OPTION</option>
+            {% for cat in catagory %}
+            <option value="1">{{cat.name}}</option>
+            {% endfor%}
         </select>
-
-        <input type="text" placeholder="Search..." class="flex-1 p-2 outline-none w-36 text-gray-950 bg-transparent border border-gray-900 border-r-0 rounded-none rounded-r-md placeholder-gray-900 hover:bg-gray-300 rounded-tr-none rounded-br-none pl-2" style="height: 2.5rem;">
-        <button id="searchButton" class="rounded-full p-1 border border-gray-900 border-l-0 rounded-tl-none rounded-bl-none hover:bg-gray-300 mr-72 flex justify-center items-center pr-4" style="height: 2.5rem;">
-          <span class="material-symbols-outlined">
-              search
-          </span>
-          <a href="{% url 'search' %}"></a>
-        </button>  
+      <form method="POST" action="{% url 'index' %}" class="w-1/3 flex">
+          {% csrf_token %}
+          <input type="text" placeholder="Search..." name="searchtext" class="flex-1 p-2 outline-none w-36 text-gray-950 bg-transparent border border-gray-900 border-r-0 rounded-none rounded-r-md placeholder-gray-900 hover:bg-gray-300 rounded-tr-none rounded-br-none pl-2" style="height: 2.5rem;">
+          <button id="searchButton" type="submit" class="rounded-full p-1 border border-gray-900 border-l-0 rounded-tl-none rounded-bl-none hover:bg-gray-300 flex justify-center items-center pr-4" style="height: 2.5rem;">
+              <span class="material-symbols-outlined">search</span>
+          </button>  
+      </form>
     </div>
     
       <div class="header-links h-full w-48 ml-auto flex items-center">

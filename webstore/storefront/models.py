@@ -78,6 +78,7 @@ class Listing(models.Model):
     inventory = models.IntegerField(default=0)
     min_price = models.DecimalField(max_digits=7, decimal_places=2)
     max_price = models.DecimalField(max_digits=7, decimal_places=2)
+    current_price = models.DecimalField(max_digits=7, decimal_places=2)
     rating = models.PositiveIntegerField(null=False, blank=False, default=2.5)
 
     strategy = models.FloatField(default=0.0)
