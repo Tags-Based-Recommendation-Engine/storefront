@@ -67,10 +67,4 @@ def sellerProfile(request):
     
 
 
-
-
-
-
-
-
 # Create your views here.

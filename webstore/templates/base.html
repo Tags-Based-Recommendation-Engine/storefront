@@ -55,7 +55,8 @@
             <span class="absolute bottom-0 right-1 inline-flex items-center justify-center w-4 h-4 bg-red-800 text-white rounded-full text-xs">4</span>
           </button>         
         </div>
-        <button class="profile flex items-center justify-center pl-2 text-4xl">
+
+        <button id="show_profile_panel" class="profile flex items-center justify-center pl-2 text-4xl">
           <svg fill="none" height="42" viewBox="0 0 24 24" width="42" xmlns="http://www.w3.org/2000/svg"><g fill="#292d32"><path d="m12 22.01c5.5228 0 10-4.4771 10-10 0-5.52284-4.4772-9.99999-10-9.99999-5.52285 0-10 4.47715-10 9.99999 0 5.5229 4.47715 10 10 10z" opacity=".4"/><path d="m12 6.93994c-2.07 0-3.75 1.68-3.75 3.74996 0 2.03 1.59 3.68 3.7 3.74h.09.07.02c2.02-.07 3.61-1.71 3.62-3.74 0-2.06996-1.68-3.74996-3.75-3.74996z"/><path d="m18.7807 19.36c-1.78 1.64-4.16 2.65-6.78 2.65s-5-1.01-6.78-2.65c.24-.91.89-1.74 1.84-2.38 2.73-1.82 7.17-1.82 9.88 0 .96.64 1.6 1.47 1.84 2.38z"/></g></svg>
         </button>
       </div>
@@ -81,6 +82,39 @@
       </div>
     </div>
   </div>
+
+  <div id="profile_panel" class="panel hidden fixed top-20 h-52 w-1/4 right-12 bg-gray-100 border-2 border-black rounded-xl shadow-2xl z-50 flex flex-col items-center justify-center p-2" style="background: rgba(190, 190, 190, 0.7); ; backdrop-filter: blur(10px);">
+    <div class="flex flex-row items-center justify-between w-5/6 border-b-2 border-black">
+      <h2 class="text-lg font-semibold">E-Commerce</h2>
+      <button id="close_profile_panel" class="rounded-full bg-red-800 text-white w-4 h-4 text-xs border border-black flex items-center justify-center">
+        <i class="fas fa-times"></i>
+      </button>    
+    </div>
+    <div id="profile_inner_panel" class="flex flex-col items-start justify-start h-32 w-5/6 overflow-auto px-2">
+      <!-- copy this div to add more alerts -->
+      <div class="flex flex-col text-sm h-full text-gray-800 p-4 my-2 w-full justify-start">
+        <button id="registerButton" type="button" class="sm:px-10 w-full h-full border border-gray-900 text-gray-100 bg-red-700 rounded-md hover:bg-red-800 -ml-1">
+          Register
+        </button>      
+        <button type="button" class="text-gray-900 hover:text-gray-800 mt-4 text-left text-sm font-medium">
+          Login
+        </button>
+
+        <div id="registerModal" class="hidden fixed inset-0 z-10 overflow-y-auto flex items-center justify-center">
+          <div class="fixed inset-0 bg-gray-800 opacity-50 "></div> 
+          <div class="bg-gray-200 p-8 rounded-md shadow-lg backdrop-filter backdrop-blur-lg">
+            <p class="mb-4 text-lg font-semibold text-gray-800">Register as:</p>
+            <button class="w-full mb-2 bg-red-700 hover:bg-red-800 text-white font-bold py-2 px-4 rounded-md">User</button>
+            <button id="register_seller" class="w-full bg-red-700 hover:bg-red-800 text-white font-bold py-2 px-4 rounded-md">Seller</button>
+          </div>
+        </div>
+        
+              
+
+      </div>            
+    </div>
+  </div>
+  
 
 
   {% block content %}
@@ -133,26 +167,72 @@
 
   {% endblock %}
 
-  <script>
-    // Get the notification button and notification panel
-    const notificationButton = document.getElementById('show_notification_panel');
-    const notificationPanel = document.getElementById('notification_panel');
+<script>
+  const registerButton = document.getElementById('registerButton');
+  const registerModal = document.getElementById('registerModal');
+  const profileInnerPanel = document.getElementById('profile_panel');
+  const registerSeller = document.getElementById('register_seller');
 
-    // Add click event listener to the notification button
-    notificationButton.addEventListener('click', function() {
-      // Toggle the hidden class to show/hide the notification panel
-      notificationPanel.classList.toggle('hidden');
-    });
+  registerButton.addEventListener('click', function() {
+    registerModal.classList.remove('hidden');
+  });
 
-    // Get the close button for the notification panel
-    const closeButton = document.getElementById('close_notification_panel');
+  function openSellerPage() {
+    var url = "{% url 'sellerRegister' %}";
+    window.open(url, '_blank');
+  }
 
-    // Add click event listener to the close button
-    closeButton.addEventListener('click', function() {
-      // Hide the notification panel
-      notificationPanel.classList.add('hidden');
-    });
-  </script>
+  registerSeller.addEventListener("click", openSellerPage);
+
+</script>
+  
+
+<script>
+  // Get the notification button and notification panel
+  const notificationButton = document.getElementById('show_notification_panel');
+  const notificationPanel = document.getElementById('notification_panel');
+
+  // Add click event listener to the notification button
+  notificationButton.addEventListener('click', function() {
+    // Toggle the hidden class to show/hide the notification panel
+    notificationPanel.classList.toggle('hidden');
+    profilePanel.classList.add('hidden');
+    registerModal.classList.add('hidden');
+  });
+  
+  // Get the close button for the notification panel
+  const closeButton = document.getElementById('close_notification_panel');
+  
+  // Add click event listener to the close button
+  closeButton.addEventListener('click', function() {
+    // Hide the notification panel
+    notificationPanel.classList.add('hidden');
+  });
+</script>
+
+<script>
+  // Get the notification button and notification panel
+  const profileButton = document.getElementById('show_profile_panel');
+  const profilePanel = document.getElementById('profile_panel');
+  
+  // Add click event listener to the notification button
+  profileButton.addEventListener('click', function() {
+    // Toggle the hidden class to show/hide the notification panel
+    profilePanel.classList.toggle('hidden');
+    notificationPanel.classList.add('hidden');
+    registerModal.classList.add('hidden');
+  });
+  
+
+  // Get the close button for the notification panel
+  const closeProfilePanel = document.getElementById('close_profile_panel');
+
+  // Add click event listener to the close button
+  closeProfilePanel.addEventListener('click', function() {
+    // Hide the notification panel
+    profilePanel.classList.add('hidden');
+  });
+</script>
 
 <script>
   let lastScrollTop = 0;
@@ -167,6 +247,7 @@
       header.style.transition = "transform 0.3s ease"; 
       // Hide notification panel when header is hidden
       notificationPanel.classList.add('hidden');
+      profilePanel.classList.add('hidden');
     } else if (currentScroll < lastScrollTop && currentScroll < scrollThreshold - headerHeight) {
       header.style.transform = "translateY(0)";
       header.style.transition = "transform 0.3s ease"; 
