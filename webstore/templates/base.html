@@ -176,10 +176,7 @@
     lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
   }, false);
 
-  document.getElementById("searchButton").addEventListener("click", function() {
-    // Redirect to the custom URL
-    window.location.href = "{% url 'search' %}";
-  });
+
 
   // Add an event listener for the transitionend event on the header
   header.addEventListener('transitionend', function(event) {
