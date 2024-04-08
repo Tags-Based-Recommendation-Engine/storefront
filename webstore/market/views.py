@@ -47,7 +47,7 @@ def index(request):
     }
     return render(request, 'market/index.html', context)
 
-
+@login_required
 def cart(request):
     cartitems = CartItem.objects.filter(customer=request.user)
     
