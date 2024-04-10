@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect
 from django.contrib.auth import login, logout , authenticate
 from django.contrib.auth.decorators import login_required
 from storefront.models import Product, Category, Listing, Product_Images
-from .models import Review, CartItem
+from .models import Review, CartItem, Interaction
 from django.db.models import Q
 
 
@@ -69,6 +69,12 @@ def product(request, slug):
     prod = product.product
     imgs = Product_Images.objects.filter(product=prod)
 
+    Interaction.objects.create(
+        User=request.user,
+        listing=product,
+        action='clicked'
+    )
+
     reviews = Review.objects.filter(listing=product)
     listings =  Listing.objects.exclude(id=product.id).order_by('?')[:4]
     
@@ -78,6 +84,11 @@ def product(request, slug):
             product = product
 
         )
+        Interaction.objects.create(
+        User=request.user,
+        listing=product,
+        action='Added to cart'
+    )
         return redirect('cart')
            # Get 4 random related
     context = {
