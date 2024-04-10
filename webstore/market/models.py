@@ -16,6 +16,14 @@ class Review(models.Model):
 
     def __str__(self):
         return f"{self.listing} {self.reviewer}"
+    
+
+class Interaction(models.Model):
+    listing = models.ForeignKey(Listing, related_name='interactions', on_delete=models.CASCADE)
+    User = models.ForeignKey(User, related_name='user', on_delete=models.CASCADE)
+
+    action = models.CharField(max_length=30)
+    timestamp = models.DateTimeField(auto_now_add=True)
 
 
 
