@@ -3,10 +3,12 @@ from django.contrib import messages
 from django.contrib.auth import login, authenticate
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.hashers import make_password
-from .models import User, Seller
+from .models import User, Seller, Listing
 from market.views import index
 from plotly.offline import plot
 import plotly.graph_objs as go
+from django.db.models import Count  # Import Count
+
 
 
 def registerUSeller(request):
@@ -70,39 +72,21 @@ def sellerProfile(request):
 
 
 
-def update_user_pie():
-    # Dummy data for users
-    users = [{'username': 'User A', 'user_count': 5}, {'username': 'User B', 'user_count': 3}, {'username': 'User C', 'user_count': 7}]
-
-    # Create data trace for the pie chart
-    data = [
-        go.Pie(
-            labels=[user['username'] for user in users],  # Labels: usernames
-            values=[user['user_count'] for user in users]  # Values: count of each user
-        )
-    ]
-
-    # Define layout for the pie chart
-    layout = go.Layout(title='User Distribution')
-
-    # Create figure
-    fig = go.Figure(data=data, layout=layout)
-
-    # Generate HTML for the figure
-    user_pie_html = plot(fig, output_type='div')
-
-    return user_pie_html
 
 def update_seller_bar():
-    # Dummy data for sellers
-    sellers = [{'store_name': 'Store A'}, {'store_name': 'Store B'}, {'store_name': 'Store C'}]
-    seller_count = len(sellers)
+    # Assuming you have a Seller model with a 'store_name' field
+    # Retrieve the actual seller data from the database
+    sellers = Seller.objects.all()
+
+    # Extract store names and counts
+    store_names = [seller.store_name for seller in sellers]
+    seller_counts = [10] * len(sellers)  # You'll need to calculate the actual seller count
 
     # Create data trace for the bar chart
     data = [
         go.Bar(
-            x=[seller['store_name'] for seller in sellers],  # x-axis: store names
-            y=[seller_count] * seller_count  # y-axis: seller count repeated for each seller
+            x=store_names,  # x-axis: store names
+            y=seller_counts  # y-axis: seller count
         )
     ]
 
@@ -118,13 +102,34 @@ def update_seller_bar():
     return seller_bar_html
 
 
+def generate_pie_chart_for_seller(seller_id):
+    # Query to get total listings for the seller
+    total_listings = Listing.objects.filter(seller=seller_id).count()
+
+    # Query to get count of listings for each category
+    category_counts = Listing.objects.filter(seller_id=seller_id).values('product__category__name').annotate(count=Count('id'))
+
+    # Prepare data for the pie chart
+    categories = [item['product__category__name'] for item in category_counts]
+    counts = [item['count'] for item in category_counts]
+
+    # Create the pie chart
+    fig = go.Figure(data=[go.Pie(labels=categories, values=counts)])
+
+    # Update layout
+
+
+    # Show the pie chart
+    return fig.to_html(full_html=False, include_plotlyjs=False)
+
 def Dashboard(request, *args, **kwargs):
+        users = User.objects.all()
+        prod_pie = generate_pie_chart_for_seller(request.user.seller)
         # Update each graph
-        user_pie_html = update_user_pie()
         seller_bar_html = update_seller_bar()
 
         # Render the HTML template with the graph HTML content
-        return render(request, 'storefront/plotly-graphs.html', { 'user_pie_html': user_pie_html, 'seller_bar_html': seller_bar_html})
+        return render(request, 'storefront/plotly-graphs.html', {'prod_pie': prod_pie, 'seller_bar_html': seller_bar_html})
     
 
 
