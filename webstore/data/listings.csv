@@ -1,0 +1,2445 @@
+name,inventory,min_price,max_price,current_price,rating,strategy,slug,product(fk)
+"Samsung 55"" 4K Smart TV",294,42500,50500,46500,2,2,samsung__k_smart_tv-0,3
+"Samsung 55"" 4K Smart TV",196,42500,56000,49250,3,0,samsung__k_smart_tv-1,4
+"Samsung 55"" 4K Smart TV",79,44000,56500,50250,4,1,samsung__k_smart_tv-2,5
+"Samsung 55"" 4K Smart TV",498,44000,50500,47250,1,4,samsung__k_smart_tv-3,6
+"Samsung 55"" 4K Smart TV",805,43500,53500,48500,3,5,samsung__k_smart_tv-4,7
+"Samsung 55"" 4K Smart TV",749,43000,51000,47000,2,5,samsung__k_smart_tv-5,8
+"Samsung 55"" 4K Smart TV",319,43000,57000,50000,4,0,samsung__k_smart_tv-6,9
+"Samsung 55"" 4K Smart TV",83,45500,52500,49000,3,3,samsung__k_smart_tv-7,10
+"Samsung 55"" 4K Smart TV",100,47500,55500,51500,3,2,samsung__k_smart_tv-8,11
+"Samsung 55"" 4K Smart TV",546,49500,53000,51250,5,3,samsung__k_smart_tv-9,12
+"Samsung 55"" 4K Smart TV",361,47500,55500,51500,2,0,samsung__k_smart_tv-10,13
+"Samsung 55"" 4K Smart TV",297,48000,55000,51500,5,0,samsung__k_smart_tv-11,14
+"Samsung 55"" 4K Smart TV",948,45500,56500,51000,1,2,samsung__k_smart_tv-12,15
+"Samsung 55"" 4K Smart TV",90,45500,56000,50750,4,4,samsung__k_smart_tv-13,16
+"Samsung 55"" 4K Smart TV",970,45500,55500,50500,1,1,samsung__k_smart_tv-14,17
+"Samsung 55"" 4K Smart TV",791,43000,52500,47750,4,1,samsung__k_smart_tv-15,18
+"Samsung 55"" 4K Smart TV",949,46500,54000,50250,4,5,samsung__k_smart_tv-16,19
+"Samsung 55"" 4K Smart TV",28,43000,55500,49250,1,2,samsung__k_smart_tv-17,20
+"Samsung 55"" 4K Smart TV",761,43000,54500,48750,5,5,samsung__k_smart_tv-18,21
+"Samsung 55"" 4K Smart TV",677,46000,56500,51250,3,1,samsung__k_smart_tv-19,22
+"Samsung 55"" 4K Smart TV",960,46500,51000,48750,2,0,samsung__k_smart_tv-20,23
+"Samsung 55"" 4K Smart TV",847,46000,53000,49500,4,0,samsung__k_smart_tv-21,24
+"Samsung 55"" 4K Smart TV",795,45500,57000,51250,3,4,samsung__k_smart_tv-22,25
+"Samsung 55"" 4K Smart TV",442,42500,57000,49750,1,0,samsung__k_smart_tv-23,26
+"Samsung 55"" 4K Smart TV",734,48500,51000,49750,5,5,samsung__k_smart_tv-24,27
+"Samsung 55"" 4K Smart TV",952,47000,53000,50000,5,0,samsung__k_smart_tv-25,28
+"Samsung 55"" 4K Smart TV",850,46500,56000,51250,1,2,samsung__k_smart_tv-26,29
+"Samsung 55"" 4K Smart TV",560,48000,52500,50250,2,1,samsung__k_smart_tv-27,30
+"LG 65"" OLED 4K Ultra HD TV",901,72000,81000,76500,3,3,lg__oled_k_ultra_hd_tv-0,31
+"LG 65"" OLED 4K Ultra HD TV",654,74250,81000,77625,1,3,lg__oled_k_ultra_hd_tv-1,32
+"LG 65"" OLED 4K Ultra HD TV",772,69750,76500,73125,2,4,lg__oled_k_ultra_hd_tv-2,33
+"LG 65"" OLED 4K Ultra HD TV",851,70500,78000,74250,4,4,lg__oled_k_ultra_hd_tv-3,34
+"LG 65"" OLED 4K Ultra HD TV",477,67500,83250,75375,4,2,lg__oled_k_ultra_hd_tv-4,35
+"LG 65"" OLED 4K Ultra HD TV",632,69750,81000,75375,3,2,lg__oled_k_ultra_hd_tv-5,36
+"LG 65"" OLED 4K Ultra HD TV",820,64500,81750,73125,1,3,lg__oled_k_ultra_hd_tv-6,37
+"LG 65"" OLED 4K Ultra HD TV",200,63750,77250,70500,2,5,lg__oled_k_ultra_hd_tv-7,38
+"LG 65"" OLED 4K Ultra HD TV",423,72750,84750,78750,1,5,lg__oled_k_ultra_hd_tv-8,39
+"LG 65"" OLED 4K Ultra HD TV",830,63750,86250,75000,1,5,lg__oled_k_ultra_hd_tv-9,40
+"LG 65"" OLED 4K Ultra HD TV",186,66000,78750,72375,3,1,lg__oled_k_ultra_hd_tv-10,41
+"LG 65"" OLED 4K Ultra HD TV",501,69750,84750,77250,4,0,lg__oled_k_ultra_hd_tv-11,42
+"LG 65"" OLED 4K Ultra HD TV",843,66750,84750,75750,4,5,lg__oled_k_ultra_hd_tv-12,43
+"LG 65"" OLED 4K Ultra HD TV",577,69750,78000,73875,1,2,lg__oled_k_ultra_hd_tv-13,44
+"LG 65"" OLED 4K Ultra HD TV",943,72750,78750,75750,4,4,lg__oled_k_ultra_hd_tv-14,45
+"LG 65"" OLED 4K Ultra HD TV",73,68250,75750,72000,4,0,lg__oled_k_ultra_hd_tv-15,46
+"LG 65"" OLED 4K Ultra HD TV",248,66000,82500,74250,4,4,lg__oled_k_ultra_hd_tv-16,47
+"LG 65"" OLED 4K Ultra HD TV",787,67500,82500,75000,2,5,lg__oled_k_ultra_hd_tv-17,48
+"LG 65"" OLED 4K Ultra HD TV",305,69000,84750,76875,4,3,lg__oled_k_ultra_hd_tv-18,49
+"LG 65"" OLED 4K Ultra HD TV",706,70500,77250,73875,5,0,lg__oled_k_ultra_hd_tv-19,50
+"LG 65"" OLED 4K Ultra HD TV",627,70500,77250,73875,5,4,lg__oled_k_ultra_hd_tv-20,51
+"LG 65"" OLED 4K Ultra HD TV",402,66750,84750,75750,3,4,lg__oled_k_ultra_hd_tv-21,52
+"LG 65"" OLED 4K Ultra HD TV",842,67500,85500,76500,5,0,lg__oled_k_ultra_hd_tv-22,53
+"LG 65"" OLED 4K Ultra HD TV",683,68250,77250,72750,1,3,lg__oled_k_ultra_hd_tv-23,54
+"Sony 50"" Full HD LED TV",621,36750,40500,38625,3,1,sony__full_hd_led_tv-0,55
+"Sony 50"" Full HD LED TV",43,36000,41250,38625,3,5,sony__full_hd_led_tv-1,56
+"Sony 50"" Full HD LED TV",146,32625,42750,37687,5,4,sony__full_hd_led_tv-2,57
+"Sony 50"" Full HD LED TV",779,33000,41625,37312,4,1,sony__full_hd_led_tv-3,58
+"Sony 50"" Full HD LED TV",221,34125,39000,36562,2,5,sony__full_hd_led_tv-4,59
+"Sony 50"" Full HD LED TV",537,32625,40875,36750,5,1,sony__full_hd_led_tv-5,60
+"Sony 50"" Full HD LED TV",903,34125,37875,36000,5,0,sony__full_hd_led_tv-6,61
+"Sony 50"" Full HD LED TV",791,35625,39375,37500,2,2,sony__full_hd_led_tv-7,62
+"Sony 50"" Full HD LED TV",904,36750,37875,37312,1,3,sony__full_hd_led_tv-8,63
+"Sony 50"" Full HD LED TV",760,33375,42750,38062,3,5,sony__full_hd_led_tv-9,64
+"Sony 50"" Full HD LED TV",996,37125,37875,37500,2,5,sony__full_hd_led_tv-10,65
+"Sony 50"" Full HD LED TV",983,32250,38250,35250,3,0,sony__full_hd_led_tv-11,66
+"Sony 50"" Full HD LED TV",332,37125,41250,39187,2,1,sony__full_hd_led_tv-12,67
+"Sony 50"" Full HD LED TV",126,34875,42375,38625,1,2,sony__full_hd_led_tv-13,68
+"Sony 50"" Full HD LED TV",315,36375,39000,37687,1,5,sony__full_hd_led_tv-14,69
+"Sony 50"" Full HD LED TV",549,36000,38625,37312,5,4,sony__full_hd_led_tv-15,70
+"Sony 50"" Full HD LED TV",56,36750,38625,37687,3,5,sony__full_hd_led_tv-16,71
+"Sony 50"" Full HD LED TV",374,32250,40500,36375,3,0,sony__full_hd_led_tv-17,72
+"Sony 50"" Full HD LED TV",302,36375,41625,39000,2,4,sony__full_hd_led_tv-18,73
+"Sony 50"" Full HD LED TV",593,31875,42750,37312,4,3,sony__full_hd_led_tv-19,74
+"Sony 50"" Full HD LED TV",186,35625,41625,38625,3,3,sony__full_hd_led_tv-20,75
+"Sony 50"" Full HD LED TV",708,31875,40500,36187,3,3,sony__full_hd_led_tv-21,76
+"Sony 50"" Full HD LED TV",424,37125,37875,37500,4,4,sony__full_hd_led_tv-22,77
+"Sony 50"" Full HD LED TV",796,34500,38250,36375,2,2,sony__full_hd_led_tv-23,78
+"Sony 50"" Full HD LED TV",512,35250,39000,37125,1,2,sony__full_hd_led_tv-24,79
+"Sony 50"" Full HD LED TV",955,36750,39000,37875,1,3,sony__full_hd_led_tv-25,80
+"Sony 50"" Full HD LED TV",802,36750,40500,38625,3,4,sony__full_hd_led_tv-26,81
+"Sony 50"" Full HD LED TV",112,33000,41250,37125,3,1,sony__full_hd_led_tv-27,82
+"TCL 43"" Roku Smart TV",816,29063,33125,31094,1,3,tcl__roku_smart_tv-0,83
+"TCL 43"" Roku Smart TV",569,30938,33750,32344,3,0,tcl__roku_smart_tv-1,84
+"TCL 43"" Roku Smart TV",216,29688,31875,30781,1,2,tcl__roku_smart_tv-2,85
+"TCL 43"" Roku Smart TV",472,29063,32187,30625,5,3,tcl__roku_smart_tv-3,86
+"TCL 43"" Roku Smart TV",865,28750,35937,32343,5,4,tcl__roku_smart_tv-4,87
+"TCL 43"" Roku Smart TV",679,29688,33125,31406,5,3,tcl__roku_smart_tv-5,88
+"TCL 43"" Roku Smart TV",44,28125,35000,31562,1,2,tcl__roku_smart_tv-6,89
+"TCL 43"" Roku Smart TV",358,27500,35312,31406,5,2,tcl__roku_smart_tv-7,90
+"TCL 43"" Roku Smart TV",449,30000,32500,31250,2,4,tcl__roku_smart_tv-8,91
+"TCL 43"" Roku Smart TV",288,27188,35625,31406,1,5,tcl__roku_smart_tv-9,92
+"TCL 43"" Roku Smart TV",531,27500,31875,29687,3,3,tcl__roku_smart_tv-10,93
+"TCL 43"" Roku Smart TV",513,29063,34375,31719,4,4,tcl__roku_smart_tv-11,94
+"TCL 43"" Roku Smart TV",976,27813,35000,31406,5,4,tcl__roku_smart_tv-12,95
+"TCL 43"" Roku Smart TV",380,29063,32500,30781,4,1,tcl__roku_smart_tv-13,96
+"TCL 43"" Roku Smart TV",876,30313,34375,32344,1,1,tcl__roku_smart_tv-14,97
+"TCL 43"" Roku Smart TV",205,29063,35937,32500,1,5,tcl__roku_smart_tv-15,98
+"TCL 43"" Roku Smart TV",168,26875,35937,31406,3,3,tcl__roku_smart_tv-16,99
+"TCL 43"" Roku Smart TV",133,29063,33125,31094,3,3,tcl__roku_smart_tv-17,100
+"TCL 43"" Roku Smart TV",885,28438,33125,30781,4,1,tcl__roku_smart_tv-18,101
+"TCL 43"" Roku Smart TV",443,27188,32187,29687,4,5,tcl__roku_smart_tv-19,102
+"TCL 43"" Roku Smart TV",28,26563,35937,31250,2,2,tcl__roku_smart_tv-20,103
+"TCL 43"" Roku Smart TV",177,30625,35937,33281,4,4,tcl__roku_smart_tv-21,104
+"TCL 43"" Roku Smart TV",78,28125,32500,30312,5,2,tcl__roku_smart_tv-22,105
+"TCL 43"" Roku Smart TV",825,30938,35000,32969,3,0,tcl__roku_smart_tv-23,106
+"TCL 43"" Roku Smart TV",662,30625,35937,33281,4,5,tcl__roku_smart_tv-24,107
+"TCL 43"" Roku Smart TV",686,28750,32500,30625,3,1,tcl__roku_smart_tv-25,108
+"TCL 43"" Roku Smart TV",374,30938,32500,31719,4,4,tcl__roku_smart_tv-26,109
+"Vizio 60"" 4K HDR Smart TV",263,52875,62437,57656,3,5,vizio__k_hdr_smart_tv-0,110
+"Vizio 60"" 4K HDR Smart TV",614,49500,64125,56812,1,5,vizio__k_hdr_smart_tv-1,111
+"Vizio 60"" 4K HDR Smart TV",764,50063,57937,54000,4,0,vizio__k_hdr_smart_tv-2,112
+"Vizio 60"" 4K HDR Smart TV",971,52875,64687,58781,4,3,vizio__k_hdr_smart_tv-3,113
+"Vizio 60"" 4K HDR Smart TV",536,54563,63000,58781,1,1,vizio__k_hdr_smart_tv-4,114
+"Vizio 60"" 4K HDR Smart TV",167,52313,61312,56812,5,1,vizio__k_hdr_smart_tv-5,115
+"Vizio 60"" 4K HDR Smart TV",154,55688,59625,57656,3,4,vizio__k_hdr_smart_tv-6,116
+"Vizio 60"" 4K HDR Smart TV",993,52313,60750,56531,4,1,vizio__k_hdr_smart_tv-7,117
+"Vizio 60"" 4K HDR Smart TV",324,53438,59625,56531,5,0,vizio__k_hdr_smart_tv-8,118
+"Vizio 60"" 4K HDR Smart TV",110,54000,63562,58781,3,3,vizio__k_hdr_smart_tv-9,119
+"Vizio 60"" 4K HDR Smart TV",640,50063,64125,57094,1,5,vizio__k_hdr_smart_tv-10,120
+"Vizio 60"" 4K HDR Smart TV",982,51188,59062,55125,5,2,vizio__k_hdr_smart_tv-11,121
+"Vizio 60"" 4K HDR Smart TV",257,52875,59625,56250,2,4,vizio__k_hdr_smart_tv-12,122
+"Vizio 60"" 4K HDR Smart TV",890,50063,60750,55406,1,3,vizio__k_hdr_smart_tv-13,123
+"Vizio 60"" 4K HDR Smart TV",887,53438,57375,55406,5,2,vizio__k_hdr_smart_tv-14,124
+"Vizio 60"" 4K HDR Smart TV",924,47813,59062,53437,5,1,vizio__k_hdr_smart_tv-15,125
+"Vizio 60"" 4K HDR Smart TV",57,55688,57375,56531,4,1,vizio__k_hdr_smart_tv-16,126
+"Vizio 60"" 4K HDR Smart TV",851,52875,63562,58218,1,5,vizio__k_hdr_smart_tv-17,127
+"Vizio 60"" 4K HDR Smart TV",501,50625,59625,55125,4,0,vizio__k_hdr_smart_tv-18,128
+"Vizio 60"" 4K HDR Smart TV",717,54563,56812,55687,3,5,vizio__k_hdr_smart_tv-19,129
+"Vizio 60"" 4K HDR Smart TV",156,47813,56812,52312,5,1,vizio__k_hdr_smart_tv-20,130
+"Vizio 60"" 4K HDR Smart TV",816,55688,59625,57656,5,4,vizio__k_hdr_smart_tv-21,131
+"Vizio 60"" 4K HDR Smart TV",577,50625,59625,55125,3,4,vizio__k_hdr_smart_tv-22,132
+"Vizio 60"" 4K HDR Smart TV",983,47813,57375,52594,5,4,vizio__k_hdr_smart_tv-23,133
+"Vizio 60"" 4K HDR Smart TV",331,54000,63562,58781,2,5,vizio__k_hdr_smart_tv-24,134
+"Vizio 60"" 4K HDR Smart TV",140,48375,61312,54843,1,5,vizio__k_hdr_smart_tv-25,135
+"Hisense 55"" 4K Android TV",694,42500,53500,48000,5,3,hisense__k_android_tv-0,136
+"Hisense 55"" 4K Android TV",995,44500,55500,50000,4,2,hisense__k_android_tv-1,137
+"Hisense 55"" 4K Android TV",68,49000,51500,50250,4,1,hisense__k_android_tv-2,138
+"Hisense 55"" 4K Android TV",58,44000,54000,49000,1,5,hisense__k_android_tv-3,139
+"Hisense 55"" 4K Android TV",861,46500,50500,48500,1,5,hisense__k_android_tv-4,140
+"Hisense 55"" 4K Android TV",635,48000,57500,52750,2,1,hisense__k_android_tv-5,141
+"Hisense 55"" 4K Android TV",658,44000,56000,50000,3,0,hisense__k_android_tv-6,142
+"Hisense 55"" 4K Android TV",48,44500,56500,50500,2,5,hisense__k_android_tv-7,143
+"Hisense 55"" 4K Android TV",127,48000,51500,49750,2,2,hisense__k_android_tv-8,144
+"Hisense 55"" 4K Android TV",360,48000,55500,51750,5,2,hisense__k_android_tv-9,145
+"Hisense 55"" 4K Android TV",824,48500,51500,50000,5,0,hisense__k_android_tv-10,146
+"Hisense 55"" 4K Android TV",821,43000,55500,49250,1,1,hisense__k_android_tv-11,147
+"Hisense 55"" 4K Android TV",573,44000,56500,50250,5,1,hisense__k_android_tv-12,148
+"Hisense 55"" 4K Android TV",58,46000,57000,51500,5,1,hisense__k_android_tv-13,149
+"Hisense 55"" 4K Android TV",342,48500,54000,51250,4,1,hisense__k_android_tv-14,150
+"Hisense 55"" 4K Android TV",53,44000,54000,49000,3,5,hisense__k_android_tv-15,151
+"Hisense 55"" 4K Android TV",705,43000,53000,48000,3,4,hisense__k_android_tv-16,152
+"Hisense 55"" 4K Android TV",491,49500,57000,53250,5,5,hisense__k_android_tv-17,153
+"Hisense 55"" 4K Android TV",561,48500,55000,51750,5,1,hisense__k_android_tv-18,154
+"Hisense 55"" 4K Android TV",518,44000,50500,47250,5,0,hisense__k_android_tv-19,155
+"Hisense 55"" 4K Android TV",994,43000,57500,50250,5,3,hisense__k_android_tv-20,156
+"Hisense 55"" 4K Android TV",803,43500,54000,48750,3,0,hisense__k_android_tv-21,157
+"Philips 70"" 4K HDR TV",103,81375,91875,86625,5,3,philips__k_hdr_tv-0,158
+"Philips 70"" 4K HDR TV",543,82250,88375,85312,4,3,philips__k_hdr_tv-1,159
+"Philips 70"" 4K HDR TV",789,77875,99750,88812,1,1,philips__k_hdr_tv-2,160
+"Philips 70"" 4K HDR TV",600,77000,92750,84875,1,3,philips__k_hdr_tv-3,161
+"Philips 70"" 4K HDR TV",531,81375,91000,86187,2,5,philips__k_hdr_tv-4,162
+"Philips 70"" 4K HDR TV",289,81375,98000,89687,1,1,philips__k_hdr_tv-5,163
+"Philips 70"" 4K HDR TV",297,79625,88375,84000,5,3,philips__k_hdr_tv-6,164
+"Philips 70"" 4K HDR TV",328,79625,89250,84437,4,5,philips__k_hdr_tv-7,165
+"Philips 70"" 4K HDR TV",412,80500,94500,87500,4,1,philips__k_hdr_tv-8,166
+"Philips 70"" 4K HDR TV",500,78750,88375,83562,1,4,philips__k_hdr_tv-9,167
+"Philips 70"" 4K HDR TV",511,85750,96250,91000,1,4,philips__k_hdr_tv-10,168
+"Philips 70"" 4K HDR TV",965,86625,90125,88375,4,4,philips__k_hdr_tv-11,169
+"Philips 70"" 4K HDR TV",653,77000,89250,83125,4,2,philips__k_hdr_tv-12,170
+"Philips 70"" 4K HDR TV",76,86625,94500,90562,2,2,philips__k_hdr_tv-13,171
+"Philips 70"" 4K HDR TV",29,82250,95375,88812,4,0,philips__k_hdr_tv-14,172
+"Philips 70"" 4K HDR TV",752,81375,99750,90562,5,3,philips__k_hdr_tv-15,173
+"Philips 70"" 4K HDR TV",674,75250,99750,87500,4,4,philips__k_hdr_tv-16,174
+"Philips 70"" 4K HDR TV",866,76125,98875,87500,4,1,philips__k_hdr_tv-17,175
+"Philips 70"" 4K HDR TV",245,80500,92750,86625,5,5,philips__k_hdr_tv-18,176
+"Philips 70"" 4K HDR TV",862,82250,88375,85312,1,2,philips__k_hdr_tv-19,177
+"Philips 70"" 4K HDR TV",450,78750,95375,87062,1,0,philips__k_hdr_tv-20,178
+"Philips 70"" 4K HDR TV",812,74375,99750,87062,5,4,philips__k_hdr_tv-21,179
+"Panasonic 65"" 4K Ultra HD TV",130,66750,82500,74625,5,5,panasonic__k_ultra_hd_tv-0,180
+"Panasonic 65"" 4K Ultra HD TV",825,68250,84750,76500,5,3,panasonic__k_ultra_hd_tv-1,181
+"Panasonic 65"" 4K Ultra HD TV",748,72000,81750,76875,3,2,panasonic__k_ultra_hd_tv-2,182
+"Panasonic 65"" 4K Ultra HD TV",816,64500,81750,73125,4,0,panasonic__k_ultra_hd_tv-3,183
+"Panasonic 65"" 4K Ultra HD TV",125,68250,84000,76125,1,4,panasonic__k_ultra_hd_tv-4,184
+"Panasonic 65"" 4K Ultra HD TV",664,63750,78750,71250,3,5,panasonic__k_ultra_hd_tv-5,185
+"Panasonic 65"" 4K Ultra HD TV",520,64500,75750,70125,2,5,panasonic__k_ultra_hd_tv-6,186
+"Panasonic 65"" 4K Ultra HD TV",963,66750,76500,71625,5,4,panasonic__k_ultra_hd_tv-7,187
+"Panasonic 65"" 4K Ultra HD TV",396,71250,79500,75375,4,5,panasonic__k_ultra_hd_tv-8,188
+"Panasonic 65"" 4K Ultra HD TV",42,70500,85500,78000,1,3,panasonic__k_ultra_hd_tv-9,189
+"Panasonic 65"" 4K Ultra HD TV",685,67500,79500,73500,1,0,panasonic__k_ultra_hd_tv-10,190
+"Panasonic 65"" 4K Ultra HD TV",584,71250,75750,73500,3,3,panasonic__k_ultra_hd_tv-11,191
+"Panasonic 65"" 4K Ultra HD TV",743,72750,81750,77250,2,2,panasonic__k_ultra_hd_tv-12,192
+"Panasonic 65"" 4K Ultra HD TV",910,68250,78000,73125,3,4,panasonic__k_ultra_hd_tv-13,193
+"Panasonic 65"" 4K Ultra HD TV",992,69750,75750,72750,2,2,panasonic__k_ultra_hd_tv-14,194
+"Panasonic 65"" 4K Ultra HD TV",734,71250,75750,73500,4,4,panasonic__k_ultra_hd_tv-15,195
+"Panasonic 65"" 4K Ultra HD TV",263,68250,84000,76125,1,2,panasonic__k_ultra_hd_tv-16,196
+"Panasonic 65"" 4K Ultra HD TV",655,68250,85500,76875,5,3,panasonic__k_ultra_hd_tv-17,197
+"Panasonic 65"" 4K Ultra HD TV",853,73500,76500,75000,3,5,panasonic__k_ultra_hd_tv-18,198
+"Panasonic 65"" 4K Ultra HD TV",58,68250,76500,72375,1,4,panasonic__k_ultra_hd_tv-19,199
+"Panasonic 65"" 4K Ultra HD TV",335,63750,84750,74250,4,4,panasonic__k_ultra_hd_tv-20,200
+"Sharp 50"" 4K Android TV",455,38500,44625,41562,4,1,sharp__k_android_tv-0,201
+"Sharp 50"" 4K Android TV",946,39375,46812,43093,5,2,sharp__k_android_tv-1,202
+"Sharp 50"" 4K Android TV",534,42438,49437,45937,5,4,sharp__k_android_tv-2,203
+"Sharp 50"" 4K Android TV",859,39813,49437,44625,2,3,sharp__k_android_tv-3,204
+"Sharp 50"" 4K Android TV",271,39375,47250,43312,3,2,sharp__k_android_tv-4,205
+"Sharp 50"" 4K Android TV",301,38500,45937,42218,4,4,sharp__k_android_tv-5,206
+"Sharp 50"" 4K Android TV",454,42000,45937,43968,5,0,sharp__k_android_tv-6,207
+"Sharp 50"" 4K Android TV",393,40250,45062,42656,3,0,sharp__k_android_tv-7,208
+"Sharp 50"" 4K Android TV",421,39813,45500,42656,1,1,sharp__k_android_tv-8,209
+"Sharp 50"" 4K Android TV",20,41563,46812,44187,1,3,sharp__k_android_tv-9,210
+"Sharp 50"" 4K Android TV",837,41125,44625,42875,4,2,sharp__k_android_tv-10,211
+"Sharp 50"" 4K Android TV",565,37625,50312,43968,4,1,sharp__k_android_tv-11,212
+"Sharp 50"" 4K Android TV",829,38063,47250,42656,3,3,sharp__k_android_tv-12,213
+"Sharp 50"" 4K Android TV",326,42438,44187,43312,2,2,sharp__k_android_tv-13,214
+"Sharp 50"" 4K Android TV",468,38063,49000,43531,5,2,sharp__k_android_tv-14,215
+"Sharp 50"" 4K Android TV",879,39375,50312,44843,3,5,sharp__k_android_tv-15,216
+"Sharp 50"" 4K Android TV",971,38938,44625,41781,5,3,sharp__k_android_tv-16,217
+"Sharp 50"" 4K Android TV",92,40688,49000,44844,2,4,sharp__k_android_tv-17,218
+"Sharp 50"" 4K Android TV",135,42875,48125,45500,2,1,sharp__k_android_tv-18,219
+"Sharp 50"" 4K Android TV",128,37188,46375,41781,4,5,sharp__k_android_tv-19,220
+"Toshiba 55"" Fire TV Edition",475,47500,54500,51000,3,5,toshiba__fire_tv_edition-0,221
+"Toshiba 55"" Fire TV Edition",188,46500,56000,51250,2,0,toshiba__fire_tv_edition-1,222
+"Toshiba 55"" Fire TV Edition",404,43500,51500,47500,4,5,toshiba__fire_tv_edition-2,223
+"Toshiba 55"" Fire TV Edition",881,43000,54000,48500,4,2,toshiba__fire_tv_edition-3,224
+"Toshiba 55"" Fire TV Edition",615,44000,54000,49000,3,0,toshiba__fire_tv_edition-4,225
+"Toshiba 55"" Fire TV Edition",896,46500,57000,51750,1,0,toshiba__fire_tv_edition-5,226
+"Toshiba 55"" Fire TV Edition",583,48500,52000,50250,3,1,toshiba__fire_tv_edition-6,227
+"Toshiba 55"" Fire TV Edition",972,49000,52500,50750,3,4,toshiba__fire_tv_edition-7,228
+"Toshiba 55"" Fire TV Edition",985,43000,55000,49000,4,5,toshiba__fire_tv_edition-8,229
+"Toshiba 55"" Fire TV Edition",837,49000,55500,52250,3,0,toshiba__fire_tv_edition-9,230
+"Toshiba 55"" Fire TV Edition",671,45500,52500,49000,1,3,toshiba__fire_tv_edition-10,231
+"Toshiba 55"" Fire TV Edition",753,48500,54500,51500,1,0,toshiba__fire_tv_edition-11,232
+"Toshiba 55"" Fire TV Edition",171,49000,57500,53250,2,3,toshiba__fire_tv_edition-12,233
+"Toshiba 55"" Fire TV Edition",761,45500,52500,49000,2,5,toshiba__fire_tv_edition-13,234
+"Toshiba 55"" Fire TV Edition",490,45000,57000,51000,2,3,toshiba__fire_tv_edition-14,235
+"Toshiba 55"" Fire TV Edition",866,49000,50500,49750,1,1,toshiba__fire_tv_edition-15,236
+"Toshiba 55"" Fire TV Edition",88,44000,55500,49750,1,0,toshiba__fire_tv_edition-16,237
+"Toshiba 55"" Fire TV Edition",934,44000,51500,47750,2,4,toshiba__fire_tv_edition-17,238
+"Toshiba 55"" Fire TV Edition",210,46500,56500,51500,3,4,toshiba__fire_tv_edition-18,239
+"Toshiba 55"" Fire TV Edition",907,48500,57000,52750,2,3,toshiba__fire_tv_edition-19,240
+"Toshiba 55"" Fire TV Edition",889,46000,51500,48750,4,3,toshiba__fire_tv_edition-20,241
+"Toshiba 55"" Fire TV Edition",136,46500,50500,48500,2,3,toshiba__fire_tv_edition-21,242
+"Samsung 75"" QLED 8K TV",811,110000,133750,121875,3,5,samsung__qled_k_tv-0,243
+"Samsung 75"" QLED 8K TV",814,115000,136250,125625,2,0,samsung__qled_k_tv-1,244
+"Samsung 75"" QLED 8K TV",790,113750,131250,122500,2,2,samsung__qled_k_tv-2,245
+"Samsung 75"" QLED 8K TV",822,106250,136250,121250,5,3,samsung__qled_k_tv-3,246
+"Samsung 75"" QLED 8K TV",986,112500,138750,125625,3,2,samsung__qled_k_tv-4,247
+"Samsung 75"" QLED 8K TV",808,115000,138750,126875,4,4,samsung__qled_k_tv-5,248
+"Samsung 75"" QLED 8K TV",261,118750,130000,124375,1,5,samsung__qled_k_tv-6,249
+"Samsung 75"" QLED 8K TV",582,107500,143750,125625,3,1,samsung__qled_k_tv-7,250
+"Samsung 75"" QLED 8K TV",370,108750,132500,120625,4,4,samsung__qled_k_tv-8,251
+"Samsung 75"" QLED 8K TV",554,116250,128750,122500,3,1,samsung__qled_k_tv-9,252
+"Samsung 75"" QLED 8K TV",121,113750,127500,120625,2,4,samsung__qled_k_tv-10,253
+"Samsung 75"" QLED 8K TV",95,108750,137500,123125,1,3,samsung__qled_k_tv-11,254
+"Samsung 75"" QLED 8K TV",977,111250,127500,119375,3,1,samsung__qled_k_tv-12,255
+"Samsung 75"" QLED 8K TV",127,108750,135000,121875,3,2,samsung__qled_k_tv-13,256
+"Samsung 75"" QLED 8K TV",505,120000,127500,123750,1,3,samsung__qled_k_tv-14,257
+"Samsung 75"" QLED 8K TV",625,108750,138750,123750,5,0,samsung__qled_k_tv-15,258
+"Samsung 75"" QLED 8K TV",581,122500,142500,132500,5,3,samsung__qled_k_tv-16,259
+"Samsung 75"" QLED 8K TV",467,121250,127500,124375,3,0,samsung__qled_k_tv-17,260
+"Samsung 75"" QLED 8K TV",741,116250,126250,121250,2,5,samsung__qled_k_tv-18,261
+"Samsung 75"" QLED 8K TV",883,123750,143750,133750,1,3,samsung__qled_k_tv-19,262
+"Samsung 75"" QLED 8K TV",514,116250,137500,126875,2,4,samsung__qled_k_tv-20,263
+"Samsung 75"" QLED 8K TV",915,122500,126250,124375,2,5,samsung__qled_k_tv-21,264
+"Samsung 75"" QLED 8K TV",395,117500,137500,127500,2,1,samsung__qled_k_tv-22,265
+"Samsung 75"" QLED 8K TV",304,115000,130000,122500,4,1,samsung__qled_k_tv-23,266
+"Samsung 75"" QLED 8K TV",627,111250,127500,119375,3,3,samsung__qled_k_tv-24,267
+"LG 55"" NanoCell 4K TV",694,59813,73562,66687,4,0,lg__nanocell_k_tv-0,268
+"LG 55"" NanoCell 4K TV",254,63250,69437,66343,3,0,lg__nanocell_k_tv-1,269
+"LG 55"" NanoCell 4K TV",801,59125,72875,66000,2,2,lg__nanocell_k_tv-2,270
+"LG 55"" NanoCell 4K TV",788,61188,77000,69094,1,0,lg__nanocell_k_tv-3,271
+"LG 55"" NanoCell 4K TV",171,58438,78375,68406,3,1,lg__nanocell_k_tv-4,272
+"LG 55"" NanoCell 4K TV",910,63250,70125,66687,1,3,lg__nanocell_k_tv-5,273
+"LG 55"" NanoCell 4K TV",375,59125,72875,66000,3,0,lg__nanocell_k_tv-6,274
+"LG 55"" NanoCell 4K TV",319,62563,70125,66344,3,5,lg__nanocell_k_tv-7,275
+"LG 55"" NanoCell 4K TV",419,67375,79062,73218,5,1,lg__nanocell_k_tv-8,276
+"LG 55"" NanoCell 4K TV",433,59125,75625,67375,1,0,lg__nanocell_k_tv-9,277
+"LG 55"" NanoCell 4K TV",79,62563,72875,67719,5,3,lg__nanocell_k_tv-10,278
+"LG 55"" NanoCell 4K TV",422,59125,74250,66687,3,0,lg__nanocell_k_tv-11,279
+"LG 55"" NanoCell 4K TV",739,61875,70125,66000,1,2,lg__nanocell_k_tv-12,280
+"LG 55"" NanoCell 4K TV",480,59813,78375,69094,4,1,lg__nanocell_k_tv-13,281
+"LG 55"" NanoCell 4K TV",255,59813,76312,68062,1,0,lg__nanocell_k_tv-14,282
+"LG 55"" NanoCell 4K TV",680,58438,70125,64281,4,0,lg__nanocell_k_tv-15,283
+"LG 55"" NanoCell 4K TV",71,60500,74250,67375,1,2,lg__nanocell_k_tv-16,284
+"LG 55"" NanoCell 4K TV",676,58438,74250,66344,2,0,lg__nanocell_k_tv-17,285
+"LG 55"" NanoCell 4K TV",196,58438,72187,65312,5,0,lg__nanocell_k_tv-18,286
+"LG 55"" NanoCell 4K TV",818,67375,79062,73218,4,4,lg__nanocell_k_tv-19,287
+"LG 55"" NanoCell 4K TV",89,63250,74250,68750,2,4,lg__nanocell_k_tv-20,288
+"LG 55"" NanoCell 4K TV",540,67375,75625,71500,5,4,lg__nanocell_k_tv-21,289
+"LG 55"" NanoCell 4K TV",299,59125,78375,68750,2,0,lg__nanocell_k_tv-22,290
+"LG 55"" NanoCell 4K TV",446,58438,70125,64281,1,3,lg__nanocell_k_tv-23,291
+"LG 55"" NanoCell 4K TV",523,63938,74937,69437,2,5,lg__nanocell_k_tv-24,292
+"LG 55"" NanoCell 4K TV",517,67375,72875,70125,1,3,lg__nanocell_k_tv-25,293
+"LG 55"" NanoCell 4K TV",440,61875,70125,66000,4,1,lg__nanocell_k_tv-26,294
+"LG 55"" NanoCell 4K TV",663,61875,74937,68406,5,4,lg__nanocell_k_tv-27,295
+"Sony 65"" 4K HDR Android TV",665,77000,95375,86187,3,2,sony__k_hdr_android_tv-0,296
+"Sony 65"" 4K HDR Android TV",867,79625,91875,85750,3,2,sony__k_hdr_android_tv-1,297
+"Sony 65"" 4K HDR Android TV",980,78750,91875,85312,4,2,sony__k_hdr_android_tv-2,298
+"Sony 65"" 4K HDR Android TV",937,85750,98875,92312,5,5,sony__k_hdr_android_tv-3,299
+"Sony 65"" 4K HDR Android TV",88,80500,88375,84437,1,4,sony__k_hdr_android_tv-4,300
+"Sony 65"" 4K HDR Android TV",974,86625,98875,92750,3,3,sony__k_hdr_android_tv-5,301
+"Sony 65"" 4K HDR Android TV",296,74375,99750,87062,4,4,sony__k_hdr_android_tv-6,302
+"Sony 65"" 4K HDR Android TV",931,77875,88375,83125,5,2,sony__k_hdr_android_tv-7,303
+"Sony 65"" 4K HDR Android TV",167,83125,93625,88375,5,5,sony__k_hdr_android_tv-8,304
+"Sony 65"" 4K HDR Android TV",593,85750,92750,89250,2,0,sony__k_hdr_android_tv-9,305
+"Sony 65"" 4K HDR Android TV",195,81375,100625,91000,1,5,sony__k_hdr_android_tv-10,306
+"Sony 65"" 4K HDR Android TV",983,84000,96250,90125,5,1,sony__k_hdr_android_tv-11,307
+"Sony 65"" 4K HDR Android TV",460,84000,91875,87937,5,5,sony__k_hdr_android_tv-12,308
+"Sony 65"" 4K HDR Android TV",244,83125,88375,85750,4,0,sony__k_hdr_android_tv-13,309
+"Sony 65"" 4K HDR Android TV",48,83125,92750,87937,1,3,sony__k_hdr_android_tv-14,310
+"Sony 65"" 4K HDR Android TV",24,74375,90125,82250,3,5,sony__k_hdr_android_tv-15,311
+"Sony 65"" 4K HDR Android TV",809,80500,90125,85312,2,0,sony__k_hdr_android_tv-16,312
+"Sony 65"" 4K HDR Android TV",259,85750,98875,92312,5,0,sony__k_hdr_android_tv-17,313
+"Sony 65"" 4K HDR Android TV",771,78750,97125,87937,4,2,sony__k_hdr_android_tv-18,314
+"Sony 65"" 4K HDR Android TV",797,76125,88375,82250,5,5,sony__k_hdr_android_tv-19,315
+"TCL 55"" QLED 4K Android TV",471,88125,100312,94218,4,2,tcl__qled_k_android_tv-0,316
+"TCL 55"" QLED 4K Android TV",634,89063,106875,97969,3,5,tcl__qled_k_android_tv-1,317
+"TCL 55"" QLED 4K Android TV",158,88125,107812,97968,3,4,tcl__qled_k_android_tv-2,318
+"TCL 55"" QLED 4K Android TV",754,89063,102187,95625,3,1,tcl__qled_k_android_tv-3,319
+"TCL 55"" QLED 4K Android TV",962,92813,103125,97969,4,0,tcl__qled_k_android_tv-4,320
+"TCL 55"" QLED 4K Android TV",132,92813,96562,94687,5,5,tcl__qled_k_android_tv-5,321
+"TCL 55"" QLED 4K Android TV",791,90938,96562,93750,4,2,tcl__qled_k_android_tv-6,322
+"TCL 55"" QLED 4K Android TV",143,87188,107812,97500,3,5,tcl__qled_k_android_tv-7,323
+"TCL 55"" QLED 4K Android TV",830,84375,103125,93750,4,3,tcl__qled_k_android_tv-8,324
+"TCL 55"" QLED 4K Android TV",563,90000,101250,95625,4,4,tcl__qled_k_android_tv-9,325
+"TCL 55"" QLED 4K Android TV",401,84375,102187,93281,2,4,tcl__qled_k_android_tv-10,326
+"TCL 55"" QLED 4K Android TV",274,80625,103125,91875,2,5,tcl__qled_k_android_tv-11,327
+"TCL 55"" QLED 4K Android TV",241,92813,104062,98437,3,2,tcl__qled_k_android_tv-12,328
+"TCL 55"" QLED 4K Android TV",453,92813,95625,94219,2,1,tcl__qled_k_android_tv-13,329
+"TCL 55"" QLED 4K Android TV",227,84375,107812,96093,4,1,tcl__qled_k_android_tv-14,330
+"TCL 55"" QLED 4K Android TV",483,84375,107812,96093,5,1,tcl__qled_k_android_tv-15,331
+"TCL 55"" QLED 4K Android TV",153,87188,99375,93281,2,2,tcl__qled_k_android_tv-16,332
+"TCL 55"" QLED 4K Android TV",761,87188,105000,96094,4,4,tcl__qled_k_android_tv-17,333
+"TCL 55"" QLED 4K Android TV",934,88125,102187,95156,2,5,tcl__qled_k_android_tv-18,334
+"TCL 55"" QLED 4K Android TV",600,84375,104062,94218,3,4,tcl__qled_k_android_tv-19,335
+"TCL 55"" QLED 4K Android TV",155,86250,103125,94687,4,0,tcl__qled_k_android_tv-20,336
+"TCL 55"" QLED 4K Android TV",850,84375,105937,95156,1,3,tcl__qled_k_android_tv-21,337
+"TCL 55"" QLED 4K Android TV",819,90938,94687,92812,1,1,tcl__qled_k_android_tv-22,338
+"TCL 55"" QLED 4K Android TV",127,80625,102187,91406,2,1,tcl__qled_k_android_tv-23,339
+"TCL 55"" QLED 4K Android TV",255,87188,104062,95625,1,3,tcl__qled_k_android_tv-24,340
+"Vizio 65"" P-Series Quantum TV",174,97000,111000,104000,5,2,vizio__pseries_quantum_tv-0,341
+"Vizio 65"" P-Series Quantum TV",264,97000,103000,100000,2,2,vizio__pseries_quantum_tv-1,342
+"Vizio 65"" P-Series Quantum TV",416,96000,108000,102000,1,5,vizio__pseries_quantum_tv-2,343
+"Vizio 65"" P-Series Quantum TV",951,86000,109000,97500,4,0,vizio__pseries_quantum_tv-3,344
+"Vizio 65"" P-Series Quantum TV",840,96000,103000,99500,2,2,vizio__pseries_quantum_tv-4,345
+"Vizio 65"" P-Series Quantum TV",581,98000,101000,99500,5,0,vizio__pseries_quantum_tv-5,346
+"Vizio 65"" P-Series Quantum TV",621,95000,103000,99000,3,5,vizio__pseries_quantum_tv-6,347
+"Vizio 65"" P-Series Quantum TV",491,99000,114000,106500,1,1,vizio__pseries_quantum_tv-7,348
+"Vizio 65"" P-Series Quantum TV",597,89000,109000,99000,1,4,vizio__pseries_quantum_tv-8,349
+"Vizio 65"" P-Series Quantum TV",25,90000,101000,95500,5,5,vizio__pseries_quantum_tv-9,350
+"Vizio 65"" P-Series Quantum TV",577,86000,102000,94000,4,2,vizio__pseries_quantum_tv-10,351
+"Vizio 65"" P-Series Quantum TV",303,87000,104000,95500,3,2,vizio__pseries_quantum_tv-11,352
+"Vizio 65"" P-Series Quantum TV",812,89000,105000,97000,2,0,vizio__pseries_quantum_tv-12,353
+"Vizio 65"" P-Series Quantum TV",777,95000,115000,105000,4,2,vizio__pseries_quantum_tv-13,354
+"Vizio 65"" P-Series Quantum TV",656,86000,102000,94000,2,4,vizio__pseries_quantum_tv-14,355
+"Vizio 65"" P-Series Quantum TV",616,94000,112000,103000,5,5,vizio__pseries_quantum_tv-15,356
+"Vizio 65"" P-Series Quantum TV",476,92000,102000,97000,5,0,vizio__pseries_quantum_tv-16,357
+"Vizio 65"" P-Series Quantum TV",512,88000,105000,96500,4,4,vizio__pseries_quantum_tv-17,358
+"Vizio 65"" P-Series Quantum TV",869,97000,105000,101000,3,0,vizio__pseries_quantum_tv-18,359
+"Vizio 65"" P-Series Quantum TV",432,95000,102000,98500,2,3,vizio__pseries_quantum_tv-19,360
+"Vizio 65"" P-Series Quantum TV",334,96000,110000,103000,3,3,vizio__pseries_quantum_tv-20,361
+"Vizio 65"" P-Series Quantum TV",797,96000,111000,103500,5,3,vizio__pseries_quantum_tv-21,362
+"Vizio 65"" P-Series Quantum TV",542,87000,102000,94500,2,2,vizio__pseries_quantum_tv-22,363
+"Vizio 65"" P-Series Quantum TV",63,86000,108000,97000,2,0,vizio__pseries_quantum_tv-23,364
+"Hisense 50"" 4K Roku TV",123,43000,57000,50000,2,1,hisense__k_roku_tv-0,365
+"Hisense 50"" 4K Roku TV",439,45000,54500,49750,3,4,hisense__k_roku_tv-1,366
+"Hisense 50"" 4K Roku TV",729,45500,52000,48750,2,0,hisense__k_roku_tv-2,367
+"Hisense 50"" 4K Roku TV",51,44000,51000,47500,5,3,hisense__k_roku_tv-3,368
+"Hisense 50"" 4K Roku TV",467,49500,55000,52250,4,5,hisense__k_roku_tv-4,369
+"Hisense 50"" 4K Roku TV",561,49000,52000,50500,1,4,hisense__k_roku_tv-5,370
+"Hisense 50"" 4K Roku TV",96,46000,52500,49250,2,4,hisense__k_roku_tv-6,371
+"Hisense 50"" 4K Roku TV",940,47500,53000,50250,3,2,hisense__k_roku_tv-7,372
+"Hisense 50"" 4K Roku TV",277,45500,52000,48750,2,2,hisense__k_roku_tv-8,373
+"Hisense 50"" 4K Roku TV",937,44000,55500,49750,2,3,hisense__k_roku_tv-9,374
+"Hisense 50"" 4K Roku TV",452,44500,57000,50750,2,0,hisense__k_roku_tv-10,375
+"Hisense 50"" 4K Roku TV",465,46500,55000,50750,4,0,hisense__k_roku_tv-11,376
+"Hisense 50"" 4K Roku TV",635,47000,50500,48750,2,3,hisense__k_roku_tv-12,377
+"Hisense 50"" 4K Roku TV",873,49500,53500,51500,1,5,hisense__k_roku_tv-13,378
+"Hisense 50"" 4K Roku TV",435,45500,56500,51000,2,1,hisense__k_roku_tv-14,379
+"Hisense 50"" 4K Roku TV",647,45500,53500,49500,4,3,hisense__k_roku_tv-15,380
+"Hisense 50"" 4K Roku TV",20,47500,54500,51000,2,0,hisense__k_roku_tv-16,381
+"Hisense 50"" 4K Roku TV",663,49000,56000,52500,1,3,hisense__k_roku_tv-17,382
+"Hisense 50"" 4K Roku TV",640,45500,56500,51000,3,4,hisense__k_roku_tv-18,383
+"Hisense 50"" 4K Roku TV",668,46000,52500,49250,3,0,hisense__k_roku_tv-19,384
+"Hisense 50"" 4K Roku TV",194,46500,54000,50250,1,5,hisense__k_roku_tv-20,385
+"Hisense 50"" 4K Roku TV",481,48000,57500,52750,2,0,hisense__k_roku_tv-21,386
+"Hisense 50"" 4K Roku TV",851,46000,51500,48750,2,0,hisense__k_roku_tv-22,387
+"Hisense 50"" 4K Roku TV",900,45000,54000,49500,3,2,hisense__k_roku_tv-23,388
+"Philips 55"" 4K Android TV",127,65250,77250,71250,2,4,philips__k_android_tv-0,389
+"Philips 55"" 4K Android TV",303,72750,81750,77250,2,0,philips__k_android_tv-1,390
+"Philips 55"" 4K Android TV",965,69000,81000,75000,2,4,philips__k_android_tv-2,391
+"Philips 55"" 4K Android TV",198,73500,84000,78750,3,5,philips__k_android_tv-3,392
+"Philips 55"" 4K Android TV",260,66750,78750,72750,5,0,philips__k_android_tv-4,393
+"Philips 55"" 4K Android TV",268,67500,79500,73500,3,1,philips__k_android_tv-5,394
+"Philips 55"" 4K Android TV",911,66750,81000,73875,2,0,philips__k_android_tv-6,395
+"Philips 55"" 4K Android TV",303,74250,83250,78750,2,4,philips__k_android_tv-7,396
+"Philips 55"" 4K Android TV",531,68250,85500,76875,1,5,philips__k_android_tv-8,397
+"Philips 55"" 4K Android TV",262,74250,86250,80250,3,1,philips__k_android_tv-9,398
+"Philips 55"" 4K Android TV",923,73500,82500,78000,4,0,philips__k_android_tv-10,399
+"Philips 55"" 4K Android TV",120,67500,76500,72000,3,5,philips__k_android_tv-11,400
+"Philips 55"" 4K Android TV",621,71250,84000,77625,3,4,philips__k_android_tv-12,401
+"Philips 55"" 4K Android TV",353,66750,80250,73500,3,0,philips__k_android_tv-13,402
+"Philips 55"" 4K Android TV",562,67500,81000,74250,3,2,philips__k_android_tv-14,403
+"Philips 55"" 4K Android TV",504,67500,84000,75750,4,3,philips__k_android_tv-15,404
+"Philips 55"" 4K Android TV",342,72000,79500,75750,3,0,philips__k_android_tv-16,405
+"Philips 55"" 4K Android TV",435,64500,82500,73500,5,3,philips__k_android_tv-17,406
+"Philips 55"" 4K Android TV",375,74250,77250,75750,4,1,philips__k_android_tv-18,407
+"Philips 55"" 4K Android TV",490,64500,84000,74250,1,3,philips__k_android_tv-19,408
+"Panasonic 58"" 4K HDR TV",306,76375,91000,83687,4,0,panasonic__k_hdr_tv-0,409
+"Panasonic 58"" 4K HDR TV",818,74750,86937,80843,4,4,panasonic__k_hdr_tv-1,410
+"Panasonic 58"" 4K HDR TV",110,80438,84500,82469,5,1,panasonic__k_hdr_tv-2,411
+"Panasonic 58"" 4K HDR TV",424,72313,89375,80844,1,4,panasonic__k_hdr_tv-3,412
+"Panasonic 58"" 4K HDR TV",65,76375,90187,83281,5,0,panasonic__k_hdr_tv-4,413
+"Panasonic 58"" 4K HDR TV",478,69875,86937,78406,4,0,panasonic__k_hdr_tv-5,414
+"Panasonic 58"" 4K HDR TV",480,73125,83687,78406,1,5,panasonic__k_hdr_tv-6,415
+"Panasonic 58"" 4K HDR TV",635,74750,89375,82062,1,2,panasonic__k_hdr_tv-7,416
+"Panasonic 58"" 4K HDR TV",694,74750,91000,82875,1,1,panasonic__k_hdr_tv-8,417
+"Panasonic 58"" 4K HDR TV",660,72313,82062,77187,5,1,panasonic__k_hdr_tv-9,418
+"Panasonic 58"" 4K HDR TV",252,78813,83687,81250,1,3,panasonic__k_hdr_tv-10,419
+"Panasonic 58"" 4K HDR TV",356,78000,83687,80843,1,2,panasonic__k_hdr_tv-11,420
+"Panasonic 58"" 4K HDR TV",926,73938,83687,78812,3,1,panasonic__k_hdr_tv-12,421
+"Panasonic 58"" 4K HDR TV",449,76375,82062,79218,5,0,panasonic__k_hdr_tv-13,422
+"Panasonic 58"" 4K HDR TV",513,73938,82062,78000,2,0,panasonic__k_hdr_tv-14,423
+"Panasonic 58"" 4K HDR TV",673,69875,89375,79625,4,0,panasonic__k_hdr_tv-15,424
+"Panasonic 58"" 4K HDR TV",157,80438,91812,86125,2,2,panasonic__k_hdr_tv-16,425
+"Panasonic 58"" 4K HDR TV",151,77188,86125,81656,2,3,panasonic__k_hdr_tv-17,426
+"Panasonic 58"" 4K HDR TV",723,74750,90187,82468,2,2,panasonic__k_hdr_tv-18,427
+"Panasonic 58"" 4K HDR TV",579,77188,93437,85312,2,3,panasonic__k_hdr_tv-19,428
+"Panasonic 58"" 4K HDR TV",840,75563,93437,84500,5,4,panasonic__k_hdr_tv-20,429
+"Panasonic 58"" 4K HDR TV",897,74750,82062,78406,3,0,panasonic__k_hdr_tv-21,430
+"Sharp 65"" 4K Aquos TV",348,86625,94500,90562,2,1,sharp__k_aquos_tv-0,431
+"Sharp 65"" 4K Aquos TV",59,84875,94500,89687,5,3,sharp__k_aquos_tv-1,432
+"Sharp 65"" 4K Aquos TV",486,84875,97125,91000,3,3,sharp__k_aquos_tv-2,433
+"Sharp 65"" 4K Aquos TV",380,78750,91875,85312,3,3,sharp__k_aquos_tv-3,434
+"Sharp 65"" 4K Aquos TV",954,83125,94500,88812,1,5,sharp__k_aquos_tv-4,435
+"Sharp 65"" 4K Aquos TV",374,85750,94500,90125,1,5,sharp__k_aquos_tv-5,436
+"Sharp 65"" 4K Aquos TV",670,78750,96250,87500,5,1,sharp__k_aquos_tv-6,437
+"Sharp 65"" 4K Aquos TV",801,80500,97125,88812,1,5,sharp__k_aquos_tv-7,438
+"Sharp 65"" 4K Aquos TV",372,86625,97125,91875,2,3,sharp__k_aquos_tv-8,439
+"Sharp 65"" 4K Aquos TV",300,81375,93625,87500,2,4,sharp__k_aquos_tv-9,440
+"Sharp 65"" 4K Aquos TV",33,84000,97125,90562,5,1,sharp__k_aquos_tv-10,441
+"Sharp 65"" 4K Aquos TV",336,83125,91875,87500,2,4,sharp__k_aquos_tv-11,442
+"Sharp 65"" 4K Aquos TV",172,77000,96250,86625,4,4,sharp__k_aquos_tv-12,443
+"Sharp 65"" 4K Aquos TV",954,81375,89250,85312,5,0,sharp__k_aquos_tv-13,444
+"Sharp 65"" 4K Aquos TV",610,78750,92750,85750,1,2,sharp__k_aquos_tv-14,445
+"Sharp 65"" 4K Aquos TV",137,78750,97125,87937,1,4,sharp__k_aquos_tv-15,446
+"Sharp 65"" 4K Aquos TV",585,79625,100625,90125,1,0,sharp__k_aquos_tv-16,447
+"Sharp 65"" 4K Aquos TV",588,85750,91000,88375,3,4,sharp__k_aquos_tv-17,448
+"Sharp 65"" 4K Aquos TV",910,84875,89250,87062,4,3,sharp__k_aquos_tv-18,449
+"Sharp 65"" 4K Aquos TV",219,78750,91000,84875,5,1,sharp__k_aquos_tv-19,450
+"Sharp 65"" 4K Aquos TV",529,83125,97125,90125,1,4,sharp__k_aquos_tv-20,451
+"Sharp 65"" 4K Aquos TV",865,81375,89250,85312,3,2,sharp__k_aquos_tv-21,452
+"Sharp 65"" 4K Aquos TV",730,84875,92750,88812,3,3,sharp__k_aquos_tv-22,453
+"Sharp 65"" 4K Aquos TV",630,82250,98875,90562,5,5,sharp__k_aquos_tv-23,454
+"Sharp 65"" 4K Aquos TV",964,81375,99750,90562,4,5,sharp__k_aquos_tv-24,455
+"Sharp 65"" 4K Aquos TV",261,82250,91875,87062,5,1,sharp__k_aquos_tv-25,456
+"Sharp 65"" 4K Aquos TV",987,85750,98000,91875,2,0,sharp__k_aquos_tv-26,457
+"Sharp 65"" 4K Aquos TV",218,85750,90125,87937,5,4,sharp__k_aquos_tv-27,458
+"Sharp 65"" 4K Aquos TV",79,84000,98875,91437,3,3,sharp__k_aquos_tv-28,459
+"Toshiba 43"" HD Smart TV",638,36000,41625,38812,4,5,toshiba__hd_smart_tv-0,460
+"Toshiba 43"" HD Smart TV",872,34500,39375,36937,2,4,toshiba__hd_smart_tv-1,461
+"Toshiba 43"" HD Smart TV",633,32625,39375,36000,5,3,toshiba__hd_smart_tv-2,462
+"Toshiba 43"" HD Smart TV",75,33000,38250,35625,3,3,toshiba__hd_smart_tv-3,463
+"Toshiba 43"" HD Smart TV",354,33375,43125,38250,2,4,toshiba__hd_smart_tv-4,464
+"Toshiba 43"" HD Smart TV",538,34875,38250,36562,2,5,toshiba__hd_smart_tv-5,465
+"Toshiba 43"" HD Smart TV",68,36750,40500,38625,2,3,toshiba__hd_smart_tv-6,466
+"Toshiba 43"" HD Smart TV",958,32250,39000,35625,1,4,toshiba__hd_smart_tv-7,467
+"Toshiba 43"" HD Smart TV",55,34125,39000,36562,1,4,toshiba__hd_smart_tv-8,468
+"Toshiba 43"" HD Smart TV",73,36750,42000,39375,5,3,toshiba__hd_smart_tv-9,469
+"Toshiba 43"" HD Smart TV",487,37125,40500,38812,1,2,toshiba__hd_smart_tv-10,470
+"Toshiba 43"" HD Smart TV",388,36000,39375,37687,5,4,toshiba__hd_smart_tv-11,471
+"Toshiba 43"" HD Smart TV",91,33000,39750,36375,2,0,toshiba__hd_smart_tv-12,472
+"Toshiba 43"" HD Smart TV",88,35250,38625,36937,5,2,toshiba__hd_smart_tv-13,473
+"Toshiba 43"" HD Smart TV",243,34125,43125,38625,1,3,toshiba__hd_smart_tv-14,474
+"Toshiba 43"" HD Smart TV",506,34875,39750,37312,1,0,toshiba__hd_smart_tv-15,475
+"Toshiba 43"" HD Smart TV",596,37125,41250,39187,1,5,toshiba__hd_smart_tv-16,476
+"Toshiba 43"" HD Smart TV",869,35250,38250,36750,1,1,toshiba__hd_smart_tv-17,477
+"Toshiba 43"" HD Smart TV",746,31875,39375,35625,5,2,toshiba__hd_smart_tv-18,478
+"Toshiba 43"" HD Smart TV",795,34125,40875,37500,4,5,toshiba__hd_smart_tv-19,479
+"Toshiba 43"" HD Smart TV",235,32625,42000,37312,5,0,toshiba__hd_smart_tv-20,480
+"Toshiba 43"" HD Smart TV",202,36000,41250,38625,4,2,toshiba__hd_smart_tv-21,481
+"Toshiba 43"" HD Smart TV",62,36375,43125,39750,4,4,toshiba__hd_smart_tv-22,482
+"Toshiba 43"" HD Smart TV",195,34500,38250,36375,1,0,toshiba__hd_smart_tv-23,483
+Organic Avocado,566,62,70,66,4,1,organic_avocado-0,484
+Organic Avocado,808,58,68,63,2,4,organic_avocado-1,485
+Organic Avocado,157,53,65,59,4,3,organic_avocado-2,486
+Organic Avocado,166,60,68,64,2,4,organic_avocado-3,487
+Organic Avocado,265,56,63,59,3,4,organic_avocado-4,488
+Organic Avocado,293,54,64,59,4,5,organic_avocado-5,489
+Organic Avocado,475,56,67,61,4,4,organic_avocado-6,490
+Organic Avocado,655,54,69,61,2,1,organic_avocado-7,491
+Organic Avocado,318,59,63,61,2,1,organic_avocado-8,492
+Organic Avocado,679,58,66,62,2,5,organic_avocado-9,493
+Organic Avocado,61,59,71,65,3,4,organic_avocado-10,494
+Organic Avocado,517,58,70,64,2,0,organic_avocado-11,495
+Organic Avocado,780,54,68,61,5,5,organic_avocado-12,496
+Organic Avocado,932,55,70,62,3,1,organic_avocado-13,497
+Organic Avocado,436,59,70,64,2,2,organic_avocado-14,498
+Organic Avocado,377,61,62,61,1,5,organic_avocado-15,499
+Organic Avocado,939,59,68,63,3,2,organic_avocado-16,500
+Organic Avocado,834,61,62,61,3,2,organic_avocado-17,501
+Organic Avocado,648,53,63,58,5,0,organic_avocado-18,502
+Organic Avocado,142,58,68,63,4,2,organic_avocado-19,503
+Organic Avocado,84,61,70,65,5,3,organic_avocado-20,504
+Organic Avocado,285,58,62,60,1,1,organic_avocado-21,505
+Organic Avocado,375,56,68,62,3,3,organic_avocado-22,506
+Organic Avocado,361,62,68,65,4,1,organic_avocado-23,507
+Organic Avocado,842,61,68,64,3,4,organic_avocado-24,508
+Organic Avocado,516,61,69,65,3,4,organic_avocado-25,509
+Organic Avocado,440,56,70,63,2,0,organic_avocado-26,510
+Organic Avocado,262,62,63,62,3,4,organic_avocado-27,511
+Organic Avocado,922,53,67,60,2,3,organic_avocado-28,512
+Organic Avocado,874,61,69,65,3,2,organic_avocado-29,513
+Whole Wheat Bread,736,48,54,51,1,0,whole_wheat_bread-0,514
+Whole Wheat Bread,24,48,50,49,1,1,whole_wheat_bread-1,515
+Whole Wheat Bread,637,44,54,49,1,4,whole_wheat_bread-2,516
+Whole Wheat Bread,841,44,57,50,4,3,whole_wheat_bread-3,517
+Whole Wheat Bread,536,45,54,49,5,4,whole_wheat_bread-4,518
+Whole Wheat Bread,904,45,52,48,5,3,whole_wheat_bread-5,519
+Whole Wheat Bread,451,48,55,51,3,0,whole_wheat_bread-6,520
+Whole Wheat Bread,154,43,55,49,3,1,whole_wheat_bread-7,521
+Whole Wheat Bread,874,46,51,48,2,5,whole_wheat_bread-8,522
+Whole Wheat Bread,505,45,57,51,4,2,whole_wheat_bread-9,523
+Whole Wheat Bread,646,50,53,51,2,0,whole_wheat_bread-10,524
+Whole Wheat Bread,403,45,57,51,1,1,whole_wheat_bread-11,525
+Whole Wheat Bread,130,48,54,51,5,3,whole_wheat_bread-12,526
+Whole Wheat Bread,356,44,52,48,4,4,whole_wheat_bread-13,527
+Whole Wheat Bread,835,43,53,48,5,3,whole_wheat_bread-14,528
+Whole Wheat Bread,686,47,53,50,4,4,whole_wheat_bread-15,529
+Whole Wheat Bread,435,44,55,49,2,2,whole_wheat_bread-16,530
+Whole Wheat Bread,264,49,54,51,5,0,whole_wheat_bread-17,531
+Whole Wheat Bread,887,45,52,48,2,5,whole_wheat_bread-18,532
+Whole Wheat Bread,762,44,55,49,4,5,whole_wheat_bread-19,533
+Whole Wheat Bread,615,45,56,50,5,1,whole_wheat_bread-20,534
+Whole Wheat Bread,642,49,53,51,2,4,whole_wheat_bread-21,535
+Whole Wheat Bread,813,43,54,48,3,5,whole_wheat_bread-22,536
+Whole Wheat Bread,866,46,51,48,2,3,whole_wheat_bread-23,537
+Whole Wheat Bread,709,47,56,51,3,4,whole_wheat_bread-24,538
+Whole Wheat Bread,967,47,56,51,1,5,whole_wheat_bread-25,539
+Whole Wheat Bread,935,49,56,52,4,4,whole_wheat_bread-26,540
+Organic Eggs,239,82,99,90,1,0,organic_eggs-0,541
+Organic Eggs,866,81,92,86,4,4,organic_eggs-1,542
+Organic Eggs,252,74,87,80,2,1,organic_eggs-2,543
+Organic Eggs,817,85,98,91,2,0,organic_eggs-3,544
+Organic Eggs,938,74,97,85,1,0,organic_eggs-4,545
+Organic Eggs,877,83,98,90,3,2,organic_eggs-5,546
+Organic Eggs,435,78,89,83,4,3,organic_eggs-6,547
+Organic Eggs,645,84,97,90,1,3,organic_eggs-7,548
+Organic Eggs,623,86,96,91,3,5,organic_eggs-8,549
+Organic Eggs,491,74,87,80,4,2,organic_eggs-9,550
+Organic Eggs,771,74,93,83,3,2,organic_eggs-10,551
+Organic Eggs,351,77,93,85,2,2,organic_eggs-11,552
+Organic Eggs,722,81,95,88,1,3,organic_eggs-12,553
+Organic Eggs,786,75,99,87,3,5,organic_eggs-13,554
+Organic Eggs,526,86,90,88,3,0,organic_eggs-14,555
+Organic Eggs,213,84,93,88,5,0,organic_eggs-15,556
+Organic Eggs,263,77,93,85,3,1,organic_eggs-16,557
+Organic Eggs,700,83,98,90,1,0,organic_eggs-17,558
+Organic Eggs,243,75,88,81,1,1,organic_eggs-18,559
+Organic Eggs,337,85,93,89,1,4,organic_eggs-19,560
+Organic Eggs,883,80,93,86,4,5,organic_eggs-20,561
+Organic Eggs,798,76,99,87,4,0,organic_eggs-21,562
+Almond Milk,356,35,38,36,5,5,almond_milk-0,563
+Almond Milk,853,32,38,35,1,0,almond_milk-1,564
+Almond Milk,568,34,39,36,1,2,almond_milk-2,565
+Almond Milk,53,34,37,35,3,0,almond_milk-3,566
+Almond Milk,915,36,38,37,4,5,almond_milk-4,567
+Almond Milk,976,33,41,37,1,1,almond_milk-5,568
+Almond Milk,362,32,40,36,2,5,almond_milk-6,569
+Almond Milk,985,35,42,38,5,2,almond_milk-7,570
+Almond Milk,790,34,41,37,5,0,almond_milk-8,571
+Almond Milk,546,35,37,36,3,5,almond_milk-9,572
+Almond Milk,768,37,41,39,4,0,almond_milk-10,573
+Almond Milk,527,34,40,37,1,2,almond_milk-11,574
+Almond Milk,274,33,39,36,1,3,almond_milk-12,575
+Almond Milk,20,37,37,37,4,4,almond_milk-13,576
+Almond Milk,913,35,39,37,5,4,almond_milk-14,577
+Almond Milk,961,33,39,36,1,1,almond_milk-15,578
+Almond Milk,364,35,42,38,3,1,almond_milk-16,579
+Almond Milk,882,34,37,35,3,5,almond_milk-17,580
+Almond Milk,395,36,42,39,2,3,almond_milk-18,581
+Almond Milk,420,37,41,39,2,3,almond_milk-19,582
+Almond Milk,750,32,39,35,5,3,almond_milk-20,583
+Almond Milk,539,36,41,38,5,4,almond_milk-21,584
+Almond Milk,823,35,38,36,4,3,almond_milk-22,585
+Almond Milk,699,33,39,36,1,1,almond_milk-23,586
+Almond Milk,402,37,37,37,2,1,almond_milk-24,587
+Almond Milk,478,36,41,38,3,0,almond_milk-25,588
+Almond Milk,325,35,38,36,1,2,almond_milk-26,589
+Almond Milk,578,36,37,36,1,1,almond_milk-27,590
+Wild-caught Salmon,366,165,205,185,5,4,wildcaught_salmon-0,591
+Wild-caught Salmon,805,178,194,186,3,3,wildcaught_salmon-1,592
+Wild-caught Salmon,377,167,198,182,3,1,wildcaught_salmon-2,593
+Wild-caught Salmon,709,167,211,189,4,0,wildcaught_salmon-3,594
+Wild-caught Salmon,326,159,188,173,2,3,wildcaught_salmon-4,595
+Wild-caught Salmon,201,169,215,192,1,2,wildcaught_salmon-5,596
+Wild-caught Salmon,564,165,213,189,5,5,wildcaught_salmon-6,597
+Wild-caught Salmon,857,165,201,183,1,4,wildcaught_salmon-7,598
+Wild-caught Salmon,247,161,200,180,1,2,wildcaught_salmon-8,599
+Wild-caught Salmon,547,173,211,192,2,1,wildcaught_salmon-9,600
+Wild-caught Salmon,571,163,190,176,1,4,wildcaught_salmon-10,601
+Wild-caught Salmon,377,178,205,191,3,2,wildcaught_salmon-11,602
+Wild-caught Salmon,344,178,203,190,1,4,wildcaught_salmon-12,603
+Wild-caught Salmon,727,182,201,191,1,3,wildcaught_salmon-13,604
+Wild-caught Salmon,979,163,200,181,3,3,wildcaught_salmon-14,605
+Wild-caught Salmon,305,180,203,191,5,1,wildcaught_salmon-15,606
+Wild-caught Salmon,636,171,207,189,2,3,wildcaught_salmon-16,607
+Wild-caught Salmon,754,169,213,191,2,1,wildcaught_salmon-17,608
+Wild-caught Salmon,961,161,209,185,2,5,wildcaught_salmon-18,609
+Wild-caught Salmon,457,180,196,188,5,5,wildcaught_salmon-19,610
+Wild-caught Salmon,722,167,207,187,1,3,wildcaught_salmon-20,611
+Wild-caught Salmon,107,171,196,183,1,0,wildcaught_salmon-21,612
+Wild-caught Salmon,997,176,203,189,2,1,wildcaught_salmon-22,613
+Wild-caught Salmon,490,159,190,174,4,5,wildcaught_salmon-23,614
+Organic Spinach,401,24,27,25,1,5,organic_spinach-0,615
+Organic Spinach,659,23,26,24,5,2,organic_spinach-1,616
+Organic Spinach,688,23,28,25,1,5,organic_spinach-2,617
+Organic Spinach,412,23,28,25,1,0,organic_spinach-3,618
+Organic Spinach,135,23,26,24,4,5,organic_spinach-4,619
+Organic Spinach,269,23,27,25,3,0,organic_spinach-5,620
+Organic Spinach,169,25,27,26,4,5,organic_spinach-6,621
+Organic Spinach,818,22,28,25,2,3,organic_spinach-7,622
+Organic Spinach,672,22,26,24,5,3,organic_spinach-8,623
+Organic Spinach,852,24,28,26,2,1,organic_spinach-9,624
+Organic Spinach,817,25,27,26,3,4,organic_spinach-10,625
+Organic Spinach,256,22,27,24,1,5,organic_spinach-11,626
+Organic Spinach,33,24,28,26,5,2,organic_spinach-12,627
+Organic Spinach,989,22,26,24,2,4,organic_spinach-13,628
+Organic Spinach,739,24,25,24,5,0,organic_spinach-14,629
+Organic Spinach,414,24,27,25,3,5,organic_spinach-15,630
+Organic Spinach,235,24,28,26,1,4,organic_spinach-16,631
+Organic Spinach,975,24,28,26,4,3,organic_spinach-17,632
+Organic Spinach,657,23,28,25,3,0,organic_spinach-18,633
+Organic Spinach,686,23,25,24,5,0,organic_spinach-19,634
+Organic Spinach,441,23,25,24,5,2,organic_spinach-20,635
+Organic Spinach,546,23,26,24,2,4,organic_spinach-21,636
+Organic Spinach,516,25,27,26,3,0,organic_spinach-22,637
+Organic Spinach,152,22,27,24,4,4,organic_spinach-23,638
+Organic Spinach,616,24,26,25,2,2,organic_spinach-24,639
+Organic Spinach,665,22,28,25,3,0,organic_spinach-25,640
+Organic Spinach,74,24,25,24,1,2,organic_spinach-26,641
+Organic Spinach,202,24,26,25,1,1,organic_spinach-27,642
+Organic Spinach,42,22,27,24,1,3,organic_spinach-28,643
+Quinoa,723,95,109,102,3,2,quinoa-0,644
+Quinoa,103,88,114,101,2,0,quinoa-1,645
+Quinoa,929,99,114,106,3,4,quinoa-2,646
+Quinoa,240,87,108,97,4,5,quinoa-3,647
+Quinoa,932,95,111,103,2,0,quinoa-4,648
+Quinoa,950,92,107,99,5,2,quinoa-5,649
+Quinoa,932,89,111,100,3,3,quinoa-6,650
+Quinoa,338,85,104,94,4,0,quinoa-7,651
+Quinoa,455,85,107,96,5,5,quinoa-8,652
+Quinoa,614,92,115,103,5,2,quinoa-9,653
+Quinoa,563,91,101,96,3,1,quinoa-10,654
+Quinoa,352,86,101,93,3,2,quinoa-11,655
+Quinoa,294,95,103,99,2,5,quinoa-12,656
+Quinoa,48,96,106,101,1,5,quinoa-13,657
+Quinoa,266,95,106,100,2,5,quinoa-14,658
+Quinoa,300,88,101,94,4,1,quinoa-15,659
+Quinoa,977,97,103,100,2,5,quinoa-16,660
+Quinoa,304,94,103,98,5,1,quinoa-17,661
+Quinoa,646,91,107,99,2,4,quinoa-18,662
+Quinoa,893,94,112,103,4,0,quinoa-19,663
+Quinoa,731,92,111,101,2,1,quinoa-20,664
+Quinoa,158,87,113,100,1,0,quinoa-21,665
+Quinoa,123,93,111,102,2,0,quinoa-22,666
+Quinoa,65,87,113,100,1,2,quinoa-23,667
+Quinoa,491,85,103,94,3,3,quinoa-24,668
+Quinoa,815,88,112,100,2,3,quinoa-25,669
+Greek Yogurt,239,66,84,75,1,5,greek_yogurt-0,670
+Greek Yogurt,400,68,81,74,5,1,greek_yogurt-1,671
+Greek Yogurt,412,75,78,76,1,4,greek_yogurt-2,672
+Greek Yogurt,129,69,78,73,3,2,greek_yogurt-3,673
+Greek Yogurt,232,67,81,74,5,2,greek_yogurt-4,674
+Greek Yogurt,425,68,84,76,2,2,greek_yogurt-5,675
+Greek Yogurt,196,73,81,77,4,0,greek_yogurt-6,676
+Greek Yogurt,689,67,76,71,2,3,greek_yogurt-7,677
+Greek Yogurt,966,73,84,78,5,3,greek_yogurt-8,678
+Greek Yogurt,336,69,77,73,2,0,greek_yogurt-9,679
+Greek Yogurt,666,72,78,75,2,0,greek_yogurt-10,680
+Greek Yogurt,536,65,86,75,1,3,greek_yogurt-11,681
+Greek Yogurt,108,73,79,76,4,1,greek_yogurt-12,682
+Greek Yogurt,956,66,86,76,3,5,greek_yogurt-13,683
+Greek Yogurt,386,73,78,75,2,5,greek_yogurt-14,684
+Greek Yogurt,890,75,83,79,2,1,greek_yogurt-15,685
+Greek Yogurt,825,75,79,77,4,3,greek_yogurt-16,686
+Greek Yogurt,419,69,76,72,4,5,greek_yogurt-17,687
+Greek Yogurt,632,65,84,74,3,4,greek_yogurt-18,688
+Greek Yogurt,552,74,85,79,5,5,greek_yogurt-19,689
+Greek Yogurt,804,70,82,76,2,4,greek_yogurt-20,690
+Greek Yogurt,783,69,81,75,3,1,greek_yogurt-21,691
+Organic Apples,682,86,115,100,2,1,organic_apples-0,692
+Organic Apples,360,86,115,100,5,1,organic_apples-1,693
+Organic Apples,533,89,113,101,1,2,organic_apples-2,694
+Organic Apples,804,97,108,102,5,2,organic_apples-3,695
+Organic Apples,119,95,102,98,5,1,organic_apples-4,696
+Organic Apples,458,92,104,98,4,2,organic_apples-5,697
+Organic Apples,798,95,114,104,3,3,organic_apples-6,698
+Organic Apples,762,92,102,97,4,3,organic_apples-7,699
+Organic Apples,367,95,105,100,2,1,organic_apples-8,700
+Organic Apples,328,94,101,97,3,4,organic_apples-9,701
+Organic Apples,183,88,111,99,1,3,organic_apples-10,702
+Organic Apples,994,85,114,99,3,1,organic_apples-11,703
+Organic Apples,947,89,110,99,4,4,organic_apples-12,704
+Organic Apples,445,87,108,97,5,4,organic_apples-13,705
+Organic Apples,681,87,108,97,3,0,organic_apples-14,706
+Organic Apples,735,90,107,98,3,0,organic_apples-15,707
+Organic Apples,64,88,106,97,4,2,organic_apples-16,708
+Organic Apples,608,91,104,97,2,4,organic_apples-17,709
+Organic Apples,238,87,114,100,5,2,organic_apples-18,710
+Organic Apples,216,94,104,99,1,1,organic_apples-19,711
+Organic Apples,152,99,115,107,2,0,organic_apples-20,712
+Organic Apples,214,87,114,100,3,5,organic_apples-21,713
+Organic Apples,503,90,109,99,2,2,organic_apples-22,714
+Organic Apples,749,96,108,102,3,5,organic_apples-23,715
+Extra Virgin Olive Oil,646,61,66,63,3,2,extra_virgin_olive_oil-0,716
+Extra Virgin Olive Oil,101,58,66,62,2,3,extra_virgin_olive_oil-1,717
+Extra Virgin Olive Oil,807,61,67,64,5,2,extra_virgin_olive_oil-2,718
+Extra Virgin Olive Oil,889,61,66,63,2,0,extra_virgin_olive_oil-3,719
+Extra Virgin Olive Oil,960,54,70,62,3,5,extra_virgin_olive_oil-4,720
+Extra Virgin Olive Oil,413,58,71,64,5,4,extra_virgin_olive_oil-5,721
+Extra Virgin Olive Oil,903,61,65,63,3,0,extra_virgin_olive_oil-6,722
+Extra Virgin Olive Oil,956,58,70,64,1,5,extra_virgin_olive_oil-7,723
+Extra Virgin Olive Oil,478,59,64,61,3,1,extra_virgin_olive_oil-8,724
+Extra Virgin Olive Oil,429,56,63,59,1,4,extra_virgin_olive_oil-9,725
+Extra Virgin Olive Oil,576,62,63,62,4,4,extra_virgin_olive_oil-10,726
+Extra Virgin Olive Oil,232,58,63,60,1,5,extra_virgin_olive_oil-11,727
+Extra Virgin Olive Oil,561,55,68,61,3,1,extra_virgin_olive_oil-12,728
+Extra Virgin Olive Oil,593,62,69,65,1,2,extra_virgin_olive_oil-13,729
+Extra Virgin Olive Oil,334,56,62,59,1,4,extra_virgin_olive_oil-14,730
+Extra Virgin Olive Oil,888,54,70,62,1,3,extra_virgin_olive_oil-15,731
+Extra Virgin Olive Oil,65,59,68,63,4,1,extra_virgin_olive_oil-16,732
+Extra Virgin Olive Oil,24,59,63,61,4,0,extra_virgin_olive_oil-17,733
+Extra Virgin Olive Oil,781,58,68,63,2,5,extra_virgin_olive_oil-18,734
+Extra Virgin Olive Oil,380,59,67,63,1,4,extra_virgin_olive_oil-19,735
+Extra Virgin Olive Oil,203,57,71,64,2,3,extra_virgin_olive_oil-20,736
+Extra Virgin Olive Oil,561,61,65,63,5,5,extra_virgin_olive_oil-21,737
+Brown Rice,419,75,75,75,3,5,brown_rice-0,738
+Brown Rice,829,64,80,72,5,5,brown_rice-1,739
+Brown Rice,460,74,76,75,5,4,brown_rice-2,740
+Brown Rice,483,71,84,77,4,5,brown_rice-3,741
+Brown Rice,468,66,78,72,3,1,brown_rice-4,742
+Brown Rice,250,68,76,72,3,1,brown_rice-5,743
+Brown Rice,954,71,80,75,3,2,brown_rice-6,744
+Brown Rice,479,69,83,76,4,4,brown_rice-7,745
+Brown Rice,578,69,83,76,3,3,brown_rice-8,746
+Brown Rice,68,72,85,78,3,1,brown_rice-9,747
+Brown Rice,510,65,79,72,5,2,brown_rice-10,748
+Brown Rice,772,69,86,77,4,4,brown_rice-11,749
+Brown Rice,282,66,85,75,1,4,brown_rice-12,750
+Brown Rice,71,64,80,72,1,4,brown_rice-13,751
+Brown Rice,325,72,78,75,1,3,brown_rice-14,752
+Brown Rice,942,68,80,74,3,1,brown_rice-15,753
+Brown Rice,716,69,78,73,5,5,brown_rice-16,754
+Brown Rice,187,72,84,78,2,4,brown_rice-17,755
+Brown Rice,485,69,81,75,3,4,brown_rice-18,756
+Brown Rice,685,68,86,77,2,3,brown_rice-19,757
+Brown Rice,319,72,77,74,4,0,brown_rice-20,758
+Brown Rice,187,73,78,75,4,3,brown_rice-21,759
+Brown Rice,966,64,79,71,4,0,brown_rice-22,760
+Brown Rice,930,69,76,72,2,4,brown_rice-23,761
+Brown Rice,464,66,76,71,1,2,brown_rice-24,762
+Organic Chicken Breast,410,134,168,151,5,3,organic_chicken_breast-0,763
+Organic Chicken Breast,498,149,156,152,3,1,organic_chicken_breast-1,764
+Organic Chicken Breast,172,131,168,149,2,5,organic_chicken_breast-2,765
+Organic Chicken Breast,724,129,160,144,2,1,organic_chicken_breast-3,766
+Organic Chicken Breast,516,135,168,151,5,0,organic_chicken_breast-4,767
+Organic Chicken Breast,730,138,153,145,1,2,organic_chicken_breast-5,768
+Organic Chicken Breast,844,134,159,146,4,3,organic_chicken_breast-6,769
+Organic Chicken Breast,691,147,172,159,3,2,organic_chicken_breast-7,770
+Organic Chicken Breast,140,149,159,154,1,3,organic_chicken_breast-8,771
+Organic Chicken Breast,29,146,151,148,5,2,organic_chicken_breast-9,772
+Organic Chicken Breast,497,131,153,142,5,1,organic_chicken_breast-10,773
+Organic Chicken Breast,992,143,166,154,1,2,organic_chicken_breast-11,774
+Organic Chicken Breast,454,143,157,150,3,0,organic_chicken_breast-12,775
+Organic Chicken Breast,638,134,163,148,1,2,organic_chicken_breast-13,776
+Organic Chicken Breast,946,138,156,147,5,5,organic_chicken_breast-14,777
+Organic Chicken Breast,567,134,154,144,4,3,organic_chicken_breast-15,778
+Organic Chicken Breast,830,143,157,150,3,5,organic_chicken_breast-16,779
+Organic Chicken Breast,247,144,171,157,3,4,organic_chicken_breast-17,780
+Organic Chicken Breast,594,138,166,152,1,0,organic_chicken_breast-18,781
+Organic Chicken Breast,140,143,162,152,3,3,organic_chicken_breast-19,782
+Organic Chicken Breast,963,143,156,149,3,5,organic_chicken_breast-20,783
+Raw Honey,126,95,107,101,3,2,raw_honey-0,784
+Raw Honey,477,96,115,105,5,5,raw_honey-1,785
+Raw Honey,355,92,112,102,4,1,raw_honey-2,786
+Raw Honey,59,92,105,98,2,4,raw_honey-3,787
+Raw Honey,511,93,103,98,1,5,raw_honey-4,788
+Raw Honey,962,97,105,101,2,1,raw_honey-5,789
+Raw Honey,435,88,106,97,5,2,raw_honey-6,790
+Raw Honey,46,97,101,99,5,0,raw_honey-7,791
+Raw Honey,213,90,111,100,4,1,raw_honey-8,792
+Raw Honey,540,91,107,99,2,4,raw_honey-9,793
+Raw Honey,92,94,104,99,2,3,raw_honey-10,794
+Raw Honey,926,99,102,100,5,2,raw_honey-11,795
+Raw Honey,645,86,102,94,2,2,raw_honey-12,796
+Raw Honey,239,86,110,98,3,4,raw_honey-13,797
+Raw Honey,295,95,104,99,4,3,raw_honey-14,798
+Raw Honey,493,95,105,100,1,1,raw_honey-15,799
+Raw Honey,336,94,115,104,2,2,raw_honey-16,800
+Raw Honey,413,90,115,102,1,3,raw_honey-17,801
+Raw Honey,852,88,108,98,2,1,raw_honey-18,802
+Raw Honey,102,96,112,104,5,0,raw_honey-19,803
+Raw Honey,73,99,105,102,5,3,raw_honey-20,804
+Raw Honey,757,99,111,105,4,0,raw_honey-21,805
+Raw Honey,782,97,101,99,2,3,raw_honey-22,806
+Mixed Berries,109,57,65,61,2,5,mixed_berries-0,807
+Mixed Berries,561,56,68,62,5,4,mixed_berries-1,808
+Mixed Berries,595,56,69,62,3,2,mixed_berries-2,809
+Mixed Berries,511,59,70,64,4,5,mixed_berries-3,810
+Mixed Berries,447,58,65,61,1,3,mixed_berries-4,811
+Mixed Berries,617,53,69,61,2,2,mixed_berries-5,812
+Mixed Berries,322,56,65,60,3,1,mixed_berries-6,813
+Mixed Berries,590,54,68,61,1,0,mixed_berries-7,814
+Mixed Berries,90,55,69,62,1,5,mixed_berries-8,815
+Mixed Berries,832,59,66,62,4,3,mixed_berries-9,816
+Mixed Berries,236,55,67,61,2,4,mixed_berries-10,817
+Mixed Berries,421,61,65,63,5,4,mixed_berries-11,818
+Mixed Berries,818,58,68,63,2,2,mixed_berries-12,819
+Mixed Berries,795,54,70,62,1,5,mixed_berries-13,820
+Mixed Berries,338,54,71,62,1,5,mixed_berries-14,821
+Mixed Berries,611,54,63,58,1,3,mixed_berries-15,822
+Mixed Berries,660,59,65,62,2,0,mixed_berries-16,823
+Mixed Berries,659,59,71,65,5,4,mixed_berries-17,824
+Mixed Berries,750,60,70,65,1,3,mixed_berries-18,825
+Mixed Berries,829,59,66,62,4,4,mixed_berries-19,826
+Mixed Berries,829,58,66,62,5,2,mixed_berries-20,827
+Mixed Berries,333,54,68,61,1,2,mixed_berries-21,828
+Mixed Berries,79,61,68,64,2,2,mixed_berries-22,829
+Mixed Berries,694,55,68,61,4,5,mixed_berries-23,830
+Chia Seeds,358,74,96,85,2,0,chia_seeds-0,831
+Chia Seeds,971,74,100,87,3,5,chia_seeds-1,832
+Chia Seeds,701,79,97,88,3,3,chia_seeds-2,833
+Chia Seeds,398,75,90,82,1,0,chia_seeds-3,834
+Chia Seeds,356,80,97,88,5,1,chia_seeds-4,835
+Chia Seeds,481,87,91,89,1,4,chia_seeds-5,836
+Chia Seeds,226,74,96,85,2,5,chia_seeds-6,837
+Chia Seeds,37,80,93,86,5,3,chia_seeds-7,838
+Chia Seeds,997,82,98,90,4,3,chia_seeds-8,839
+Chia Seeds,685,74,100,87,1,5,chia_seeds-9,840
+Chia Seeds,707,80,98,89,4,4,chia_seeds-10,841
+Chia Seeds,864,77,95,86,5,3,chia_seeds-11,842
+Chia Seeds,288,78,93,85,2,4,chia_seeds-12,843
+Chia Seeds,942,84,93,88,2,1,chia_seeds-13,844
+Chia Seeds,412,81,89,85,3,3,chia_seeds-14,845
+Chia Seeds,763,81,98,89,2,3,chia_seeds-15,846
+Chia Seeds,534,87,87,87,2,1,chia_seeds-16,847
+Chia Seeds,828,82,91,86,5,2,chia_seeds-17,848
+Chia Seeds,499,75,90,82,5,5,chia_seeds-18,849
+Chia Seeds,339,81,100,90,1,2,chia_seeds-19,850
+Chia Seeds,813,78,88,83,5,0,chia_seeds-20,851
+Chia Seeds,734,78,90,84,4,1,chia_seeds-21,852
+Chia Seeds,696,76,95,85,4,3,chia_seeds-22,853
+Chia Seeds,40,84,90,87,1,2,chia_seeds-23,854
+Chia Seeds,907,86,95,90,3,5,chia_seeds-24,855
+Grass-fed Beef,331,240,255,247,3,1,grassfed_beef-0,856
+Grass-fed Beef,552,233,265,249,1,0,grassfed_beef-1,857
+Grass-fed Beef,166,228,252,240,1,3,grassfed_beef-2,858
+Grass-fed Beef,186,233,260,246,2,1,grassfed_beef-3,859
+Grass-fed Beef,124,248,285,266,4,3,grassfed_beef-4,860
+Grass-fed Beef,247,238,262,250,2,2,grassfed_beef-5,861
+Grass-fed Beef,942,235,260,247,1,4,grassfed_beef-6,862
+Grass-fed Beef,605,230,280,255,4,2,grassfed_beef-7,863
+Grass-fed Beef,452,230,277,253,1,3,grassfed_beef-8,864
+Grass-fed Beef,199,240,275,257,2,1,grassfed_beef-9,865
+Grass-fed Beef,268,243,282,262,2,4,grassfed_beef-10,866
+Grass-fed Beef,50,243,282,262,2,3,grassfed_beef-11,867
+Grass-fed Beef,297,228,267,247,4,0,grassfed_beef-12,868
+Grass-fed Beef,194,243,285,264,2,0,grassfed_beef-13,869
+Grass-fed Beef,94,218,255,236,1,0,grassfed_beef-14,870
+Grass-fed Beef,553,230,282,256,3,1,grassfed_beef-15,871
+Grass-fed Beef,177,218,262,240,5,0,grassfed_beef-16,872
+Grass-fed Beef,695,220,265,242,1,3,grassfed_beef-17,873
+Grass-fed Beef,771,228,265,246,5,4,grassfed_beef-18,874
+Grass-fed Beef,330,223,265,244,4,0,grassfed_beef-19,875
+Grass-fed Beef,584,248,265,256,1,1,grassfed_beef-20,876
+Grass-fed Beef,85,243,272,257,4,1,grassfed_beef-21,877
+Grass-fed Beef,382,243,252,247,1,1,grassfed_beef-22,878
+Grass-fed Beef,632,233,260,246,3,5,grassfed_beef-23,879
+Gluten-free Pasta,252,91,114,102,2,1,glutenfree_pasta-0,880
+Gluten-free Pasta,556,87,115,101,4,0,glutenfree_pasta-1,881
+Gluten-free Pasta,856,85,110,97,5,0,glutenfree_pasta-2,882
+Gluten-free Pasta,779,98,101,99,4,2,glutenfree_pasta-3,883
+Gluten-free Pasta,756,97,102,99,3,1,glutenfree_pasta-4,884
+Gluten-free Pasta,42,92,109,100,1,1,glutenfree_pasta-5,885
+Gluten-free Pasta,855,89,112,100,1,3,glutenfree_pasta-6,886
+Gluten-free Pasta,817,92,114,103,2,2,glutenfree_pasta-7,887
+Gluten-free Pasta,495,93,113,103,4,5,glutenfree_pasta-8,888
+Gluten-free Pasta,606,93,109,101,4,3,glutenfree_pasta-9,889
+Gluten-free Pasta,41,85,114,99,2,4,glutenfree_pasta-10,890
+Gluten-free Pasta,282,85,113,99,1,5,glutenfree_pasta-11,891
+Gluten-free Pasta,854,88,107,97,3,4,glutenfree_pasta-12,892
+Gluten-free Pasta,360,87,104,95,1,1,glutenfree_pasta-13,893
+Gluten-free Pasta,92,89,103,96,4,4,glutenfree_pasta-14,894
+Gluten-free Pasta,751,99,114,106,1,5,glutenfree_pasta-15,895
+Gluten-free Pasta,558,93,104,98,3,1,glutenfree_pasta-16,896
+Gluten-free Pasta,152,89,101,95,1,3,glutenfree_pasta-17,897
+Gluten-free Pasta,282,99,113,106,1,2,glutenfree_pasta-18,898
+Gluten-free Pasta,790,88,112,100,1,5,glutenfree_pasta-19,899
+Gluten-free Pasta,535,87,103,95,3,5,glutenfree_pasta-20,900
+Gluten-free Pasta,561,87,106,96,3,5,glutenfree_pasta-21,901
+Gluten-free Pasta,690,99,110,104,2,3,glutenfree_pasta-22,902
+Gluten-free Pasta,376,89,109,99,2,0,glutenfree_pasta-23,903
+Organic Kale,141,33,41,37,5,1,organic_kale-0,904
+Organic Kale,912,33,39,36,3,2,organic_kale-1,905
+Organic Kale,444,36,41,38,2,5,organic_kale-2,906
+Organic Kale,420,36,37,36,5,2,organic_kale-3,907
+Organic Kale,220,33,42,37,3,1,organic_kale-4,908
+Organic Kale,275,33,38,35,5,2,organic_kale-5,909
+Organic Kale,692,33,40,36,5,4,organic_kale-6,910
+Organic Kale,42,34,41,37,5,3,organic_kale-7,911
+Organic Kale,136,36,38,37,3,4,organic_kale-8,912
+Organic Kale,998,35,38,36,5,0,organic_kale-9,913
+Organic Kale,421,34,39,36,5,0,organic_kale-10,914
+Organic Kale,302,34,38,36,4,3,organic_kale-11,915
+Organic Kale,265,36,40,38,1,1,organic_kale-12,916
+Organic Kale,930,35,40,37,4,0,organic_kale-13,917
+Organic Kale,740,34,42,38,2,4,organic_kale-14,918
+Organic Kale,784,32,40,36,3,0,organic_kale-15,919
+Organic Kale,150,32,40,36,1,0,organic_kale-16,920
+Organic Kale,354,32,39,35,3,1,organic_kale-17,921
+Organic Kale,786,36,39,37,5,3,organic_kale-18,922
+Organic Kale,893,32,39,35,1,0,organic_kale-19,923
+Coconut Water,888,46,52,49,2,5,coconut_water-0,924
+Coconut Water,307,43,53,48,5,2,coconut_water-1,925
+Coconut Water,526,46,54,50,1,2,coconut_water-2,926
+Coconut Water,798,46,56,51,5,1,coconut_water-3,927
+Coconut Water,675,47,57,52,3,0,coconut_water-4,928
+Coconut Water,134,47,52,49,3,2,coconut_water-5,929
+Coconut Water,32,43,56,49,5,1,coconut_water-6,930
+Coconut Water,398,49,51,50,1,0,coconut_water-7,931
+Coconut Water,23,49,57,53,1,4,coconut_water-8,932
+Coconut Water,697,44,53,48,5,2,coconut_water-9,933
+Coconut Water,984,46,53,49,3,2,coconut_water-10,934
+Coconut Water,367,44,52,48,3,5,coconut_water-11,935
+Coconut Water,759,46,54,50,2,5,coconut_water-12,936
+Coconut Water,548,50,57,53,4,3,coconut_water-13,937
+Coconut Water,439,45,55,50,5,4,coconut_water-14,938
+Coconut Water,329,49,52,50,3,2,coconut_water-15,939
+Coconut Water,228,44,51,47,4,1,coconut_water-16,940
+Coconut Water,580,49,52,50,5,1,coconut_water-17,941
+Coconut Water,552,43,54,48,4,2,coconut_water-18,942
+Coconut Water,37,46,55,50,4,2,coconut_water-19,943
+Coconut Water,699,44,51,47,5,2,coconut_water-20,944
+Coconut Water,723,48,55,51,3,0,coconut_water-21,945
+Coconut Water,433,50,52,51,4,2,coconut_water-22,946
+Organic Black Beans,827,53,69,61,3,3,organic_black_beans-0,947
+Organic Black Beans,663,57,69,63,5,0,organic_black_beans-1,948
+Organic Black Beans,895,55,68,61,1,2,organic_black_beans-2,949
+Organic Black Beans,778,61,69,65,3,0,organic_black_beans-3,950
+Organic Black Beans,718,56,67,61,3,0,organic_black_beans-4,951
+Organic Black Beans,717,58,69,63,2,4,organic_black_beans-5,952
+Organic Black Beans,269,53,66,59,3,1,organic_black_beans-6,953
+Organic Black Beans,426,56,67,61,4,0,organic_black_beans-7,954
+Organic Black Beans,586,61,66,63,1,1,organic_black_beans-8,955
+Organic Black Beans,310,59,63,61,3,4,organic_black_beans-9,956
+Organic Black Beans,427,62,63,62,2,1,organic_black_beans-10,957
+Organic Black Beans,86,53,63,58,1,3,organic_black_beans-11,958
+Organic Black Beans,579,55,65,60,5,4,organic_black_beans-12,959
+Organic Black Beans,906,59,71,65,2,0,organic_black_beans-13,960
+Organic Black Beans,654,61,67,64,1,0,organic_black_beans-14,961
+Organic Black Beans,734,59,71,65,1,0,organic_black_beans-15,962
+Organic Black Beans,90,58,67,62,1,1,organic_black_beans-16,963
+Organic Black Beans,702,53,63,58,3,4,organic_black_beans-17,964
+Organic Black Beans,788,60,65,62,5,0,organic_black_beans-18,965
+Organic Black Beans,291,60,65,62,5,0,organic_black_beans-19,966
+Google Nest Thermostat,561,6750,8550,7650,3,0,google_nest_thermostat-0,967
+Google Nest Thermostat,621,6525,8025,7275,3,0,google_nest_thermostat-1,968
+Google Nest Thermostat,81,6450,8100,7275,2,4,google_nest_thermostat-2,969
+Google Nest Thermostat,858,6450,7725,7087,1,1,google_nest_thermostat-3,970
+Google Nest Thermostat,691,7050,7725,7387,5,4,google_nest_thermostat-4,971
+Google Nest Thermostat,329,7125,7650,7387,2,3,google_nest_thermostat-5,972
+Google Nest Thermostat,978,6825,7650,7237,3,5,google_nest_thermostat-6,973
+Google Nest Thermostat,596,7425,8100,7762,3,4,google_nest_thermostat-7,974
+Google Nest Thermostat,967,6450,8625,7537,2,1,google_nest_thermostat-8,975
+Google Nest Thermostat,526,6975,8250,7612,3,5,google_nest_thermostat-9,976
+Google Nest Thermostat,120,6825,7950,7387,4,0,google_nest_thermostat-10,977
+Google Nest Thermostat,556,7050,8175,7612,5,1,google_nest_thermostat-11,978
+Google Nest Thermostat,697,7050,7650,7350,4,3,google_nest_thermostat-12,979
+Google Nest Thermostat,193,7350,8250,7800,2,4,google_nest_thermostat-13,980
+Google Nest Thermostat,328,6900,7875,7387,4,0,google_nest_thermostat-14,981
+Google Nest Thermostat,39,7350,8325,7837,1,4,google_nest_thermostat-15,982
+Google Nest Thermostat,893,7425,8475,7950,1,4,google_nest_thermostat-16,983
+Google Nest Thermostat,370,6825,7650,7237,1,3,google_nest_thermostat-17,984
+Google Nest Thermostat,502,6750,7950,7350,3,5,google_nest_thermostat-18,985
+Google Nest Thermostat,770,7350,8025,7687,5,5,google_nest_thermostat-19,986
+Google Nest Thermostat,168,6600,7725,7162,5,5,google_nest_thermostat-20,987
+Google Nest Thermostat,72,6900,7800,7350,5,0,google_nest_thermostat-21,988
+Google Nest Thermostat,305,6900,7800,7350,3,5,google_nest_thermostat-22,989
+Google Nest Thermostat,789,6750,7650,7200,3,3,google_nest_thermostat-23,990
+Google Nest Thermostat,849,7050,8025,7537,2,1,google_nest_thermostat-24,991
+Google Nest Thermostat,91,6525,8475,7500,4,5,google_nest_thermostat-25,992
+Google Nest Thermostat,216,7125,7650,7387,4,1,google_nest_thermostat-26,993
+Google Nest Thermostat,418,6750,7800,7275,1,3,google_nest_thermostat-27,994
+Ring Video Doorbell,300,9500,11000,10250,4,0,ring_video_doorbell-0,995
+Ring Video Doorbell,587,8600,11300,9950,2,2,ring_video_doorbell-1,996
+Ring Video Doorbell,914,9800,10800,10300,4,5,ring_video_doorbell-2,997
+Ring Video Doorbell,185,9800,10800,10300,4,2,ring_video_doorbell-3,998
+Ring Video Doorbell,267,8600,11000,9800,5,4,ring_video_doorbell-4,999
+Ring Video Doorbell,706,8800,10600,9700,5,2,ring_video_doorbell-5,1000
+Ring Video Doorbell,960,9200,11500,10350,3,2,ring_video_doorbell-6,1001
+Ring Video Doorbell,970,9200,10400,9800,1,5,ring_video_doorbell-7,1002
+Ring Video Doorbell,108,9300,11200,10250,5,3,ring_video_doorbell-8,1003
+Ring Video Doorbell,269,9700,10600,10150,3,3,ring_video_doorbell-9,1004
+Ring Video Doorbell,958,9000,10700,9850,5,5,ring_video_doorbell-10,1005
+Ring Video Doorbell,726,9500,10500,10000,2,2,ring_video_doorbell-11,1006
+Ring Video Doorbell,846,9300,10500,9900,4,4,ring_video_doorbell-12,1007
+Ring Video Doorbell,195,9500,11100,10300,3,3,ring_video_doorbell-13,1008
+Ring Video Doorbell,608,8600,11400,10000,5,2,ring_video_doorbell-14,1009
+Ring Video Doorbell,629,8600,10800,9700,2,1,ring_video_doorbell-15,1010
+Ring Video Doorbell,118,8500,10900,9700,1,2,ring_video_doorbell-16,1011
+Ring Video Doorbell,626,9200,10800,10000,4,1,ring_video_doorbell-17,1012
+Ring Video Doorbell,212,8500,10700,9600,4,2,ring_video_doorbell-18,1013
+Ring Video Doorbell,55,8900,10100,9500,3,2,ring_video_doorbell-19,1014
+Ring Video Doorbell,125,8600,10100,9350,1,5,ring_video_doorbell-20,1015
+Philips Hue Smart Bulbs,516,4900,5700,5300,5,2,philips_hue_smart_bulbs-0,1016
+Philips Hue Smart Bulbs,821,4950,5050,5000,2,3,philips_hue_smart_bulbs-1,1017
+Philips Hue Smart Bulbs,912,4250,5450,4850,5,1,philips_hue_smart_bulbs-2,1018
+Philips Hue Smart Bulbs,611,4650,5400,5025,1,5,philips_hue_smart_bulbs-3,1019
+Philips Hue Smart Bulbs,452,4650,5300,4975,5,5,philips_hue_smart_bulbs-4,1020
+Philips Hue Smart Bulbs,862,4950,5050,5000,1,2,philips_hue_smart_bulbs-5,1021
+Philips Hue Smart Bulbs,861,4300,5150,4725,5,0,philips_hue_smart_bulbs-6,1022
+Philips Hue Smart Bulbs,163,4400,5500,4950,3,1,philips_hue_smart_bulbs-7,1023
+Philips Hue Smart Bulbs,580,4800,5050,4925,4,4,philips_hue_smart_bulbs-8,1024
+Philips Hue Smart Bulbs,55,4950,5450,5200,3,2,philips_hue_smart_bulbs-9,1025
+Philips Hue Smart Bulbs,368,4900,5750,5325,2,1,philips_hue_smart_bulbs-10,1026
+Philips Hue Smart Bulbs,492,4600,5350,4975,3,0,philips_hue_smart_bulbs-11,1027
+Philips Hue Smart Bulbs,530,4700,5050,4875,4,3,philips_hue_smart_bulbs-12,1028
+Philips Hue Smart Bulbs,392,4600,5700,5150,1,2,philips_hue_smart_bulbs-13,1029
+Philips Hue Smart Bulbs,521,4250,5050,4650,4,1,philips_hue_smart_bulbs-14,1030
+Philips Hue Smart Bulbs,815,4900,5100,5000,4,1,philips_hue_smart_bulbs-15,1031
+Philips Hue Smart Bulbs,896,4900,5400,5150,2,1,philips_hue_smart_bulbs-16,1032
+Philips Hue Smart Bulbs,265,4750,5700,5225,5,1,philips_hue_smart_bulbs-17,1033
+Philips Hue Smart Bulbs,460,4650,5300,4975,2,5,philips_hue_smart_bulbs-18,1034
+Philips Hue Smart Bulbs,851,4300,5250,4775,5,3,philips_hue_smart_bulbs-19,1035
+Amazon Echo Dot (4th Gen),411,3263,3825,3544,3,2,amazon_echo_dot_th_gen-0,1036
+Amazon Echo Dot (4th Gen),257,3563,3975,3769,1,0,amazon_echo_dot_th_gen-1,1037
+Amazon Echo Dot (4th Gen),726,3188,4237,3712,3,2,amazon_echo_dot_th_gen-2,1038
+Amazon Echo Dot (4th Gen),360,3638,3825,3731,1,4,amazon_echo_dot_th_gen-3,1039
+Amazon Echo Dot (4th Gen),951,3188,4275,3731,5,1,amazon_echo_dot_th_gen-4,1040
+Amazon Echo Dot (4th Gen),292,3375,4237,3806,4,5,amazon_echo_dot_th_gen-5,1041
+Amazon Echo Dot (4th Gen),194,3413,4087,3750,5,2,amazon_echo_dot_th_gen-6,1042
+Amazon Echo Dot (4th Gen),97,3375,4162,3768,5,3,amazon_echo_dot_th_gen-7,1043
+Amazon Echo Dot (4th Gen),236,3225,4162,3693,1,2,amazon_echo_dot_th_gen-8,1044
+Amazon Echo Dot (4th Gen),474,3600,4200,3900,4,3,amazon_echo_dot_th_gen-9,1045
+Amazon Echo Dot (4th Gen),527,3525,3825,3675,4,3,amazon_echo_dot_th_gen-10,1046
+Amazon Echo Dot (4th Gen),510,3488,3937,3712,5,1,amazon_echo_dot_th_gen-11,1047
+Amazon Echo Dot (4th Gen),331,3263,3787,3525,4,0,amazon_echo_dot_th_gen-12,1048
+Amazon Echo Dot (4th Gen),539,3488,4200,3844,1,5,amazon_echo_dot_th_gen-13,1049
+Amazon Echo Dot (4th Gen),987,3413,3787,3600,5,3,amazon_echo_dot_th_gen-14,1050
+Amazon Echo Dot (4th Gen),642,3413,4012,3712,2,2,amazon_echo_dot_th_gen-15,1051
+Amazon Echo Dot (4th Gen),505,3450,4237,3843,3,1,amazon_echo_dot_th_gen-16,1052
+Amazon Echo Dot (4th Gen),26,3488,4237,3862,3,1,amazon_echo_dot_th_gen-17,1053
+Amazon Echo Dot (4th Gen),121,3525,3937,3731,5,3,amazon_echo_dot_th_gen-18,1054
+Amazon Echo Dot (4th Gen),564,3488,3862,3675,2,4,amazon_echo_dot_th_gen-19,1055
+Amazon Echo Dot (4th Gen),659,3413,4312,3862,3,3,amazon_echo_dot_th_gen-20,1056
+Nest Hello Video Doorbell,134,11750,13375,12562,2,3,nest_hello_video_doorbell-0,1057
+Nest Hello Video Doorbell,25,12000,13875,12937,1,3,nest_hello_video_doorbell-1,1058
+Nest Hello Video Doorbell,385,11500,13750,12625,1,0,nest_hello_video_doorbell-2,1059
+Nest Hello Video Doorbell,141,11375,13750,12562,5,3,nest_hello_video_doorbell-3,1060
+Nest Hello Video Doorbell,752,12125,13375,12750,4,1,nest_hello_video_doorbell-4,1061
+Nest Hello Video Doorbell,856,10750,12625,11687,5,3,nest_hello_video_doorbell-5,1062
+Nest Hello Video Doorbell,565,10750,13125,11937,5,4,nest_hello_video_doorbell-6,1063
+Nest Hello Video Doorbell,335,12000,13500,12750,4,3,nest_hello_video_doorbell-7,1064
+Nest Hello Video Doorbell,157,10625,14375,12500,4,5,nest_hello_video_doorbell-8,1065
+Nest Hello Video Doorbell,245,12250,12875,12562,5,3,nest_hello_video_doorbell-9,1066
+Nest Hello Video Doorbell,807,10750,14000,12375,1,2,nest_hello_video_doorbell-10,1067
+Nest Hello Video Doorbell,954,10750,12750,11750,3,3,nest_hello_video_doorbell-11,1068
+Nest Hello Video Doorbell,181,12000,13625,12812,5,4,nest_hello_video_doorbell-12,1069
+Nest Hello Video Doorbell,362,10750,13500,12125,3,4,nest_hello_video_doorbell-13,1070
+Nest Hello Video Doorbell,380,10625,14000,12312,1,4,nest_hello_video_doorbell-14,1071
+Nest Hello Video Doorbell,141,11125,13625,12375,1,2,nest_hello_video_doorbell-15,1072
+Nest Hello Video Doorbell,890,12125,12875,12500,1,2,nest_hello_video_doorbell-16,1073
+Nest Hello Video Doorbell,556,12000,12750,12375,2,0,nest_hello_video_doorbell-17,1074
+Nest Hello Video Doorbell,143,10625,13875,12250,3,4,nest_hello_video_doorbell-18,1075
+Nest Hello Video Doorbell,603,11875,14000,12937,4,5,nest_hello_video_doorbell-19,1076
+Ecobee Smart Thermostat,230,8138,9100,8619,3,5,ecobee_smart_thermostat-0,1077
+Ecobee Smart Thermostat,260,7525,10062,8793,4,4,ecobee_smart_thermostat-1,1078
+Ecobee Smart Thermostat,759,7788,9012,8400,3,4,ecobee_smart_thermostat-2,1079
+Ecobee Smart Thermostat,505,8138,9800,8969,5,2,ecobee_smart_thermostat-3,1080
+Ecobee Smart Thermostat,713,7438,9712,8575,5,4,ecobee_smart_thermostat-4,1081
+Ecobee Smart Thermostat,468,7525,9100,8312,5,0,ecobee_smart_thermostat-5,1082
+Ecobee Smart Thermostat,105,8575,9712,9143,4,4,ecobee_smart_thermostat-6,1083
+Ecobee Smart Thermostat,426,7963,9800,8881,3,2,ecobee_smart_thermostat-7,1084
+Ecobee Smart Thermostat,358,8138,9712,8925,3,2,ecobee_smart_thermostat-8,1085
+Ecobee Smart Thermostat,962,7525,9537,8531,3,4,ecobee_smart_thermostat-9,1086
+Ecobee Smart Thermostat,289,8050,9887,8968,4,3,ecobee_smart_thermostat-10,1087
+Ecobee Smart Thermostat,611,7613,9275,8444,2,1,ecobee_smart_thermostat-11,1088
+Ecobee Smart Thermostat,191,7438,9887,8662,3,0,ecobee_smart_thermostat-12,1089
+Ecobee Smart Thermostat,968,8225,9712,8968,1,0,ecobee_smart_thermostat-13,1090
+Ecobee Smart Thermostat,511,8400,9450,8925,4,4,ecobee_smart_thermostat-14,1091
+Ecobee Smart Thermostat,524,8050,9275,8662,4,4,ecobee_smart_thermostat-15,1092
+Ecobee Smart Thermostat,463,8575,9887,9231,1,1,ecobee_smart_thermostat-16,1093
+Ecobee Smart Thermostat,748,8400,10062,9231,4,0,ecobee_smart_thermostat-17,1094
+Ecobee Smart Thermostat,739,8225,9975,9100,1,3,ecobee_smart_thermostat-18,1095
+Ecobee Smart Thermostat,302,7613,9975,8794,5,0,ecobee_smart_thermostat-19,1096
+Ecobee Smart Thermostat,115,7875,9712,8793,1,5,ecobee_smart_thermostat-20,1097
+Ecobee Smart Thermostat,731,8225,9187,8706,3,4,ecobee_smart_thermostat-21,1098
+Ecobee Smart Thermostat,92,8575,9450,9012,5,1,ecobee_smart_thermostat-22,1099
+Samsung SmartThings Hub,488,6125,6437,6281,3,1,samsung_smartthings_hub-0,1100
+Samsung SmartThings Hub,515,5875,6375,6125,3,1,samsung_smartthings_hub-1,1101
+Samsung SmartThings Hub,205,6063,7187,6625,2,0,samsung_smartthings_hub-2,1102
+Samsung SmartThings Hub,426,5750,7062,6406,1,3,samsung_smartthings_hub-3,1103
+Samsung SmartThings Hub,971,5438,7000,6219,2,1,samsung_smartthings_hub-4,1104
+Samsung SmartThings Hub,879,5625,7187,6406,3,5,samsung_smartthings_hub-5,1105
+Samsung SmartThings Hub,393,5375,6625,6000,1,2,samsung_smartthings_hub-6,1106
+Samsung SmartThings Hub,378,5875,7062,6468,3,0,samsung_smartthings_hub-7,1107
+Samsung SmartThings Hub,45,5438,6625,6031,5,0,samsung_smartthings_hub-8,1108
+Samsung SmartThings Hub,771,6125,6375,6250,5,2,samsung_smartthings_hub-9,1109
+Samsung SmartThings Hub,857,5813,7000,6406,2,5,samsung_smartthings_hub-10,1110
+Samsung SmartThings Hub,981,6125,7125,6625,3,3,samsung_smartthings_hub-11,1111
+Samsung SmartThings Hub,969,6000,6437,6218,1,2,samsung_smartthings_hub-12,1112
+Samsung SmartThings Hub,428,5500,7000,6250,1,1,samsung_smartthings_hub-13,1113
+Samsung SmartThings Hub,861,5750,7125,6437,3,3,samsung_smartthings_hub-14,1114
+Samsung SmartThings Hub,392,5500,6875,6187,1,0,samsung_smartthings_hub-15,1115
+Samsung SmartThings Hub,521,5375,7062,6218,1,4,samsung_smartthings_hub-16,1116
+Samsung SmartThings Hub,436,6063,6937,6500,5,0,samsung_smartthings_hub-17,1117
+Samsung SmartThings Hub,472,5438,6625,6031,1,4,samsung_smartthings_hub-18,1118
+Samsung SmartThings Hub,140,5813,7125,6469,2,4,samsung_smartthings_hub-19,1119
+Samsung SmartThings Hub,429,6125,6812,6468,2,2,samsung_smartthings_hub-20,1120
+Samsung SmartThings Hub,481,5375,6625,6000,2,1,samsung_smartthings_hub-21,1121
+Samsung SmartThings Hub,21,5563,6437,6000,3,1,samsung_smartthings_hub-22,1122
+Samsung SmartThings Hub,932,6188,7062,6625,4,1,samsung_smartthings_hub-23,1123
+Samsung SmartThings Hub,57,5375,6687,6031,2,3,samsung_smartthings_hub-24,1124
+Samsung SmartThings Hub,433,5750,6750,6250,4,1,samsung_smartthings_hub-25,1125
+Samsung SmartThings Hub,254,5313,6625,5969,2,0,samsung_smartthings_hub-26,1126
+Samsung SmartThings Hub,217,6125,7062,6593,2,2,samsung_smartthings_hub-27,1127
+Samsung SmartThings Hub,589,5375,7000,6187,3,3,samsung_smartthings_hub-28,1128
+Samsung SmartThings Hub,666,6000,6562,6281,5,0,samsung_smartthings_hub-29,1129
+August Smart Lock Pro,313,11025,11362,11193,2,3,august_smart_lock_pro-0,1130
+August Smart Lock Pro,268,10350,12037,11193,2,1,august_smart_lock_pro-1,1131
+August Smart Lock Pro,905,10125,11925,11025,5,2,august_smart_lock_pro-2,1132
+August Smart Lock Pro,71,10463,12262,11362,3,0,august_smart_lock_pro-3,1133
+August Smart Lock Pro,638,11138,12037,11587,2,0,august_smart_lock_pro-4,1134
+August Smart Lock Pro,403,9563,12825,11194,5,4,august_smart_lock_pro-5,1135
+August Smart Lock Pro,763,10463,12037,11250,4,4,august_smart_lock_pro-6,1136
+August Smart Lock Pro,743,11025,12375,11700,5,4,august_smart_lock_pro-7,1137
+August Smart Lock Pro,575,9675,12825,11250,1,4,august_smart_lock_pro-8,1138
+August Smart Lock Pro,119,9788,11812,10800,2,4,august_smart_lock_pro-9,1139
+August Smart Lock Pro,329,10463,11700,11081,2,2,august_smart_lock_pro-10,1140
+August Smart Lock Pro,289,11025,12937,11981,1,4,august_smart_lock_pro-11,1141
+August Smart Lock Pro,559,10913,12712,11812,1,5,august_smart_lock_pro-12,1142
+August Smart Lock Pro,701,9900,12600,11250,4,1,august_smart_lock_pro-13,1143
+August Smart Lock Pro,939,9788,12712,11250,1,3,august_smart_lock_pro-14,1144
+August Smart Lock Pro,183,10013,12375,11194,1,1,august_smart_lock_pro-15,1145
+August Smart Lock Pro,411,10575,11925,11250,3,0,august_smart_lock_pro-16,1146
+August Smart Lock Pro,155,11138,12037,11587,4,0,august_smart_lock_pro-17,1147
+August Smart Lock Pro,886,10913,11812,11362,2,5,august_smart_lock_pro-18,1148
+August Smart Lock Pro,812,10913,11362,11137,2,3,august_smart_lock_pro-19,1149
+August Smart Lock Pro,45,10350,11925,11137,1,4,august_smart_lock_pro-20,1150
+August Smart Lock Pro,933,10575,12487,11531,4,5,august_smart_lock_pro-21,1151
+August Smart Lock Pro,158,9675,11700,10687,5,4,august_smart_lock_pro-22,1152
+August Smart Lock Pro,570,11025,12937,11981,5,0,august_smart_lock_pro-23,1153
+August Smart Lock Pro,259,10238,12712,11475,2,2,august_smart_lock_pro-24,1154
+August Smart Lock Pro,22,10575,11362,10968,2,1,august_smart_lock_pro-25,1155
+August Smart Lock Pro,219,10463,12150,11306,2,4,august_smart_lock_pro-26,1156
+LIFX Smart LED Strip,361,3719,4462,4090,5,1,lifx_smart_led_strip-0,1157
+LIFX Smart LED Strip,156,4069,4900,4484,3,5,lifx_smart_led_strip-1,1158
+LIFX Smart LED Strip,54,4157,4943,4550,3,5,lifx_smart_led_strip-2,1159
+LIFX Smart LED Strip,389,4113,4637,4375,2,5,lifx_smart_led_strip-3,1160
+LIFX Smart LED Strip,251,4025,5031,4528,5,5,lifx_smart_led_strip-4,1161
+LIFX Smart LED Strip,931,3719,4987,4353,2,2,lifx_smart_led_strip-5,1162
+LIFX Smart LED Strip,776,4157,4943,4550,2,3,lifx_smart_led_strip-6,1163
+LIFX Smart LED Strip,868,3938,4812,4375,4,4,lifx_smart_led_strip-7,1164
+LIFX Smart LED Strip,66,4200,4768,4484,5,5,lifx_smart_led_strip-8,1165
+LIFX Smart LED Strip,168,4113,5031,4572,3,3,lifx_smart_led_strip-9,1166
+LIFX Smart LED Strip,168,3719,4637,4178,5,2,lifx_smart_led_strip-10,1167
+LIFX Smart LED Strip,807,4025,4768,4396,4,2,lifx_smart_led_strip-11,1168
+LIFX Smart LED Strip,435,4332,4593,4462,5,0,lifx_smart_led_strip-12,1169
+LIFX Smart LED Strip,111,3982,4418,4200,2,2,lifx_smart_led_strip-13,1170
+LIFX Smart LED Strip,80,4113,4987,4550,4,2,lifx_smart_led_strip-14,1171
+LIFX Smart LED Strip,635,3982,4812,4397,2,0,lifx_smart_led_strip-15,1172
+LIFX Smart LED Strip,67,4157,4856,4506,1,3,lifx_smart_led_strip-16,1173
+LIFX Smart LED Strip,824,4332,4943,4637,5,2,lifx_smart_led_strip-17,1174
+LIFX Smart LED Strip,291,4200,4506,4353,1,1,lifx_smart_led_strip-18,1175
+LIFX Smart LED Strip,968,3894,4725,4309,5,2,lifx_smart_led_strip-19,1176
+LIFX Smart LED Strip,354,4069,4943,4506,5,4,lifx_smart_led_strip-20,1177
+LIFX Smart LED Strip,108,3894,4812,4353,2,1,lifx_smart_led_strip-21,1178
+LIFX Smart LED Strip,669,3982,4418,4200,4,0,lifx_smart_led_strip-22,1179
+Wyze Cam Pan,63,6450,8400,7425,5,0,wyze_cam_pan-0,1180
+Wyze Cam Pan,480,6900,7950,7425,3,0,wyze_cam_pan-1,1181
+Wyze Cam Pan,455,6900,8100,7500,1,2,wyze_cam_pan-2,1182
+Wyze Cam Pan,947,7350,8325,7837,4,1,wyze_cam_pan-3,1183
+Wyze Cam Pan,501,6450,8100,7275,5,1,wyze_cam_pan-4,1184
+Wyze Cam Pan,754,7200,7950,7575,2,2,wyze_cam_pan-5,1185
+Wyze Cam Pan,599,7125,8250,7687,1,0,wyze_cam_pan-6,1186
+Wyze Cam Pan,618,6900,8100,7500,3,3,wyze_cam_pan-7,1187
+Wyze Cam Pan,263,6975,7950,7462,3,2,wyze_cam_pan-8,1188
+Wyze Cam Pan,203,6750,8325,7537,4,3,wyze_cam_pan-9,1189
+Wyze Cam Pan,722,6900,7575,7237,2,1,wyze_cam_pan-10,1190
+Wyze Cam Pan,877,6375,8025,7200,5,0,wyze_cam_pan-11,1191
+Wyze Cam Pan,370,6750,8400,7575,1,5,wyze_cam_pan-12,1192
+Wyze Cam Pan,744,7050,7650,7350,4,1,wyze_cam_pan-13,1193
+Wyze Cam Pan,566,6750,7575,7162,3,2,wyze_cam_pan-14,1194
+Wyze Cam Pan,394,6450,8100,7275,2,2,wyze_cam_pan-15,1195
+Wyze Cam Pan,415,6675,8325,7500,5,0,wyze_cam_pan-16,1196
+Wyze Cam Pan,302,7125,8550,7837,5,0,wyze_cam_pan-17,1197
+Wyze Cam Pan,37,7050,8550,7800,2,0,wyze_cam_pan-18,1198
+Wyze Cam Pan,722,6750,7875,7312,3,5,wyze_cam_pan-19,1199
+Wyze Cam Pan,758,6600,8175,7387,5,0,wyze_cam_pan-20,1200
+Wyze Cam Pan,283,6750,8175,7462,5,4,wyze_cam_pan-21,1201
+Wyze Cam Pan,554,6975,8100,7537,1,5,wyze_cam_pan-22,1202
+Wyze Cam Pan,663,6750,8100,7425,2,4,wyze_cam_pan-23,1203
+Wyze Cam Pan,194,7200,8475,7837,4,3,wyze_cam_pan-24,1204
+Wyze Cam Pan,744,6525,8550,7537,1,1,wyze_cam_pan-25,1205
+Wyze Cam Pan,181,6525,7650,7087,3,2,wyze_cam_pan-26,1206
+Roomba i7+ Robot Vacuum,577,73500,81750,77625,3,2,roomba_i_robot_vacuum-0,1207
+Roomba i7+ Robot Vacuum,682,72000,82500,77250,5,5,roomba_i_robot_vacuum-1,1208
+Roomba i7+ Robot Vacuum,73,74250,79500,76875,1,1,roomba_i_robot_vacuum-2,1209
+Roomba i7+ Robot Vacuum,75,64500,78000,71250,2,0,roomba_i_robot_vacuum-3,1210
+Roomba i7+ Robot Vacuum,168,66750,86250,76500,3,0,roomba_i_robot_vacuum-4,1211
+Roomba i7+ Robot Vacuum,883,66000,77250,71625,5,4,roomba_i_robot_vacuum-5,1212
+Roomba i7+ Robot Vacuum,523,74250,84000,79125,3,2,roomba_i_robot_vacuum-6,1213
+Roomba i7+ Robot Vacuum,675,72750,75750,74250,3,0,roomba_i_robot_vacuum-7,1214
+Roomba i7+ Robot Vacuum,655,73500,83250,78375,4,2,roomba_i_robot_vacuum-8,1215
+Roomba i7+ Robot Vacuum,258,70500,78750,74625,1,1,roomba_i_robot_vacuum-9,1216
+Roomba i7+ Robot Vacuum,841,66000,84750,75375,3,3,roomba_i_robot_vacuum-10,1217
+Roomba i7+ Robot Vacuum,961,67500,83250,75375,1,2,roomba_i_robot_vacuum-11,1218
+Roomba i7+ Robot Vacuum,310,67500,83250,75375,3,5,roomba_i_robot_vacuum-12,1219
+Roomba i7+ Robot Vacuum,20,70500,84750,77625,3,4,roomba_i_robot_vacuum-13,1220
+Roomba i7+ Robot Vacuum,546,63750,75750,69750,2,5,roomba_i_robot_vacuum-14,1221
+Roomba i7+ Robot Vacuum,364,71250,76500,73875,5,2,roomba_i_robot_vacuum-15,1222
+Roomba i7+ Robot Vacuum,540,71250,86250,78750,5,4,roomba_i_robot_vacuum-16,1223
+Roomba i7+ Robot Vacuum,127,65250,80250,72750,3,0,roomba_i_robot_vacuum-17,1224
+Roomba i7+ Robot Vacuum,305,64500,83250,73875,4,0,roomba_i_robot_vacuum-18,1225
+Roomba i7+ Robot Vacuum,645,68250,77250,72750,4,1,roomba_i_robot_vacuum-19,1226
+Roomba i7+ Robot Vacuum,137,72750,78750,75750,2,5,roomba_i_robot_vacuum-20,1227
+Roomba i7+ Robot Vacuum,68,65250,80250,72750,1,1,roomba_i_robot_vacuum-21,1228
+Roomba i7+ Robot Vacuum,793,66750,76500,71625,1,5,roomba_i_robot_vacuum-22,1229
+Roomba i7+ Robot Vacuum,127,69000,78000,73500,4,2,roomba_i_robot_vacuum-23,1230
+Roomba i7+ Robot Vacuum,101,66000,83250,74625,5,2,roomba_i_robot_vacuum-24,1231
+Roomba i7+ Robot Vacuum,43,74250,81000,77625,1,4,roomba_i_robot_vacuum-25,1232
+Roomba i7+ Robot Vacuum,949,72750,81000,76875,1,3,roomba_i_robot_vacuum-26,1233
+Roomba i7+ Robot Vacuum,646,70500,81750,76125,5,0,roomba_i_robot_vacuum-27,1234
+Roomba i7+ Robot Vacuum,811,66750,86250,76500,2,5,roomba_i_robot_vacuum-28,1235
+Roomba i7+ Robot Vacuum,968,66750,81000,73875,1,2,roomba_i_robot_vacuum-29,1236
+Nest Learning Thermostat,895,11625,14125,12875,1,1,nest_learning_thermostat-0,1237
+Nest Learning Thermostat,662,12375,14125,13250,1,1,nest_learning_thermostat-1,1238
+Nest Learning Thermostat,64,11750,14000,12875,2,2,nest_learning_thermostat-2,1239
+Nest Learning Thermostat,703,11000,14250,12625,2,2,nest_learning_thermostat-3,1240
+Nest Learning Thermostat,623,10875,13750,12312,2,0,nest_learning_thermostat-4,1241
+Nest Learning Thermostat,65,11875,14250,13062,2,2,nest_learning_thermostat-5,1242
+Nest Learning Thermostat,173,12000,13875,12937,3,0,nest_learning_thermostat-6,1243
+Nest Learning Thermostat,329,11250,13750,12500,2,1,nest_learning_thermostat-7,1244
+Nest Learning Thermostat,389,12125,13750,12937,3,3,nest_learning_thermostat-8,1245
+Nest Learning Thermostat,509,11500,12625,12062,4,2,nest_learning_thermostat-9,1246
+Nest Learning Thermostat,417,11500,13750,12625,3,1,nest_learning_thermostat-10,1247
+Nest Learning Thermostat,906,10625,12750,11687,1,2,nest_learning_thermostat-11,1248
+Nest Learning Thermostat,376,10625,13250,11937,1,3,nest_learning_thermostat-12,1249
+Nest Learning Thermostat,750,11125,13375,12250,3,1,nest_learning_thermostat-13,1250
+Nest Learning Thermostat,20,11375,14000,12687,1,0,nest_learning_thermostat-14,1251
+Nest Learning Thermostat,781,11000,12625,11812,1,4,nest_learning_thermostat-15,1252
+Nest Learning Thermostat,329,10750,14250,12500,2,3,nest_learning_thermostat-16,1253
+Nest Learning Thermostat,487,11375,12625,12000,4,5,nest_learning_thermostat-17,1254
+Nest Learning Thermostat,259,11625,12875,12250,5,5,nest_learning_thermostat-18,1255
+Nest Learning Thermostat,143,12375,13250,12812,1,3,nest_learning_thermostat-19,1256
+Nest Learning Thermostat,654,11750,13625,12687,3,0,nest_learning_thermostat-20,1257
+Nest Learning Thermostat,99,11000,13750,12375,1,3,nest_learning_thermostat-21,1258
+Nest Learning Thermostat,46,11000,13375,12187,5,5,nest_learning_thermostat-22,1259
+Nest Learning Thermostat,172,11500,12625,12062,5,3,nest_learning_thermostat-23,1260
+Nest Learning Thermostat,236,11875,14250,13062,3,0,nest_learning_thermostat-24,1261
+Nest Learning Thermostat,38,12250,12750,12500,1,2,nest_learning_thermostat-25,1262
+Ring Spotlight Cam,623,12900,16500,14700,5,0,ring_spotlight_cam-0,1263
+Ring Spotlight Cam,163,13950,16500,15225,5,4,ring_spotlight_cam-1,1264
+Ring Spotlight Cam,919,13500,15150,14325,3,5,ring_spotlight_cam-2,1265
+Ring Spotlight Cam,451,12900,15150,14025,2,1,ring_spotlight_cam-3,1266
+Ring Spotlight Cam,119,13650,17250,15450,4,0,ring_spotlight_cam-4,1267
+Ring Spotlight Cam,919,13200,15750,14475,3,2,ring_spotlight_cam-5,1268
+Ring Spotlight Cam,841,14250,15750,15000,4,5,ring_spotlight_cam-6,1269
+Ring Spotlight Cam,426,14250,16650,15450,4,0,ring_spotlight_cam-7,1270
+Ring Spotlight Cam,460,13950,16950,15450,2,0,ring_spotlight_cam-8,1271
+Ring Spotlight Cam,192,12900,16050,14475,1,2,ring_spotlight_cam-9,1272
+Ring Spotlight Cam,194,13200,15600,14400,3,0,ring_spotlight_cam-10,1273
+Ring Spotlight Cam,853,14250,15450,14850,4,2,ring_spotlight_cam-11,1274
+Ring Spotlight Cam,745,12750,16800,14775,4,5,ring_spotlight_cam-12,1275
+Ring Spotlight Cam,898,12900,16350,14625,5,4,ring_spotlight_cam-13,1276
+Ring Spotlight Cam,368,12900,15600,14250,5,4,ring_spotlight_cam-14,1277
+Ring Spotlight Cam,400,13650,16800,15225,2,2,ring_spotlight_cam-15,1278
+Ring Spotlight Cam,597,13350,15900,14625,1,4,ring_spotlight_cam-16,1279
+Ring Spotlight Cam,175,14550,16800,15675,3,5,ring_spotlight_cam-17,1280
+Ring Spotlight Cam,443,13200,15300,14250,5,5,ring_spotlight_cam-18,1281
+Ring Spotlight Cam,788,14100,16350,15225,3,3,ring_spotlight_cam-19,1282
+TP-Link Kasa Smart Plug,543,2175,2575,2375,3,3,tplink_kasa_smart_plug-0,1283
+TP-Link Kasa Smart Plug,652,2175,2650,2412,5,1,tplink_kasa_smart_plug-1,1284
+TP-Link Kasa Smart Plug,320,2150,2675,2412,1,3,tplink_kasa_smart_plug-2,1285
+TP-Link Kasa Smart Plug,140,2125,2600,2362,3,3,tplink_kasa_smart_plug-3,1286
+TP-Link Kasa Smart Plug,866,2350,2675,2512,2,2,tplink_kasa_smart_plug-4,1287
+TP-Link Kasa Smart Plug,718,2200,2725,2462,5,2,tplink_kasa_smart_plug-5,1288
+TP-Link Kasa Smart Plug,782,2275,2675,2475,5,4,tplink_kasa_smart_plug-6,1289
+TP-Link Kasa Smart Plug,184,2450,2700,2575,1,4,tplink_kasa_smart_plug-7,1290
+TP-Link Kasa Smart Plug,348,2450,2750,2600,5,3,tplink_kasa_smart_plug-8,1291
+TP-Link Kasa Smart Plug,490,2125,2825,2475,1,0,tplink_kasa_smart_plug-9,1292
+TP-Link Kasa Smart Plug,134,2125,2800,2462,4,5,tplink_kasa_smart_plug-10,1293
+TP-Link Kasa Smart Plug,193,2300,2800,2550,2,4,tplink_kasa_smart_plug-11,1294
+TP-Link Kasa Smart Plug,575,2325,2800,2562,1,3,tplink_kasa_smart_plug-12,1295
+TP-Link Kasa Smart Plug,815,2175,2625,2400,4,4,tplink_kasa_smart_plug-13,1296
+TP-Link Kasa Smart Plug,953,2125,2675,2400,3,2,tplink_kasa_smart_plug-14,1297
+TP-Link Kasa Smart Plug,47,2250,2875,2562,2,3,tplink_kasa_smart_plug-15,1298
+TP-Link Kasa Smart Plug,225,2250,2875,2562,2,5,tplink_kasa_smart_plug-16,1299
+TP-Link Kasa Smart Plug,736,2125,2700,2412,4,1,tplink_kasa_smart_plug-17,1300
+TP-Link Kasa Smart Plug,278,2350,2575,2462,3,3,tplink_kasa_smart_plug-18,1301
+TP-Link Kasa Smart Plug,564,2425,2725,2575,1,3,tplink_kasa_smart_plug-19,1302
+TP-Link Kasa Smart Plug,692,2275,2600,2437,2,3,tplink_kasa_smart_plug-20,1303
+TP-Link Kasa Smart Plug,620,2375,2775,2575,2,4,tplink_kasa_smart_plug-21,1304
+TP-Link Kasa Smart Plug,192,2325,2625,2475,2,2,tplink_kasa_smart_plug-22,1305
+TP-Link Kasa Smart Plug,89,2400,2675,2537,5,3,tplink_kasa_smart_plug-23,1306
+TP-Link Kasa Smart Plug,480,2475,2675,2575,2,5,tplink_kasa_smart_plug-24,1307
+TP-Link Kasa Smart Plug,647,2450,2550,2500,3,0,tplink_kasa_smart_plug-25,1308
+TP-Link Kasa Smart Plug,228,2200,2625,2412,1,3,tplink_kasa_smart_plug-26,1309
+TP-Link Kasa Smart Plug,117,2300,2750,2525,4,2,tplink_kasa_smart_plug-27,1310
+TP-Link Kasa Smart Plug,844,2450,2600,2525,2,1,tplink_kasa_smart_plug-28,1311
+TP-Link Kasa Smart Plug,327,2400,2725,2562,2,4,tplink_kasa_smart_plug-29,1312
+Amazon Echo Show 10 (3rd Gen),451,16500,20812,18656,1,2,amazon_echo_show__rd_gen-0,1313
+Amazon Echo Show 10 (3rd Gen),740,16875,20437,18656,5,1,amazon_echo_show__rd_gen-1,1314
+Amazon Echo Show 10 (3rd Gen),757,18000,21562,19781,1,2,amazon_echo_show__rd_gen-2,1315
+Amazon Echo Show 10 (3rd Gen),447,18000,19125,18562,3,2,amazon_echo_show__rd_gen-3,1316
+Amazon Echo Show 10 (3rd Gen),374,17813,20250,19031,5,1,amazon_echo_show__rd_gen-4,1317
+Amazon Echo Show 10 (3rd Gen),217,17250,21187,19218,1,0,amazon_echo_show__rd_gen-5,1318
+Amazon Echo Show 10 (3rd Gen),130,16500,21000,18750,3,1,amazon_echo_show__rd_gen-6,1319
+Amazon Echo Show 10 (3rd Gen),31,18563,19312,18937,2,0,amazon_echo_show__rd_gen-7,1320
+Amazon Echo Show 10 (3rd Gen),476,18563,20437,19500,5,2,amazon_echo_show__rd_gen-8,1321
+Amazon Echo Show 10 (3rd Gen),739,15938,21000,18469,1,3,amazon_echo_show__rd_gen-9,1322
+Amazon Echo Show 10 (3rd Gen),927,18188,21000,19594,4,0,amazon_echo_show__rd_gen-10,1323
+Amazon Echo Show 10 (3rd Gen),101,16313,20437,18375,1,0,amazon_echo_show__rd_gen-11,1324
+Amazon Echo Show 10 (3rd Gen),819,16688,21562,19125,3,2,amazon_echo_show__rd_gen-12,1325
+Amazon Echo Show 10 (3rd Gen),147,16688,19687,18187,1,3,amazon_echo_show__rd_gen-13,1326
+Amazon Echo Show 10 (3rd Gen),237,16500,20062,18281,1,3,amazon_echo_show__rd_gen-14,1327
+Amazon Echo Show 10 (3rd Gen),340,16500,20437,18468,5,4,amazon_echo_show__rd_gen-15,1328
+Amazon Echo Show 10 (3rd Gen),933,18188,19500,18844,1,4,amazon_echo_show__rd_gen-16,1329
+Amazon Echo Show 10 (3rd Gen),867,17625,18937,18281,4,4,amazon_echo_show__rd_gen-17,1330
+Amazon Echo Show 10 (3rd Gen),246,18000,21375,19687,2,0,amazon_echo_show__rd_gen-18,1331
+Amazon Echo Show 10 (3rd Gen),519,17813,19125,18469,4,0,amazon_echo_show__rd_gen-19,1332
+Amazon Echo Show 10 (3rd Gen),833,17625,19875,18750,4,1,amazon_echo_show__rd_gen-20,1333
+Amazon Echo Show 10 (3rd Gen),923,17063,20437,18750,5,2,amazon_echo_show__rd_gen-21,1334
+Amazon Echo Show 10 (3rd Gen),339,16688,19312,18000,2,3,amazon_echo_show__rd_gen-22,1335
+Amazon Echo Show 10 (3rd Gen),446,17813,18937,18375,4,3,amazon_echo_show__rd_gen-23,1336
+Amazon Echo Show 10 (3rd Gen),878,15938,19875,17906,5,0,amazon_echo_show__rd_gen-24,1337
+Amazon Echo Show 10 (3rd Gen),882,18563,21375,19969,5,5,amazon_echo_show__rd_gen-25,1338
+Arlo Pro 3 Security Camera,518,22050,23850,22950,2,4,arlo_pro__security_camera-0,1339
+Arlo Pro 3 Security Camera,688,20700,25200,22950,4,1,arlo_pro__security_camera-1,1340
+Arlo Pro 3 Security Camera,247,21375,22725,22050,1,4,arlo_pro__security_camera-2,1341
+Arlo Pro 3 Security Camera,667,20475,25425,22950,2,4,arlo_pro__security_camera-3,1342
+Arlo Pro 3 Security Camera,512,21600,25200,23400,5,5,arlo_pro__security_camera-4,1343
+Arlo Pro 3 Security Camera,836,21825,22950,22387,4,2,arlo_pro__security_camera-5,1344
+Arlo Pro 3 Security Camera,621,19800,24525,22162,3,5,arlo_pro__security_camera-6,1345
+Arlo Pro 3 Security Camera,731,19800,23850,21825,2,2,arlo_pro__security_camera-7,1346
+Arlo Pro 3 Security Camera,251,21600,24975,23287,3,2,arlo_pro__security_camera-8,1347
+Arlo Pro 3 Security Camera,737,19575,25200,22387,4,0,arlo_pro__security_camera-9,1348
+Arlo Pro 3 Security Camera,484,21825,22950,22387,4,1,arlo_pro__security_camera-10,1349
+Arlo Pro 3 Security Camera,162,22275,23850,23062,2,2,arlo_pro__security_camera-11,1350
+Arlo Pro 3 Security Camera,99,19350,24975,22162,2,5,arlo_pro__security_camera-12,1351
+Arlo Pro 3 Security Camera,526,21375,24525,22950,3,2,arlo_pro__security_camera-13,1352
+Arlo Pro 3 Security Camera,709,20025,25425,22725,4,1,arlo_pro__security_camera-14,1353
+Arlo Pro 3 Security Camera,341,19575,25425,22500,5,4,arlo_pro__security_camera-15,1354
+Arlo Pro 3 Security Camera,959,20925,22725,21825,3,5,arlo_pro__security_camera-16,1355
+Arlo Pro 3 Security Camera,600,21600,23400,22500,4,3,arlo_pro__security_camera-17,1356
+Arlo Pro 3 Security Camera,992,19800,24975,22387,1,0,arlo_pro__security_camera-18,1357
+Arlo Pro 3 Security Camera,177,19125,22725,20925,5,1,arlo_pro__security_camera-19,1358
+Arlo Pro 3 Security Camera,253,19800,24525,22162,1,3,arlo_pro__security_camera-20,1359
+Arlo Pro 3 Security Camera,536,21150,25875,23512,3,0,arlo_pro__security_camera-21,1360
+Arlo Pro 3 Security Camera,274,20025,25650,22837,3,2,arlo_pro__security_camera-22,1361
+Arlo Pro 3 Security Camera,986,19350,22950,21150,1,2,arlo_pro__security_camera-23,1362
+Arlo Pro 3 Security Camera,193,20475,24750,22612,2,3,arlo_pro__security_camera-24,1363
+Arlo Pro 3 Security Camera,648,20250,25425,22837,1,2,arlo_pro__security_camera-25,1364
+Arlo Pro 3 Security Camera,602,20475,23175,21825,1,4,arlo_pro__security_camera-26,1365
+Arlo Pro 3 Security Camera,542,21150,25875,23512,4,3,arlo_pro__security_camera-27,1366
+Wemo Smart Light Switch,765,3188,4237,3712,1,1,wemo_smart_light_switch-0,1367
+Wemo Smart Light Switch,511,3563,3975,3769,1,2,wemo_smart_light_switch-1,1368
+Wemo Smart Light Switch,791,3263,4275,3769,2,0,wemo_smart_light_switch-2,1369
+Wemo Smart Light Switch,38,3638,4162,3900,3,0,wemo_smart_light_switch-3,1370
+Wemo Smart Light Switch,847,3675,3975,3825,2,1,wemo_smart_light_switch-4,1371
+Wemo Smart Light Switch,571,3638,3900,3769,3,1,wemo_smart_light_switch-5,1372
+Wemo Smart Light Switch,895,3375,3825,3600,2,3,wemo_smart_light_switch-6,1373
+Wemo Smart Light Switch,210,3338,4050,3694,4,2,wemo_smart_light_switch-7,1374
+Wemo Smart Light Switch,748,3675,4162,3918,5,1,wemo_smart_light_switch-8,1375
+Wemo Smart Light Switch,359,3713,3900,3806,3,4,wemo_smart_light_switch-9,1376
+Wemo Smart Light Switch,143,3338,3900,3619,3,3,wemo_smart_light_switch-10,1377
+Wemo Smart Light Switch,51,3675,4200,3937,5,1,wemo_smart_light_switch-11,1378
+Wemo Smart Light Switch,450,3563,4050,3806,1,1,wemo_smart_light_switch-12,1379
+Wemo Smart Light Switch,331,3188,3937,3562,2,0,wemo_smart_light_switch-13,1380
+Wemo Smart Light Switch,568,3300,4237,3768,4,1,wemo_smart_light_switch-14,1381
+Wemo Smart Light Switch,777,3263,3937,3600,2,4,wemo_smart_light_switch-15,1382
+Wemo Smart Light Switch,738,3188,4312,3750,4,0,wemo_smart_light_switch-16,1383
+Wemo Smart Light Switch,614,3563,4312,3937,3,2,wemo_smart_light_switch-17,1384
+Wemo Smart Light Switch,478,3713,3787,3750,1,1,wemo_smart_light_switch-18,1385
+Wemo Smart Light Switch,796,3600,4275,3937,4,0,wemo_smart_light_switch-19,1386
+Wemo Smart Light Switch,621,3450,4087,3768,5,4,wemo_smart_light_switch-20,1387
+Wemo Smart Light Switch,65,3263,4275,3769,5,3,wemo_smart_light_switch-21,1388
+Wemo Smart Light Switch,655,3188,3787,3487,3,2,wemo_smart_light_switch-22,1389
+Wemo Smart Light Switch,325,3600,4012,3806,1,1,wemo_smart_light_switch-23,1390
+Wemo Smart Light Switch,647,3263,4087,3675,3,1,wemo_smart_light_switch-24,1391
+Wemo Smart Light Switch,511,3713,4012,3862,1,4,wemo_smart_light_switch-25,1392
+Wemo Smart Light Switch,161,3338,4275,3806,2,3,wemo_smart_light_switch-26,1393
+Wemo Smart Light Switch,53,3450,3937,3693,1,4,wemo_smart_light_switch-27,1394
+Wemo Smart Light Switch,758,3488,4312,3900,5,0,wemo_smart_light_switch-28,1395
+Wemo Smart Light Switch,250,3225,4200,3712,3,1,wemo_smart_light_switch-29,1396
+Google Nest Protect Smoke Detector,496,9100,10700,9900,3,1,google_nest_protect_smoke_detector-0,1397
+Google Nest Protect Smoke Detector,208,9800,11200,10500,2,4,google_nest_protect_smoke_detector-1,1398
+Google Nest Protect Smoke Detector,987,8800,11400,10100,5,2,google_nest_protect_smoke_detector-2,1399
+Google Nest Protect Smoke Detector,980,8500,10500,9500,1,4,google_nest_protect_smoke_detector-3,1400
+Google Nest Protect Smoke Detector,313,9500,11300,10400,3,0,google_nest_protect_smoke_detector-4,1401
+Google Nest Protect Smoke Detector,555,9800,11100,10450,2,5,google_nest_protect_smoke_detector-5,1402
+Google Nest Protect Smoke Detector,643,9300,10200,9750,3,2,google_nest_protect_smoke_detector-6,1403
+Google Nest Protect Smoke Detector,573,9800,10700,10250,2,5,google_nest_protect_smoke_detector-7,1404
+Google Nest Protect Smoke Detector,435,9800,10500,10150,2,5,google_nest_protect_smoke_detector-8,1405
+Google Nest Protect Smoke Detector,136,8500,10100,9300,1,3,google_nest_protect_smoke_detector-9,1406
+Google Nest Protect Smoke Detector,176,9700,11400,10550,1,1,google_nest_protect_smoke_detector-10,1407
+Google Nest Protect Smoke Detector,734,9600,10900,10250,2,2,google_nest_protect_smoke_detector-11,1408
+Google Nest Protect Smoke Detector,542,9600,10500,10050,2,3,google_nest_protect_smoke_detector-12,1409
+Google Nest Protect Smoke Detector,919,8900,10600,9750,2,3,google_nest_protect_smoke_detector-13,1410
+Google Nest Protect Smoke Detector,948,9800,11400,10600,2,1,google_nest_protect_smoke_detector-14,1411
+Google Nest Protect Smoke Detector,825,8800,11000,9900,4,1,google_nest_protect_smoke_detector-15,1412
+Google Nest Protect Smoke Detector,856,8600,11400,10000,4,2,google_nest_protect_smoke_detector-16,1413
+Google Nest Protect Smoke Detector,44,9600,11400,10500,1,2,google_nest_protect_smoke_detector-17,1414
+Google Nest Protect Smoke Detector,847,8800,10900,9850,2,1,google_nest_protect_smoke_detector-18,1415
+Google Nest Protect Smoke Detector,245,8600,11100,9850,5,4,google_nest_protect_smoke_detector-19,1416
+Google Nest Protect Smoke Detector,307,9500,11400,10450,4,1,google_nest_protect_smoke_detector-20,1417
+Google Nest Protect Smoke Detector,533,8900,11000,9950,4,2,google_nest_protect_smoke_detector-21,1418
+Google Nest Protect Smoke Detector,746,9100,10800,9950,2,3,google_nest_protect_smoke_detector-22,1419
+Google Nest Protect Smoke Detector,352,9800,10900,10350,2,0,google_nest_protect_smoke_detector-23,1420
+Sonos One Smart Speaker,456,14400,15450,14925,3,1,sonos_one_smart_speaker-0,1421
+Sonos One Smart Speaker,304,13350,16650,15000,1,0,sonos_one_smart_speaker-1,1422
+Sonos One Smart Speaker,765,14550,16950,15750,2,1,sonos_one_smart_speaker-2,1423
+Sonos One Smart Speaker,388,12900,15900,14400,3,4,sonos_one_smart_speaker-3,1424
+Sonos One Smart Speaker,777,13800,15600,14700,3,3,sonos_one_smart_speaker-4,1425
+Sonos One Smart Speaker,610,13650,16350,15000,5,5,sonos_one_smart_speaker-5,1426
+Sonos One Smart Speaker,779,12750,15900,14325,1,3,sonos_one_smart_speaker-6,1427
+Sonos One Smart Speaker,205,13950,16200,15075,2,3,sonos_one_smart_speaker-7,1428
+Sonos One Smart Speaker,574,14100,16950,15525,3,3,sonos_one_smart_speaker-8,1429
+Sonos One Smart Speaker,149,14550,15450,15000,2,5,sonos_one_smart_speaker-9,1430
+Sonos One Smart Speaker,442,13950,16200,15075,5,1,sonos_one_smart_speaker-10,1431
+Sonos One Smart Speaker,891,12750,15900,14325,2,3,sonos_one_smart_speaker-11,1432
+Sonos One Smart Speaker,460,14850,16050,15450,3,5,sonos_one_smart_speaker-12,1433
+Sonos One Smart Speaker,229,14250,17250,15750,4,1,sonos_one_smart_speaker-13,1434
+Sonos One Smart Speaker,173,14700,16800,15750,1,0,sonos_one_smart_speaker-14,1435
+Sonos One Smart Speaker,611,13200,16800,15000,2,4,sonos_one_smart_speaker-15,1436
+Sonos One Smart Speaker,240,13500,15750,14625,4,1,sonos_one_smart_speaker-16,1437
+Sonos One Smart Speaker,593,13950,16050,15000,5,1,sonos_one_smart_speaker-17,1438
+Sonos One Smart Speaker,884,13800,15150,14475,2,5,sonos_one_smart_speaker-18,1439
+Sonos One Smart Speaker,827,13350,16050,14700,3,1,sonos_one_smart_speaker-19,1440
+Sonos One Smart Speaker,895,14400,17100,15750,2,4,sonos_one_smart_speaker-20,1441
+Sonos One Smart Speaker,955,14550,16500,15525,2,2,sonos_one_smart_speaker-21,1442
+Sonos One Smart Speaker,447,14550,15150,14850,4,0,sonos_one_smart_speaker-22,1443
+Sonos One Smart Speaker,269,12750,16500,14625,3,1,sonos_one_smart_speaker-23,1444
+Sonos One Smart Speaker,326,13650,17100,15375,1,1,sonos_one_smart_speaker-24,1445
+Eufy RoboVac 11S Robot Vacuum,800,30313,35937,33125,5,3,eufy_robovac_s_robot_vacuum-0,1446
+Eufy RoboVac 11S Robot Vacuum,906,30313,34375,32344,1,5,eufy_robovac_s_robot_vacuum-1,1447
+Eufy RoboVac 11S Robot Vacuum,659,27500,32187,29843,3,4,eufy_robovac_s_robot_vacuum-2,1448
+Eufy RoboVac 11S Robot Vacuum,708,29688,34375,32031,2,4,eufy_robovac_s_robot_vacuum-3,1449
+Eufy RoboVac 11S Robot Vacuum,506,30938,32812,31875,3,4,eufy_robovac_s_robot_vacuum-4,1450
+Eufy RoboVac 11S Robot Vacuum,881,28438,32500,30469,5,0,eufy_robovac_s_robot_vacuum-5,1451
+Eufy RoboVac 11S Robot Vacuum,879,30000,35625,32812,4,0,eufy_robovac_s_robot_vacuum-6,1452
+Eufy RoboVac 11S Robot Vacuum,378,28125,33437,30781,2,2,eufy_robovac_s_robot_vacuum-7,1453
+Eufy RoboVac 11S Robot Vacuum,478,30938,34062,32500,2,2,eufy_robovac_s_robot_vacuum-8,1454
+Eufy RoboVac 11S Robot Vacuum,781,29375,31562,30468,5,4,eufy_robovac_s_robot_vacuum-9,1455
+Eufy RoboVac 11S Robot Vacuum,176,28125,35937,32031,4,5,eufy_robovac_s_robot_vacuum-10,1456
+Eufy RoboVac 11S Robot Vacuum,676,29688,33750,31719,3,1,eufy_robovac_s_robot_vacuum-11,1457
+Eufy RoboVac 11S Robot Vacuum,754,30313,35312,32812,4,5,eufy_robovac_s_robot_vacuum-12,1458
+Eufy RoboVac 11S Robot Vacuum,275,30313,34375,32344,3,3,eufy_robovac_s_robot_vacuum-13,1459
+Eufy RoboVac 11S Robot Vacuum,274,28750,34687,31718,2,3,eufy_robovac_s_robot_vacuum-14,1460
+Eufy RoboVac 11S Robot Vacuum,268,28438,35000,31719,1,4,eufy_robovac_s_robot_vacuum-15,1461
+Eufy RoboVac 11S Robot Vacuum,109,28125,33750,30937,2,1,eufy_robovac_s_robot_vacuum-16,1462
+Eufy RoboVac 11S Robot Vacuum,786,27500,31875,29687,3,3,eufy_robovac_s_robot_vacuum-17,1463
+Eufy RoboVac 11S Robot Vacuum,366,26875,33750,30312,5,3,eufy_robovac_s_robot_vacuum-18,1464
+Eufy RoboVac 11S Robot Vacuum,708,27500,35625,31562,3,1,eufy_robovac_s_robot_vacuum-19,1465
+Eufy RoboVac 11S Robot Vacuum,740,27813,31875,29844,3,4,eufy_robovac_s_robot_vacuum-20,1466
+Eufy RoboVac 11S Robot Vacuum,658,30938,32187,31562,4,2,eufy_robovac_s_robot_vacuum-21,1467
+Apple MacBook Pro (13-inch),574,95625,129375,112500,5,4,apple_macbook_pro_inch-0,1468
+Apple MacBook Pro (13-inch),667,108000,113625,110812,2,5,apple_macbook_pro_inch-1,1469
+Apple MacBook Pro (13-inch),463,95625,127125,111375,3,2,apple_macbook_pro_inch-2,1470
+Apple MacBook Pro (13-inch),735,101250,117000,109125,3,1,apple_macbook_pro_inch-3,1471
+Apple MacBook Pro (13-inch),941,95625,118125,106875,2,1,apple_macbook_pro_inch-4,1472
+Apple MacBook Pro (13-inch),679,100125,129375,114750,3,5,apple_macbook_pro_inch-5,1473
+Apple MacBook Pro (13-inch),432,100125,113625,106875,1,3,apple_macbook_pro_inch-6,1474
+Apple MacBook Pro (13-inch),988,111375,128250,119812,1,3,apple_macbook_pro_inch-7,1475
+Apple MacBook Pro (13-inch),777,104625,113625,109125,3,0,apple_macbook_pro_inch-8,1476
+Apple MacBook Pro (13-inch),259,108000,127125,117562,1,3,apple_macbook_pro_inch-9,1477
+Apple MacBook Pro (13-inch),312,106875,129375,118125,4,3,apple_macbook_pro_inch-10,1478
+Apple MacBook Pro (13-inch),556,111375,114750,113062,5,3,apple_macbook_pro_inch-11,1479
+Apple MacBook Pro (13-inch),446,97875,129375,113625,4,2,apple_macbook_pro_inch-12,1480
+Apple MacBook Pro (13-inch),589,109125,120375,114750,3,2,apple_macbook_pro_inch-13,1481
+Apple MacBook Pro (13-inch),897,106875,113625,110250,3,1,apple_macbook_pro_inch-14,1482
+Apple MacBook Pro (13-inch),696,103500,117000,110250,3,2,apple_macbook_pro_inch-15,1483
+Apple MacBook Pro (13-inch),787,101250,115875,108562,3,3,apple_macbook_pro_inch-16,1484
+Apple MacBook Pro (13-inch),355,109125,119250,114187,1,0,apple_macbook_pro_inch-17,1485
+Apple MacBook Pro (13-inch),440,108000,122625,115312,3,2,apple_macbook_pro_inch-18,1486
+Apple MacBook Pro (13-inch),923,99000,124875,111937,4,5,apple_macbook_pro_inch-19,1487
+Apple MacBook Pro (13-inch),474,102375,122625,112500,5,1,apple_macbook_pro_inch-20,1488
+Apple MacBook Pro (13-inch),73,110250,127125,118687,4,3,apple_macbook_pro_inch-21,1489
+Dell XPS 13,931,79625,93625,86625,5,2,dell_xps_-0,1490
+Dell XPS 13,483,78750,99750,89250,2,5,dell_xps_-1,1491
+Dell XPS 13,858,85750,90125,87937,3,2,dell_xps_-2,1492
+Dell XPS 13,267,77000,94500,85750,5,3,dell_xps_-3,1493
+Dell XPS 13,974,77000,94500,85750,4,2,dell_xps_-4,1494
+Dell XPS 13,44,75250,90125,82687,5,0,dell_xps_-5,1495
+Dell XPS 13,145,82250,90125,86187,2,5,dell_xps_-6,1496
+Dell XPS 13,311,83125,89250,86187,4,0,dell_xps_-7,1497
+Dell XPS 13,29,75250,98000,86625,3,4,dell_xps_-8,1498
+Dell XPS 13,65,77875,100625,89250,1,4,dell_xps_-9,1499
+Dell XPS 13,445,81375,99750,90562,2,3,dell_xps_-10,1500
+Dell XPS 13,120,84000,98000,91000,4,1,dell_xps_-11,1501
+Dell XPS 13,548,85750,98875,92312,4,5,dell_xps_-12,1502
+Dell XPS 13,556,76125,98875,87500,4,3,dell_xps_-13,1503
+Dell XPS 13,724,85750,99750,92750,2,3,dell_xps_-14,1504
+Dell XPS 13,730,79625,98875,89250,3,1,dell_xps_-15,1505
+Dell XPS 13,770,84875,90125,87500,5,4,dell_xps_-16,1506
+Dell XPS 13,152,83125,100625,91875,1,0,dell_xps_-17,1507
+Dell XPS 13,326,76125,99750,87937,2,0,dell_xps_-18,1508
+Dell XPS 13,911,77875,95375,86625,3,2,dell_xps_-19,1509
+Dell XPS 13,309,77000,90125,83562,1,0,dell_xps_-20,1510
+Dell XPS 13,826,78750,93625,86187,1,5,dell_xps_-21,1511
+Dell XPS 13,345,79625,98000,88812,2,1,dell_xps_-22,1512
+Dell XPS 13,163,77875,88375,83125,3,2,dell_xps_-23,1513
+Dell XPS 13,109,80500,93625,87062,5,5,dell_xps_-24,1514
+HP Spectre x360,735,93000,108000,100500,2,5,hp_spectre_x-0,1515
+HP Spectre x360,560,99000,105000,102000,4,2,hp_spectre_x-1,1516
+HP Spectre x360,666,87000,103000,95000,5,0,hp_spectre_x-2,1517
+HP Spectre x360,723,91000,111000,101000,4,5,hp_spectre_x-3,1518
+HP Spectre x360,778,97000,108000,102500,2,5,hp_spectre_x-4,1519
+HP Spectre x360,483,99000,115000,107000,4,5,hp_spectre_x-5,1520
+HP Spectre x360,867,97000,110000,103500,3,1,hp_spectre_x-6,1521
+HP Spectre x360,572,85000,111000,98000,3,4,hp_spectre_x-7,1522
+HP Spectre x360,366,95000,106000,100500,5,1,hp_spectre_x-8,1523
+HP Spectre x360,889,99000,113000,106000,2,2,hp_spectre_x-9,1524
+HP Spectre x360,565,96000,113000,104500,1,0,hp_spectre_x-10,1525
+HP Spectre x360,411,87000,112000,99500,2,0,hp_spectre_x-11,1526
+HP Spectre x360,395,89000,101000,95000,4,4,hp_spectre_x-12,1527
+HP Spectre x360,191,90000,107000,98500,1,0,hp_spectre_x-13,1528
+HP Spectre x360,881,95000,114000,104500,3,3,hp_spectre_x-14,1529
+HP Spectre x360,539,99000,114000,106500,4,5,hp_spectre_x-15,1530
+HP Spectre x360,168,87000,113000,100000,3,1,hp_spectre_x-16,1531
+HP Spectre x360,221,92000,106000,99000,1,4,hp_spectre_x-17,1532
+HP Spectre x360,341,97000,113000,105000,2,2,hp_spectre_x-18,1533
+HP Spectre x360,299,87000,102000,94500,1,4,hp_spectre_x-19,1534
+Lenovo ThinkPad X1 Carbon,82,63750,84000,73875,4,1,lenovo_thinkpad_x_carbon-0,1535
+Lenovo ThinkPad X1 Carbon,627,72000,81750,76875,1,1,lenovo_thinkpad_x_carbon-1,1536
+Lenovo ThinkPad X1 Carbon,585,69000,81750,75375,2,5,lenovo_thinkpad_x_carbon-2,1537
+Lenovo ThinkPad X1 Carbon,565,72750,86250,79500,5,2,lenovo_thinkpad_x_carbon-3,1538
+Lenovo ThinkPad X1 Carbon,83,69000,86250,77625,4,4,lenovo_thinkpad_x_carbon-4,1539
+Lenovo ThinkPad X1 Carbon,905,65250,79500,72375,4,3,lenovo_thinkpad_x_carbon-5,1540
+Lenovo ThinkPad X1 Carbon,308,67500,75750,71625,4,4,lenovo_thinkpad_x_carbon-6,1541
+Lenovo ThinkPad X1 Carbon,441,72750,84000,78375,2,5,lenovo_thinkpad_x_carbon-7,1542
+Lenovo ThinkPad X1 Carbon,22,70500,86250,78375,3,0,lenovo_thinkpad_x_carbon-8,1543
+Lenovo ThinkPad X1 Carbon,640,72750,77250,75000,2,5,lenovo_thinkpad_x_carbon-9,1544
+Lenovo ThinkPad X1 Carbon,916,66000,78000,72000,4,3,lenovo_thinkpad_x_carbon-10,1545
+Lenovo ThinkPad X1 Carbon,865,72750,86250,79500,3,2,lenovo_thinkpad_x_carbon-11,1546
+Lenovo ThinkPad X1 Carbon,198,67500,84000,75750,3,2,lenovo_thinkpad_x_carbon-12,1547
+Lenovo ThinkPad X1 Carbon,535,66750,80250,73500,5,5,lenovo_thinkpad_x_carbon-13,1548
+Lenovo ThinkPad X1 Carbon,938,72000,83250,77625,1,4,lenovo_thinkpad_x_carbon-14,1549
+Lenovo ThinkPad X1 Carbon,420,63750,81750,72750,3,0,lenovo_thinkpad_x_carbon-15,1550
+Lenovo ThinkPad X1 Carbon,227,72750,81000,76875,3,1,lenovo_thinkpad_x_carbon-16,1551
+Lenovo ThinkPad X1 Carbon,31,71250,81000,76125,2,2,lenovo_thinkpad_x_carbon-17,1552
+Lenovo ThinkPad X1 Carbon,817,64500,77250,70875,2,3,lenovo_thinkpad_x_carbon-18,1553
+Lenovo ThinkPad X1 Carbon,875,69000,77250,73125,2,0,lenovo_thinkpad_x_carbon-19,1554
+Lenovo ThinkPad X1 Carbon,712,73500,84750,79125,2,2,lenovo_thinkpad_x_carbon-20,1555
+Lenovo ThinkPad X1 Carbon,208,66000,84000,75000,5,1,lenovo_thinkpad_x_carbon-21,1556
+Lenovo ThinkPad X1 Carbon,368,66000,80250,73125,4,1,lenovo_thinkpad_x_carbon-22,1557
+Lenovo ThinkPad X1 Carbon,195,72750,81750,77250,5,5,lenovo_thinkpad_x_carbon-23,1558
+Microsoft Surface Laptop 4,416,85313,98437,91875,2,3,microsoft_surface_laptop_-0,1559
+Microsoft Surface Laptop 4,248,84375,100312,92343,3,2,microsoft_surface_laptop_-1,1560
+Microsoft Surface Laptop 4,536,81563,98437,90000,3,4,microsoft_surface_laptop_-2,1561
+Microsoft Surface Laptop 4,144,87188,99375,93281,3,0,microsoft_surface_laptop_-3,1562
+Microsoft Surface Laptop 4,198,82500,104062,93281,3,1,microsoft_surface_laptop_-4,1563
+Microsoft Surface Laptop 4,588,82500,105000,93750,2,3,microsoft_surface_laptop_-5,1564
+Microsoft Surface Laptop 4,909,83438,100312,91875,4,4,microsoft_surface_laptop_-6,1565
+Microsoft Surface Laptop 4,348,82500,105937,94218,1,5,microsoft_surface_laptop_-7,1566
+Microsoft Surface Laptop 4,35,88125,97500,92812,3,4,microsoft_surface_laptop_-8,1567
+Microsoft Surface Laptop 4,736,90000,104062,97031,2,4,microsoft_surface_laptop_-9,1568
+Microsoft Surface Laptop 4,367,90000,104062,97031,2,2,microsoft_surface_laptop_-10,1569
+Microsoft Surface Laptop 4,67,90938,103125,97031,4,2,microsoft_surface_laptop_-11,1570
+Microsoft Surface Laptop 4,931,83438,102187,92812,1,5,microsoft_surface_laptop_-12,1571
+Microsoft Surface Laptop 4,88,81563,102187,91875,5,3,microsoft_surface_laptop_-13,1572
+Microsoft Surface Laptop 4,700,82500,101250,91875,3,5,microsoft_surface_laptop_-14,1573
+Microsoft Surface Laptop 4,425,87188,99375,93281,2,1,microsoft_surface_laptop_-15,1574
+Microsoft Surface Laptop 4,270,83438,97500,90469,5,0,microsoft_surface_laptop_-16,1575
+Microsoft Surface Laptop 4,483,88125,104062,96093,1,4,microsoft_surface_laptop_-17,1576
+Microsoft Surface Laptop 4,567,92813,96562,94687,5,4,microsoft_surface_laptop_-18,1577
+Microsoft Surface Laptop 4,78,83438,100312,91875,4,3,microsoft_surface_laptop_-19,1578
+Microsoft Surface Laptop 4,328,88125,94687,91406,3,4,microsoft_surface_laptop_-20,1579
+Microsoft Surface Laptop 4,657,82500,95625,89062,1,5,microsoft_surface_laptop_-21,1580
+Microsoft Surface Laptop 4,597,92813,101250,97031,2,3,microsoft_surface_laptop_-22,1581
+Asus ZenBook 14,278,70688,91812,81250,1,0,asus_zenbook_-0,1582
+Asus ZenBook 14,955,70688,92625,81656,1,0,asus_zenbook_-1,1583
+Asus ZenBook 14,796,70688,93437,82062,4,1,asus_zenbook_-2,1584
+Asus ZenBook 14,914,78000,88562,83281,4,0,asus_zenbook_-3,1585
+Asus ZenBook 14,134,78813,84500,81656,3,2,asus_zenbook_-4,1586
+Asus ZenBook 14,154,76375,82062,79218,2,5,asus_zenbook_-5,1587
+Asus ZenBook 14,476,78000,83687,80843,1,0,asus_zenbook_-6,1588
+Asus ZenBook 14,204,80438,83687,82062,2,0,asus_zenbook_-7,1589
+Asus ZenBook 14,126,77188,83687,80437,5,0,asus_zenbook_-8,1590
+Asus ZenBook 14,901,78000,90187,84093,3,0,asus_zenbook_-9,1591
+Asus ZenBook 14,187,71500,89375,80437,3,4,asus_zenbook_-10,1592
+Asus ZenBook 14,780,78000,82875,80437,2,0,asus_zenbook_-11,1593
+Asus ZenBook 14,453,71500,85312,78406,1,4,asus_zenbook_-12,1594
+Asus ZenBook 14,872,74750,86937,80843,5,0,asus_zenbook_-13,1595
+Asus ZenBook 14,158,79625,86937,83281,4,4,asus_zenbook_-14,1596
+Asus ZenBook 14,959,70688,89375,80031,5,4,asus_zenbook_-15,1597
+Asus ZenBook 14,913,79625,85312,82468,4,0,asus_zenbook_-16,1598
+Asus ZenBook 14,761,71500,86937,79218,4,4,asus_zenbook_-17,1599
+Asus ZenBook 14,304,80438,86937,83687,4,5,asus_zenbook_-18,1600
+Asus ZenBook 14,942,73938,84500,79219,1,0,asus_zenbook_-19,1601
+Asus ZenBook 14,514,69875,86125,78000,4,4,asus_zenbook_-20,1602
+Asus ZenBook 14,992,80438,86125,83281,4,5,asus_zenbook_-21,1603
+Asus ZenBook 14,668,69875,90187,80031,2,3,asus_zenbook_-22,1604
+Asus ZenBook 14,71,69875,82062,75968,2,2,asus_zenbook_-23,1605
+Asus ZenBook 14,344,76375,83687,80031,2,1,asus_zenbook_-24,1606
+Acer Swift 3,513,60625,68750,64687,3,1,acer_swift_-0,1607
+Acer Swift 3,895,56875,68750,62812,3,5,acer_swift_-1,1608
+Acer Swift 3,192,53750,64375,59062,5,0,acer_swift_-2,1609
+Acer Swift 3,139,55625,69375,62500,3,3,acer_swift_-3,1610
+Acer Swift 3,635,61250,68750,65000,5,1,acer_swift_-4,1611
+Acer Swift 3,157,60625,71250,65937,1,3,acer_swift_-5,1612
+Acer Swift 3,522,55000,64375,59687,3,2,acer_swift_-6,1613
+Acer Swift 3,123,53125,65000,59062,3,1,acer_swift_-7,1614
+Acer Swift 3,410,58750,65000,61875,5,2,acer_swift_-8,1615
+Acer Swift 3,336,53750,65625,59687,1,1,acer_swift_-9,1616
+Acer Swift 3,759,58750,68750,63750,5,3,acer_swift_-10,1617
+Acer Swift 3,369,58125,68750,63437,3,2,acer_swift_-11,1618
+Acer Swift 3,271,54375,65000,59687,4,0,acer_swift_-12,1619
+Acer Swift 3,666,56875,64375,60625,4,4,acer_swift_-13,1620
+Acer Swift 3,440,60000,63125,61562,4,5,acer_swift_-14,1621
+Acer Swift 3,493,59375,65000,62187,3,0,acer_swift_-15,1622
+Acer Swift 3,653,58750,65000,61875,3,5,acer_swift_-16,1623
+Acer Swift 3,96,53125,64375,58750,4,1,acer_swift_-17,1624
+Acer Swift 3,758,55000,66250,60625,1,1,acer_swift_-18,1625
+Acer Swift 3,628,59375,68125,63750,5,2,acer_swift_-19,1626
+Acer Swift 3,711,58750,68125,63437,3,0,acer_swift_-20,1627
+Acer Swift 3,581,55000,70625,62812,3,1,acer_swift_-21,1628
+Acer Swift 3,218,60625,68750,64687,4,2,acer_swift_-22,1629
+Razer Blade 15,943,148500,171000,159750,4,0,razer_blade_-0,1630
+Razer Blade 15,381,138000,169500,153750,2,2,razer_blade_-1,1631
+Razer Blade 15,536,133500,165000,149250,5,1,razer_blade_-2,1632
+Razer Blade 15,695,135000,151500,143250,1,1,razer_blade_-3,1633
+Razer Blade 15,358,147000,154500,150750,4,3,razer_blade_-4,1634
+Razer Blade 15,742,148500,171000,159750,2,0,razer_blade_-5,1635
+Razer Blade 15,153,127500,162000,144750,3,3,razer_blade_-6,1636
+Razer Blade 15,390,135000,163500,149250,5,4,razer_blade_-7,1637
+Razer Blade 15,210,127500,156000,141750,1,4,razer_blade_-8,1638
+Razer Blade 15,46,135000,166500,150750,4,0,razer_blade_-9,1639
+Razer Blade 15,50,138000,172500,155250,3,0,razer_blade_-10,1640
+Razer Blade 15,451,148500,157500,153000,3,1,razer_blade_-11,1641
+Razer Blade 15,939,136500,168000,152250,4,3,razer_blade_-12,1642
+Razer Blade 15,828,141000,154500,147750,5,2,razer_blade_-13,1643
+Razer Blade 15,685,130500,162000,146250,2,3,razer_blade_-14,1644
+Razer Blade 15,993,136500,171000,153750,1,4,razer_blade_-15,1645
+Razer Blade 15,520,147000,172500,159750,4,5,razer_blade_-16,1646
+Razer Blade 15,596,129000,169500,149250,4,2,razer_blade_-17,1647
+Razer Blade 15,180,141000,172500,156750,3,2,razer_blade_-18,1648
+Razer Blade 15,761,135000,157500,146250,4,0,razer_blade_-19,1649
+Razer Blade 15,361,133500,153000,143250,1,4,razer_blade_-20,1650
+Razer Blade 15,380,127500,157500,142500,4,4,razer_blade_-21,1651
+Razer Blade 15,269,130500,169500,150000,4,1,razer_blade_-22,1652
+Razer Blade 15,214,127500,160500,144000,2,4,razer_blade_-23,1653
+Razer Blade 15,766,129000,172500,150750,1,0,razer_blade_-24,1654
+Razer Blade 15,582,136500,166500,151500,2,1,razer_blade_-25,1655
+Razer Blade 15,354,141000,157500,149250,1,2,razer_blade_-26,1656
+Lenovo Yoga C940,743,99000,121500,110250,3,5,lenovo_yoga_c-0,1657
+Lenovo Yoga C940,290,101250,118125,109687,5,0,lenovo_yoga_c-1,1658
+Lenovo Yoga C940,430,102375,118125,110250,1,4,lenovo_yoga_c-2,1659
+Lenovo Yoga C940,397,102375,122625,112500,2,3,lenovo_yoga_c-3,1660
+Lenovo Yoga C940,552,96750,113625,105187,3,3,lenovo_yoga_c-4,1661
+Lenovo Yoga C940,210,108000,128250,118125,2,2,lenovo_yoga_c-5,1662
+Lenovo Yoga C940,53,111375,122625,117000,4,4,lenovo_yoga_c-6,1663
+Lenovo Yoga C940,211,99000,127125,113062,5,5,lenovo_yoga_c-7,1664
+Lenovo Yoga C940,543,103500,123750,113625,4,0,lenovo_yoga_c-8,1665
+Lenovo Yoga C940,224,95625,115875,105750,1,1,lenovo_yoga_c-9,1666
+Lenovo Yoga C940,513,99000,124875,111937,4,4,lenovo_yoga_c-10,1667
+Lenovo Yoga C940,676,103500,118125,110812,4,1,lenovo_yoga_c-11,1668
+Lenovo Yoga C940,871,99000,120375,109687,4,0,lenovo_yoga_c-12,1669
+Lenovo Yoga C940,376,105750,124875,115312,3,2,lenovo_yoga_c-13,1670
+Lenovo Yoga C940,521,101250,113625,107437,4,2,lenovo_yoga_c-14,1671
+Lenovo Yoga C940,24,97875,117000,107437,2,1,lenovo_yoga_c-15,1672
+Lenovo Yoga C940,577,96750,114750,105750,5,4,lenovo_yoga_c-16,1673
+Lenovo Yoga C940,913,106875,123750,115312,2,4,lenovo_yoga_c-17,1674
+Lenovo Yoga C940,406,111375,121500,116437,2,0,lenovo_yoga_c-18,1675
+Lenovo Yoga C940,504,110250,118125,114187,3,3,lenovo_yoga_c-19,1676
+Lenovo Yoga C940,434,110250,128250,119250,4,4,lenovo_yoga_c-20,1677
+HP Envy 13,155,69000,75750,72375,4,0,hp_envy_-0,1678
+HP Envy 13,688,68250,77250,72750,5,2,hp_envy_-1,1679
+HP Envy 13,915,74250,82500,78375,5,0,hp_envy_-2,1680
+HP Envy 13,398,71250,85500,78375,5,2,hp_envy_-3,1681
+HP Envy 13,938,66000,79500,72750,3,2,hp_envy_-4,1682
+HP Envy 13,495,66000,76500,71250,5,1,hp_envy_-5,1683
+HP Envy 13,929,71250,77250,74250,3,1,hp_envy_-6,1684
+HP Envy 13,112,64500,85500,75000,1,3,hp_envy_-7,1685
+HP Envy 13,298,72000,77250,74625,1,1,hp_envy_-8,1686
+HP Envy 13,782,70500,84750,77625,3,2,hp_envy_-9,1687
+HP Envy 13,413,69750,77250,73500,3,5,hp_envy_-10,1688
+HP Envy 13,442,72000,84750,78375,3,0,hp_envy_-11,1689
+HP Envy 13,723,68250,78000,73125,5,1,hp_envy_-12,1690
+HP Envy 13,94,69000,86250,77625,3,1,hp_envy_-13,1691
+HP Envy 13,921,69000,76500,72750,1,2,hp_envy_-14,1692
+HP Envy 13,782,66000,75750,70875,2,3,hp_envy_-15,1693
+HP Envy 13,407,66750,79500,73125,2,2,hp_envy_-16,1694
+HP Envy 13,622,63750,80250,72000,1,5,hp_envy_-17,1695
+HP Envy 13,377,64500,81000,72750,1,2,hp_envy_-18,1696
+HP Envy 13,813,67500,81000,74250,5,4,hp_envy_-19,1697
+HP Envy 13,845,63750,84000,73875,4,2,hp_envy_-20,1698
+HP Envy 13,44,69750,75750,72750,3,5,hp_envy_-21,1699
+HP Envy 13,484,68250,78000,73125,3,0,hp_envy_-22,1700
+HP Envy 13,680,64500,82500,73500,1,2,hp_envy_-23,1701
+HP Envy 13,736,65250,78750,72000,4,4,hp_envy_-24,1702
+HP Envy 13,352,69000,81750,75375,4,2,hp_envy_-25,1703
+HP Envy 13,132,73500,79500,76500,5,3,hp_envy_-26,1704
+HP Envy 13,146,74250,84750,79500,2,5,hp_envy_-27,1705
+HP Envy 13,480,63750,84000,73875,2,1,hp_envy_-28,1706
+HP Envy 13,843,73500,75750,74625,3,2,hp_envy_-29,1707
+Dell Inspiron 15,418,44500,54500,49500,3,3,dell_inspiron_-0,1708
+Dell Inspiron 15,606,46500,52000,49250,1,5,dell_inspiron_-1,1709
+Dell Inspiron 15,821,42500,55500,49000,4,5,dell_inspiron_-2,1710
+Dell Inspiron 15,938,44000,57500,50750,4,4,dell_inspiron_-3,1711
+Dell Inspiron 15,579,46000,51500,48750,2,0,dell_inspiron_-4,1712
+Dell Inspiron 15,663,45000,52000,48500,1,1,dell_inspiron_-5,1713
+Dell Inspiron 15,977,44000,55500,49750,4,1,dell_inspiron_-6,1714
+Dell Inspiron 15,603,43000,53000,48000,1,5,dell_inspiron_-7,1715
+Dell Inspiron 15,227,46000,56500,51250,4,5,dell_inspiron_-8,1716
+Dell Inspiron 15,466,44500,57500,51000,4,4,dell_inspiron_-9,1717
+Dell Inspiron 15,244,43500,55000,49250,2,5,dell_inspiron_-10,1718
+Dell Inspiron 15,625,49500,57500,53500,3,1,dell_inspiron_-11,1719
+Dell Inspiron 15,775,47500,55500,51500,4,3,dell_inspiron_-12,1720
+Dell Inspiron 15,194,46500,50500,48500,3,0,dell_inspiron_-13,1721
+Dell Inspiron 15,900,48000,54500,51250,1,0,dell_inspiron_-14,1722
+Dell Inspiron 15,725,47500,57000,52250,3,4,dell_inspiron_-15,1723
+Dell Inspiron 15,47,46000,50500,48250,5,3,dell_inspiron_-16,1724
+Dell Inspiron 15,109,45500,57000,51250,5,3,dell_inspiron_-17,1725
+Dell Inspiron 15,451,44500,52000,48250,3,0,dell_inspiron_-18,1726
+Dell Inspiron 15,266,46500,54500,50500,2,2,dell_inspiron_-19,1727
+Dell Inspiron 15,481,43000,52500,47750,1,1,dell_inspiron_-20,1728
+Dell Inspiron 15,673,48000,54500,51250,3,1,dell_inspiron_-21,1729
+Dell Inspiron 15,284,48000,54500,51250,3,2,dell_inspiron_-22,1730
+Dell Inspiron 15,650,48500,54500,51500,5,1,dell_inspiron_-23,1731
+Dell Inspiron 15,644,44500,55500,50000,2,0,dell_inspiron_-24,1732
+Apple MacBook Air (M1),577,99000,101000,100000,3,4,apple_macbook_air_m-0,1733
+Apple MacBook Air (M1),644,85000,106000,95500,5,1,apple_macbook_air_m-1,1734
+Apple MacBook Air (M1),237,92000,109000,100500,2,1,apple_macbook_air_m-2,1735
+Apple MacBook Air (M1),162,92000,115000,103500,4,1,apple_macbook_air_m-3,1736
+Apple MacBook Air (M1),324,95000,112000,103500,2,0,apple_macbook_air_m-4,1737
+Apple MacBook Air (M1),783,89000,104000,96500,1,5,apple_macbook_air_m-5,1738
+Apple MacBook Air (M1),402,92000,106000,99000,1,2,apple_macbook_air_m-6,1739
+Apple MacBook Air (M1),211,91000,110000,100500,4,1,apple_macbook_air_m-7,1740
+Apple MacBook Air (M1),80,90000,106000,98000,1,0,apple_macbook_air_m-8,1741
+Apple MacBook Air (M1),542,93000,113000,103000,2,1,apple_macbook_air_m-9,1742
+Apple MacBook Air (M1),678,87000,114000,100500,1,4,apple_macbook_air_m-10,1743
+Apple MacBook Air (M1),486,96000,115000,105500,4,0,apple_macbook_air_m-11,1744
+Apple MacBook Air (M1),770,90000,102000,96000,3,2,apple_macbook_air_m-12,1745
+Apple MacBook Air (M1),305,86000,114000,100000,2,4,apple_macbook_air_m-13,1746
+Apple MacBook Air (M1),601,93000,107000,100000,3,5,apple_macbook_air_m-14,1747
+Apple MacBook Air (M1),327,99000,104000,101500,3,5,apple_macbook_air_m-15,1748
+Apple MacBook Air (M1),780,88000,111000,99500,1,1,apple_macbook_air_m-16,1749
+Apple MacBook Air (M1),812,91000,102000,96500,1,4,apple_macbook_air_m-17,1750
+Apple MacBook Air (M1),636,94000,115000,104500,1,1,apple_macbook_air_m-18,1751
+Apple MacBook Air (M1),517,96000,115000,105500,5,4,apple_macbook_air_m-19,1752
+Apple MacBook Air (M1),493,97000,105000,101000,4,3,apple_macbook_air_m-20,1753
+Apple MacBook Air (M1),955,89000,106000,97500,2,2,apple_macbook_air_m-21,1754
+Apple MacBook Air (M1),476,91000,112000,101500,5,0,apple_macbook_air_m-22,1755
+Apple MacBook Air (M1),693,88000,101000,94500,2,4,apple_macbook_air_m-23,1756
+Apple MacBook Air (M1),98,88000,109000,98500,3,5,apple_macbook_air_m-24,1757
+Apple MacBook Air (M1),258,92000,109000,100500,4,2,apple_macbook_air_m-25,1758
+Apple MacBook Air (M1),445,87000,112000,99500,1,5,apple_macbook_air_m-26,1759
+Apple MacBook Air (M1),880,85000,104000,94500,1,1,apple_macbook_air_m-27,1760
+Microsoft Surface Pro 8,738,110250,126000,118125,3,5,microsoft_surface_pro_-0,1761
+Microsoft Surface Pro 8,227,110250,121500,115875,5,2,microsoft_surface_pro_-1,1762
+Microsoft Surface Pro 8,699,103500,119250,111375,5,2,microsoft_surface_pro_-2,1763
+Microsoft Surface Pro 8,235,101250,124875,113062,3,1,microsoft_surface_pro_-3,1764
+Microsoft Surface Pro 8,324,101250,126000,113625,1,3,microsoft_surface_pro_-4,1765
+Microsoft Surface Pro 8,211,101250,128250,114750,2,1,microsoft_surface_pro_-5,1766
+Microsoft Surface Pro 8,158,110250,126000,118125,1,5,microsoft_surface_pro_-6,1767
+Microsoft Surface Pro 8,444,99000,124875,111937,3,0,microsoft_surface_pro_-7,1768
+Microsoft Surface Pro 8,66,99000,118125,108562,3,5,microsoft_surface_pro_-8,1769
+Microsoft Surface Pro 8,932,99000,126000,112500,2,2,microsoft_surface_pro_-9,1770
+Microsoft Surface Pro 8,118,102375,115875,109125,5,1,microsoft_surface_pro_-10,1771
+Microsoft Surface Pro 8,371,95625,117000,106312,2,3,microsoft_surface_pro_-11,1772
+Microsoft Surface Pro 8,189,95625,124875,110250,1,4,microsoft_surface_pro_-12,1773
+Microsoft Surface Pro 8,180,104625,123750,114187,2,5,microsoft_surface_pro_-13,1774
+Microsoft Surface Pro 8,629,103500,124875,114187,5,4,microsoft_surface_pro_-14,1775
+Microsoft Surface Pro 8,65,111375,124875,118125,2,0,microsoft_surface_pro_-15,1776
+Microsoft Surface Pro 8,903,101250,128250,114750,2,3,microsoft_surface_pro_-16,1777
+Microsoft Surface Pro 8,91,108000,117000,112500,1,0,microsoft_surface_pro_-17,1778
+Microsoft Surface Pro 8,301,99000,127125,113062,4,2,microsoft_surface_pro_-18,1779
+Microsoft Surface Pro 8,518,97875,123750,110812,3,1,microsoft_surface_pro_-19,1780
+Microsoft Surface Pro 8,358,103500,129375,116437,1,3,microsoft_surface_pro_-20,1781
+Microsoft Surface Pro 8,316,96750,123750,110250,3,2,microsoft_surface_pro_-21,1782
+Microsoft Surface Pro 8,774,103500,119250,111375,3,5,microsoft_surface_pro_-22,1783
+Microsoft Surface Pro 8,949,95625,118125,106875,3,2,microsoft_surface_pro_-23,1784
+Microsoft Surface Pro 8,897,105750,115875,110812,5,0,microsoft_surface_pro_-24,1785
+Microsoft Surface Pro 8,673,108000,127125,117562,1,4,microsoft_surface_pro_-25,1786
+Microsoft Surface Pro 8,475,109125,118125,113625,2,5,microsoft_surface_pro_-26,1787
+Asus ROG Zephyrus G14,990,161250,200625,180937,5,4,asus_rog_zephyrus_g-0,1788
+Asus ROG Zephyrus G14,173,180000,210000,195000,1,0,asus_rog_zephyrus_g-1,1789
+Asus ROG Zephyrus G14,101,161250,211875,186562,5,5,asus_rog_zephyrus_g-2,1790
+Asus ROG Zephyrus G14,270,174375,211875,193125,4,5,asus_rog_zephyrus_g-3,1791
+Asus ROG Zephyrus G14,54,166875,198750,182812,1,2,asus_rog_zephyrus_g-4,1792
+Asus ROG Zephyrus G14,202,178125,191250,184687,2,4,asus_rog_zephyrus_g-5,1793
+Asus ROG Zephyrus G14,150,165000,215625,190312,2,0,asus_rog_zephyrus_g-6,1794
+Asus ROG Zephyrus G14,753,181875,196875,189375,1,5,asus_rog_zephyrus_g-7,1795
+Asus ROG Zephyrus G14,679,176250,206250,191250,3,5,asus_rog_zephyrus_g-8,1796
+Asus ROG Zephyrus G14,744,170625,196875,183750,1,3,asus_rog_zephyrus_g-9,1797
+Asus ROG Zephyrus G14,160,172500,195000,183750,3,0,asus_rog_zephyrus_g-10,1798
+Asus ROG Zephyrus G14,178,181875,195000,188437,3,4,asus_rog_zephyrus_g-11,1799
+Asus ROG Zephyrus G14,791,172500,198750,185625,3,1,asus_rog_zephyrus_g-12,1800
+Asus ROG Zephyrus G14,887,163125,208125,185625,3,3,asus_rog_zephyrus_g-13,1801
+Asus ROG Zephyrus G14,709,170625,189375,180000,1,0,asus_rog_zephyrus_g-14,1802
+Asus ROG Zephyrus G14,609,178125,189375,183750,3,3,asus_rog_zephyrus_g-15,1803
+Asus ROG Zephyrus G14,256,165000,208125,186562,1,3,asus_rog_zephyrus_g-16,1804
+Asus ROG Zephyrus G14,613,172500,204375,188437,5,2,asus_rog_zephyrus_g-17,1805
+Asus ROG Zephyrus G14,734,172500,215625,194062,5,3,asus_rog_zephyrus_g-18,1806
+Asus ROG Zephyrus G14,879,166875,202500,184687,3,1,asus_rog_zephyrus_g-19,1807
+Asus ROG Zephyrus G14,648,181875,215625,198750,4,1,asus_rog_zephyrus_g-20,1808
+Asus ROG Zephyrus G14,463,166875,213750,190312,5,5,asus_rog_zephyrus_g-21,1809
+Acer Predator Helios 300,703,138000,172500,155250,4,3,acer_predator_helios_-0,1810
+Acer Predator Helios 300,617,133500,156000,144750,3,1,acer_predator_helios_-1,1811
+Acer Predator Helios 300,262,132000,157500,144750,1,2,acer_predator_helios_-2,1812
+Acer Predator Helios 300,997,142500,171000,156750,2,3,acer_predator_helios_-3,1813
+Acer Predator Helios 300,531,132000,159000,145500,5,0,acer_predator_helios_-4,1814
+Acer Predator Helios 300,25,127500,168000,147750,5,4,acer_predator_helios_-5,1815
+Acer Predator Helios 300,710,132000,168000,150000,1,2,acer_predator_helios_-6,1816
+Acer Predator Helios 300,752,145500,162000,153750,5,0,acer_predator_helios_-7,1817
+Acer Predator Helios 300,376,130500,172500,151500,3,2,acer_predator_helios_-8,1818
+Acer Predator Helios 300,47,147000,151500,149250,4,1,acer_predator_helios_-9,1819
+Acer Predator Helios 300,525,136500,156000,146250,1,2,acer_predator_helios_-10,1820
+Acer Predator Helios 300,979,127500,166500,147000,3,0,acer_predator_helios_-11,1821
+Acer Predator Helios 300,205,142500,168000,155250,3,0,acer_predator_helios_-12,1822
+Acer Predator Helios 300,94,139500,160500,150000,3,5,acer_predator_helios_-13,1823
+Acer Predator Helios 300,964,132000,171000,151500,5,0,acer_predator_helios_-14,1824
+Acer Predator Helios 300,703,133500,168000,150750,4,4,acer_predator_helios_-15,1825
+Acer Predator Helios 300,511,139500,165000,152250,2,3,acer_predator_helios_-16,1826
+Acer Predator Helios 300,765,141000,168000,154500,2,0,acer_predator_helios_-17,1827
+Acer Predator Helios 300,112,139500,160500,150000,1,3,acer_predator_helios_-18,1828
+Acer Predator Helios 300,243,144000,151500,147750,2,5,acer_predator_helios_-19,1829
+Acer Predator Helios 300,941,135000,153000,144000,4,0,acer_predator_helios_-20,1830
+HP Pavilion 15,55,60000,63125,61562,3,2,hp_pavilion_-0,1831
+HP Pavilion 15,668,60625,66250,63437,2,3,hp_pavilion_-1,1832
+HP Pavilion 15,856,59375,68125,63750,2,0,hp_pavilion_-2,1833
+HP Pavilion 15,914,60000,71875,65937,1,4,hp_pavilion_-3,1834
+HP Pavilion 15,658,60625,67500,64062,5,5,hp_pavilion_-4,1835
+HP Pavilion 15,315,53125,63750,58437,4,1,hp_pavilion_-5,1836
+HP Pavilion 15,80,57500,65000,61250,3,0,hp_pavilion_-6,1837
+HP Pavilion 15,43,53125,71250,62187,4,4,hp_pavilion_-7,1838
+HP Pavilion 15,400,58125,71250,64687,3,5,hp_pavilion_-8,1839
+HP Pavilion 15,593,60000,66250,63125,1,5,hp_pavilion_-9,1840
+HP Pavilion 15,142,56875,65000,60937,3,5,hp_pavilion_-10,1841
+HP Pavilion 15,530,56875,71250,64062,3,4,hp_pavilion_-11,1842
+HP Pavilion 15,819,56875,64375,60625,3,5,hp_pavilion_-12,1843
+HP Pavilion 15,296,61875,66875,64375,1,2,hp_pavilion_-13,1844
+HP Pavilion 15,299,58125,68125,63125,3,3,hp_pavilion_-14,1845
+HP Pavilion 15,508,56250,64375,60312,1,5,hp_pavilion_-15,1846
+HP Pavilion 15,145,58125,68750,63437,4,1,hp_pavilion_-16,1847
+HP Pavilion 15,494,54375,66875,60625,2,2,hp_pavilion_-17,1848
+HP Pavilion 15,332,61875,68125,65000,3,4,hp_pavilion_-18,1849
+HP Pavilion 15,502,59375,70000,64687,1,2,hp_pavilion_-19,1850
+HP Pavilion 15,67,54375,68750,61562,3,2,hp_pavilion_-20,1851
+HP Pavilion 15,828,55000,65625,60312,2,2,hp_pavilion_-21,1852
+HP Pavilion 15,512,54375,70625,62500,2,2,hp_pavilion_-22,1853
+HP Pavilion 15,634,57500,67500,62500,2,2,hp_pavilion_-23,1854
+HP Pavilion 15,761,60000,63125,61562,5,4,hp_pavilion_-24,1855
+HP Pavilion 15,663,58750,64375,61562,1,4,hp_pavilion_-25,1856
+Lenovo Legion 5,971,118750,130000,124375,4,3,lenovo_legion_-0,1857
+Lenovo Legion 5,937,115000,135000,125000,2,1,lenovo_legion_-1,1858
+Lenovo Legion 5,560,118750,136250,127500,3,0,lenovo_legion_-2,1859
+Lenovo Legion 5,279,107500,141250,124375,3,4,lenovo_legion_-3,1860
+Lenovo Legion 5,348,123750,127500,125625,1,0,lenovo_legion_-4,1861
+Lenovo Legion 5,792,111250,130000,120625,5,5,lenovo_legion_-5,1862
+Lenovo Legion 5,883,110000,130000,120000,5,0,lenovo_legion_-6,1863
+Lenovo Legion 5,121,122500,130000,126250,2,3,lenovo_legion_-7,1864
+Lenovo Legion 5,879,108750,135000,121875,3,1,lenovo_legion_-8,1865
+Lenovo Legion 5,671,110000,135000,122500,2,4,lenovo_legion_-9,1866
+Lenovo Legion 5,110,121250,130000,125625,3,1,lenovo_legion_-10,1867
+Lenovo Legion 5,422,123750,142500,133125,3,1,lenovo_legion_-11,1868
+Lenovo Legion 5,724,111250,131250,121250,3,3,lenovo_legion_-12,1869
+Lenovo Legion 5,774,108750,135000,121875,5,2,lenovo_legion_-13,1870
+Lenovo Legion 5,54,111250,130000,120625,3,0,lenovo_legion_-14,1871
+Lenovo Legion 5,448,113750,128750,121250,2,1,lenovo_legion_-15,1872
+Lenovo Legion 5,316,112500,135000,123750,2,3,lenovo_legion_-16,1873
+Lenovo Legion 5,952,108750,137500,123125,4,0,lenovo_legion_-17,1874
+Lenovo Legion 5,61,107500,128750,118125,3,1,lenovo_legion_-18,1875
+Lenovo Legion 5,857,111250,141250,126250,4,2,lenovo_legion_-19,1876
+Lenovo Legion 5,944,122500,140000,131250,5,3,lenovo_legion_-20,1877
+Lenovo Legion 5,970,120000,137500,128750,5,4,lenovo_legion_-21,1878
+Dell Latitude 14,80,79625,96250,87937,5,2,dell_latitude_-0,1879
+Dell Latitude 14,72,84875,91875,88375,1,5,dell_latitude_-1,1880
+Dell Latitude 14,984,74375,98000,86187,3,5,dell_latitude_-2,1881
+Dell Latitude 14,83,81375,100625,91000,5,0,dell_latitude_-3,1882
+Dell Latitude 14,400,78750,88375,83562,5,2,dell_latitude_-4,1883
+Dell Latitude 14,614,78750,98875,88812,5,1,dell_latitude_-5,1884
+Dell Latitude 14,336,81375,92750,87062,4,0,dell_latitude_-6,1885
+Dell Latitude 14,234,80500,97125,88812,4,3,dell_latitude_-7,1886
+Dell Latitude 14,349,83125,93625,88375,4,0,dell_latitude_-8,1887
+Dell Latitude 14,774,76125,89250,82687,4,3,dell_latitude_-9,1888
+Dell Latitude 14,59,76125,98000,87062,5,2,dell_latitude_-10,1889
+Dell Latitude 14,954,86625,90125,88375,2,0,dell_latitude_-11,1890
+Dell Latitude 14,95,83125,98875,91000,4,1,dell_latitude_-12,1891
+Dell Latitude 14,103,75250,100625,87937,2,3,dell_latitude_-13,1892
+Dell Latitude 14,418,81375,97125,89250,1,0,dell_latitude_-14,1893
+Dell Latitude 14,958,85750,92750,89250,1,3,dell_latitude_-15,1894
+Dell Latitude 14,239,76125,94500,85312,4,5,dell_latitude_-16,1895
+Dell Latitude 14,503,83125,98000,90562,3,0,dell_latitude_-17,1896
+Dell Latitude 14,137,84000,93625,88812,4,3,dell_latitude_-18,1897
+Dell Latitude 14,383,77875,93625,85750,5,3,dell_latitude_-19,1898
+Dell Latitude 14,858,75250,90125,82687,4,0,dell_latitude_-20,1899
+Dell Latitude 14,622,82250,100625,91437,5,5,dell_latitude_-21,1900
+Dell Latitude 14,509,81375,100625,91000,5,0,dell_latitude_-22,1901
+Dell Latitude 14,850,80500,93625,87062,2,4,dell_latitude_-23,1902
+Samsung Galaxy Book Pro,32,101250,118125,109687,3,0,samsung_galaxy_book_pro-0,1903
+Samsung Galaxy Book Pro,269,104625,123750,114187,5,5,samsung_galaxy_book_pro-1,1904
+Samsung Galaxy Book Pro,323,97875,113625,105750,5,4,samsung_galaxy_book_pro-2,1905
+Samsung Galaxy Book Pro,358,106875,122625,114750,2,5,samsung_galaxy_book_pro-3,1906
+Samsung Galaxy Book Pro,543,106875,115875,111375,5,2,samsung_galaxy_book_pro-4,1907
+Samsung Galaxy Book Pro,887,110250,122625,116437,1,2,samsung_galaxy_book_pro-5,1908
+Samsung Galaxy Book Pro,582,99000,118125,108562,4,1,samsung_galaxy_book_pro-6,1909
+Samsung Galaxy Book Pro,483,97875,117000,107437,4,0,samsung_galaxy_book_pro-7,1910
+Samsung Galaxy Book Pro,278,109125,121500,115312,4,5,samsung_galaxy_book_pro-8,1911
+Samsung Galaxy Book Pro,199,95625,119250,107437,3,0,samsung_galaxy_book_pro-9,1912
+Samsung Galaxy Book Pro,387,99000,124875,111937,1,5,samsung_galaxy_book_pro-10,1913
+Samsung Galaxy Book Pro,1000,108000,117000,112500,2,5,samsung_galaxy_book_pro-11,1914
+Samsung Galaxy Book Pro,157,99000,124875,111937,4,5,samsung_galaxy_book_pro-12,1915
+Samsung Galaxy Book Pro,289,108000,114750,111375,1,5,samsung_galaxy_book_pro-13,1916
+Samsung Galaxy Book Pro,285,102375,120375,111375,1,3,samsung_galaxy_book_pro-14,1917
+Samsung Galaxy Book Pro,338,111375,113625,112500,5,3,samsung_galaxy_book_pro-15,1918
+Samsung Galaxy Book Pro,479,96750,114750,105750,4,2,samsung_galaxy_book_pro-16,1919
+Samsung Galaxy Book Pro,651,100125,113625,106875,5,4,samsung_galaxy_book_pro-17,1920
+Samsung Galaxy Book Pro,908,102375,113625,108000,2,0,samsung_galaxy_book_pro-18,1921
+Samsung Galaxy Book Pro,45,106875,118125,112500,3,2,samsung_galaxy_book_pro-19,1922
+Samsung Galaxy Book Pro,884,95625,118125,106875,2,5,samsung_galaxy_book_pro-20,1923
+Samsung Galaxy Book Pro,917,102375,120375,111375,3,1,samsung_galaxy_book_pro-21,1924
+Samsung Galaxy Book Pro,723,105750,114750,110250,5,3,samsung_galaxy_book_pro-22,1925
+Samsung Galaxy Book Pro,820,108000,118125,113062,5,1,samsung_galaxy_book_pro-23,1926
+Samsung Galaxy Book Pro,597,102375,124875,113625,2,0,samsung_galaxy_book_pro-24,1927
+Samsung Galaxy Book Pro,350,109125,124875,117000,2,5,samsung_galaxy_book_pro-25,1928
+Samsung Galaxy Book Pro,406,110250,124875,117562,5,2,samsung_galaxy_book_pro-26,1929
+Samsung Galaxy Book Pro,937,99000,118125,108562,1,1,samsung_galaxy_book_pro-27,1930
+Samsung Galaxy Book Pro,236,102375,113625,108000,3,2,samsung_galaxy_book_pro-28,1931
+Google Pixelbook Go,228,73500,81750,77625,4,3,google_pixelbook_go-0,1932
+Google Pixelbook Go,225,72750,80250,76500,5,5,google_pixelbook_go-1,1933
+Google Pixelbook Go,905,63750,82500,73125,5,3,google_pixelbook_go-2,1934
+Google Pixelbook Go,962,63750,78750,71250,5,2,google_pixelbook_go-3,1935
+Google Pixelbook Go,907,73500,79500,76500,4,3,google_pixelbook_go-4,1936
+Google Pixelbook Go,818,74250,77250,75750,4,2,google_pixelbook_go-5,1937
+Google Pixelbook Go,636,66000,81750,73875,3,5,google_pixelbook_go-6,1938
+Google Pixelbook Go,118,68250,84750,76500,4,0,google_pixelbook_go-7,1939
+Google Pixelbook Go,419,63750,80250,72000,1,5,google_pixelbook_go-8,1940
+Google Pixelbook Go,161,72750,84000,78375,1,5,google_pixelbook_go-9,1941
+Google Pixelbook Go,531,65250,84000,74625,4,0,google_pixelbook_go-10,1942
+Google Pixelbook Go,576,65250,75750,70500,3,1,google_pixelbook_go-11,1943
+Google Pixelbook Go,854,72000,80250,76125,4,0,google_pixelbook_go-12,1944
+Google Pixelbook Go,496,71250,84750,78000,2,0,google_pixelbook_go-13,1945
+Google Pixelbook Go,137,71250,76500,73875,5,4,google_pixelbook_go-14,1946
+Google Pixelbook Go,205,67500,76500,72000,2,0,google_pixelbook_go-15,1947
+Google Pixelbook Go,733,68250,85500,76875,1,4,google_pixelbook_go-16,1948
+Google Pixelbook Go,720,69000,84000,76500,2,0,google_pixelbook_go-17,1949
+Google Pixelbook Go,135,72000,78000,75000,4,4,google_pixelbook_go-18,1950
+Google Pixelbook Go,267,74250,78000,76125,2,1,google_pixelbook_go-19,1951
+Google Pixelbook Go,23,74250,86250,80250,1,5,google_pixelbook_go-20,1952
+Google Pixelbook Go,253,70500,85500,78000,4,0,google_pixelbook_go-21,1953
+Google Pixelbook Go,570,69000,86250,77625,4,4,google_pixelbook_go-22,1954
+Google Pixelbook Go,642,70500,81000,75750,3,4,google_pixelbook_go-23,1955
+Google Pixelbook Go,49,69750,85500,77625,3,3,google_pixelbook_go-24,1956
+Google Pixelbook Go,477,71250,78750,75000,3,5,google_pixelbook_go-25,1957
+Google Pixelbook Go,77,63750,78750,71250,3,1,google_pixelbook_go-26,1958
+Google Pixelbook Go,116,66750,77250,72000,5,3,google_pixelbook_go-27,1959
+iPhone 13,161,87000,108000,97500,2,5,iphone_-0,1960
+iPhone 13,65,85000,113000,99000,2,2,iphone_-1,1961
+iPhone 13,853,85000,114000,99500,5,4,iphone_-2,1962
+iPhone 13,797,90000,103000,96500,4,2,iphone_-3,1963
+iPhone 13,558,98000,101000,99500,4,2,iphone_-4,1964
+iPhone 13,831,94000,103000,98500,3,0,iphone_-5,1965
+iPhone 13,980,86000,103000,94500,5,2,iphone_-6,1966
+iPhone 13,493,86000,112000,99000,3,2,iphone_-7,1967
+iPhone 13,831,90000,105000,97500,3,4,iphone_-8,1968
+iPhone 13,151,91000,103000,97000,1,4,iphone_-9,1969
+iPhone 13,954,85000,105000,95000,4,5,iphone_-10,1970
+iPhone 13,76,98000,101000,99500,1,0,iphone_-11,1971
+iPhone 13,647,99000,113000,106000,4,4,iphone_-12,1972
+iPhone 13,179,99000,109000,104000,1,4,iphone_-13,1973
+iPhone 13,736,85000,108000,96500,1,4,iphone_-14,1974
+iPhone 13,878,98000,112000,105000,3,4,iphone_-15,1975
+iPhone 13,514,88000,112000,100000,1,2,iphone_-16,1976
+iPhone 13,737,93000,113000,103000,5,4,iphone_-17,1977
+iPhone 13,80,86000,113000,99500,1,1,iphone_-18,1978
+iPhone 13,89,99000,103000,101000,4,5,iphone_-19,1979
+iPhone 13,971,90000,108000,99000,4,3,iphone_-20,1980
+iPhone 13,750,90000,104000,97000,4,5,iphone_-21,1981
+iPhone 13,561,95000,105000,100000,4,5,iphone_-22,1982
+Samsung Galaxy S21 Ultra,294,101250,113625,107437,3,4,samsung_galaxy_s_ultra-0,1983
+Samsung Galaxy S21 Ultra,727,109125,118125,113625,1,0,samsung_galaxy_s_ultra-1,1984
+Samsung Galaxy S21 Ultra,222,106875,127125,117000,1,2,samsung_galaxy_s_ultra-2,1985
+Samsung Galaxy S21 Ultra,825,95625,113625,104625,4,0,samsung_galaxy_s_ultra-3,1986
+Samsung Galaxy S21 Ultra,595,105750,118125,111937,1,2,samsung_galaxy_s_ultra-4,1987
+Samsung Galaxy S21 Ultra,961,109125,127125,118125,4,0,samsung_galaxy_s_ultra-5,1988
+Samsung Galaxy S21 Ultra,538,95625,121500,108562,3,5,samsung_galaxy_s_ultra-6,1989
+Samsung Galaxy S21 Ultra,842,97875,123750,110812,4,4,samsung_galaxy_s_ultra-7,1990
+Samsung Galaxy S21 Ultra,502,95625,115875,105750,4,2,samsung_galaxy_s_ultra-8,1991
+Samsung Galaxy S21 Ultra,519,99000,118125,108562,4,1,samsung_galaxy_s_ultra-9,1992
+Samsung Galaxy S21 Ultra,248,110250,120375,115312,2,4,samsung_galaxy_s_ultra-10,1993
+Samsung Galaxy S21 Ultra,32,106875,117000,111937,1,2,samsung_galaxy_s_ultra-11,1994
+Samsung Galaxy S21 Ultra,942,106875,126000,116437,2,2,samsung_galaxy_s_ultra-12,1995
+Samsung Galaxy S21 Ultra,203,109125,118125,113625,1,2,samsung_galaxy_s_ultra-13,1996
+Samsung Galaxy S21 Ultra,655,95625,124875,110250,5,0,samsung_galaxy_s_ultra-14,1997
+Samsung Galaxy S21 Ultra,953,101250,127125,114187,3,0,samsung_galaxy_s_ultra-15,1998
+Samsung Galaxy S21 Ultra,985,96750,122625,109687,4,2,samsung_galaxy_s_ultra-16,1999
+Samsung Galaxy S21 Ultra,164,108000,115875,111937,3,5,samsung_galaxy_s_ultra-17,2000
+Samsung Galaxy S21 Ultra,803,103500,121500,112500,5,3,samsung_galaxy_s_ultra-18,2001
+Samsung Galaxy S21 Ultra,760,110250,128250,119250,3,3,samsung_galaxy_s_ultra-19,2002
+Samsung Galaxy S21 Ultra,167,95625,113625,104625,1,4,samsung_galaxy_s_ultra-20,2003
+Google Pixel 6 Pro,646,99875,114750,107312,5,0,google_pixel__pro-0,2004
+Google Pixel 6 Pro,496,98813,109437,104125,1,5,google_pixel__pro-1,2005
+Google Pixel 6 Pro,920,91375,111562,101468,5,0,google_pixel__pro-2,2006
+Google Pixel 6 Pro,157,104125,121125,112625,3,4,google_pixel__pro-3,2007
+Google Pixel 6 Pro,366,102000,107312,104656,3,2,google_pixel__pro-4,2008
+Google Pixel 6 Pro,447,104125,116875,110500,1,5,google_pixel__pro-5,2009
+Google Pixel 6 Pro,165,98813,114750,106781,1,2,google_pixel__pro-6,2010
+Google Pixel 6 Pro,263,96688,114750,105719,5,4,google_pixel__pro-7,2011
+Google Pixel 6 Pro,333,105188,107312,106250,4,2,google_pixel__pro-8,2012
+Google Pixel 6 Pro,81,95625,111562,103593,2,4,google_pixel__pro-9,2013
+Google Pixel 6 Pro,240,100938,116875,108906,2,0,google_pixel__pro-10,2014
+Google Pixel 6 Pro,556,92438,108375,100406,1,3,google_pixel__pro-11,2015
+Google Pixel 6 Pro,520,90313,108375,99344,4,5,google_pixel__pro-12,2016
+Google Pixel 6 Pro,980,103063,111562,107312,5,3,google_pixel__pro-13,2017
+Google Pixel 6 Pro,952,97750,114750,106250,4,1,google_pixel__pro-14,2018
+Google Pixel 6 Pro,809,95625,108375,102000,1,3,google_pixel__pro-15,2019
+Google Pixel 6 Pro,482,91375,107312,99343,4,3,google_pixel__pro-16,2020
+Google Pixel 6 Pro,654,92438,120062,106250,3,2,google_pixel__pro-17,2021
+Google Pixel 6 Pro,865,103063,117937,110500,5,0,google_pixel__pro-18,2022
+Google Pixel 6 Pro,610,99875,117937,108906,4,3,google_pixel__pro-19,2023
+OnePlus 9 Pro,238,97000,106000,101500,4,2,oneplus__pro-0,2024
+OnePlus 9 Pro,663,93000,111000,102000,5,0,oneplus__pro-1,2025
+OnePlus 9 Pro,223,86000,107000,96500,2,5,oneplus__pro-2,2026
+OnePlus 9 Pro,377,97000,101000,99000,4,5,oneplus__pro-3,2027
+OnePlus 9 Pro,526,86000,114000,100000,2,1,oneplus__pro-4,2028
+OnePlus 9 Pro,137,95000,107000,101000,3,4,oneplus__pro-5,2029
+OnePlus 9 Pro,971,89000,102000,95500,1,3,oneplus__pro-6,2030
+OnePlus 9 Pro,680,90000,112000,101000,3,0,oneplus__pro-7,2031
+OnePlus 9 Pro,267,90000,111000,100500,1,0,oneplus__pro-8,2032
+OnePlus 9 Pro,78,92000,112000,102000,3,2,oneplus__pro-9,2033
+OnePlus 9 Pro,876,99000,106000,102500,2,5,oneplus__pro-10,2034
+OnePlus 9 Pro,858,91000,104000,97500,2,5,oneplus__pro-11,2035
+OnePlus 9 Pro,234,94000,112000,103000,5,2,oneplus__pro-12,2036
+OnePlus 9 Pro,215,92000,109000,100500,3,1,oneplus__pro-13,2037
+OnePlus 9 Pro,157,99000,110000,104500,1,1,oneplus__pro-14,2038
+OnePlus 9 Pro,145,93000,115000,104000,2,3,oneplus__pro-15,2039
+OnePlus 9 Pro,679,94000,105000,99500,1,5,oneplus__pro-16,2040
+OnePlus 9 Pro,821,96000,115000,105500,2,1,oneplus__pro-17,2041
+OnePlus 9 Pro,638,88000,106000,97000,2,2,oneplus__pro-18,2042
+OnePlus 9 Pro,173,98000,108000,103000,5,0,oneplus__pro-19,2043
+OnePlus 9 Pro,721,94000,112000,103000,2,1,oneplus__pro-20,2044
+OnePlus 9 Pro,740,89000,111000,100000,1,2,oneplus__pro-21,2045
+OnePlus 9 Pro,599,92000,101000,96500,3,5,oneplus__pro-22,2046
+OnePlus 9 Pro,710,94000,106000,100000,4,1,oneplus__pro-23,2047
+OnePlus 9 Pro,559,89000,106000,97500,1,3,oneplus__pro-24,2048
+OnePlus 9 Pro,796,92000,102000,97000,4,3,oneplus__pro-25,2049
+OnePlus 9 Pro,480,94000,102000,98000,3,4,oneplus__pro-26,2050
+OnePlus 9 Pro,26,92000,101000,96500,3,5,oneplus__pro-27,2051
+Xiaomi Mi 11,688,84000,91875,87937,1,2,xiaomi_mi_-0,2052
+Xiaomi Mi 11,376,84000,100625,92312,2,1,xiaomi_mi_-1,2053
+Xiaomi Mi 11,775,77875,91000,84437,2,1,xiaomi_mi_-2,2054
+Xiaomi Mi 11,235,81375,88375,84875,5,3,xiaomi_mi_-3,2055
+Xiaomi Mi 11,176,85750,97125,91437,3,0,xiaomi_mi_-4,2056
+Xiaomi Mi 11,647,76125,91000,83562,5,4,xiaomi_mi_-5,2057
+Xiaomi Mi 11,997,76125,99750,87937,1,4,xiaomi_mi_-6,2058
+Xiaomi Mi 11,394,84875,94500,89687,5,5,xiaomi_mi_-7,2059
+Xiaomi Mi 11,716,75250,93625,84437,5,3,xiaomi_mi_-8,2060
+Xiaomi Mi 11,751,81375,98000,89687,5,3,xiaomi_mi_-9,2061
+Xiaomi Mi 11,407,84000,90125,87062,3,5,xiaomi_mi_-10,2062
+Xiaomi Mi 11,668,77000,99750,88375,4,2,xiaomi_mi_-11,2063
+Xiaomi Mi 11,724,80500,98000,89250,4,5,xiaomi_mi_-12,2064
+Xiaomi Mi 11,229,85750,88375,87062,5,1,xiaomi_mi_-13,2065
+Xiaomi Mi 11,728,81375,91875,86625,2,2,xiaomi_mi_-14,2066
+Xiaomi Mi 11,514,75250,98000,86625,3,4,xiaomi_mi_-15,2067
+Xiaomi Mi 11,540,83125,97125,90125,2,4,xiaomi_mi_-16,2068
+Xiaomi Mi 11,802,84875,91000,87937,3,4,xiaomi_mi_-17,2069
+Xiaomi Mi 11,740,78750,98000,88375,2,4,xiaomi_mi_-18,2070
+Xiaomi Mi 11,87,78750,91000,84875,3,2,xiaomi_mi_-19,2071
+Xiaomi Mi 11,536,75250,98875,87062,3,4,xiaomi_mi_-20,2072
+Xiaomi Mi 11,929,80500,100625,90562,2,1,xiaomi_mi_-21,2073
+Xiaomi Mi 11,599,84000,90125,87062,2,1,xiaomi_mi_-22,2074
+Xiaomi Mi 11,172,76125,89250,82687,4,0,xiaomi_mi_-23,2075
+Xiaomi Mi 11,802,84875,99750,92312,5,0,xiaomi_mi_-24,2076
+Xiaomi Mi 11,868,84875,96250,90562,4,1,xiaomi_mi_-25,2077
+iPhone SE (2022),133,59375,70625,65000,5,1,iphone_se_-0,2078
+iPhone SE (2022),373,55000,64375,59687,4,4,iphone_se_-1,2079
+iPhone SE (2022),607,58125,71875,65000,3,5,iphone_se_-2,2080
+iPhone SE (2022),933,54375,71250,62812,5,3,iphone_se_-3,2081
+iPhone SE (2022),279,61250,64375,62812,1,1,iphone_se_-4,2082
+iPhone SE (2022),51,54375,63750,59062,4,5,iphone_se_-5,2083
+iPhone SE (2022),247,58750,63125,60937,5,3,iphone_se_-6,2084
+iPhone SE (2022),838,56250,71250,63750,1,3,iphone_se_-7,2085
+iPhone SE (2022),845,60000,67500,63750,5,1,iphone_se_-8,2086
+iPhone SE (2022),985,60625,70625,65625,3,1,iphone_se_-9,2087
+iPhone SE (2022),543,55625,66875,61250,5,1,iphone_se_-10,2088
+iPhone SE (2022),55,60000,63750,61875,3,5,iphone_se_-11,2089
+iPhone SE (2022),785,58750,68750,63750,5,1,iphone_se_-12,2090
+iPhone SE (2022),694,56250,65625,60937,3,0,iphone_se_-13,2091
+iPhone SE (2022),225,53750,70000,61875,4,3,iphone_se_-14,2092
+iPhone SE (2022),304,53750,68125,60937,5,0,iphone_se_-15,2093
+iPhone SE (2022),557,53750,71875,62812,2,4,iphone_se_-16,2094
+iPhone SE (2022),484,55000,68750,61875,4,4,iphone_se_-17,2095
+iPhone SE (2022),989,60625,64375,62500,5,1,iphone_se_-18,2096
+iPhone SE (2022),974,55000,71875,63437,1,1,iphone_se_-19,2097
+iPhone SE (2022),956,55625,65625,60625,1,5,iphone_se_-20,2098
+iPhone SE (2022),998,59375,66875,63125,1,0,iphone_se_-21,2099
+Samsung Galaxy Z Fold 3,277,166875,200625,183750,5,3,samsung_galaxy_z_fold_-0,2100
+Samsung Galaxy Z Fold 3,779,185625,191250,188437,1,2,samsung_galaxy_z_fold_-1,2101
+Samsung Galaxy Z Fold 3,588,185625,213750,199687,2,0,samsung_galaxy_z_fold_-2,2102
+Samsung Galaxy Z Fold 3,230,172500,202500,187500,4,4,samsung_galaxy_z_fold_-3,2103
+Samsung Galaxy Z Fold 3,935,166875,195000,180937,3,0,samsung_galaxy_z_fold_-4,2104
+Samsung Galaxy Z Fold 3,658,166875,204375,185625,3,1,samsung_galaxy_z_fold_-5,2105
+Samsung Galaxy Z Fold 3,206,185625,202500,194062,1,0,samsung_galaxy_z_fold_-6,2106
+Samsung Galaxy Z Fold 3,545,185625,211875,198750,4,1,samsung_galaxy_z_fold_-7,2107
+Samsung Galaxy Z Fold 3,602,170625,198750,184687,3,0,samsung_galaxy_z_fold_-8,2108
+Samsung Galaxy Z Fold 3,495,174375,215625,195000,1,1,samsung_galaxy_z_fold_-9,2109
+Samsung Galaxy Z Fold 3,24,176250,202500,189375,5,4,samsung_galaxy_z_fold_-10,2110
+Samsung Galaxy Z Fold 3,687,172500,208125,190312,3,3,samsung_galaxy_z_fold_-11,2111
+Samsung Galaxy Z Fold 3,977,183750,198750,191250,4,3,samsung_galaxy_z_fold_-12,2112
+Samsung Galaxy Z Fold 3,272,165000,211875,188437,3,2,samsung_galaxy_z_fold_-13,2113
+Samsung Galaxy Z Fold 3,426,178125,200625,189375,4,1,samsung_galaxy_z_fold_-14,2114
+Samsung Galaxy Z Fold 3,767,165000,213750,189375,3,0,samsung_galaxy_z_fold_-15,2115
+Samsung Galaxy Z Fold 3,998,172500,193125,182812,3,3,samsung_galaxy_z_fold_-16,2116
+Samsung Galaxy Z Fold 3,885,168750,210000,189375,2,2,samsung_galaxy_z_fold_-17,2117
+Samsung Galaxy Z Fold 3,804,178125,195000,186562,3,5,samsung_galaxy_z_fold_-18,2118
+Samsung Galaxy Z Fold 3,385,181875,213750,197812,3,5,samsung_galaxy_z_fold_-19,2119
+Samsung Galaxy Z Fold 3,209,172500,200625,186562,4,1,samsung_galaxy_z_fold_-20,2120
+Samsung Galaxy Z Fold 3,361,185625,198750,192187,3,5,samsung_galaxy_z_fold_-21,2121
+Samsung Galaxy Z Fold 3,706,172500,196875,184687,1,4,samsung_galaxy_z_fold_-22,2122
+Samsung Galaxy Z Fold 3,606,176250,193125,184687,4,1,samsung_galaxy_z_fold_-23,2123
+Google Pixel Buds 2,224,11875,13125,12500,4,3,google_pixel_buds_-0,2124
+Google Pixel Buds 2,306,12000,13625,12812,4,2,google_pixel_buds_-1,2125
+Google Pixel Buds 2,459,11000,14125,12562,3,1,google_pixel_buds_-2,2126
+Google Pixel Buds 2,75,12250,14125,13187,1,2,google_pixel_buds_-3,2127
+Google Pixel Buds 2,159,12125,12750,12437,2,0,google_pixel_buds_-4,2128
+Google Pixel Buds 2,704,11125,12875,12000,4,0,google_pixel_buds_-5,2129
+Google Pixel Buds 2,357,12375,14125,13250,2,0,google_pixel_buds_-6,2130
+Google Pixel Buds 2,955,11875,12625,12250,4,5,google_pixel_buds_-7,2131
+Google Pixel Buds 2,277,11375,12875,12125,3,2,google_pixel_buds_-8,2132
+Google Pixel Buds 2,396,11000,14000,12500,2,5,google_pixel_buds_-9,2133
+Google Pixel Buds 2,418,11375,12875,12125,3,1,google_pixel_buds_-10,2134
+Google Pixel Buds 2,955,11875,13250,12562,2,3,google_pixel_buds_-11,2135
+Google Pixel Buds 2,801,12250,13750,13000,3,1,google_pixel_buds_-12,2136
+Google Pixel Buds 2,378,12125,13375,12750,5,3,google_pixel_buds_-13,2137
+Google Pixel Buds 2,498,10875,13125,12000,3,0,google_pixel_buds_-14,2138
+Google Pixel Buds 2,481,10750,12750,11750,5,0,google_pixel_buds_-15,2139
+Google Pixel Buds 2,25,11625,12625,12125,5,4,google_pixel_buds_-16,2140
+Google Pixel Buds 2,42,12000,12625,12312,3,0,google_pixel_buds_-17,2141
+Google Pixel Buds 2,69,11500,14000,12750,3,0,google_pixel_buds_-18,2142
+Google Pixel Buds 2,982,11500,12875,12187,1,3,google_pixel_buds_-19,2143
+Google Pixel Buds 2,266,12375,12625,12500,1,1,google_pixel_buds_-20,2144
+Google Pixel Buds 2,628,11125,12875,12000,1,2,google_pixel_buds_-21,2145
+Google Pixel Buds 2,928,12250,14125,13187,2,0,google_pixel_buds_-22,2146
+Google Pixel Buds 2,691,10750,14000,12375,4,0,google_pixel_buds_-23,2147
+Google Pixel Buds 2,65,10875,12750,11812,4,3,google_pixel_buds_-24,2148
+Google Pixel Buds 2,841,10750,12750,11750,1,3,google_pixel_buds_-25,2149
+Google Pixel Buds 2,631,11250,13875,12562,3,5,google_pixel_buds_-26,2150
+Google Pixel Buds 2,661,11500,13875,12687,4,4,google_pixel_buds_-27,2151
+Google Pixel Buds 2,407,11250,13750,12500,2,5,google_pixel_buds_-28,2152
+Google Pixel Buds 2,917,11000,13875,12437,1,4,google_pixel_buds_-29,2153
+AirPods Pro,526,27500,35000,31250,4,5,airpods_pro-0,2154
+AirPods Pro,680,28438,35312,31875,5,5,airpods_pro-1,2155
+AirPods Pro,672,28125,31875,30000,5,4,airpods_pro-2,2156
+AirPods Pro,535,28750,35312,32031,2,5,airpods_pro-3,2157
+AirPods Pro,272,28125,34687,31406,3,3,airpods_pro-4,2158
+AirPods Pro,465,29688,35312,32500,2,1,airpods_pro-5,2159
+AirPods Pro,485,29375,33750,31562,3,3,airpods_pro-6,2160
+AirPods Pro,463,26875,31875,29375,1,5,airpods_pro-7,2161
+AirPods Pro,66,28125,31875,30000,1,5,airpods_pro-8,2162
+AirPods Pro,578,27813,33125,30469,3,1,airpods_pro-9,2163
+AirPods Pro,372,30000,32812,31406,3,1,airpods_pro-10,2164
+AirPods Pro,538,27813,34687,31250,4,0,airpods_pro-11,2165
+AirPods Pro,792,28125,34375,31250,5,0,airpods_pro-12,2166
+AirPods Pro,283,29375,32500,30937,3,2,airpods_pro-13,2167
+AirPods Pro,790,29688,35312,32500,4,0,airpods_pro-14,2168
+AirPods Pro,133,30938,32187,31562,1,1,airpods_pro-15,2169
+AirPods Pro,923,28750,31875,30312,4,2,airpods_pro-16,2170
+AirPods Pro,359,30938,35312,33125,1,4,airpods_pro-17,2171
+AirPods Pro,915,29688,35000,32344,4,2,airpods_pro-18,2172
+AirPods Pro,666,29688,31562,30625,4,2,airpods_pro-19,2173
+AirPods Pro,73,27500,34375,30937,1,2,airpods_pro-20,2174
+AirPods Pro,23,29688,32812,31250,5,3,airpods_pro-21,2175
+AirPods Pro,252,29375,35937,32656,3,4,airpods_pro-22,2176
+AirPods Pro,928,28750,34375,31562,3,3,airpods_pro-23,2177
+AirPods Pro,208,29375,31875,30625,4,5,airpods_pro-24,2178
+AirPods Pro,402,28125,33750,30937,1,0,airpods_pro-25,2179
+AirPods Pro,28,28125,34687,31406,4,1,airpods_pro-26,2180
+AirPods Pro,613,28438,34687,31562,3,1,airpods_pro-27,2181
+AirPods Pro,73,29688,33437,31562,1,5,airpods_pro-28,2182
+AirPods Pro,865,30313,32187,31250,2,0,airpods_pro-29,2183
+Samsung Galaxy Watch 4,154,38938,45062,42000,2,4,samsung_galaxy_watch_-0,2184
+Samsung Galaxy Watch 4,743,38938,45500,42219,3,1,samsung_galaxy_watch_-1,2185
+Samsung Galaxy Watch 4,605,38063,44625,41344,5,4,samsung_galaxy_watch_-2,2186
+Samsung Galaxy Watch 4,378,40688,48562,44625,1,4,samsung_galaxy_watch_-3,2187
+Samsung Galaxy Watch 4,515,42000,45500,43750,2,4,samsung_galaxy_watch_-4,2188
+Samsung Galaxy Watch 4,81,38500,45500,42000,5,3,samsung_galaxy_watch_-5,2189
+Samsung Galaxy Watch 4,741,41563,49875,45719,5,2,samsung_galaxy_watch_-6,2190
+Samsung Galaxy Watch 4,845,38938,49875,44406,4,0,samsung_galaxy_watch_-7,2191
+Samsung Galaxy Watch 4,820,38938,49000,43969,5,0,samsung_galaxy_watch_-8,2192
+Samsung Galaxy Watch 4,439,41125,50312,45718,1,0,samsung_galaxy_watch_-9,2193
+Samsung Galaxy Watch 4,123,38063,45937,42000,1,3,samsung_galaxy_watch_-10,2194
+Samsung Galaxy Watch 4,748,37625,46812,42218,3,5,samsung_galaxy_watch_-11,2195
+Samsung Galaxy Watch 4,860,38500,44625,41562,2,3,samsung_galaxy_watch_-12,2196
+Samsung Galaxy Watch 4,187,37188,48562,42875,3,4,samsung_galaxy_watch_-13,2197
+Samsung Galaxy Watch 4,900,42000,49437,45718,2,2,samsung_galaxy_watch_-14,2198
+Samsung Galaxy Watch 4,403,41125,47250,44187,1,1,samsung_galaxy_watch_-15,2199
+Samsung Galaxy Watch 4,664,42000,45500,43750,3,1,samsung_galaxy_watch_-16,2200
+Samsung Galaxy Watch 4,865,41125,46375,43750,4,2,samsung_galaxy_watch_-17,2201
+Samsung Galaxy Watch 4,987,39813,47687,43750,5,0,samsung_galaxy_watch_-18,2202
+Samsung Galaxy Watch 4,708,38500,49875,44187,5,2,samsung_galaxy_watch_-19,2203
+Samsung Galaxy Watch 4,333,38938,46375,42656,1,3,samsung_galaxy_watch_-20,2204
+Samsung Galaxy Watch 4,550,40688,47687,44187,2,2,samsung_galaxy_watch_-21,2205
+Fitbit Charge 5,363,17438,21375,19406,1,4,fitbit_charge_-0,2206
+Fitbit Charge 5,629,16875,21000,18937,4,3,fitbit_charge_-1,2207
+Fitbit Charge 5,457,17813,20625,19219,4,2,fitbit_charge_-2,2208
+Fitbit Charge 5,373,18000,21375,19687,4,3,fitbit_charge_-3,2209
+Fitbit Charge 5,66,16313,20062,18187,2,5,fitbit_charge_-4,2210
+Fitbit Charge 5,266,17250,20625,18937,1,1,fitbit_charge_-5,2211
+Fitbit Charge 5,672,18563,19687,19125,2,0,fitbit_charge_-6,2212
+Fitbit Charge 5,951,16875,20250,18562,5,2,fitbit_charge_-7,2213
+Fitbit Charge 5,548,17813,19500,18656,5,1,fitbit_charge_-8,2214
+Fitbit Charge 5,438,17063,20062,18562,1,0,fitbit_charge_-9,2215
+Fitbit Charge 5,202,17625,21187,19406,5,5,fitbit_charge_-10,2216
+Fitbit Charge 5,224,17813,21187,19500,5,2,fitbit_charge_-11,2217
+Fitbit Charge 5,77,16875,20625,18750,4,0,fitbit_charge_-12,2218
+Fitbit Charge 5,937,17625,19875,18750,5,3,fitbit_charge_-13,2219
+Fitbit Charge 5,770,18375,19312,18843,4,5,fitbit_charge_-14,2220
+Fitbit Charge 5,633,17438,20812,19125,5,1,fitbit_charge_-15,2221
+Fitbit Charge 5,835,16313,19312,17812,5,1,fitbit_charge_-16,2222
+Fitbit Charge 5,610,18188,19875,19031,3,3,fitbit_charge_-17,2223
+Fitbit Charge 5,275,17625,19687,18656,4,5,fitbit_charge_-18,2224
+Fitbit Charge 5,332,18375,21000,19687,1,5,fitbit_charge_-19,2225
+Fitbit Charge 5,959,16125,19687,17906,5,3,fitbit_charge_-20,2226
+OnePlus Buds Pro,131,11250,14250,12750,4,4,oneplus_buds_pro-0,2227
+OnePlus Buds Pro,959,11875,14125,13000,5,1,oneplus_buds_pro-1,2228
+OnePlus Buds Pro,36,11250,13750,12500,3,2,oneplus_buds_pro-2,2229
+OnePlus Buds Pro,555,11625,13750,12687,4,0,oneplus_buds_pro-3,2230
+OnePlus Buds Pro,141,12000,13375,12687,2,4,oneplus_buds_pro-4,2231
+OnePlus Buds Pro,640,12125,12625,12375,5,1,oneplus_buds_pro-5,2232
+OnePlus Buds Pro,85,11750,13250,12500,2,0,oneplus_buds_pro-6,2233
+OnePlus Buds Pro,441,10875,12750,11812,3,5,oneplus_buds_pro-7,2234
+OnePlus Buds Pro,472,11125,13125,12125,1,3,oneplus_buds_pro-8,2235
+OnePlus Buds Pro,277,11000,13500,12250,5,5,oneplus_buds_pro-9,2236
+OnePlus Buds Pro,90,12250,12625,12437,4,0,oneplus_buds_pro-10,2237
+OnePlus Buds Pro,997,11125,14375,12750,3,1,oneplus_buds_pro-11,2238
+OnePlus Buds Pro,863,11125,13625,12375,5,1,oneplus_buds_pro-12,2239
+OnePlus Buds Pro,955,12125,13750,12937,3,3,oneplus_buds_pro-13,2240
+OnePlus Buds Pro,897,10750,13125,11937,1,3,oneplus_buds_pro-14,2241
+OnePlus Buds Pro,775,12250,12875,12562,1,4,oneplus_buds_pro-15,2242
+OnePlus Buds Pro,253,12250,13375,12812,1,5,oneplus_buds_pro-16,2243
+OnePlus Buds Pro,110,12375,14125,13250,4,0,oneplus_buds_pro-17,2244
+OnePlus Buds Pro,709,11875,13625,12750,3,5,oneplus_buds_pro-18,2245
+OnePlus Buds Pro,804,11250,13000,12125,5,1,oneplus_buds_pro-19,2246
+OnePlus Buds Pro,895,10750,14375,12562,4,0,oneplus_buds_pro-20,2247
+Xiaomi Mi Band 6,88,5313,6500,5906,1,0,xiaomi_mi_band_-0,2248
+Xiaomi Mi Band 6,812,5625,6750,6187,2,2,xiaomi_mi_band_-1,2249
+Xiaomi Mi Band 6,601,6125,7125,6625,5,2,xiaomi_mi_band_-2,2250
+Xiaomi Mi Band 6,432,5500,7125,6312,4,4,xiaomi_mi_band_-3,2251
+Xiaomi Mi Band 6,723,6000,7125,6562,5,5,xiaomi_mi_band_-4,2252
+Xiaomi Mi Band 6,344,5500,7187,6343,3,2,xiaomi_mi_band_-5,2253
+Xiaomi Mi Band 6,522,5625,6937,6281,2,4,xiaomi_mi_band_-6,2254
+Xiaomi Mi Band 6,463,5375,7062,6218,3,0,xiaomi_mi_band_-7,2255
+Xiaomi Mi Band 6,338,5313,6312,5812,3,2,xiaomi_mi_band_-8,2256
+Xiaomi Mi Band 6,793,6125,7000,6562,4,2,xiaomi_mi_band_-9,2257
+Xiaomi Mi Band 6,181,6188,6500,6344,3,4,xiaomi_mi_band_-10,2258
+Xiaomi Mi Band 6,288,5313,6312,5812,1,5,xiaomi_mi_band_-11,2259
+Xiaomi Mi Band 6,378,5375,6375,5875,1,4,xiaomi_mi_band_-12,2260
+Xiaomi Mi Band 6,63,5750,7000,6375,2,2,xiaomi_mi_band_-13,2261
+Xiaomi Mi Band 6,744,5750,6875,6312,5,2,xiaomi_mi_band_-14,2262
+Xiaomi Mi Band 6,889,5750,6875,6312,4,3,xiaomi_mi_band_-15,2263
+Xiaomi Mi Band 6,951,6000,6437,6218,1,3,xiaomi_mi_band_-16,2264
+Xiaomi Mi Band 6,172,5563,6750,6156,4,1,xiaomi_mi_band_-17,2265
+Xiaomi Mi Band 6,658,6188,6375,6281,4,2,xiaomi_mi_band_-18,2266
+Xiaomi Mi Band 6,211,5938,6437,6187,5,5,xiaomi_mi_band_-19,2267
+Xiaomi Mi Band 6,153,6125,7062,6593,1,4,xiaomi_mi_band_-20,2268
+Xiaomi Mi Band 6,161,5750,6812,6281,4,4,xiaomi_mi_band_-21,2269
+Xiaomi Mi Band 6,110,6000,7125,6562,4,0,xiaomi_mi_band_-22,2270
+Xiaomi Mi Band 6,28,5500,7062,6281,3,2,xiaomi_mi_band_-23,2271
+Xiaomi Mi Band 6,23,5750,6750,6250,1,3,xiaomi_mi_band_-24,2272
+Xiaomi Mi Band 6,452,5813,6312,6062,4,2,xiaomi_mi_band_-25,2273
+Xiaomi Mi Band 6,150,5750,6875,6312,4,1,xiaomi_mi_band_-26,2274
+Xiaomi Mi Band 6,101,5438,6312,5875,5,0,xiaomi_mi_band_-27,2275
+Xiaomi Mi Band 6,483,6188,6375,6281,3,5,xiaomi_mi_band_-28,2276
+iPhone 13 Pro Max,348,135000,160500,147750,3,1,iphone__pro_max-0,2277
+iPhone 13 Pro Max,522,147000,169500,158250,3,0,iphone__pro_max-1,2278
+iPhone 13 Pro Max,753,141000,171000,156000,5,1,iphone__pro_max-2,2279
+iPhone 13 Pro Max,191,135000,165000,150000,2,1,iphone__pro_max-3,2280
+iPhone 13 Pro Max,222,135000,153000,144000,1,3,iphone__pro_max-4,2281
+iPhone 13 Pro Max,271,148500,168000,158250,3,5,iphone__pro_max-5,2282
+iPhone 13 Pro Max,832,139500,156000,147750,3,1,iphone__pro_max-6,2283
+iPhone 13 Pro Max,595,136500,157500,147000,5,5,iphone__pro_max-7,2284
+iPhone 13 Pro Max,39,136500,166500,151500,4,2,iphone__pro_max-8,2285
+iPhone 13 Pro Max,592,148500,169500,159000,2,4,iphone__pro_max-9,2286
+iPhone 13 Pro Max,365,141000,171000,156000,4,1,iphone__pro_max-10,2287
+iPhone 13 Pro Max,494,133500,162000,147750,1,3,iphone__pro_max-11,2288
+iPhone 13 Pro Max,520,138000,166500,152250,2,0,iphone__pro_max-12,2289
+iPhone 13 Pro Max,383,144000,156000,150000,2,3,iphone__pro_max-13,2290
+iPhone 13 Pro Max,64,129000,172500,150750,5,4,iphone__pro_max-14,2291
+iPhone 13 Pro Max,338,130500,153000,141750,1,0,iphone__pro_max-15,2292
+iPhone 13 Pro Max,47,133500,166500,150000,4,4,iphone__pro_max-16,2293
+iPhone 13 Pro Max,794,129000,151500,140250,2,4,iphone__pro_max-17,2294
+iPhone 13 Pro Max,330,130500,166500,148500,3,0,iphone__pro_max-18,2295
+iPhone 13 Pro Max,668,132000,163500,147750,3,2,iphone__pro_max-19,2296
+iPhone 13 Pro Max,873,138000,163500,150750,3,0,iphone__pro_max-20,2297
+iPhone 13 Pro Max,838,129000,162000,145500,5,4,iphone__pro_max-21,2298
+iPhone 13 Pro Max,848,147000,156000,151500,5,3,iphone__pro_max-22,2299
+iPhone 13 Pro Max,477,127500,165000,146250,3,2,iphone__pro_max-23,2300
+iPhone 13 Pro Max,785,141000,162000,151500,1,1,iphone__pro_max-24,2301
+Samsung Galaxy Note 20 Ultra,838,95000,108000,101500,5,2,samsung_galaxy_note__ultra-0,2302
+Samsung Galaxy Note 20 Ultra,358,88000,107000,97500,3,0,samsung_galaxy_note__ultra-1,2303
+Samsung Galaxy Note 20 Ultra,401,87000,114000,100500,3,1,samsung_galaxy_note__ultra-2,2304
+Samsung Galaxy Note 20 Ultra,766,96000,113000,104500,1,1,samsung_galaxy_note__ultra-3,2305
+Samsung Galaxy Note 20 Ultra,457,99000,115000,107000,1,4,samsung_galaxy_note__ultra-4,2306
+Samsung Galaxy Note 20 Ultra,980,88000,115000,101500,4,2,samsung_galaxy_note__ultra-5,2307
+Samsung Galaxy Note 20 Ultra,247,97000,108000,102500,1,3,samsung_galaxy_note__ultra-6,2308
+Samsung Galaxy Note 20 Ultra,811,95000,110000,102500,2,4,samsung_galaxy_note__ultra-7,2309
+Samsung Galaxy Note 20 Ultra,550,98000,102000,100000,5,3,samsung_galaxy_note__ultra-8,2310
+Samsung Galaxy Note 20 Ultra,716,98000,106000,102000,5,4,samsung_galaxy_note__ultra-9,2311
+Samsung Galaxy Note 20 Ultra,187,98000,111000,104500,4,2,samsung_galaxy_note__ultra-10,2312
+Samsung Galaxy Note 20 Ultra,930,89000,113000,101000,2,4,samsung_galaxy_note__ultra-11,2313
+Samsung Galaxy Note 20 Ultra,966,98000,101000,99500,2,5,samsung_galaxy_note__ultra-12,2314
+Samsung Galaxy Note 20 Ultra,896,91000,102000,96500,2,1,samsung_galaxy_note__ultra-13,2315
+Samsung Galaxy Note 20 Ultra,900,92000,105000,98500,5,4,samsung_galaxy_note__ultra-14,2316
+Samsung Galaxy Note 20 Ultra,128,88000,110000,99000,4,0,samsung_galaxy_note__ultra-15,2317
+Samsung Galaxy Note 20 Ultra,82,99000,107000,103000,5,3,samsung_galaxy_note__ultra-16,2318
+Samsung Galaxy Note 20 Ultra,234,98000,102000,100000,5,1,samsung_galaxy_note__ultra-17,2319
+Samsung Galaxy Note 20 Ultra,701,90000,109000,99500,4,2,samsung_galaxy_note__ultra-18,2320
+Samsung Galaxy Note 20 Ultra,398,95000,104000,99500,5,1,samsung_galaxy_note__ultra-19,2321
+Samsung Galaxy Note 20 Ultra,632,90000,109000,99500,1,1,samsung_galaxy_note__ultra-20,2322
+Samsung Galaxy Note 20 Ultra,972,99000,106000,102500,4,3,samsung_galaxy_note__ultra-21,2323
+Google Pixel Stand,500,6188,6500,6344,2,1,google_pixel_stand-0,2324
+Google Pixel Stand,539,6125,6500,6312,4,5,google_pixel_stand-1,2325
+Google Pixel Stand,201,5938,7125,6531,5,2,google_pixel_stand-2,2326
+Google Pixel Stand,597,5438,6562,6000,2,1,google_pixel_stand-3,2327
+Google Pixel Stand,779,5750,7062,6406,5,2,google_pixel_stand-4,2328
+Google Pixel Stand,612,5563,6750,6156,2,1,google_pixel_stand-5,2329
+Google Pixel Stand,514,5313,6500,5906,2,5,google_pixel_stand-6,2330
+Google Pixel Stand,427,6125,7000,6562,4,2,google_pixel_stand-7,2331
+Google Pixel Stand,368,6063,7125,6594,1,4,google_pixel_stand-8,2332
+Google Pixel Stand,985,6063,6312,6187,5,4,google_pixel_stand-9,2333
+Google Pixel Stand,866,5875,6625,6250,1,0,google_pixel_stand-10,2334
+Google Pixel Stand,262,5938,6625,6281,4,4,google_pixel_stand-11,2335
+Google Pixel Stand,319,6188,6937,6562,1,4,google_pixel_stand-12,2336
+Google Pixel Stand,297,5625,6312,5968,4,3,google_pixel_stand-13,2337
+Google Pixel Stand,193,5813,7000,6406,3,5,google_pixel_stand-14,2338
+Google Pixel Stand,137,5938,6750,6344,1,5,google_pixel_stand-15,2339
+Google Pixel Stand,954,5938,6750,6344,3,1,google_pixel_stand-16,2340
+Google Pixel Stand,586,5500,7187,6343,5,4,google_pixel_stand-17,2341
+Google Pixel Stand,749,5375,6312,5843,3,5,google_pixel_stand-18,2342
+Google Pixel Stand,817,5375,6937,6156,4,4,google_pixel_stand-19,2343
+Google Pixel Stand,57,5438,6875,6156,5,1,google_pixel_stand-20,2344
+Google Pixel Stand,787,6063,6437,6250,2,5,google_pixel_stand-21,2345
+Google Pixel Stand,663,5563,6625,6094,3,0,google_pixel_stand-22,2346
+Google Pixel Stand,822,5313,6437,5875,3,4,google_pixel_stand-23,2347
+Google Pixel Stand,739,5438,6875,6156,4,0,google_pixel_stand-24,2348
+Google Pixel Stand,480,5500,7187,6343,1,3,google_pixel_stand-25,2349
+Google Pixel Stand,870,5625,7000,6312,1,4,google_pixel_stand-26,2350
+AirPods Max,859,56250,71250,63750,1,4,airpods_max-0,2351
+AirPods Max,110,55625,67500,61562,4,4,airpods_max-1,2352
+AirPods Max,450,59375,69375,64375,4,1,airpods_max-2,2353
+AirPods Max,315,59375,65625,62500,1,3,airpods_max-3,2354
+AirPods Max,785,54375,70000,62187,3,0,airpods_max-4,2355
+AirPods Max,263,58750,71250,65000,5,1,airpods_max-5,2356
+AirPods Max,839,54375,63750,59062,1,5,airpods_max-6,2357
+AirPods Max,102,61250,67500,64375,1,4,airpods_max-7,2358
+AirPods Max,353,59375,71250,65312,5,2,airpods_max-8,2359
+AirPods Max,207,58125,70625,64375,4,0,airpods_max-9,2360
+AirPods Max,414,56875,64375,60625,3,0,airpods_max-10,2361
+AirPods Max,58,53125,63125,58125,1,4,airpods_max-11,2362
+AirPods Max,435,57500,63125,60312,5,5,airpods_max-12,2363
+AirPods Max,755,58750,63125,60937,4,0,airpods_max-13,2364
+AirPods Max,748,54375,71875,63125,4,1,airpods_max-14,2365
+AirPods Max,33,53125,68125,60625,1,0,airpods_max-15,2366
+AirPods Max,546,53125,65625,59375,2,3,airpods_max-16,2367
+AirPods Max,149,59375,67500,63437,4,3,airpods_max-17,2368
+AirPods Max,688,59375,70000,64687,3,4,airpods_max-18,2369
+AirPods Max,681,58125,66875,62500,3,4,airpods_max-19,2370
+Samsung Galaxy Buds Pro,983,18188,19500,18844,5,5,samsung_galaxy_buds_pro-0,2371
+Samsung Galaxy Buds Pro,313,17438,20437,18937,1,0,samsung_galaxy_buds_pro-1,2372
+Samsung Galaxy Buds Pro,815,16875,21000,18937,4,3,samsung_galaxy_buds_pro-2,2373
+Samsung Galaxy Buds Pro,820,16875,21562,19218,5,0,samsung_galaxy_buds_pro-3,2374
+Samsung Galaxy Buds Pro,595,17250,20437,18843,5,1,samsung_galaxy_buds_pro-4,2375
+Samsung Galaxy Buds Pro,497,16875,20437,18656,5,4,samsung_galaxy_buds_pro-5,2376
+Samsung Galaxy Buds Pro,246,18563,20250,19406,5,4,samsung_galaxy_buds_pro-6,2377
+Samsung Galaxy Buds Pro,515,18375,19125,18750,1,1,samsung_galaxy_buds_pro-7,2378
+Samsung Galaxy Buds Pro,510,17438,20437,18937,3,1,samsung_galaxy_buds_pro-8,2379
+Samsung Galaxy Buds Pro,960,16125,20250,18187,2,4,samsung_galaxy_buds_pro-9,2380
+Samsung Galaxy Buds Pro,663,15938,19500,17719,5,2,samsung_galaxy_buds_pro-10,2381
+Samsung Galaxy Buds Pro,965,17250,21562,19406,3,1,samsung_galaxy_buds_pro-11,2382
+Samsung Galaxy Buds Pro,386,17813,21562,19687,3,4,samsung_galaxy_buds_pro-12,2383
+Samsung Galaxy Buds Pro,143,17438,19687,18562,1,2,samsung_galaxy_buds_pro-13,2384
+Samsung Galaxy Buds Pro,70,16313,18937,17625,2,5,samsung_galaxy_buds_pro-14,2385
+Samsung Galaxy Buds Pro,308,18375,18937,18656,5,4,samsung_galaxy_buds_pro-15,2386
+Samsung Galaxy Buds Pro,407,17625,19125,18375,2,2,samsung_galaxy_buds_pro-16,2387
+Samsung Galaxy Buds Pro,988,16875,19687,18281,1,0,samsung_galaxy_buds_pro-17,2388
+Samsung Galaxy Buds Pro,416,16688,19875,18281,3,0,samsung_galaxy_buds_pro-18,2389
+Samsung Galaxy Buds Pro,640,17250,21187,19218,3,2,samsung_galaxy_buds_pro-19,2390
+Samsung Galaxy Buds Pro,647,18563,21000,19781,5,5,samsung_galaxy_buds_pro-20,2391
+Samsung Galaxy Buds Pro,377,18563,21375,19969,4,1,samsung_galaxy_buds_pro-21,2392
+OnePlus Nord 2,213,36000,38625,37312,1,3,oneplus_nord_-0,2393
+OnePlus Nord 2,361,32250,42375,37312,1,5,oneplus_nord_-1,2394
+OnePlus Nord 2,703,36000,40125,38062,3,1,oneplus_nord_-2,2395
+OnePlus Nord 2,611,36750,42375,39562,4,0,oneplus_nord_-3,2396
+OnePlus Nord 2,733,37125,41625,39375,3,2,oneplus_nord_-4,2397
+OnePlus Nord 2,190,33375,40500,36937,1,2,oneplus_nord_-5,2398
+OnePlus Nord 2,722,35250,40875,38062,2,1,oneplus_nord_-6,2399
+OnePlus Nord 2,670,31875,40875,36375,2,0,oneplus_nord_-7,2400
+OnePlus Nord 2,127,32625,38625,35625,3,3,oneplus_nord_-8,2401
+OnePlus Nord 2,807,37125,41250,39187,5,5,oneplus_nord_-9,2402
+OnePlus Nord 2,424,31875,38625,35250,1,5,oneplus_nord_-10,2403
+OnePlus Nord 2,192,34125,42000,38062,3,0,oneplus_nord_-11,2404
+OnePlus Nord 2,962,32250,40125,36187,5,0,oneplus_nord_-12,2405
+OnePlus Nord 2,611,32250,42750,37500,4,2,oneplus_nord_-13,2406
+OnePlus Nord 2,21,32625,43125,37875,4,5,oneplus_nord_-14,2407
+OnePlus Nord 2,649,31875,42750,37312,3,1,oneplus_nord_-15,2408
+OnePlus Nord 2,538,36000,39375,37687,4,1,oneplus_nord_-16,2409
+OnePlus Nord 2,692,31875,40500,36187,2,4,oneplus_nord_-17,2410
+OnePlus Nord 2,298,34125,42000,38062,4,0,oneplus_nord_-18,2411
+OnePlus Nord 2,777,36000,43125,39562,3,5,oneplus_nord_-19,2412
+OnePlus Nord 2,401,35250,39375,37312,1,1,oneplus_nord_-20,2413
+OnePlus Nord 2,445,35625,42750,39187,2,2,oneplus_nord_-21,2414
+OnePlus Nord 2,673,32625,40125,36375,1,0,oneplus_nord_-22,2415
+OnePlus Nord 2,716,32625,39375,36000,3,2,oneplus_nord_-23,2416
+OnePlus Nord 2,968,37125,39375,38250,2,2,oneplus_nord_-24,2417
+OnePlus Nord 2,988,33750,40500,37125,4,0,oneplus_nord_-25,2418
+Xiaomi Redmi Note 11,287,18563,19500,19031,5,3,xiaomi_redmi_note_-0,2419
+Xiaomi Redmi Note 11,705,16688,19875,18281,2,0,xiaomi_redmi_note_-1,2420
+Xiaomi Redmi Note 11,475,17813,18937,18375,5,0,xiaomi_redmi_note_-2,2421
+Xiaomi Redmi Note 11,947,16688,20625,18656,1,5,xiaomi_redmi_note_-3,2422
+Xiaomi Redmi Note 11,832,16125,19875,18000,3,4,xiaomi_redmi_note_-4,2423
+Xiaomi Redmi Note 11,189,18000,21562,19781,5,5,xiaomi_redmi_note_-5,2424
+Xiaomi Redmi Note 11,911,17250,20625,18937,5,3,xiaomi_redmi_note_-6,2425
+Xiaomi Redmi Note 11,731,17625,19687,18656,4,0,xiaomi_redmi_note_-7,2426
+Xiaomi Redmi Note 11,724,17813,19687,18750,5,4,xiaomi_redmi_note_-8,2427
+Xiaomi Redmi Note 11,121,15938,20062,18000,3,2,xiaomi_redmi_note_-9,2428
+Xiaomi Redmi Note 11,595,17250,19125,18187,3,5,xiaomi_redmi_note_-10,2429
+Xiaomi Redmi Note 11,582,17438,20625,19031,1,4,xiaomi_redmi_note_-11,2430
+Xiaomi Redmi Note 11,632,17813,20812,19312,2,1,xiaomi_redmi_note_-12,2431
+Xiaomi Redmi Note 11,35,15938,20437,18187,4,1,xiaomi_redmi_note_-13,2432
+Xiaomi Redmi Note 11,163,16875,19312,18093,2,0,xiaomi_redmi_note_-14,2433
+Xiaomi Redmi Note 11,505,17438,18937,18187,1,1,xiaomi_redmi_note_-15,2434
+Xiaomi Redmi Note 11,968,15938,20062,18000,4,2,xiaomi_redmi_note_-16,2435
+Xiaomi Redmi Note 11,926,16500,20812,18656,1,4,xiaomi_redmi_note_-17,2436
+Xiaomi Redmi Note 11,941,18188,20625,19406,5,1,xiaomi_redmi_note_-18,2437
+Xiaomi Redmi Note 11,383,18000,19875,18937,1,0,xiaomi_redmi_note_-19,2438
+Xiaomi Redmi Note 11,912,15938,19687,17812,2,0,xiaomi_redmi_note_-20,2439
+Xiaomi Redmi Note 11,409,16500,20250,18375,4,3,xiaomi_redmi_note_-21,2440
+Xiaomi Redmi Note 11,659,18375,21375,19875,2,3,xiaomi_redmi_note_-22,2441
+Xiaomi Redmi Note 11,677,17813,19500,18656,2,4,xiaomi_redmi_note_-23,2442
+Xiaomi Redmi Note 11,822,17625,20437,19031,5,2,xiaomi_redmi_note_-24,2443
+Xiaomi Redmi Note 11,798,16688,19687,18187,1,0,xiaomi_redmi_note_-25,2444
+Xiaomi Redmi Note 11,953,18000,19500,18750,4,0,xiaomi_redmi_note_-26,2445
+Xiaomi Redmi Note 11,387,16313,20812,18562,3,1,xiaomi_redmi_note_-27,2446

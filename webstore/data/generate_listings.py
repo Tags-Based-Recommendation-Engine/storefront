@@ -1,0 +1,50 @@
+import csv
+import random
+import re
+
+def generate_slug(product_name, iterable):
+    cleaned_name = re.sub(r'[^a-zA-Z\s]', '', product_name)  # Keep only alphabets and spaces
+    cleaned_name = cleaned_name.replace(' ', '_')  # Replace spaces with underscores
+    slug = f"{cleaned_name.lower()}-{iterable}"
+    return slug
+
+def generate_listings(csv_file, output_file, listing_limits=(20, 30)):
+    with open(csv_file, newline='', encoding='utf-8') as csvfile:
+        reader = csv.DictReader(csvfile)
+        listings = []
+        product_id = 3  # Starting product ID
+        for row in reader:
+            lower_limit, upper_limit = listing_limits
+            num_listings = random.randint(lower_limit, upper_limit)
+            for i in range(num_listings):
+                name = row['Product Name']
+                inventory = random.randint(20, 1000)
+                min_price = int(row['average_selling_price']) - random.randint(1, 15) * int(row['average_selling_price']) // 100
+                max_price = int(row['average_selling_price']) + random.randint(1, 15) * int(row['average_selling_price']) // 100
+                current_price = (min_price + max_price) // 2
+                rating = random.randint(1, 5)
+                strategy = random.randint(0, 5)
+                slug = generate_slug(name, i)
+                product_fk = product_id
+                
+                listings.append({
+                    'name': name,
+                    'inventory': inventory,
+                    'min_price': min_price,
+                    'max_price': max_price,
+                    'current_price': current_price,
+                    'rating': rating,
+                    'strategy': strategy,
+                    'slug': slug,
+                    'product(fk)': product_fk
+                })
+                product_id += 1
+        
+        with open(output_file, mode='w', newline='', encoding='utf-8') as outfile:
+            fieldnames = ['name', 'inventory', 'min_price', 'max_price', 'current_price', 'rating', 'strategy', 'slug', 'product(fk)']
+            writer = csv.DictWriter(outfile, fieldnames=fieldnames)
+            writer.writeheader()
+            writer.writerows(listings)
+
+# Usage example:
+generate_listings('product_prices.csv', 'listings.csv', listing_limits=(20, 30))
