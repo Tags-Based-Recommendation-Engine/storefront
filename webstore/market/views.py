@@ -4,7 +4,20 @@ from django.contrib.auth.decorators import login_required
 from storefront.models import Product, Category, Listing, Product_Images
 from .models import Review, CartItem, Interaction
 from django.db.models import Q
+import numpy as np
+import random
+from tensorflow.keras.models import load_model
+from webstore.settings import MODEL_PATH
 
+model = load_model(MODEL_PATH)
+
+def get_optimized_price(inventory, min_price, max_price, rating, strategy, user_interest):
+    input_data = np.array([[inventory, min_price, max_price, rating, strategy]])
+    discount = model.predict(input_data)[0][0]
+    discount -= (0.15*discount*(user_interest))
+    predicted_price = max_price-discount
+    optimized_price = int(min(max(predicted_price,min_price),max_price))
+    return user_interest, optimized_price
 
 def search(request, query):
     # Split the query into individual words
@@ -41,11 +54,18 @@ def index(request):
     products = Product.objects.all()
     listing = Listing.objects.all()
     categories = Category.objects.all()
-
+    
     if request.method == 'POST':
         search_text = request.POST.get('searchtext')
         return redirect('search', query=search_text)  # Redirect to the search view with the search query
+    
+    if request.user:
+        user_interest = 1
+    else:
+        user_interest = 0
 
+    sellingPrice = get_optimized_price(20, 200, 2000, 4, 4, user_interest)
+    print(sellingPrice)
     context = {
         'product': products,
         'catagory': categories,
@@ -60,7 +80,7 @@ def cart(request):
     # Calculate the total price of all items in the cart
     subtotal = sum(item.product.current_price for item in cartitems)
     total = sum(item.product.current_price for item in cartitems)+1000
-    
+
     context = {
         'cartitems': cartitems,
         'total': total,
