@@ -1,10 +1,10 @@
 from django.db import models
-from storefront.models import Seller, Listing, User
+from storefront.models import Seller, Listing, User, Category
 
 class CartItem(models.Model):
     customer = models.ForeignKey(User, on_delete=models.CASCADE)
     product = models.ForeignKey(Listing, on_delete=models.CASCADE)
-
+    price = models.PositiveIntegerField()
 
 
 class Review(models.Model):
@@ -19,15 +19,17 @@ class Review(models.Model):
     
 
 class Interaction(models.Model):
-    listing = models.ForeignKey(Listing, related_name='interactions', on_delete=models.CASCADE)
+    listing = models.ForeignKey(Listing, related_name='interactions', blank=True, null=True, on_delete=models.CASCADE)
     User = models.ForeignKey(User, related_name='user', on_delete=models.CASCADE)
-
     action = models.CharField(max_length=30)
     timestamp = models.DateTimeField(auto_now_add=True)
 
+class userInterests(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    category = models.ForeignKey(Category, on_delete=models.CASCADE)
+    score = models.FloatField()
 
-
-
-
-
-# Create your models here.
+class itemCorelations(models.Model):
+    category1 = models.ForeignKey(Category, related_name='category1_corelations', on_delete=models.CASCADE)
+    category2 = models.ForeignKey(Category, related_name='category2_corelations', on_delete=models.CASCADE)
+    corelations = models.FloatField()

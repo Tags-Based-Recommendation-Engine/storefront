@@ -13,6 +13,3 @@ def get_optimized_price(inventory, min_price, max_price, rating, strategy, user_
     optimized_price = int(min(max(predicted_price,min_price),max_price))
     return user_interest, optimized_price
 
-print(get_optimized_price(20, 20000, 64800, 4, 3, 0))
-print(get_optimized_price(20, 20000, 64800, 4, 3, 0.5))
-print(get_optimized_price(20, 20000, 64800, 4, 3, 1))
