@@ -12,10 +12,10 @@ from webstore.settings import MODEL_PATH
 model = load_model(MODEL_PATH)
 
 def get_optimized_price(inventory, min_price, max_price, rating, strategy, user_interest):
-    input_data = np.array([[inventory, min_price, max_price, rating, strategy]])
+    input_data = np.array([[int(inventory), int(min_price), int(max_price), int(rating), strategy]])
     discount = model.predict(input_data)[0][0]
     discount -= (0.15*discount*(user_interest))
-    predicted_price = max_price-discount
+    predicted_price = max_price-int(discount)
     optimized_price = int(min(max(predicted_price,min_price),max_price))
     return user_interest, optimized_price
 
@@ -52,7 +52,7 @@ def search(request, query):
 
 def index(request):
     products = Product.objects.all()
-    listing = Listing.objects.all()
+    listings = Listing.objects.all()
     categories = Category.objects.all()
     
     if request.method == 'POST':
@@ -64,12 +64,14 @@ def index(request):
     else:
         user_interest = 0
 
-    sellingPrice = get_optimized_price(20, 200, 2000, 4, 4, user_interest)
-    print(sellingPrice)
+    for listing in listings:
+        optimized_price = get_optimized_price(listing.inventory, listing.min_price, listing.max_price, listing.rating, listing.strategy, user_interest)
+        setattr(listing, 'optimized_price', optimized_price)  
+
     context = {
         'product': products,
         'catagory': categories,
-        'listings': listing
+        'listings': listings
     }
     return render(request, 'market/index.html', context)
 
