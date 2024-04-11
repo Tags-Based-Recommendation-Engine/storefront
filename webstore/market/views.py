@@ -4,7 +4,19 @@ from django.contrib.auth.decorators import login_required
 from storefront.models import Product, Category, Listing, Product_Images
 from .models import Review, CartItem, Interaction
 from django.db.models import Q
+import numpy as np
+import random
+from tensorflow.keras.models import load_model
 
+model = load_model('data/discount_model.h5')
+
+def get_optimized_price(inventory, min_price, max_price, rating, strategy, user_interest):
+    input_data = np.array([[inventory, min_price, max_price, rating, strategy]])
+    discount = model.predict(input_data)[0][0]
+    discount -= (0.15*discount*(user_interest))
+    predicted_price = max_price-discount
+    optimized_price = int(min(max(predicted_price,min_price),max_price))
+    return optimized_price
 
 def search(request, query):
     # Split the query into individual words
@@ -54,6 +66,8 @@ def cart(request):
     # Calculate the total price of all items in the cart
     subtotal = sum(item.product.current_price for item in cartitems)
     total = sum(item.product.current_price for item in cartitems)+1000
+
+    
     
     context = {
         'cartitems': cartitems,
@@ -68,6 +82,8 @@ def product(request, slug):
     product = Listing.objects.get(slug=slug)
     prod = product.product
     imgs = Product_Images.objects.filter(product=prod)
+
+    price = get_optimized_price(product.inventory, product.min_price, product.max_price, product.rating, product.strategy, 0)
 
     Interaction.objects.create(
         User=request.user,
@@ -95,9 +111,12 @@ def product(request, slug):
         'product':product,
         'reviews':reviews,
         'listings':listings,
-        'imgs': imgs
+        'imgs': imgs,
+        'price': price,
     }
     return render(request, 'market/product.html', context)
+
+
 
 
 @login_required
