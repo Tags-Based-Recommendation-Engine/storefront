@@ -3,7 +3,7 @@ import random
 import re
 
 def generate_slug(product_name, iterable):
-    cleaned_name = re.sub(r'[^a-zA-Z\s]', '', product_name)  # Keep only alphabets and spaces
+    cleaned_name = re.sub(r'[^a-zA-Z0-9\s]', '', product_name)  # Keep only alphanumeric characters and spaces
     cleaned_name = cleaned_name.replace(' ', '_')  # Replace spaces with underscores
     slug = f"{cleaned_name.lower()}-{iterable}"
     return slug
