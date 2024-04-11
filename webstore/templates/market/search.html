@@ -8,79 +8,6 @@
             <div class="result-title border-b">
                 <h4 class="text-base font-light">RESULT FOR {{query}}</h4>
             </div>
-            
-            <div class="category-one flex flex-col items-start justify-center py-4">
-                <h4 class="text-base font-light">CATEGORY 1</h4>
-                    <div>
-                        <div class="wrapper overflow-x-auto items-center w-full items-start flex flex-row py-4 flex-shrink-0">
-                         <!-- Card 1 -->{% for list in product %}
-            <a href="{% url 'product' list.slug %}" class="w-64 rounded-lg shadow-xl border border-gray-400 mr-4 flex-shrink-0 block">
-    <div class="p-4 shadow-xl transition duration-300 ease-in-out transform hover:shadow-2xl hover:border border-gray-900">
-        <div class="w-54 h-56 rounded-lg overflow-hidden">
-            <img src="{{ list.product.img.url }}" alt="Product Image" class="w-full h-full object-cover">
-        </div>              
-        <h2 class="text-lg font-semibold pt-2">{{ list.product.product_name }}</h2>
-        <!-- Rating -->
-        <div class="flex items-center pt-2">
-            <span class="text-sm text-gray-700">Rating:</span>
-            <div class="pl-1">
-                ★★★★★
-            </div>
-        </div>
-        <p class="text-sm text-gray-700 pt-1">{{ list.product.brand_name }}</p>
-        <p class="text-lg font-semibold pt-1">${{ list.current_price }}</p>
-        <p class="pt-2 text-sm font-normal">{{ list.product.desc|slice:80 }}</p>
-    </div>
-</a>
-            {% endfor %}
-                        <!-- Card 2 -->
-                        <div class="flex justify-center items-center flex-shrink-0 w-64 rounded-lg">
-                            <div class="p-4 h-full flex">
-                                <button class="bg-transparent border border-gray-900 text-gray-900 py-4 px-8 rounded-full hover:bg-red-800 hover:text-white transition duration-300">
-                                    More +
-                                </button>                            
-                            </div>
-                        </div>  
-                    </div>
-                </div>
-            </div>
-
-            <div class="category-one flex flex-col items-start justify-start py-4">
-                <h4 class="text-base font-light">CATEGORY 2</h4>
-                    <div>
-                        <div class="wrapper overflow-x-auto items-center w-full items-start flex flex-row py-4 flex-shrink-0">
-                         <!-- Card 1 -->{% for list in product %}
-            <a href="{% url 'product' list.slug %}" class="w-64 rounded-lg shadow-xl border border-gray-400 mr-4 flex-shrink-0 block">
-    <div class="p-4 shadow-xl transition duration-300 ease-in-out transform hover:shadow-2xl hover:border border-gray-900">
-        <div class="w-54 h-56 rounded-lg overflow-hidden">
-            <img src="{{ list.product.img.url }}" alt="Product Image" class="w-full h-full object-cover">
-        </div>              
-        <h2 class="text-lg font-semibold pt-2">{{ list.product.product_name }}</h2>
-        <!-- Rating -->
-        <div class="flex items-center pt-2">
-            <span class="text-sm text-gray-700">Rating:</span>
-            <div class="pl-1">
-                ★★★★★
-            </div>
-        </div>
-        <p class="text-sm text-gray-700 pt-1">{{ list.product.brand_name }}</p>
-        <p class="text-lg font-semibold pt-1">${{ list.current_price }}</p>
-        <p class="pt-2 text-sm font-normal">{{ list.product.desc|slice:80 }}</p>
-    </div>
-</a>
-            {% endfor %}
-                        <!-- Card 2 -->
-                        <div class="flex justify-center items-center flex-shrink-0 w-64 rounded-lg">
-                            <div class="p-4 h-full flex">
-                                <button class="bg-transparent border border-gray-900 text-gray-900 py-4 px-8 rounded-full hover:bg-red-800 hover:text-white transition duration-300">
-                                    More +
-                                </button>                            
-                            </div>
-                        </div>  
-                    </div>
-
-                </div>
-            </div>
 
             <div class="category-all w-full">
                 <h4 class="text-base font-light py-4">ALL PRODUCTS</h4>
@@ -108,13 +35,7 @@
 </a>
             {% endfor %}
                         <!-- Card 2 -->
-                        <div class="flex justify-center items-center flex-shrink-0 w-64 rounded-lg">
-                            <div class="p-4 h-full flex">
-                                <button class="bg-transparent border border-gray-900 text-gray-900 py-4 px-8 rounded-full hover:bg-red-800 hover:text-white transition duration-300">
-                                    More +
-                                </button>                            
-                            </div>
-                        </div>  
+                        
                     </div>
 
                         <!-- Repeat the above card structure for Card 2, 3, 4, and so on -->

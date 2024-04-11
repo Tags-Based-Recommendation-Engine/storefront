@@ -30,9 +30,7 @@
                 <p class="text-lg font-normal mt-4"> <span class="font-semibold">PRICE</span> : {{product.current_price}} Rs</p>
                 <h2 class="font-semibold text-xl mb-2">Features</h2>
                 <ul class=" font-light text-md list-disc mt-2 pl-4">
-                    <li>Long - some feature desc here</li>
-                    <li>Fast - some feature desc here</li>
-                    <li>Sturdy - some feature desc here</li>
+                    <li>{{product.product.specs}}</li>
                 </ul>
                 <form method="POST">
                 {% csrf_token %}

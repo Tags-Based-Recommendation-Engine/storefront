@@ -6,7 +6,7 @@
 {{request.user.username}}
 <a href="{% url 'logout' %}"> Logout </a>
 
-{% else %}
+{% endif %}
 
 <div class="swiper-container overflow-x-hidden mt-24">
 <div class="swiper-wrapper">
@@ -75,7 +75,7 @@
             </div>
         </div>
         <p class="text-sm text-gray-700 pt-1">{{ list.product.brand_name }}</p>
-        <p class="text-lg font-semibold pt-1">${{ list.current_price }}</p>
+        <p class="text-lg font-semibold pt-1">${{ list.optimized_price }}</p>
         <p class="pt-2 text-sm font-normal">{{ list.product.desc|slice:80 }}</p>
     </div>
 </a>
@@ -166,7 +166,6 @@
     </div>
 </div>
 
-{% endif %}
 
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 

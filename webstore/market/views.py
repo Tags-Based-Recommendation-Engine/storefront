@@ -8,6 +8,10 @@ import numpy as np
 import random
 from tensorflow.keras.models import load_model
 from webstore.settings import MODEL_PATH
+from django.db.models.functions import Random
+from django.db.models import Min
+from functools import reduce
+import operator
 
 model = load_model(MODEL_PATH)
 
@@ -27,26 +31,34 @@ def search(request, query):
     search_terms = query.split()
 
     # Initialize an empty queryset to store the results
-    results = Listing.objects.none()
-
+    results = Product.objects.none()
+    listings = Listing.objects.none()
+    
     # Iterate over each word in the search query and filter the Listing queryset
     for term in search_terms:
         # Filter listings by matching name field
-        listing_matches = Listing.objects.filter(
-            Q(name__icontains=term)
+        listing_matches = Product.objects.filter(
+            Q(product_name__icontains=term)
         )
         # Add the matching listings to the results queryset
         results |= listing_matches
 
+    for result in results:
+        listing_matches = Listing.objects.filter(product=result)
+        # Order the listings by min_price and select the one with the lowest price
+        min_price_listing = listing_matches.order_by('min_price').first()
+        if min_price_listing:
+            listings |= Listing.objects.filter(pk=min_price_listing.pk)
+
     # Return the final queryset containing all matching listings
     context = {
-        'product': results.distinct(),
+        'product': listings.distinct(),
         'query'  : query,
     }
 
     Interaction.objects.create(
         User=request.user,
-        listing=results.distinct().first(),
+        listing=listings.distinct().first(),
         action='search'
     )
 
@@ -55,7 +67,7 @@ def search(request, query):
 
 def index(request):
     products = Product.objects.all()
-    listings = Listing.objects.all()
+    listings = Listing.objects.order_by(Random())[:30]
     categories = Category.objects.all()
     
     if request.method == 'POST':
@@ -85,7 +97,7 @@ def cart(request):
     
     # Calculate the total price of all items in the cart
     subtotal = sum(item.product.current_price for item in cartitems)
-    total = sum(item.product.current_price for item in cartitems)+1000
+    total = sum(item.product.current_price for item in cartitems)+10
 
     context = {
         'cartitems': cartitems,
