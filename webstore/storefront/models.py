@@ -63,7 +63,7 @@ class Product(models.Model):
     specs = models.TextField(help_text="Product specifications")
     desc = models.TextField()
     category = models.ManyToManyField(Category)
-    img = models.ImageField(upload_to='products/', default='abc.png')
+    img = models.ImageField(upload_to='products/')
     
     def __str__(self):
         return self.product_name

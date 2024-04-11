@@ -46,9 +46,14 @@ def search(request, query):
     for result in results:
         listing_matches = Listing.objects.filter(product=result)
         # Order the listings by min_price and select the one with the lowest price
-        min_price_listing = listing_matches.order_by('min_price').first()
+        min_price_listing = listing_matches.order_by('current_price')[:3]
+        Interaction.objects.create(
+            User=request.user,
+            listing=min_price_listing.first(),
+            action='search'
+        )
         if min_price_listing:
-            listings |= Listing.objects.filter(pk=min_price_listing.pk)
+            listings |= min_price_listing
 
     # Return the final queryset containing all matching listings
     context = {
@@ -56,12 +61,7 @@ def search(request, query):
         'query'  : query,
     }
 
-    Interaction.objects.create(
-        User=request.user,
-        listing=listings.distinct().first(),
-        action='search'
-    )
-
+    
     # Return the final queryset containing all matching products
     return render(request, 'market/search.html', context)
 
