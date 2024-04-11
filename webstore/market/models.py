@@ -28,6 +28,19 @@ class userInterests(models.Model):
     category = models.ForeignKey(Category, on_delete=models.CASCADE)
     score = models.FloatField()
 
+class cluster(models.Model):
+    cluster = models.AutoField(primary_key=True)
+
+class userClusters(models.Model):
+    cluster = models.ForeignKey(cluster, on_delete=models.CASCADE)
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    corelation = models.FloatField()
+
+class clusterCorelations(models.Model):
+    cluster = models.ForeignKey(cluster, on_delete=models.CASCADE)
+    category = models.ForeignKey(Category, on_delete=models.CASCADE)
+    corelation = models.FloatField()
+
 class itemCorelations(models.Model):
     category1 = models.ForeignKey(Category, related_name='category1_corelations', on_delete=models.CASCADE)
     category2 = models.ForeignKey(Category, related_name='category2_corelations', on_delete=models.CASCADE)
