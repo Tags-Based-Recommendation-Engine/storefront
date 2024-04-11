@@ -58,7 +58,7 @@ def generate_listings(csv_file, output_file, listing_limits=(20, 30)):
                     'product(fk)': product_fk,
                     'discount': discount  # Include discount in the CSV output
                 })
-                product_id += 1
+            product_id += 1
         
         with open(output_file, mode='w', newline='', encoding='utf-8') as outfile:
             fieldnames = ['name', 'inventory', 'min_price', 'max_price', 'current_price', 'rating', 'strategy', 'slug', 'product(fk)', 'discount']
