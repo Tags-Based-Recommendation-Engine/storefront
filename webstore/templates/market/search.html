@@ -6,11 +6,10 @@
     <div class="w-4/5 flex flex-col justify-center items-center">
         <div class="search-result mt-32 flex flex-col w-full">
             <div class="result-title border-b">
-                <h4 class="text-base font-light">RESULT FOR {{query}}</h4>
+                <h4 class="text-base">RESULT FOR "{{query}}"</h4>
             </div>
 
             <div class="category-all w-full">
-                <h4 class="text-base font-light py-4">ALL PRODUCTS</h4>
                 <div>
 
                     <div class="wrapper flex flex-wrap gap-4 justify-start pb-8">
@@ -29,7 +28,7 @@
             </div>
         </div>
         <p class="text-sm text-gray-700 pt-1">{{ list.product.brand_name }}</p>
-        <p class="text-lg font-semibold pt-1">${{ list.current_price }}</p>
+        <p class="text-lg font-semibold pt-1">Rs. {{ list.current_price }}</p>
         <p class="pt-2 text-sm font-normal">{{ list.product.desc|slice:80 }}</p>
     </div>
 </a>

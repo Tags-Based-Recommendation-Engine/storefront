@@ -46,7 +46,7 @@ def search(request, query):
     for result in results:
         listing_matches = Listing.objects.filter(product=result)
         # Order the listings by min_price and select the one with the lowest price
-        min_price_listing = listing_matches.order_by('current_price')[:3]
+        min_price_listing = listing_matches.order_by('-rating')[:4]
         Interaction.objects.create(
             User=request.user,
             listing=min_price_listing.first(),
@@ -73,11 +73,8 @@ def index(request):
     if request.method == 'POST':
         search_text = request.POST.get('searchtext')
         return redirect('search', query=search_text)  # Redirect to the search view with the search query
-    
-    if request.user:
-        user_interest = 1
-    else:
-        user_interest = 0
+
+    user_interest = 0
 
     for listing in listings:
         optimized_price = get_optimized_price(listing.inventory, listing.min_price, listing.max_price, listing.rating, listing.strategy, user_interest)
@@ -107,32 +104,36 @@ def cart(request):
 
     return render(request, 'market/cart.html', context)
 
-@login_required
 def product(request, slug):
     product = Listing.objects.get(slug=slug)
     prod = product.product
     imgs = Product_Images.objects.filter(product=prod)
 
-    Interaction.objects.create(
-        User=request.user,
-        listing=product,
-        action='clicked'
-    )
+    if request.user.username: 
+        Interaction.objects.create(
+            User=request.user,
+            listing=product,
+            action='clicked'
+        )
 
     reviews = Review.objects.filter(listing=product)
-    listings =  Listing.objects.exclude(id=product.id).order_by('?')[:4]
-    
+    listings =  Listing.objects.exclude(id=product.id).order_by('?')[:6]
+    for listing in listings:
+        optimized_price = get_optimized_price(listing.inventory, listing.min_price, listing.max_price, listing.rating, listing.strategy, 0)
+        setattr(listing, 'optimized_price', optimized_price)  
+    optimized_price = get_optimized_price(product.inventory, product.min_price, product.max_price, product.rating, product.strategy, 0)
+    setattr(product, 'optimized_price', optimized_price)  
     if request.method == 'POST':
         CartItem.objects.create(
             customer = request.user,
             product = product
-
         )
-        Interaction.objects.create(
-            User=request.user,
-            listing=product,
-            action='Added to cart'
-        )
+        if request.user.username: 
+            Interaction.objects.create(
+                User=request.user,
+                listing=product,
+                action='Added to cart'
+            )
         return redirect('cart')
            # Get 4 random related
     context = {

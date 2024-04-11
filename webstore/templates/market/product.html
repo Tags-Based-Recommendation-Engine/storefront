@@ -20,7 +20,7 @@
             </div>
             <p class="font-light text-xs pt-8">{{product.product.desc}}
                 </p>
-                <p class="text-lg font-normal mt-4"> <span class="font-semibold">PRICE</span> : {{product.current_price}} Rs</p>
+                <p class="text-lg font-normal mt-4"> <span class="font-semibold">PRICE</span> : {{product.optimized_price}} Rs</p>
                 <h2 class="font-semibold text-xl mb-2">Features</h2>
                 <ul class=" font-light text-md list-disc mt-2 pl-4">
                     <li>{{product.product.specs}}</li>
@@ -102,7 +102,7 @@
             </div>
         </div>
         <p class="text-sm text-gray-700 pt-1">{{ list.product.brand_name }}</p>
-        <p class="text-lg font-semibold pt-1">${{ list.current_price }}</p>
+        <p class="text-lg font-semibold pt-1">${{ list.optimized_price }}</p>
         <p class="pt-2 text-sm font-normal">{{ list.product.desc|slice:80 }}</p>
     </div>
 </a>
