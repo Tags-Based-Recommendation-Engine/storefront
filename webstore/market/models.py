@@ -19,7 +19,7 @@ class Review(models.Model):
     
 
 class Interaction(models.Model):
-    listing = models.ForeignKey(Listing, related_name='interactions', on_delete=models.CASCADE)
+    listing = models.ForeignKey(Listing, related_name='interactions', null='True', on_delete=models.CASCADE)
     User = models.ForeignKey(User, related_name='user', on_delete=models.CASCADE)
 
     action = models.CharField(max_length=30)
