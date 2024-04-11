@@ -84,43 +84,6 @@
     </div>
 </div>
 
-
-<div class="w-full flex flex-col items-center justify-center">
-    <div class="h-5/6 w-4/5 flex flex-col border-b-2 border-black overflow-hidden">
-        {% block seller %}
-        <div class="flex flex-row items-center justify-start py-4">
-            <h6 class="">BEST SELLING</h6>
-        </div>
-
-        <div class="flex w-full h-full items-center justify-between">
-
-            <div class="w-1/2 m-2 h-96 bg-gray-200 border border-gray-400 rounded-xl flex flex-col justify-center items-center shadow-xl transition duration-300 ease-in-out hover:shadow-2xl">
-                <p class="text-xs">SOME CREAM FOR YOUR</p>
-                <h6 class="text-lg font-semibold">JUST STARTING AT $480</h6>
-                <div>
-                    <img src="https://png.pngtree.com/png-clipart/20221013/ourmid/pngtree-simulation-cosmetics-product-sample-skin-care-essential-oil-png-image_6158599.png" alt="Product Image" class="w-full max-h-48 object-contain mb-4">
-                </div>
-                <button type="button" class="px-8 py-3 border border-gray-200 text-gray-100 bg-red-700 rounded-full hover:bg-red-800 font-semibold text-sm">
-                    SHOP NOW
-                </button>
-            </div>
-
-            <div class="w-1/2 m-2 h-96 bg-gray-200 border border-gray-400 rounded-xl flex flex-col justify-center items-center shadow-xl transition duration-300 ease-in-out hover:shadow-2xl">
-                <p class="text-xs">SOME CREAM FOR YOUR</p>
-                <h6 class="text-lg font-semibold">JUST STARTING AT $480</h6>
-                <div>
-                    <img src="https://png.pngtree.com/png-clipart/20221013/ourmid/pngtree-simulation-cosmetics-product-sample-skin-care-essential-oil-png-image_6158599.png" alt="Product Image" class="w-full max-h-48 object-contain mb-4">
-                </div>
-                <button type="button" class="px-8 py-3 border border-gray-200 text-gray-100 bg-red-700 rounded-full hover:bg-red-800 font-semibold text-sm">
-                    SHOP NOW
-                </button>
-            </div>
-
-        </div>
-        {% endblock %}
-    </div>
-</div>
-
 <div class="flex flex-col items-center justify-center">
     <div class="h-5/6 w-4/5 flex flex-col border-b-2 border-black pb-16 pt-7">
         {% block explore %}
@@ -133,9 +96,6 @@
                 {% for cat in catagory %}
                     <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-900 mx-1">{{cat.name}}</button>
                     {% endfor %}
-                </div>
-                <div>
-                    <button class="hover:text-red-900">MORE</button>
                 </div>
             </div>
         </div>
