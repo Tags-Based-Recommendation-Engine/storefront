@@ -76,6 +76,7 @@ def index(request):
         'catagory': categories,
         'listings': listings
     }
+    
     return render(request, 'market/index.html', context)
 
 @login_required
@@ -116,10 +117,10 @@ def product(request, slug):
 
         )
         Interaction.objects.create(
-        User=request.user,
-        listing=product,
-        action='Added to cart'
-    )
+            User=request.user,
+            listing=product,
+            action='Added to cart'
+        )
         return redirect('cart')
            # Get 4 random related
     context = {
