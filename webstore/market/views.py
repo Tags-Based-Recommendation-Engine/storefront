@@ -28,6 +28,12 @@ def search(request, query):
         'query'  : query,
     }
 
+    Interaction.objects.create(
+        User=request.user,
+        listing=results.distinct().first(),
+        action='search'
+    )
+
     # Return the final queryset containing all matching products
     return render(request, 'market/search.html', context)
 

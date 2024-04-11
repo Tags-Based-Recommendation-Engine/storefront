@@ -16,7 +16,6 @@ class Review(models.Model):
 
     def __str__(self):
         return f"{self.listing} {self.reviewer}"
-    
 
 class Interaction(models.Model):
     listing = models.ForeignKey(Listing, related_name='interactions', blank=True, null=True, on_delete=models.CASCADE)
