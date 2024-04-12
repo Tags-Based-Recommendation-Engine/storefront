@@ -12,10 +12,12 @@ from django.db.models.functions import Random
 from django.db.models import Min
 from functools import reduce
 import operator
+from django.template.defaulttags import register
 
 model = load_model(MODEL_PATH)
 
 def get_optimized_price(inventory, min_price, max_price, rating, strategy, user_interest):
+    print("Generating optimized price for parameters:", inventory, min_price, max_price, rating, strategy)
     input_data = np.array([[int(inventory), int(min_price), int(max_price), int(rating), strategy]])
     discount = model.predict(input_data)[0][0]
     if user_interest==0:
@@ -26,6 +28,10 @@ def get_optimized_price(inventory, min_price, max_price, rating, strategy, user_
     optimized_price = int(min(max(predicted_price,min_price),max_price))
     return optimized_price
 
+@register.filter
+def get_item(dictionary, key):
+    return dictionary.get(key)
+
 def search(request, query):
     # Split the query into individual words
     search_terms = query.split()
@@ -33,6 +39,7 @@ def search(request, query):
     # Initialize an empty queryset to store the results
     results = Product.objects.none()
     listings = Listing.objects.none()
+    optimized_prices = {}  
     
     # Iterate over each word in the search query and filter the Listing queryset
     for term in search_terms:
@@ -46,19 +53,24 @@ def search(request, query):
     for result in results:
         listing_matches = Listing.objects.filter(product=result)
         # Order the listings by min_price and select the one with the lowest price
-        min_price_listing = listing_matches.order_by('-rating')[:4]
-        Interaction.objects.create(
-            User=request.user,
-            listing=min_price_listing.first(),
-            action='search'
-        )
-        if min_price_listing:
-            listings |= min_price_listing
+        min_price_listing = listing_matches.order_by('-rating')[:5]
+        if request.user.username:
+            Interaction.objects.create(
+                User=request.user,
+                listing=min_price_listing.first(),
+                action='search'
+            )
+        for listing in min_price_listing:
+            optimized_price = get_optimized_price(listing.inventory, listing.min_price, listing.max_price, listing.rating, listing.strategy, 0)
+            optimized_prices[listing.id] = optimized_price
+        listings |= min_price_listing
+    print(optimized_prices[2517])
 
     # Return the final queryset containing all matching listings
     context = {
-        'product': listings.distinct(),
+        'product': listings,
         'query'  : query,
+        'optimized_prices': optimized_prices
     }
 
     
@@ -80,6 +92,11 @@ def index(request):
         optimized_price = get_optimized_price(listing.inventory, listing.min_price, listing.max_price, listing.rating, listing.strategy, user_interest)
         setattr(listing, 'optimized_price', optimized_price)  
 
+    for product in products:
+        prod_listing = Listing.objects.filter(product=product)
+        prod_listing = prod_listing.order_by("current_price")[:1]
+        product.slug = prod_listing.first().slug
+    
     context = {
         'product': products,
         'catagory': categories,
@@ -93,8 +110,8 @@ def cart(request):
     cartitems = CartItem.objects.filter(customer=request.user)
     
     # Calculate the total price of all items in the cart
-    subtotal = sum(item.product.current_price for item in cartitems)
-    total = sum(item.product.current_price for item in cartitems)+10
+    subtotal = sum(item.price for item in cartitems)
+    total = sum(item.price for item in cartitems)+10
 
     context = {
         'cartitems': cartitems,
@@ -126,7 +143,8 @@ def product(request, slug):
     if request.method == 'POST':
         CartItem.objects.create(
             customer = request.user,
-            product = product
+            product = product,
+            price = optimized_price
         )
         if request.user.username: 
             Interaction.objects.create(

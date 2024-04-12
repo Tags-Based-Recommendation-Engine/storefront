@@ -27,9 +27,13 @@
                 </ul>
                 <form method="POST">
                 {% csrf_token %}
-                <button type='submit' class="bg-red-700 text-white px-8 py-2 mt-6 -ml-1 rounded-full border-2 border-gray-800 font-normal hover:bg-red-900 transition-colors duration-300 ease-in-out">
-                    BUY
-                </button>   
+                {% if user.is_authenticated %}
+                    <button type='submit' class="bg-red-700 text-white px-8 py-2 mt-6 -ml-1 rounded-full border-2 border-gray-800 font-normal hover:bg-red-900 transition-colors duration-300 ease-in-out">
+                        BUY
+                    </button>   
+                {% else %}
+                    <h2 class="font-semibold text-xl mb-2">Please sign in to buy</h2>
+                {% endif %}
                 </form>
         </div>
     </div>

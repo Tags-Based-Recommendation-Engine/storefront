@@ -28,7 +28,7 @@
             </div>
         </div>
         <p class="text-sm text-gray-700 pt-1">{{ list.product.brand_name }}</p>
-        <p class="text-lg font-semibold pt-1">Rs. {{ list.current_price }}</p>
+        <p class="text-lg font-semibold pt-1">Rs. {{ optimized_prices|get_item:list.id}}</p>
         <p class="pt-2 text-sm font-normal">{{ list.product.desc|slice:80 }}</p>
     </div>
 </a>
