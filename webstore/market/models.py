@@ -45,3 +45,7 @@ class itemCorelations(models.Model):
     category1 = models.ForeignKey(Category, related_name='category1_corelations', on_delete=models.CASCADE)
     category2 = models.ForeignKey(Category, related_name='category2_corelations', on_delete=models.CASCADE)
     corelations = models.FloatField()
+
+class userRecommendations(models.Model):
+    listing = models.ForeignKey(Listing, related_name='recommendations', blank=True, null=True, on_delete=models.CASCADE)
+    User = models.ForeignKey(User, related_name='person', on_delete=models.CASCADE)

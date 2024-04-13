@@ -36,10 +36,11 @@
 
 </div>
 </div>
-
+{% if user.username %}
 <div class="flex flex-col items-center justify-center">
     <div class="h-5/6 w-4/5 flex flex-col border-b-2 border-black pb-16 pt-7">
      <div class="flex flex-col items-center justify-center">
+           
             <div class="categories-header flex flex-row justify-between items-center w-full pb-10">
                 <div>
                     <h6>FOR YOU</h6>
@@ -49,35 +50,35 @@
                     <button type="button" class="px-9 py-1 border border-gray-900 rounded-md text-gray-100 bg-red-600 hover:bg-red-900 mx-1">{{cat.name}}</button>
                     {% endfor %}
                 </div>
-                
             </div>
+            
         </div>
         <div class="wrapper overflow-x-auto items-center w-full flex flex-row flex-shrink-0">
         
-            <!-- Card 1 -->{% for list in listings %}
-            <a href="{% url 'product' list.slug %}" class="w-64 rounded-lg shadow-xl border border-gray-400 mr-4 flex-shrink-0 block">
+            <!-- Card 1 -->{% for list in foryou %}
+            <a href="{% url 'product' list.listing.slug %}" class="w-64 rounded-lg shadow-xl border border-gray-400 mr-4 flex-shrink-0 block">
     <div class="p-4 shadow-xl transition duration-300 ease-in-out transform hover:shadow-2xl hover:border border-gray-900">
         <div class="w-54 h-56 rounded-lg overflow-hidden">
-            <img src="{{ list.product.img.url }}" alt="Product Image" class="w-full h-full object-cover">
+            <img src="{{ list.listing.product.img.url }}" alt="Product Image" class="w-full h-full object-cover">
         </div>              
-        <h2 class="text-lg font-semibold pt-2">{{ list.product.product_name }}</h2>
+        <h2 class="text-lg font-semibold pt-2">{{ list.listing.product.product_name }}</h2>
         <!-- Rating -->
         <div class="flex items-center pt-2">
             <span class="text-sm text-gray-700">Rating:</span>
             <div class="pl-1">
-                {{ list.rating }}/5
+                {{ list.listing.rating }}/5
             </div>
         </div>
-        <p class="text-sm text-gray-700 pt-1">{{ list.product.brand_name }}</p>
-        <p class="text-lg font-semibold pt-1">Rs. {{ list.optimized_price }}</p>
-        <p class="pt-2 text-sm font-normal">{{ list.product.desc|slice:80 }}</p>
+        <p class="text-sm text-gray-700 pt-1">{{ list.listing.product.brand_name }}</p>
+        <p class="text-lg font-semibold pt-1">Rs. {{ list.listing.optimized_price }}</p>
+        <p class="pt-2 text-sm font-normal">{{ list.listing.product.desc|slice:80 }}</p>
     </div>
 </a>
             {% endfor %}
         </div>
     </div>
 </div>
-
+{% endif %}
 <div class="flex flex-col items-center justify-center">
     <div class="h-5/6 w-4/5 flex flex-col border-b-2 border-black pb-16 pt-7">
         {% block explore %}

@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect
 from django.contrib.auth import login, logout , authenticate
 from django.contrib.auth.decorators import login_required
 from storefront.models import Product, Category, Listing, Product_Images
-from .models import Review, CartItem, Interaction
+from .models import Review, CartItem, Interaction, userRecommendations
 from django.db.models import Q
 import numpy as np
 import random
@@ -64,7 +64,6 @@ def search(request, query):
             optimized_price = get_optimized_price(listing.inventory, listing.min_price, listing.max_price, listing.rating, listing.strategy, 0)
             optimized_prices[listing.id] = optimized_price
         listings |= min_price_listing
-    print(optimized_prices[2517])
 
     # Return the final queryset containing all matching listings
     context = {
@@ -81,6 +80,13 @@ def index(request):
     products = Product.objects.all()
     listings = Listing.objects.order_by(Random())[:30]
     categories = Category.objects.all()
+    Recommendations = Listing.objects.order_by(Random())[:30]
+    if request.user.username:
+        Recommendations = userRecommendations.objects.filter(User=request.user)
+        for rec in Recommendations:
+            rec = rec.listing
+            optimized_price = get_optimized_price(rec.inventory, rec.min_price, rec.max_price, rec.rating, rec.strategy, 1)
+            setattr(rec, 'optimized_price', optimized_price)  
     
     if request.method == 'POST':
         search_text = request.POST.get('searchtext')
@@ -96,8 +102,9 @@ def index(request):
         prod_listing = Listing.objects.filter(product=product)
         prod_listing = prod_listing.order_by("current_price")[:1]
         product.slug = prod_listing.first().slug
-    
+
     context = {
+        'foryou': Recommendations,
         'product': products,
         'catagory': categories,
         'listings': listings
